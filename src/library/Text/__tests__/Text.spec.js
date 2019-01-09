@@ -1,6 +1,6 @@
 /* @flow */
 import React from 'react';
-import { shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 import Text from '../Text';
 import textWithThemeOverrides from '../textWithThemeOverrides';
 import examples from '../../../website/app/demos/Text/Text/examples';
@@ -45,10 +45,20 @@ describe('Text', () => {
       theme
     });
 
-    const themedTextStyles = renderComponentStylesToString(themedText);
+    /*
+     * This errors on the font-size assertion because `fontSize_base` isn't
+     * available on the theme, which is because it's not wrapped in a
+     * ThemeProvider. Using `mountInThemeProvider` causes the `expect`s to not
+     * run at all, though?
+     */
+    const mountThemedText = mount(themedText);
 
-    expect(themedTextStyles.includes('color:red')).toEqual(true);
-    expect(themedTextStyles.includes('font-size:32px')).toEqual(true);
-    expect(themedTextStyles.includes('font-weight:800')).toEqual(true);
+    expect(mountThemedText).toHaveStyleRule('color', 'red');
+    expect(mountThemedText).toHaveStyleRule('font-size', '32px');
+    expect(mountThemedText).toHaveStyleRule('font-weight', '800');
+
+    // expect(themedTextStyles.includes('color:red')).toEqual(true);
+    // expect(themedTextStyles.includes('font-size:32px')).toEqual(true);
+    // expect(themedTextStyles.includes('font-weight:800')).toEqual(true);
   });
 });
