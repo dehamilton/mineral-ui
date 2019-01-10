@@ -1,34 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`DialogFooter demo examples Snapshots: basic 1`] = `
-.emotion-30 {
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-}
-
-.emotion-29 {
-  box-sizing: border-box;
-  color: #333840;
-  font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 0.875em;
-  line-height: 1.25;
-  outline: 0;
-  -moz-osx-font-smoothing: auto;
-  -webkit-font-smoothing: antialiased;
-  margin: 1.7142857142857142em 0;
-  padding: 0 1.7142857142857142em;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-}
-
-.emotion-29 *,
-.emotion-29 *::before,
-.emotion-29 *::after {
-  box-sizing: inherit;
-}
-
 .emotion-38 {
   padding: 1em;
   position: relative;
@@ -359,6 +331,34 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
   outline: 1px solid #1d5bbf;
 }
 
+.emotion-30 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.emotion-29 {
+  box-sizing: border-box;
+  color: #333840;
+  font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 0.875em;
+  line-height: 1.25;
+  outline: 0;
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: antialiased;
+  margin: 1.7142857142857142em 0;
+  padding: 0 1.7142857142857142em;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.emotion-29 *,
+.emotion-29 *::before,
+.emotion-29 *::after {
+  box-sizing: inherit;
+}
+
 .emotion-28 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -646,7 +646,6 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                           closeButtonLabel="close"
                           disableFocusOnOpen={true}
                           id="dialog-1"
-                          innerRef={[Function]}
                           preventCloseButtonClose={true}
                           role="dialog"
                           tabIndex="-1"
@@ -670,7 +669,6 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                               >
                                 <DialogContent
                                   id="dialog-1-content"
-                                  innerRef={[Function]}
                                   role="document"
                                   size="medium"
                                 >
@@ -839,7 +837,6 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                                                                             <OverflowContainer
                                                                               className="emotion-10"
                                                                               containerRef={[Function]}
-                                                                              innerRef={[Function]}
                                                                               onScroll={[Function]}
                                                                               scrollY={true}
                                                                             >
@@ -901,7 +898,7 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                                                     <div
                                                       className="emotion-28"
                                                     >
-                                                      <Button
+                                                      <WithForwardRef(Button)
                                                         element="button"
                                                         key="0"
                                                         minimal={true}
@@ -911,35 +908,44 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                                                       >
                                                         <Button
                                                           element="button"
+                                                          forwardedRef={null}
                                                           minimal={true}
                                                           primary={false}
                                                           size="medium"
-                                                          text="Cancel"
                                                           type="button"
                                                         >
-                                                          <button
-                                                            className="emotion-24"
+                                                          <Button
+                                                            element="button"
+                                                            minimal={true}
+                                                            primary={false}
+                                                            size="medium"
+                                                            text="Cancel"
                                                             type="button"
                                                           >
-                                                            <Styled(span)>
-                                                              <span
-                                                                className="emotion-23"
-                                                              >
-                                                                <Styled(span)
-                                                                  size="medium"
+                                                            <button
+                                                              className="emotion-24"
+                                                              type="button"
+                                                            >
+                                                              <Styled(span)>
+                                                                <span
+                                                                  className="emotion-23"
                                                                 >
-                                                                  <span
-                                                                    className="emotion-22"
+                                                                  <Styled(span)
+                                                                    size="medium"
                                                                   >
-                                                                    Cancel
-                                                                  </span>
-                                                                </Styled(span)>
-                                                              </span>
-                                                            </Styled(span)>
-                                                          </button>
+                                                                    <span
+                                                                      className="emotion-22"
+                                                                    >
+                                                                      Cancel
+                                                                    </span>
+                                                                  </Styled(span)>
+                                                                </span>
+                                                              </Styled(span)>
+                                                            </button>
+                                                          </Button>
                                                         </Button>
-                                                      </Button>
-                                                      <Button
+                                                      </WithForwardRef(Button)>
+                                                      <WithForwardRef(Button)
                                                         element="button"
                                                         key="1"
                                                         minimal={false}
@@ -949,34 +955,43 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                                                       >
                                                         <Button
                                                           element="button"
+                                                          forwardedRef={null}
                                                           minimal={false}
                                                           primary={true}
                                                           size="medium"
-                                                          text="Action"
                                                           type="button"
                                                         >
-                                                          <button
-                                                            className="emotion-27"
+                                                          <Button
+                                                            element="button"
+                                                            minimal={false}
+                                                            primary={true}
+                                                            size="medium"
+                                                            text="Action"
                                                             type="button"
                                                           >
-                                                            <Styled(span)>
-                                                              <span
-                                                                className="emotion-23"
-                                                              >
-                                                                <Styled(span)
-                                                                  size="medium"
+                                                            <button
+                                                              className="emotion-27"
+                                                              type="button"
+                                                            >
+                                                              <Styled(span)>
+                                                                <span
+                                                                  className="emotion-23"
                                                                 >
-                                                                  <span
-                                                                    className="emotion-22"
+                                                                  <Styled(span)
+                                                                    size="medium"
                                                                   >
-                                                                    Action
-                                                                  </span>
-                                                                </Styled(span)>
-                                                              </span>
-                                                            </Styled(span)>
-                                                          </button>
+                                                                    <span
+                                                                      className="emotion-22"
+                                                                    >
+                                                                      Action
+                                                                    </span>
+                                                                  </Styled(span)>
+                                                                </span>
+                                                              </Styled(span)>
+                                                            </button>
+                                                          </Button>
                                                         </Button>
-                                                      </Button>
+                                                      </WithForwardRef(Button)>
                                                     </div>
                                                   </DialogActions>
                                                 </DialogActions>

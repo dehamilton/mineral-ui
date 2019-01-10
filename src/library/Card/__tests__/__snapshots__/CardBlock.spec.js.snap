@@ -1,22 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CardBlock demo examples Snapshots: children 1`] = `
-.emotion-9 {
-  margin-bottom: 1em;
-  margin-top: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
-.emotion-9:last-child {
-  margin-bottom: 1.5em;
-}
-
-.emotion-8 {
-  font-size: 0.875em;
-  line-height: 1.5;
-}
-
 .emotion-11::after {
   clear: both;
   content: "";
@@ -114,6 +98,22 @@ exports[`CardBlock demo examples Snapshots: children 1`] = `
   font-size: 1.125em;
   font-weight: 700;
   margin: 0;
+}
+
+.emotion-8 {
+  font-size: 0.875em;
+  line-height: 1.5;
+}
+
+.emotion-9 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.emotion-9:last-child {
+  margin-bottom: 1.5em;
 }
 
 .emotion-7 {
@@ -292,7 +292,7 @@ exports[`CardBlock demo examples Snapshots: children 1`] = `
                       <div
                         className="emotion-7"
                       >
-                        <Button
+                        <WithForwardRef(Button)
                           element="button"
                           fullWidth={true}
                           size="large"
@@ -300,33 +300,41 @@ exports[`CardBlock demo examples Snapshots: children 1`] = `
                         >
                           <Button
                             element="button"
+                            forwardedRef={null}
                             fullWidth={true}
                             size="large"
-                            text="Button"
                             type="button"
                           >
-                            <button
-                              className="emotion-6"
+                            <Button
+                              element="button"
+                              fullWidth={true}
+                              size="large"
+                              text="Button"
                               type="button"
                             >
-                              <Styled(span)>
-                                <span
-                                  className="emotion-5"
-                                >
-                                  <Styled(span)
-                                    size="large"
+                              <button
+                                className="emotion-6"
+                                type="button"
+                              >
+                                <Styled(span)>
+                                  <span
+                                    className="emotion-5"
                                   >
-                                    <span
-                                      className="emotion-4"
+                                    <Styled(span)
+                                      size="large"
                                     >
-                                      Button
-                                    </span>
-                                  </Styled(span)>
-                                </span>
-                              </Styled(span)>
-                            </button>
+                                      <span
+                                        className="emotion-4"
+                                      >
+                                        Button
+                                      </span>
+                                    </Styled(span)>
+                                  </span>
+                                </Styled(span)>
+                              </button>
+                            </Button>
                           </Button>
-                        </Button>
+                        </WithForwardRef(Button)>
                       </div>
                     </Styled(div)>
                   </div>
@@ -342,11 +350,6 @@ exports[`CardBlock demo examples Snapshots: children 1`] = `
 `;
 
 exports[`CardBlock demo examples Snapshots: consistent-spacing 1`] = `
-.emotion-4 {
-  font-size: 0.875em;
-  line-height: 1.5;
-}
-
 .emotion-9::after {
   clear: both;
   content: "";
@@ -484,6 +487,11 @@ exports[`CardBlock demo examples Snapshots: consistent-spacing 1`] = `
   position: absolute;
   right: 0;
   top: -1em;
+}
+
+.emotion-4 {
+  font-size: 0.875em;
+  line-height: 1.5;
 }
 
 <Styled(div)>

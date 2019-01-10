@@ -1,37 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CardStatus demo examples Snapshots: basic 1`] = `
-.emotion-7 {
-  margin-bottom: 1em;
-  margin-top: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  color: #de1b1b;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 0.875em;
-  font-weight: 400;
-}
-
-.emotion-7 > [role="img"] {
-  height: 0.75em;
-  margin-right: 0.5em;
-  width: 0.75em;
-}
-
-.emotion-6 {
-  fill: currentcolor;
-  font-size: 16px;
-  height: 1em;
-  width: 1em;
-}
-
 .emotion-27::after {
   clear: both;
   content: "";
@@ -145,6 +114,37 @@ exports[`CardStatus demo examples Snapshots: basic 1`] = `
 .emotion-4 {
   font-size: 0.875em;
   line-height: 1.5;
+}
+
+.emotion-7 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #de1b1b;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.875em;
+  font-weight: 400;
+}
+
+.emotion-7 > [role="img"] {
+  height: 0.75em;
+  margin-right: 0.5em;
+  width: 0.75em;
+}
+
+.emotion-6 {
+  fill: currentcolor;
+  font-size: 16px;
+  height: 1em;
+  width: 1em;
 }
 
 .emotion-16 {
@@ -489,13 +489,6 @@ exports[`CardStatus demo examples Snapshots: basic 1`] = `
 `;
 
 exports[`CardStatus demo examples Snapshots: rtl 1`] = `
-.emotion-2 {
-  fill: currentcolor;
-  font-size: 16px;
-  height: 1em;
-  width: 1em;
-}
-
 .emotion-5::after {
   clear: both;
   content: "";
@@ -562,6 +555,13 @@ exports[`CardStatus demo examples Snapshots: rtl 1`] = `
 .emotion-0 {
   font-size: 0.875em;
   line-height: 1.5;
+}
+
+.emotion-2 {
+  fill: currentcolor;
+  font-size: 16px;
+  height: 1em;
+  width: 1em;
 }
 
 .emotion-3 {

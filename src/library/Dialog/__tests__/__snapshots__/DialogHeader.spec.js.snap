@@ -1,50 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`DialogHeader demo examples Snapshots: basic 1`] = `
-.emotion-7 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.emotion-6 {
-  box-sizing: border-box;
-  color: #333840;
-  font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 0.875em;
-  line-height: 1.25;
-  outline: 0;
-  -moz-osx-font-smoothing: auto;
-  -webkit-font-smoothing: antialiased;
-  margin: 1.7142857142857142em 0;
-  padding: 0 1.7142857142857142em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.emotion-6 *,
-.emotion-6 *::before,
-.emotion-6 *::after {
-  box-sizing: inherit;
-}
-
 .emotion-28 {
   padding: 1em;
   position: relative;
@@ -151,6 +107,50 @@ exports[`DialogHeader demo examples Snapshots: basic 1`] = `
   .emotion-22 {
     max-height: 35em;
   }
+}
+
+.emotion-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.emotion-6 {
+  box-sizing: border-box;
+  color: #333840;
+  font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 0.875em;
+  line-height: 1.25;
+  outline: 0;
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: antialiased;
+  margin: 1.7142857142857142em 0;
+  padding: 0 1.7142857142857142em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.emotion-6 *,
+.emotion-6 *::before,
+.emotion-6 *::after {
+  box-sizing: inherit;
 }
 
 .emotion-5 {
@@ -407,7 +407,6 @@ exports[`DialogHeader demo examples Snapshots: basic 1`] = `
                           closeButtonLabel="close"
                           disableFocusOnOpen={true}
                           id="dialog-1"
-                          innerRef={[Function]}
                           preventCloseButtonClose={true}
                           role="dialog"
                           tabIndex="-1"
@@ -431,7 +430,6 @@ exports[`DialogHeader demo examples Snapshots: basic 1`] = `
                               >
                                 <DialogContent
                                   id="dialog-1-content"
-                                  innerRef={[Function]}
                                   role="document"
                                   size="medium"
                                 >
@@ -600,7 +598,6 @@ exports[`DialogHeader demo examples Snapshots: basic 1`] = `
                                                                             <OverflowContainer
                                                                               className="emotion-10"
                                                                               containerRef={[Function]}
-                                                                              innerRef={[Function]}
                                                                               onScroll={[Function]}
                                                                               scrollY={true}
                                                                             >
@@ -662,50 +659,6 @@ exports[`DialogHeader demo examples Snapshots: basic 1`] = `
 `;
 
 exports[`DialogHeader demo examples Snapshots: close-button 1`] = `
-.emotion-10 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.emotion-9 {
-  box-sizing: border-box;
-  color: #333840;
-  font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 0.875em;
-  line-height: 1.25;
-  outline: 0;
-  -moz-osx-font-smoothing: auto;
-  -webkit-font-smoothing: antialiased;
-  margin: 1.7142857142857142em 0;
-  padding: 0 1.7142857142857142em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.emotion-9 *,
-.emotion-9 *::before,
-.emotion-9 *::after {
-  box-sizing: inherit;
-}
-
 .emotion-31 {
   padding: 1em;
   position: relative;
@@ -812,6 +765,50 @@ exports[`DialogHeader demo examples Snapshots: close-button 1`] = `
   .emotion-25 {
     max-height: 35em;
   }
+}
+
+.emotion-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.emotion-9 {
+  box-sizing: border-box;
+  color: #333840;
+  font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 0.875em;
+  line-height: 1.25;
+  outline: 0;
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: antialiased;
+  margin: 1.7142857142857142em 0;
+  padding: 0 1.7142857142857142em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.emotion-9 *,
+.emotion-9 *::before,
+.emotion-9 *::after {
+  box-sizing: inherit;
 }
 
 .emotion-5 {
@@ -1171,22 +1168,21 @@ exports[`DialogHeader demo examples Snapshots: close-button 1`] = `
                     >
                       <div>
                         <Dialog
-                          aria-labelledby="dialog-3-title"
+                          aria-labelledby="dialog-2-title"
                           aria-modal={true}
                           className="emotion-28"
                           closeButtonLabel="close"
                           disableFocusOnOpen={true}
-                          id="dialog-3"
-                          innerRef={[Function]}
+                          id="dialog-2"
                           preventCloseButtonClose={true}
                           role="dialog"
                           tabIndex="-1"
                         >
                           <div
-                            aria-labelledby="dialog-3-title"
+                            aria-labelledby="dialog-2-title"
                             aria-modal={true}
                             className="emotion-27"
-                            id="dialog-3"
+                            id="dialog-2"
                             role="dialog"
                             tabIndex="-1"
                           >
@@ -1200,19 +1196,18 @@ exports[`DialogHeader demo examples Snapshots: close-button 1`] = `
                                 className="emotion-26"
                               >
                                 <DialogContent
-                                  id="dialog-3-content"
-                                  innerRef={[Function]}
+                                  id="dialog-2-content"
                                   role="document"
                                   size="medium"
                                 >
                                   <div
                                     className="emotion-25"
-                                    id="dialog-3-content"
+                                    id="dialog-2-content"
                                     role="document"
                                   >
                                     <DialogHeader
                                       closeButton={
-                                        <Button
+                                        <ForwardRef
                                           aria-label="Close"
                                           element="button"
                                           iconStart={<IconClear />}
@@ -1223,7 +1218,7 @@ exports[`DialogHeader demo examples Snapshots: close-button 1`] = `
                                       }
                                       titleProps={
                                         Object {
-                                          "id": "dialog-3-title",
+                                          "id": "dialog-2-title",
                                           "variant": undefined,
                                         }
                                       }
@@ -1244,12 +1239,12 @@ exports[`DialogHeader demo examples Snapshots: close-button 1`] = `
                                                 className="emotion-9"
                                               >
                                                 <WithTheme(DialogTitle)
-                                                  id="dialog-3-title"
+                                                  id="dialog-2-title"
                                                 >
                                                   <DialogTitle
                                                     appearance="h4"
                                                     element="h1"
-                                                    id="dialog-3-title"
+                                                    id="dialog-2-title"
                                                   >
                                                     <DialogTitle
                                                       appearance="h4"
@@ -1266,33 +1261,33 @@ exports[`DialogHeader demo examples Snapshots: close-button 1`] = `
                                                           <Styled(Text)
                                                             appearance="h4"
                                                             element="h1"
-                                                            id="dialog-3-title"
+                                                            id="dialog-2-title"
                                                             noMargins={true}
                                                           >
                                                             <Text
                                                               appearance="h4"
                                                               className="emotion-2"
                                                               element="h1"
-                                                              id="dialog-3-title"
+                                                              id="dialog-2-title"
                                                               noMargins={true}
                                                             >
                                                               <TextProvider
                                                                 appearance="h4"
                                                                 className="emotion-2"
                                                                 element="h1"
-                                                                id="dialog-3-title"
+                                                                id="dialog-2-title"
                                                                 noMargins={true}
                                                               >
                                                                 <Styled(h1)
                                                                   appearance="h4"
                                                                   className="emotion-2"
                                                                   element="h1"
-                                                                  id="dialog-3-title"
+                                                                  id="dialog-2-title"
                                                                   noMargins={true}
                                                                 >
                                                                   <h1
                                                                     className="emotion-1"
-                                                                    id="dialog-3-title"
+                                                                    id="dialog-2-title"
                                                                   >
                                                                     Title
                                                                   </h1>
@@ -1305,7 +1300,7 @@ exports[`DialogHeader demo examples Snapshots: close-button 1`] = `
                                                     </DialogTitle>
                                                   </DialogTitle>
                                                 </WithTheme(DialogTitle)>
-                                                <Button
+                                                <WithForwardRef(Button)
                                                   aria-label="Close"
                                                   element="button"
                                                   iconStart={<IconClear />}
@@ -1316,56 +1311,66 @@ exports[`DialogHeader demo examples Snapshots: close-button 1`] = `
                                                   <Button
                                                     aria-label="Close"
                                                     element="button"
+                                                    forwardedRef={null}
+                                                    iconStart={<IconClear />}
                                                     size="small"
                                                     type="button"
                                                     variant="danger"
                                                   >
-                                                    <button
+                                                    <Button
                                                       aria-label="Close"
-                                                      className="emotion-8"
+                                                      element="button"
+                                                      size="small"
                                                       type="button"
+                                                      variant="danger"
                                                     >
-                                                      <Styled(span)>
-                                                        <span
-                                                          className="emotion-7"
-                                                        >
-                                                          <IconClear
-                                                            key="iconStart"
-                                                            size="medium"
+                                                      <button
+                                                        aria-label="Close"
+                                                        className="emotion-8"
+                                                        type="button"
+                                                      >
+                                                        <Styled(span)>
+                                                          <span
+                                                            className="emotion-7"
                                                           >
-                                                            <Icon
-                                                              rtl={false}
+                                                            <IconClear
+                                                              key="iconStart"
                                                               size="medium"
                                                             >
-                                                              <Styled(svg)
-                                                                aria-hidden={true}
-                                                                focusable="false"
-                                                                role="img"
+                                                              <Icon
                                                                 rtl={false}
                                                                 size="medium"
-                                                                viewBox="0 0 24 24"
                                                               >
-                                                                <svg
+                                                                <Styled(svg)
                                                                   aria-hidden={true}
-                                                                  className="emotion-6"
                                                                   focusable="false"
                                                                   role="img"
+                                                                  rtl={false}
+                                                                  size="medium"
                                                                   viewBox="0 0 24 24"
                                                                 >
-                                                                  <g>
-                                                                    <path
-                                                                      d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-                                                                    />
-                                                                  </g>
-                                                                </svg>
-                                                              </Styled(svg)>
-                                                            </Icon>
-                                                          </IconClear>
-                                                        </span>
-                                                      </Styled(span)>
-                                                    </button>
+                                                                  <svg
+                                                                    aria-hidden={true}
+                                                                    className="emotion-6"
+                                                                    focusable="false"
+                                                                    role="img"
+                                                                    viewBox="0 0 24 24"
+                                                                  >
+                                                                    <g>
+                                                                      <path
+                                                                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                                                                      />
+                                                                    </g>
+                                                                  </svg>
+                                                                </Styled(svg)>
+                                                              </Icon>
+                                                            </IconClear>
+                                                          </span>
+                                                        </Styled(span)>
+                                                      </button>
+                                                    </Button>
                                                   </Button>
-                                                </Button>
+                                                </WithForwardRef(Button)>
                                               </header>
                                             </Styled(header)>
                                           </DialogRow>
@@ -1441,7 +1446,6 @@ exports[`DialogHeader demo examples Snapshots: close-button 1`] = `
                                                                             <OverflowContainer
                                                                               className="emotion-13"
                                                                               containerRef={[Function]}
-                                                                              innerRef={[Function]}
                                                                               onScroll={[Function]}
                                                                               scrollY={true}
                                                                             >

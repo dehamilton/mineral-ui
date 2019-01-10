@@ -1,42 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CardActions demo examples Snapshots: basic 1`] = `
-.emotion-11 {
-  margin-bottom: 1em;
-  margin-top: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  margin-bottom: 0.5em;
-}
-
-.emotion-5 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  font-size: 0.875em;
-  margin-bottom: 0.5714285714285714em;
-  margin-left: 0.5714285714285714em;
-}
-
 .emotion-38::after {
   clear: both;
   content: "";
@@ -103,6 +67,42 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
 .emotion-0 {
   font-size: 0.875em;
   line-height: 1.5;
+}
+
+.emotion-11 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-bottom: 0.5em;
+}
+
+.emotion-5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 0.875em;
+  margin-bottom: 0.5714285714285714em;
+  margin-left: 0.5714285714285714em;
 }
 
 .emotion-4 {
@@ -507,39 +507,46 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                   <span
                     className="emotion-5"
                   >
-                    <Button
+                    <WithForwardRef(Button)
                       element="button"
                       size="medium"
                       type="button"
                     >
                       <Button
                         element="button"
+                        forwardedRef={null}
                         size="medium"
-                        text="Button 1"
                         type="button"
                       >
-                        <button
-                          className="emotion-4"
+                        <Button
+                          element="button"
+                          size="medium"
+                          text="Button 1"
                           type="button"
                         >
-                          <Styled(span)>
-                            <span
-                              className="emotion-3"
-                            >
-                              <Styled(span)
-                                size="medium"
+                          <button
+                            className="emotion-4"
+                            type="button"
+                          >
+                            <Styled(span)>
+                              <span
+                                className="emotion-3"
                               >
-                                <span
-                                  className="emotion-2"
+                                <Styled(span)
+                                  size="medium"
                                 >
-                                  Button 1
-                                </span>
-                              </Styled(span)>
-                            </span>
-                          </Styled(span)>
-                        </button>
+                                  <span
+                                    className="emotion-2"
+                                  >
+                                    Button 1
+                                  </span>
+                                </Styled(span)>
+                              </span>
+                            </Styled(span)>
+                          </button>
+                        </Button>
                       </Button>
-                    </Button>
+                    </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
                 <Styled(span)
@@ -548,7 +555,7 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                   <span
                     className="emotion-5"
                   >
-                    <Button
+                    <WithForwardRef(Button)
                       element="button"
                       iconStart={<IconCloud />}
                       size="medium"
@@ -556,64 +563,72 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                     >
                       <Button
                         element="button"
+                        forwardedRef={null}
+                        iconStart={<IconCloud />}
                         size="medium"
-                        text="Button 2"
                         type="button"
                       >
-                        <button
-                          className="emotion-4"
+                        <Button
+                          element="button"
+                          size="medium"
+                          text="Button 2"
                           type="button"
                         >
-                          <Styled(span)>
-                            <span
-                              className="emotion-3"
-                            >
-                              <IconCloud
-                                key="iconStart"
-                                size="medium"
+                          <button
+                            className="emotion-4"
+                            type="button"
+                          >
+                            <Styled(span)>
+                              <span
+                                className="emotion-3"
                               >
-                                <Icon
-                                  rtl={false}
+                                <IconCloud
+                                  key="iconStart"
                                   size="medium"
                                 >
-                                  <Styled(svg)
-                                    aria-hidden={true}
-                                    focusable="false"
-                                    role="img"
+                                  <Icon
                                     rtl={false}
                                     size="medium"
-                                    viewBox="0 0 24 24"
                                   >
-                                    <svg
+                                    <Styled(svg)
                                       aria-hidden={true}
-                                      className="emotion-6"
                                       focusable="false"
                                       role="img"
+                                      rtl={false}
+                                      size="medium"
                                       viewBox="0 0 24 24"
                                     >
-                                      <g>
-                                        <path
-                                          d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                                        />
-                                      </g>
-                                    </svg>
-                                  </Styled(svg)>
-                                </Icon>
-                              </IconCloud>
-                              <Styled(span)
-                                size="medium"
-                              >
-                                <span
-                                  className="emotion-2"
+                                      <svg
+                                        aria-hidden={true}
+                                        className="emotion-6"
+                                        focusable="false"
+                                        role="img"
+                                        viewBox="0 0 24 24"
+                                      >
+                                        <g>
+                                          <path
+                                            d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                          />
+                                        </g>
+                                      </svg>
+                                    </Styled(svg)>
+                                  </Icon>
+                                </IconCloud>
+                                <Styled(span)
+                                  size="medium"
                                 >
-                                  Button 2
-                                </span>
-                              </Styled(span)>
-                            </span>
-                          </Styled(span)>
-                        </button>
+                                  <span
+                                    className="emotion-2"
+                                  >
+                                    Button 2
+                                  </span>
+                                </Styled(span)>
+                              </span>
+                            </Styled(span)>
+                          </button>
+                        </Button>
                       </Button>
-                    </Button>
+                    </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
               </div>
@@ -656,7 +671,7 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                   <span
                     className="emotion-5"
                   >
-                    <Button
+                    <WithForwardRef(Button)
                       element="button"
                       minimal={true}
                       size="medium"
@@ -664,33 +679,41 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                     >
                       <Button
                         element="button"
+                        forwardedRef={null}
                         minimal={true}
                         size="medium"
-                        text="Button 1"
                         type="button"
                       >
-                        <button
-                          className="emotion-17"
+                        <Button
+                          element="button"
+                          minimal={true}
+                          size="medium"
+                          text="Button 1"
                           type="button"
                         >
-                          <Styled(span)>
-                            <span
-                              className="emotion-3"
-                            >
-                              <Styled(span)
-                                size="medium"
+                          <button
+                            className="emotion-17"
+                            type="button"
+                          >
+                            <Styled(span)>
+                              <span
+                                className="emotion-3"
                               >
-                                <span
-                                  className="emotion-2"
+                                <Styled(span)
+                                  size="medium"
                                 >
-                                  Button 1
-                                </span>
-                              </Styled(span)>
-                            </span>
-                          </Styled(span)>
-                        </button>
+                                  <span
+                                    className="emotion-2"
+                                  >
+                                    Button 1
+                                  </span>
+                                </Styled(span)>
+                              </span>
+                            </Styled(span)>
+                          </button>
+                        </Button>
                       </Button>
-                    </Button>
+                    </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
                 <Styled(span)
@@ -699,7 +722,7 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                   <span
                     className="emotion-5"
                   >
-                    <Button
+                    <WithForwardRef(Button)
                       element="button"
                       iconStart={<IconCloud />}
                       primary={true}
@@ -708,65 +731,74 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                     >
                       <Button
                         element="button"
+                        forwardedRef={null}
+                        iconStart={<IconCloud />}
                         primary={true}
                         size="medium"
-                        text="Button 2"
                         type="button"
                       >
-                        <button
-                          className="emotion-22"
+                        <Button
+                          element="button"
+                          primary={true}
+                          size="medium"
+                          text="Button 2"
                           type="button"
                         >
-                          <Styled(span)>
-                            <span
-                              className="emotion-3"
-                            >
-                              <IconCloud
-                                key="iconStart"
-                                size="medium"
+                          <button
+                            className="emotion-22"
+                            type="button"
+                          >
+                            <Styled(span)>
+                              <span
+                                className="emotion-3"
                               >
-                                <Icon
-                                  rtl={false}
+                                <IconCloud
+                                  key="iconStart"
                                   size="medium"
                                 >
-                                  <Styled(svg)
-                                    aria-hidden={true}
-                                    focusable="false"
-                                    role="img"
+                                  <Icon
                                     rtl={false}
                                     size="medium"
-                                    viewBox="0 0 24 24"
                                   >
-                                    <svg
+                                    <Styled(svg)
                                       aria-hidden={true}
-                                      className="emotion-6"
                                       focusable="false"
                                       role="img"
+                                      rtl={false}
+                                      size="medium"
                                       viewBox="0 0 24 24"
                                     >
-                                      <g>
-                                        <path
-                                          d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                                        />
-                                      </g>
-                                    </svg>
-                                  </Styled(svg)>
-                                </Icon>
-                              </IconCloud>
-                              <Styled(span)
-                                size="medium"
-                              >
-                                <span
-                                  className="emotion-2"
+                                      <svg
+                                        aria-hidden={true}
+                                        className="emotion-6"
+                                        focusable="false"
+                                        role="img"
+                                        viewBox="0 0 24 24"
+                                      >
+                                        <g>
+                                          <path
+                                            d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                          />
+                                        </g>
+                                      </svg>
+                                    </Styled(svg)>
+                                  </Icon>
+                                </IconCloud>
+                                <Styled(span)
+                                  size="medium"
                                 >
-                                  Button 2
-                                </span>
-                              </Styled(span)>
-                            </span>
-                          </Styled(span)>
-                        </button>
+                                  <span
+                                    className="emotion-2"
+                                  >
+                                    Button 2
+                                  </span>
+                                </Styled(span)>
+                              </span>
+                            </Styled(span)>
+                          </button>
+                        </Button>
                       </Button>
-                    </Button>
+                    </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
               </div>
@@ -809,7 +841,7 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                   <span
                     className="emotion-5"
                   >
-                    <Button
+                    <WithForwardRef(Button)
                       element="button"
                       iconStart={
                         <IconCloud
@@ -822,64 +854,77 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                     >
                       <Button
                         element="button"
+                        forwardedRef={null}
+                        iconStart={
+                          <IconCloud
+                            title="Button label 1"
+                          />
+                        }
                         minimal={true}
                         size="medium"
                         type="button"
                       >
-                        <button
-                          className="emotion-30"
+                        <Button
+                          element="button"
+                          minimal={true}
+                          size="medium"
                           type="button"
                         >
-                          <Styled(span)>
-                            <span
-                              className="emotion-3"
-                            >
-                              <IconCloud
-                                key="iconStart"
-                                size="medium"
-                                title="Button label 1"
+                          <button
+                            className="emotion-30"
+                            type="button"
+                          >
+                            <Styled(span)>
+                              <span
+                                className="emotion-3"
                               >
-                                <Icon
-                                  rtl={false}
+                                <IconCloud
+                                  key="iconStart"
                                   size="medium"
                                   title="Button label 1"
                                 >
-                                  <Styled(svg)
-                                    aria-hidden={null}
-                                    aria-labelledby="icon-title-icon-3"
-                                    focusable="false"
-                                    role="img"
+                                  <Icon
                                     rtl={false}
                                     size="medium"
-                                    viewBox="0 0 24 24"
+                                    title="Button label 1"
                                   >
-                                    <svg
+                                    <Styled(svg)
                                       aria-hidden={null}
                                       aria-labelledby="icon-title-icon-3"
-                                      className="emotion-6"
                                       focusable="false"
                                       role="img"
+                                      rtl={false}
+                                      size="medium"
                                       viewBox="0 0 24 24"
                                     >
-                                      <title
-                                        id="icon-title-icon-3"
+                                      <svg
+                                        aria-hidden={null}
+                                        aria-labelledby="icon-title-icon-3"
+                                        className="emotion-6"
+                                        focusable="false"
+                                        role="img"
+                                        viewBox="0 0 24 24"
                                       >
-                                        Button label 1
-                                      </title>
-                                      <g>
-                                        <path
-                                          d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                                        />
-                                      </g>
-                                    </svg>
-                                  </Styled(svg)>
-                                </Icon>
-                              </IconCloud>
-                            </span>
-                          </Styled(span)>
-                        </button>
+                                        <title
+                                          id="icon-title-icon-3"
+                                        >
+                                          Button label 1
+                                        </title>
+                                        <g>
+                                          <path
+                                            d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                          />
+                                        </g>
+                                      </svg>
+                                    </Styled(svg)>
+                                  </Icon>
+                                </IconCloud>
+                              </span>
+                            </Styled(span)>
+                          </button>
+                        </Button>
                       </Button>
-                    </Button>
+                    </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
                 <Styled(span)
@@ -888,7 +933,7 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                   <span
                     className="emotion-5"
                   >
-                    <Button
+                    <WithForwardRef(Button)
                       element="button"
                       iconStart={
                         <IconCloud
@@ -901,64 +946,77 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                     >
                       <Button
                         element="button"
+                        forwardedRef={null}
+                        iconStart={
+                          <IconCloud
+                            title="Button label 2"
+                          />
+                        }
                         minimal={true}
                         size="medium"
                         type="button"
                       >
-                        <button
-                          className="emotion-30"
+                        <Button
+                          element="button"
+                          minimal={true}
+                          size="medium"
                           type="button"
                         >
-                          <Styled(span)>
-                            <span
-                              className="emotion-3"
-                            >
-                              <IconCloud
-                                key="iconStart"
-                                size="medium"
-                                title="Button label 2"
+                          <button
+                            className="emotion-30"
+                            type="button"
+                          >
+                            <Styled(span)>
+                              <span
+                                className="emotion-3"
                               >
-                                <Icon
-                                  rtl={false}
+                                <IconCloud
+                                  key="iconStart"
                                   size="medium"
                                   title="Button label 2"
                                 >
-                                  <Styled(svg)
-                                    aria-hidden={null}
-                                    aria-labelledby="icon-title-icon-4"
-                                    focusable="false"
-                                    role="img"
+                                  <Icon
                                     rtl={false}
                                     size="medium"
-                                    viewBox="0 0 24 24"
+                                    title="Button label 2"
                                   >
-                                    <svg
+                                    <Styled(svg)
                                       aria-hidden={null}
                                       aria-labelledby="icon-title-icon-4"
-                                      className="emotion-6"
                                       focusable="false"
                                       role="img"
+                                      rtl={false}
+                                      size="medium"
                                       viewBox="0 0 24 24"
                                     >
-                                      <title
-                                        id="icon-title-icon-4"
+                                      <svg
+                                        aria-hidden={null}
+                                        aria-labelledby="icon-title-icon-4"
+                                        className="emotion-6"
+                                        focusable="false"
+                                        role="img"
+                                        viewBox="0 0 24 24"
                                       >
-                                        Button label 2
-                                      </title>
-                                      <g>
-                                        <path
-                                          d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                                        />
-                                      </g>
-                                    </svg>
-                                  </Styled(svg)>
-                                </Icon>
-                              </IconCloud>
-                            </span>
-                          </Styled(span)>
-                        </button>
+                                        <title
+                                          id="icon-title-icon-4"
+                                        >
+                                          Button label 2
+                                        </title>
+                                        <g>
+                                          <path
+                                            d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                          />
+                                        </g>
+                                      </svg>
+                                    </Styled(svg)>
+                                  </Icon>
+                                </IconCloud>
+                              </span>
+                            </Styled(span)>
+                          </button>
+                        </Button>
                       </Button>
-                    </Button>
+                    </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
               </div>
@@ -972,25 +1030,6 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
 `;
 
 exports[`CardActions demo examples Snapshots: rtl 1`] = `
-.emotion-11 {
-  margin-bottom: 1em;
-  margin-top: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  margin-bottom: 0.5em;
-}
-
 .emotion-13::after {
   clear: both;
   content: "";
@@ -1057,6 +1096,25 @@ exports[`CardActions demo examples Snapshots: rtl 1`] = `
 .emotion-0 {
   font-size: 0.875em;
   line-height: 1.5;
+}
+
+.emotion-11 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-bottom: 0.5em;
 }
 
 .emotion-3 {
@@ -1238,39 +1296,46 @@ exports[`CardActions demo examples Snapshots: rtl 1`] = `
                       <span
                         className="emotion-5"
                       >
-                        <Button
+                        <WithForwardRef(Button)
                           element="button"
                           size="medium"
                           type="button"
                         >
                           <Button
                             element="button"
+                            forwardedRef={null}
                             size="medium"
-                            text="زر واحد"
                             type="button"
                           >
-                            <button
-                              className="emotion-4"
+                            <Button
+                              element="button"
+                              size="medium"
+                              text="زر واحد"
                               type="button"
                             >
-                              <Styled(span)>
-                                <span
-                                  className="emotion-3"
-                                >
-                                  <Styled(span)
-                                    size="medium"
+                              <button
+                                className="emotion-4"
+                                type="button"
+                              >
+                                <Styled(span)>
+                                  <span
+                                    className="emotion-3"
                                   >
-                                    <span
-                                      className="emotion-2"
+                                    <Styled(span)
+                                      size="medium"
                                     >
-                                      زر واحد
-                                    </span>
-                                  </Styled(span)>
-                                </span>
-                              </Styled(span)>
-                            </button>
+                                      <span
+                                        className="emotion-2"
+                                      >
+                                        زر واحد
+                                      </span>
+                                    </Styled(span)>
+                                  </span>
+                                </Styled(span)>
+                              </button>
+                            </Button>
                           </Button>
-                        </Button>
+                        </WithForwardRef(Button)>
                       </span>
                     </Styled(span)>
                     <Styled(span)
@@ -1279,7 +1344,7 @@ exports[`CardActions demo examples Snapshots: rtl 1`] = `
                       <span
                         className="emotion-5"
                       >
-                        <Button
+                        <WithForwardRef(Button)
                           element="button"
                           iconStart={<IconCloud />}
                           size="medium"
@@ -1287,64 +1352,72 @@ exports[`CardActions demo examples Snapshots: rtl 1`] = `
                         >
                           <Button
                             element="button"
+                            forwardedRef={null}
+                            iconStart={<IconCloud />}
                             size="medium"
-                            text="زر اثنين"
                             type="button"
                           >
-                            <button
-                              className="emotion-4"
+                            <Button
+                              element="button"
+                              size="medium"
+                              text="زر اثنين"
                               type="button"
                             >
-                              <Styled(span)>
-                                <span
-                                  className="emotion-3"
-                                >
-                                  <IconCloud
-                                    key="iconStart"
-                                    size="medium"
+                              <button
+                                className="emotion-4"
+                                type="button"
+                              >
+                                <Styled(span)>
+                                  <span
+                                    className="emotion-3"
                                   >
-                                    <Icon
-                                      rtl={false}
+                                    <IconCloud
+                                      key="iconStart"
                                       size="medium"
                                     >
-                                      <Styled(svg)
-                                        aria-hidden={true}
-                                        focusable="false"
-                                        role="img"
+                                      <Icon
                                         rtl={false}
                                         size="medium"
-                                        viewBox="0 0 24 24"
                                       >
-                                        <svg
+                                        <Styled(svg)
                                           aria-hidden={true}
-                                          className="emotion-6"
                                           focusable="false"
                                           role="img"
+                                          rtl={false}
+                                          size="medium"
                                           viewBox="0 0 24 24"
                                         >
-                                          <g>
-                                            <path
-                                              d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                                            />
-                                          </g>
-                                        </svg>
-                                      </Styled(svg)>
-                                    </Icon>
-                                  </IconCloud>
-                                  <Styled(span)
-                                    size="medium"
-                                  >
-                                    <span
-                                      className="emotion-2"
+                                          <svg
+                                            aria-hidden={true}
+                                            className="emotion-6"
+                                            focusable="false"
+                                            role="img"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <g>
+                                              <path
+                                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                              />
+                                            </g>
+                                          </svg>
+                                        </Styled(svg)>
+                                      </Icon>
+                                    </IconCloud>
+                                    <Styled(span)
+                                      size="medium"
                                     >
-                                      زر اثنين
-                                    </span>
-                                  </Styled(span)>
-                                </span>
-                              </Styled(span)>
-                            </button>
+                                      <span
+                                        className="emotion-2"
+                                      >
+                                        زر اثنين
+                                      </span>
+                                    </Styled(span)>
+                                  </span>
+                                </Styled(span)>
+                              </button>
+                            </Button>
                           </Button>
-                        </Button>
+                        </WithForwardRef(Button)>
                       </span>
                     </Styled(span)>
                   </div>
@@ -1360,42 +1433,6 @@ exports[`CardActions demo examples Snapshots: rtl 1`] = `
 `;
 
 exports[`CardActions demo examples Snapshots: with-links 1`] = `
-.emotion-6 {
-  margin-bottom: 1em;
-  margin-top: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  margin-bottom: 0.5em;
-}
-
-.emotion-3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  font-size: 0.875em;
-  margin-bottom: 0.5714285714285714em;
-  margin-left: 0.5714285714285714em;
-}
-
 .emotion-8::after {
   clear: both;
   content: "";
@@ -1462,6 +1499,42 @@ exports[`CardActions demo examples Snapshots: with-links 1`] = `
 .emotion-0 {
   font-size: 0.875em;
   line-height: 1.5;
+}
+
+.emotion-6 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-bottom: 0.5em;
+}
+
+.emotion-3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 0.875em;
+  margin-bottom: 0.5714285714285714em;
+  margin-left: 0.5714285714285714em;
 }
 
 .emotion-2 {

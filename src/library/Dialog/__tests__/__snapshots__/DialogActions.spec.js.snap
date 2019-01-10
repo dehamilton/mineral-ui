@@ -1,25 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`DialogActions demo examples Snapshots: actions 1`] = `
-.emotion-15 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-}
-
-.emotion-15 > *:not(:last-child) {
-  margin-right: 0.5em;
-}
-
 .emotion-35 {
   padding: 1em;
   position: relative;
@@ -348,6 +329,25 @@ exports[`DialogActions demo examples Snapshots: actions 1`] = `
 
 .emotion-16:focus {
   outline: 1px solid #1d5bbf;
+}
+
+.emotion-15 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.emotion-15 > *:not(:last-child) {
+  margin-right: 0.5em;
 }
 
 .emotion-11 {
@@ -618,7 +618,6 @@ exports[`DialogActions demo examples Snapshots: actions 1`] = `
                           closeButtonLabel="close"
                           disableFocusOnOpen={true}
                           id="dialog-1"
-                          innerRef={[Function]}
                           preventCloseButtonClose={true}
                           role="dialog"
                           tabIndex="-1"
@@ -642,7 +641,6 @@ exports[`DialogActions demo examples Snapshots: actions 1`] = `
                               >
                                 <DialogContent
                                   id="dialog-1-content"
-                                  innerRef={[Function]}
                                   role="document"
                                   size="medium"
                                 >
@@ -811,7 +809,6 @@ exports[`DialogActions demo examples Snapshots: actions 1`] = `
                                                                             <OverflowContainer
                                                                               className="emotion-17"
                                                                               containerRef={[Function]}
-                                                                              innerRef={[Function]}
                                                                               onScroll={[Function]}
                                                                               scrollY={true}
                                                                             >
@@ -826,7 +823,7 @@ exports[`DialogActions demo examples Snapshots: actions 1`] = `
                                                                                     <div
                                                                                       className="emotion-15"
                                                                                     >
-                                                                                      <Button
+                                                                                      <WithForwardRef(Button)
                                                                                         element="button"
                                                                                         key="0"
                                                                                         minimal={true}
@@ -836,35 +833,44 @@ exports[`DialogActions demo examples Snapshots: actions 1`] = `
                                                                                       >
                                                                                         <Button
                                                                                           element="button"
+                                                                                          forwardedRef={null}
                                                                                           minimal={true}
                                                                                           primary={false}
                                                                                           size="medium"
-                                                                                          text="Cancel"
                                                                                           type="button"
                                                                                         >
-                                                                                          <button
-                                                                                            className="emotion-11"
+                                                                                          <Button
+                                                                                            element="button"
+                                                                                            minimal={true}
+                                                                                            primary={false}
+                                                                                            size="medium"
+                                                                                            text="Cancel"
                                                                                             type="button"
                                                                                           >
-                                                                                            <Styled(span)>
-                                                                                              <span
-                                                                                                className="emotion-10"
-                                                                                              >
-                                                                                                <Styled(span)
-                                                                                                  size="medium"
+                                                                                            <button
+                                                                                              className="emotion-11"
+                                                                                              type="button"
+                                                                                            >
+                                                                                              <Styled(span)>
+                                                                                                <span
+                                                                                                  className="emotion-10"
                                                                                                 >
-                                                                                                  <span
-                                                                                                    className="emotion-9"
+                                                                                                  <Styled(span)
+                                                                                                    size="medium"
                                                                                                   >
-                                                                                                    Cancel
-                                                                                                  </span>
-                                                                                                </Styled(span)>
-                                                                                              </span>
-                                                                                            </Styled(span)>
-                                                                                          </button>
+                                                                                                    <span
+                                                                                                      className="emotion-9"
+                                                                                                    >
+                                                                                                      Cancel
+                                                                                                    </span>
+                                                                                                  </Styled(span)>
+                                                                                                </span>
+                                                                                              </Styled(span)>
+                                                                                            </button>
+                                                                                          </Button>
                                                                                         </Button>
-                                                                                      </Button>
-                                                                                      <Button
+                                                                                      </WithForwardRef(Button)>
+                                                                                      <WithForwardRef(Button)
                                                                                         element="button"
                                                                                         key="1"
                                                                                         minimal={false}
@@ -874,34 +880,43 @@ exports[`DialogActions demo examples Snapshots: actions 1`] = `
                                                                                       >
                                                                                         <Button
                                                                                           element="button"
+                                                                                          forwardedRef={null}
                                                                                           minimal={false}
                                                                                           primary={true}
                                                                                           size="medium"
-                                                                                          text="Action"
                                                                                           type="button"
                                                                                         >
-                                                                                          <button
-                                                                                            className="emotion-14"
+                                                                                          <Button
+                                                                                            element="button"
+                                                                                            minimal={false}
+                                                                                            primary={true}
+                                                                                            size="medium"
+                                                                                            text="Action"
                                                                                             type="button"
                                                                                           >
-                                                                                            <Styled(span)>
-                                                                                              <span
-                                                                                                className="emotion-10"
-                                                                                              >
-                                                                                                <Styled(span)
-                                                                                                  size="medium"
+                                                                                            <button
+                                                                                              className="emotion-14"
+                                                                                              type="button"
+                                                                                            >
+                                                                                              <Styled(span)>
+                                                                                                <span
+                                                                                                  className="emotion-10"
                                                                                                 >
-                                                                                                  <span
-                                                                                                    className="emotion-9"
+                                                                                                  <Styled(span)
+                                                                                                    size="medium"
                                                                                                   >
-                                                                                                    Action
-                                                                                                  </span>
-                                                                                                </Styled(span)>
-                                                                                              </span>
-                                                                                            </Styled(span)>
-                                                                                          </button>
+                                                                                                    <span
+                                                                                                      className="emotion-9"
+                                                                                                    >
+                                                                                                      Action
+                                                                                                    </span>
+                                                                                                  </Styled(span)>
+                                                                                                </span>
+                                                                                              </Styled(span)>
+                                                                                            </button>
+                                                                                          </Button>
                                                                                         </Button>
-                                                                                      </Button>
+                                                                                      </WithForwardRef(Button)>
                                                                                     </div>
                                                                                   </DialogActions>
                                                                                 </DialogActions>
@@ -959,25 +974,6 @@ exports[`DialogActions demo examples Snapshots: actions 1`] = `
 `;
 
 exports[`DialogActions demo examples Snapshots: variants 1`] = `
-.emotion-15 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-}
-
-.emotion-15 > *:not(:last-child) {
-  margin-right: 0.5em;
-}
-
 .emotion-35 {
   padding: 1em;
   position: relative;
@@ -1306,6 +1302,25 @@ exports[`DialogActions demo examples Snapshots: variants 1`] = `
 
 .emotion-16:focus {
   outline: 1px solid #1d5bbf;
+}
+
+.emotion-15 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.emotion-15 > *:not(:last-child) {
+  margin-right: 0.5em;
 }
 
 .emotion-11 {
@@ -1737,13 +1752,447 @@ exports[`DialogActions demo examples Snapshots: variants 1`] = `
                       >
                         <div>
                           <Dialog
+                            aria-labelledby="dialog-2-title"
+                            aria-modal={true}
+                            className="emotion-32"
+                            closeButtonLabel="close"
+                            disableFocusOnOpen={true}
+                            id="dialog-2"
+                            preventCloseButtonClose={true}
+                            role="dialog"
+                            tabIndex="-1"
+                          >
+                            <div
+                              aria-labelledby="dialog-2-title"
+                              aria-modal={true}
+                              className="emotion-31"
+                              id="dialog-2"
+                              role="dialog"
+                              tabIndex="-1"
+                            >
+                              <Overlay>
+                                <div
+                                  className="emotion-0"
+                                />
+                              </Overlay>
+                              <Styled(div)>
+                                <div
+                                  className="emotion-30"
+                                >
+                                  <DialogContent
+                                    id="dialog-2-content"
+                                    role="document"
+                                    size="medium"
+                                  >
+                                    <div
+                                      className="emotion-29"
+                                      id="dialog-2-content"
+                                      role="document"
+                                    >
+                                      <DialogHeader
+                                        titleProps={
+                                          Object {
+                                            "id": "dialog-2-title",
+                                            "variant": undefined,
+                                          }
+                                        }
+                                      >
+                                        <withProps(DialogHeader)>
+                                          <DialogHeader
+                                            element="header"
+                                          >
+                                            <DialogRow
+                                              className="emotion-7"
+                                              element="header"
+                                            >
+                                              <Styled(header)
+                                                className="emotion-7"
+                                                element="header"
+                                              >
+                                                <header
+                                                  className="emotion-6"
+                                                >
+                                                  <WithTheme(DialogTitle)
+                                                    id="dialog-2-title"
+                                                  >
+                                                    <DialogTitle
+                                                      appearance="h4"
+                                                      element="h1"
+                                                      id="dialog-2-title"
+                                                    >
+                                                      <DialogTitle
+                                                        appearance="h4"
+                                                        element="h1"
+                                                      >
+                                                        <div
+                                                          className="emotion-5"
+                                                        >
+                                                          <TitleContent
+                                                            appearance="h4"
+                                                            element="h1"
+                                                            noMargins={true}
+                                                          >
+                                                            <Styled(Text)
+                                                              appearance="h4"
+                                                              element="h1"
+                                                              id="dialog-2-title"
+                                                              noMargins={true}
+                                                            >
+                                                              <Text
+                                                                appearance="h4"
+                                                                className="emotion-2"
+                                                                element="h1"
+                                                                id="dialog-2-title"
+                                                                noMargins={true}
+                                                              >
+                                                                <TextProvider
+                                                                  appearance="h4"
+                                                                  className="emotion-2"
+                                                                  element="h1"
+                                                                  id="dialog-2-title"
+                                                                  noMargins={true}
+                                                                >
+                                                                  <Styled(h1)
+                                                                    appearance="h4"
+                                                                    className="emotion-2"
+                                                                    element="h1"
+                                                                    id="dialog-2-title"
+                                                                    noMargins={true}
+                                                                  >
+                                                                    <h1
+                                                                      className="emotion-1"
+                                                                      id="dialog-2-title"
+                                                                    >
+                                                                      Title
+                                                                    </h1>
+                                                                  </Styled(h1)>
+                                                                </TextProvider>
+                                                              </Text>
+                                                            </Styled(Text)>
+                                                          </TitleContent>
+                                                        </div>
+                                                      </DialogTitle>
+                                                    </DialogTitle>
+                                                  </WithTheme(DialogTitle)>
+                                                </header>
+                                              </Styled(header)>
+                                            </DialogRow>
+                                          </DialogHeader>
+                                        </withProps(DialogHeader)>
+                                      </DialogHeader>
+                                      <DialogBody>
+                                        <DialogBody
+                                          element="div"
+                                        >
+                                          <DialogRow
+                                            className="emotion-27"
+                                            element="div"
+                                          >
+                                            <Styled(div)
+                                              className="emotion-27"
+                                              element="div"
+                                            >
+                                              <div
+                                                className="emotion-26"
+                                              >
+                                                <withProps(Styled(WithTheme(Themed(OverflowContainerWithShadows))))>
+                                                  <Styled(WithTheme(Themed(OverflowContainerWithShadows)))
+                                                    scrollY={true}
+                                                  >
+                                                    <WithTheme(Themed(OverflowContainerWithShadows))
+                                                      className="emotion-22"
+                                                      scrollY={true}
+                                                    >
+                                                      <Themed(OverflowContainerWithShadows)
+                                                        className="emotion-22"
+                                                        scrollY={true}
+                                                      >
+                                                        <ThemeProvider>
+                                                          <ThemeProvider>
+                                                            <OverflowContainerWithShadows
+                                                              className="emotion-22"
+                                                              scrollY={true}
+                                                            >
+                                                              <OverflowContainerWithShadows
+                                                                className="emotion-22"
+                                                                hasShadowBottom={false}
+                                                                hasShadowTop={false}
+                                                              >
+                                                                <div
+                                                                  className="emotion-21"
+                                                                >
+                                                                  <Scroller
+                                                                    containerRef={[Function]}
+                                                                    onScroll={[Function]}
+                                                                    scrollY={true}
+                                                                  >
+                                                                    <WithTheme(Themed(OverflowContainer))
+                                                                      className="emotion-17"
+                                                                      containerRef={[Function]}
+                                                                      onScroll={[Function]}
+                                                                      scrollY={true}
+                                                                    >
+                                                                      <Themed(OverflowContainer)
+                                                                        className="emotion-17"
+                                                                        containerRef={[Function]}
+                                                                        onScroll={[Function]}
+                                                                        scrollY={true}
+                                                                      >
+                                                                        <ThemeProvider>
+                                                                          <ThemeProvider>
+                                                                            <OverflowContainer
+                                                                              className="emotion-17"
+                                                                              containerRef={[Function]}
+                                                                              onScroll={[Function]}
+                                                                              scrollY={true}
+                                                                            >
+                                                                              <OverflowContainer
+                                                                                className="emotion-17"
+                                                                                containerRef={[Function]}
+                                                                                onScroll={[Function]}
+                                                                                scrollY={true}
+                                                                              >
+                                                                                <div
+                                                                                  className="emotion-16"
+                                                                                  onScroll={[Function]}
+                                                                                >
+                                                                                  <DialogActions
+                                                                                    key=".1"
+                                                                                    variant="success"
+                                                                                  >
+                                                                                    <DialogActions>
+                                                                                      <div
+                                                                                        className="emotion-15"
+                                                                                      >
+                                                                                        <WithForwardRef(Button)
+                                                                                          element="button"
+                                                                                          key="0"
+                                                                                          minimal={true}
+                                                                                          primary={false}
+                                                                                          size="medium"
+                                                                                          type="button"
+                                                                                        >
+                                                                                          <Button
+                                                                                            element="button"
+                                                                                            forwardedRef={null}
+                                                                                            minimal={true}
+                                                                                            primary={false}
+                                                                                            size="medium"
+                                                                                            type="button"
+                                                                                          >
+                                                                                            <Button
+                                                                                              element="button"
+                                                                                              minimal={true}
+                                                                                              primary={false}
+                                                                                              size="medium"
+                                                                                              text="Cancel"
+                                                                                              type="button"
+                                                                                            >
+                                                                                              <button
+                                                                                                className="emotion-11"
+                                                                                                type="button"
+                                                                                              >
+                                                                                                <Styled(span)>
+                                                                                                  <span
+                                                                                                    className="emotion-10"
+                                                                                                  >
+                                                                                                    <Styled(span)
+                                                                                                      size="medium"
+                                                                                                    >
+                                                                                                      <span
+                                                                                                        className="emotion-9"
+                                                                                                      >
+                                                                                                        Cancel
+                                                                                                      </span>
+                                                                                                    </Styled(span)>
+                                                                                                  </span>
+                                                                                                </Styled(span)>
+                                                                                              </button>
+                                                                                            </Button>
+                                                                                          </Button>
+                                                                                        </WithForwardRef(Button)>
+                                                                                        <WithForwardRef(Button)
+                                                                                          element="button"
+                                                                                          key="1"
+                                                                                          minimal={false}
+                                                                                          primary={true}
+                                                                                          size="medium"
+                                                                                          type="button"
+                                                                                          variant="success"
+                                                                                        >
+                                                                                          <Button
+                                                                                            element="button"
+                                                                                            forwardedRef={null}
+                                                                                            minimal={false}
+                                                                                            primary={true}
+                                                                                            size="medium"
+                                                                                            type="button"
+                                                                                            variant="success"
+                                                                                          >
+                                                                                            <Button
+                                                                                              element="button"
+                                                                                              minimal={false}
+                                                                                              primary={true}
+                                                                                              size="medium"
+                                                                                              text="Success"
+                                                                                              type="button"
+                                                                                              variant="success"
+                                                                                            >
+                                                                                              <button
+                                                                                                className="emotion-14"
+                                                                                                type="button"
+                                                                                              >
+                                                                                                <Styled(span)>
+                                                                                                  <span
+                                                                                                    className="emotion-10"
+                                                                                                  >
+                                                                                                    <Styled(span)
+                                                                                                      size="medium"
+                                                                                                    >
+                                                                                                      <span
+                                                                                                        className="emotion-9"
+                                                                                                      >
+                                                                                                        Success
+                                                                                                      </span>
+                                                                                                    </Styled(span)>
+                                                                                                  </span>
+                                                                                                </Styled(span)>
+                                                                                              </button>
+                                                                                            </Button>
+                                                                                          </Button>
+                                                                                        </WithForwardRef(Button)>
+                                                                                      </div>
+                                                                                    </DialogActions>
+                                                                                  </DialogActions>
+                                                                                  <EventListener
+                                                                                    listeners={
+                                                                                      Array [
+                                                                                        Object {
+                                                                                          "event": "resize",
+                                                                                          "handler": [Function],
+                                                                                          "target": "window",
+                                                                                        },
+                                                                                      ]
+                                                                                    }
+                                                                                  />
+                                                                                </div>
+                                                                              </OverflowContainer>
+                                                                            </OverflowContainer>
+                                                                          </ThemeProvider>
+                                                                        </ThemeProvider>
+                                                                      </Themed(OverflowContainer)>
+                                                                    </WithTheme(Themed(OverflowContainer))>
+                                                                  </Scroller>
+                                                                </div>
+                                                              </OverflowContainerWithShadows>
+                                                            </OverflowContainerWithShadows>
+                                                          </ThemeProvider>
+                                                        </ThemeProvider>
+                                                      </Themed(OverflowContainerWithShadows)>
+                                                    </WithTheme(Themed(OverflowContainerWithShadows))>
+                                                  </Styled(WithTheme(Themed(OverflowContainerWithShadows)))>
+                                                </withProps(Styled(WithTheme(Themed(OverflowContainerWithShadows))))>
+                                              </div>
+                                            </Styled(div)>
+                                          </DialogRow>
+                                        </DialogBody>
+                                      </DialogBody>
+                                    </div>
+                                  </DialogContent>
+                                </div>
+                              </Styled(div)>
+                            </div>
+                          </Dialog>
+                        </div>
+                      </FocusTrap>
+                    </div>
+                  </Animate>
+                </Transition>
+              </Component>
+            </WithTheme(Component)>
+          </Dialog>
+        </DemoDialog>
+      </withProps(DemoDialog)>
+    </div>
+  </Styled(div)>
+  <Styled(div)
+    key="warning"
+  >
+    <div
+      className="emotion-35"
+    >
+      <withProps(DemoDialog)>
+        <DemoDialog
+          closeButtonLabel="close"
+          closeOnClickOutside={false}
+          closeOnEscape={false}
+          disableFocusOnOpen={true}
+          disableFocusTrap={true}
+          isOpen={true}
+          preventCloseButtonClose={true}
+          size="medium"
+          usePortal={false}
+        >
+          <Dialog
+            className="emotion-32"
+            closeButtonLabel="close"
+            closeOnClickOutside={false}
+            closeOnEscape={false}
+            disableFocusOnOpen={true}
+            disableFocusTrap={true}
+            isOpen={true}
+            preventCloseButtonClose={true}
+            size="medium"
+            usePortal={false}
+          >
+            <WithTheme(Component)
+              in={true}
+              onEntered={[Function]}
+              onExited={[Function]}
+              onExiting={[Function]}
+            >
+              <Component
+                in={true}
+                onEntered={[Function]}
+                onExited={[Function]}
+                onExiting={[Function]}
+              >
+                <Transition
+                  appear={true}
+                  enter={true}
+                  exit={true}
+                  in={true}
+                  mountOnEnter={true}
+                  onEnter={[Function]}
+                  onEntered={[Function]}
+                  onEntering={[Function]}
+                  onExit={[Function]}
+                  onExited={[Function]}
+                  onExiting={[Function]}
+                  timeout={250}
+                  unmountOnExit={true}
+                >
+                  <Animate
+                    state="entering"
+                  >
+                    <div
+                      className="emotion-33"
+                    >
+                      <FocusTrap
+                        _createFocusTrap={[Function]}
+                        active={false}
+                        focusTrapOptions={Object {}}
+                        paused={false}
+                        tag="div"
+                      >
+                        <div>
+                          <Dialog
                             aria-labelledby="dialog-3-title"
                             aria-modal={true}
                             className="emotion-32"
                             closeButtonLabel="close"
                             disableFocusOnOpen={true}
                             id="dialog-3"
-                            innerRef={[Function]}
                             preventCloseButtonClose={true}
                             role="dialog"
                             tabIndex="-1"
@@ -1767,7 +2216,6 @@ exports[`DialogActions demo examples Snapshots: variants 1`] = `
                                 >
                                   <DialogContent
                                     id="dialog-3-content"
-                                    innerRef={[Function]}
                                     role="document"
                                     size="medium"
                                   >
@@ -1936,7 +2384,6 @@ exports[`DialogActions demo examples Snapshots: variants 1`] = `
                                                                               <OverflowContainer
                                                                                 className="emotion-17"
                                                                                 containerRef={[Function]}
-                                                                                innerRef={[Function]}
                                                                                 onScroll={[Function]}
                                                                                 scrollY={true}
                                                                               >
@@ -1946,13 +2393,13 @@ exports[`DialogActions demo examples Snapshots: variants 1`] = `
                                                                                 >
                                                                                   <DialogActions
                                                                                     key=".1"
-                                                                                    variant="success"
+                                                                                    variant="warning"
                                                                                   >
                                                                                     <DialogActions>
                                                                                       <div
                                                                                         className="emotion-15"
                                                                                       >
-                                                                                        <Button
+                                                                                        <WithForwardRef(Button)
                                                                                           element="button"
                                                                                           key="0"
                                                                                           minimal={true}
@@ -1962,74 +2409,93 @@ exports[`DialogActions demo examples Snapshots: variants 1`] = `
                                                                                         >
                                                                                           <Button
                                                                                             element="button"
+                                                                                            forwardedRef={null}
                                                                                             minimal={true}
                                                                                             primary={false}
                                                                                             size="medium"
-                                                                                            text="Cancel"
                                                                                             type="button"
                                                                                           >
-                                                                                            <button
-                                                                                              className="emotion-11"
+                                                                                            <Button
+                                                                                              element="button"
+                                                                                              minimal={true}
+                                                                                              primary={false}
+                                                                                              size="medium"
+                                                                                              text="Cancel"
                                                                                               type="button"
                                                                                             >
-                                                                                              <Styled(span)>
-                                                                                                <span
-                                                                                                  className="emotion-10"
-                                                                                                >
-                                                                                                  <Styled(span)
-                                                                                                    size="medium"
+                                                                                              <button
+                                                                                                className="emotion-11"
+                                                                                                type="button"
+                                                                                              >
+                                                                                                <Styled(span)>
+                                                                                                  <span
+                                                                                                    className="emotion-10"
                                                                                                   >
-                                                                                                    <span
-                                                                                                      className="emotion-9"
+                                                                                                    <Styled(span)
+                                                                                                      size="medium"
                                                                                                     >
-                                                                                                      Cancel
-                                                                                                    </span>
-                                                                                                  </Styled(span)>
-                                                                                                </span>
-                                                                                              </Styled(span)>
-                                                                                            </button>
+                                                                                                      <span
+                                                                                                        className="emotion-9"
+                                                                                                      >
+                                                                                                        Cancel
+                                                                                                      </span>
+                                                                                                    </Styled(span)>
+                                                                                                  </span>
+                                                                                                </Styled(span)>
+                                                                                              </button>
+                                                                                            </Button>
                                                                                           </Button>
-                                                                                        </Button>
-                                                                                        <Button
+                                                                                        </WithForwardRef(Button)>
+                                                                                        <WithForwardRef(Button)
                                                                                           element="button"
                                                                                           key="1"
                                                                                           minimal={false}
                                                                                           primary={true}
                                                                                           size="medium"
                                                                                           type="button"
-                                                                                          variant="success"
+                                                                                          variant="warning"
                                                                                         >
                                                                                           <Button
                                                                                             element="button"
+                                                                                            forwardedRef={null}
                                                                                             minimal={false}
                                                                                             primary={true}
                                                                                             size="medium"
-                                                                                            text="Success"
                                                                                             type="button"
-                                                                                            variant="success"
+                                                                                            variant="warning"
                                                                                           >
-                                                                                            <button
-                                                                                              className="emotion-14"
+                                                                                            <Button
+                                                                                              element="button"
+                                                                                              minimal={false}
+                                                                                              primary={true}
+                                                                                              size="medium"
+                                                                                              text="Warning"
                                                                                               type="button"
+                                                                                              variant="warning"
                                                                                             >
-                                                                                              <Styled(span)>
-                                                                                                <span
-                                                                                                  className="emotion-10"
-                                                                                                >
-                                                                                                  <Styled(span)
-                                                                                                    size="medium"
+                                                                                              <button
+                                                                                                className="emotion-50"
+                                                                                                type="button"
+                                                                                              >
+                                                                                                <Styled(span)>
+                                                                                                  <span
+                                                                                                    className="emotion-10"
                                                                                                   >
-                                                                                                    <span
-                                                                                                      className="emotion-9"
+                                                                                                    <Styled(span)
+                                                                                                      size="medium"
                                                                                                     >
-                                                                                                      Success
-                                                                                                    </span>
-                                                                                                  </Styled(span)>
-                                                                                                </span>
-                                                                                              </Styled(span)>
-                                                                                            </button>
+                                                                                                      <span
+                                                                                                        className="emotion-9"
+                                                                                                      >
+                                                                                                        Warning
+                                                                                                      </span>
+                                                                                                    </Styled(span)>
+                                                                                                  </span>
+                                                                                                </Styled(span)>
+                                                                                              </button>
+                                                                                            </Button>
                                                                                           </Button>
-                                                                                        </Button>
+                                                                                        </WithForwardRef(Button)>
                                                                                       </div>
                                                                                     </DialogActions>
                                                                                   </DialogActions>
@@ -2085,7 +2551,7 @@ exports[`DialogActions demo examples Snapshots: variants 1`] = `
     </div>
   </Styled(div)>
   <Styled(div)
-    key="warning"
+    key="danger"
   >
     <div
       className="emotion-35"
@@ -2162,7 +2628,6 @@ exports[`DialogActions demo examples Snapshots: variants 1`] = `
                             closeButtonLabel="close"
                             disableFocusOnOpen={true}
                             id="dialog-4"
-                            innerRef={[Function]}
                             preventCloseButtonClose={true}
                             role="dialog"
                             tabIndex="-1"
@@ -2186,7 +2651,6 @@ exports[`DialogActions demo examples Snapshots: variants 1`] = `
                                 >
                                   <DialogContent
                                     id="dialog-4-content"
-                                    innerRef={[Function]}
                                     role="document"
                                     size="medium"
                                   >
@@ -2355,426 +2819,6 @@ exports[`DialogActions demo examples Snapshots: variants 1`] = `
                                                                               <OverflowContainer
                                                                                 className="emotion-17"
                                                                                 containerRef={[Function]}
-                                                                                innerRef={[Function]}
-                                                                                onScroll={[Function]}
-                                                                                scrollY={true}
-                                                                              >
-                                                                                <div
-                                                                                  className="emotion-16"
-                                                                                  onScroll={[Function]}
-                                                                                >
-                                                                                  <DialogActions
-                                                                                    key=".1"
-                                                                                    variant="warning"
-                                                                                  >
-                                                                                    <DialogActions>
-                                                                                      <div
-                                                                                        className="emotion-15"
-                                                                                      >
-                                                                                        <Button
-                                                                                          element="button"
-                                                                                          key="0"
-                                                                                          minimal={true}
-                                                                                          primary={false}
-                                                                                          size="medium"
-                                                                                          type="button"
-                                                                                        >
-                                                                                          <Button
-                                                                                            element="button"
-                                                                                            minimal={true}
-                                                                                            primary={false}
-                                                                                            size="medium"
-                                                                                            text="Cancel"
-                                                                                            type="button"
-                                                                                          >
-                                                                                            <button
-                                                                                              className="emotion-11"
-                                                                                              type="button"
-                                                                                            >
-                                                                                              <Styled(span)>
-                                                                                                <span
-                                                                                                  className="emotion-10"
-                                                                                                >
-                                                                                                  <Styled(span)
-                                                                                                    size="medium"
-                                                                                                  >
-                                                                                                    <span
-                                                                                                      className="emotion-9"
-                                                                                                    >
-                                                                                                      Cancel
-                                                                                                    </span>
-                                                                                                  </Styled(span)>
-                                                                                                </span>
-                                                                                              </Styled(span)>
-                                                                                            </button>
-                                                                                          </Button>
-                                                                                        </Button>
-                                                                                        <Button
-                                                                                          element="button"
-                                                                                          key="1"
-                                                                                          minimal={false}
-                                                                                          primary={true}
-                                                                                          size="medium"
-                                                                                          type="button"
-                                                                                          variant="warning"
-                                                                                        >
-                                                                                          <Button
-                                                                                            element="button"
-                                                                                            minimal={false}
-                                                                                            primary={true}
-                                                                                            size="medium"
-                                                                                            text="Warning"
-                                                                                            type="button"
-                                                                                            variant="warning"
-                                                                                          >
-                                                                                            <button
-                                                                                              className="emotion-50"
-                                                                                              type="button"
-                                                                                            >
-                                                                                              <Styled(span)>
-                                                                                                <span
-                                                                                                  className="emotion-10"
-                                                                                                >
-                                                                                                  <Styled(span)
-                                                                                                    size="medium"
-                                                                                                  >
-                                                                                                    <span
-                                                                                                      className="emotion-9"
-                                                                                                    >
-                                                                                                      Warning
-                                                                                                    </span>
-                                                                                                  </Styled(span)>
-                                                                                                </span>
-                                                                                              </Styled(span)>
-                                                                                            </button>
-                                                                                          </Button>
-                                                                                        </Button>
-                                                                                      </div>
-                                                                                    </DialogActions>
-                                                                                  </DialogActions>
-                                                                                  <EventListener
-                                                                                    listeners={
-                                                                                      Array [
-                                                                                        Object {
-                                                                                          "event": "resize",
-                                                                                          "handler": [Function],
-                                                                                          "target": "window",
-                                                                                        },
-                                                                                      ]
-                                                                                    }
-                                                                                  />
-                                                                                </div>
-                                                                              </OverflowContainer>
-                                                                            </OverflowContainer>
-                                                                          </ThemeProvider>
-                                                                        </ThemeProvider>
-                                                                      </Themed(OverflowContainer)>
-                                                                    </WithTheme(Themed(OverflowContainer))>
-                                                                  </Scroller>
-                                                                </div>
-                                                              </OverflowContainerWithShadows>
-                                                            </OverflowContainerWithShadows>
-                                                          </ThemeProvider>
-                                                        </ThemeProvider>
-                                                      </Themed(OverflowContainerWithShadows)>
-                                                    </WithTheme(Themed(OverflowContainerWithShadows))>
-                                                  </Styled(WithTheme(Themed(OverflowContainerWithShadows)))>
-                                                </withProps(Styled(WithTheme(Themed(OverflowContainerWithShadows))))>
-                                              </div>
-                                            </Styled(div)>
-                                          </DialogRow>
-                                        </DialogBody>
-                                      </DialogBody>
-                                    </div>
-                                  </DialogContent>
-                                </div>
-                              </Styled(div)>
-                            </div>
-                          </Dialog>
-                        </div>
-                      </FocusTrap>
-                    </div>
-                  </Animate>
-                </Transition>
-              </Component>
-            </WithTheme(Component)>
-          </Dialog>
-        </DemoDialog>
-      </withProps(DemoDialog)>
-    </div>
-  </Styled(div)>
-  <Styled(div)
-    key="danger"
-  >
-    <div
-      className="emotion-35"
-    >
-      <withProps(DemoDialog)>
-        <DemoDialog
-          closeButtonLabel="close"
-          closeOnClickOutside={false}
-          closeOnEscape={false}
-          disableFocusOnOpen={true}
-          disableFocusTrap={true}
-          isOpen={true}
-          preventCloseButtonClose={true}
-          size="medium"
-          usePortal={false}
-        >
-          <Dialog
-            className="emotion-32"
-            closeButtonLabel="close"
-            closeOnClickOutside={false}
-            closeOnEscape={false}
-            disableFocusOnOpen={true}
-            disableFocusTrap={true}
-            isOpen={true}
-            preventCloseButtonClose={true}
-            size="medium"
-            usePortal={false}
-          >
-            <WithTheme(Component)
-              in={true}
-              onEntered={[Function]}
-              onExited={[Function]}
-              onExiting={[Function]}
-            >
-              <Component
-                in={true}
-                onEntered={[Function]}
-                onExited={[Function]}
-                onExiting={[Function]}
-              >
-                <Transition
-                  appear={true}
-                  enter={true}
-                  exit={true}
-                  in={true}
-                  mountOnEnter={true}
-                  onEnter={[Function]}
-                  onEntered={[Function]}
-                  onEntering={[Function]}
-                  onExit={[Function]}
-                  onExited={[Function]}
-                  onExiting={[Function]}
-                  timeout={250}
-                  unmountOnExit={true}
-                >
-                  <Animate
-                    state="entering"
-                  >
-                    <div
-                      className="emotion-33"
-                    >
-                      <FocusTrap
-                        _createFocusTrap={[Function]}
-                        active={false}
-                        focusTrapOptions={Object {}}
-                        paused={false}
-                        tag="div"
-                      >
-                        <div>
-                          <Dialog
-                            aria-labelledby="dialog-5-title"
-                            aria-modal={true}
-                            className="emotion-32"
-                            closeButtonLabel="close"
-                            disableFocusOnOpen={true}
-                            id="dialog-5"
-                            innerRef={[Function]}
-                            preventCloseButtonClose={true}
-                            role="dialog"
-                            tabIndex="-1"
-                          >
-                            <div
-                              aria-labelledby="dialog-5-title"
-                              aria-modal={true}
-                              className="emotion-31"
-                              id="dialog-5"
-                              role="dialog"
-                              tabIndex="-1"
-                            >
-                              <Overlay>
-                                <div
-                                  className="emotion-0"
-                                />
-                              </Overlay>
-                              <Styled(div)>
-                                <div
-                                  className="emotion-30"
-                                >
-                                  <DialogContent
-                                    id="dialog-5-content"
-                                    innerRef={[Function]}
-                                    role="document"
-                                    size="medium"
-                                  >
-                                    <div
-                                      className="emotion-29"
-                                      id="dialog-5-content"
-                                      role="document"
-                                    >
-                                      <DialogHeader
-                                        titleProps={
-                                          Object {
-                                            "id": "dialog-5-title",
-                                            "variant": undefined,
-                                          }
-                                        }
-                                      >
-                                        <withProps(DialogHeader)>
-                                          <DialogHeader
-                                            element="header"
-                                          >
-                                            <DialogRow
-                                              className="emotion-7"
-                                              element="header"
-                                            >
-                                              <Styled(header)
-                                                className="emotion-7"
-                                                element="header"
-                                              >
-                                                <header
-                                                  className="emotion-6"
-                                                >
-                                                  <WithTheme(DialogTitle)
-                                                    id="dialog-5-title"
-                                                  >
-                                                    <DialogTitle
-                                                      appearance="h4"
-                                                      element="h1"
-                                                      id="dialog-5-title"
-                                                    >
-                                                      <DialogTitle
-                                                        appearance="h4"
-                                                        element="h1"
-                                                      >
-                                                        <div
-                                                          className="emotion-5"
-                                                        >
-                                                          <TitleContent
-                                                            appearance="h4"
-                                                            element="h1"
-                                                            noMargins={true}
-                                                          >
-                                                            <Styled(Text)
-                                                              appearance="h4"
-                                                              element="h1"
-                                                              id="dialog-5-title"
-                                                              noMargins={true}
-                                                            >
-                                                              <Text
-                                                                appearance="h4"
-                                                                className="emotion-2"
-                                                                element="h1"
-                                                                id="dialog-5-title"
-                                                                noMargins={true}
-                                                              >
-                                                                <TextProvider
-                                                                  appearance="h4"
-                                                                  className="emotion-2"
-                                                                  element="h1"
-                                                                  id="dialog-5-title"
-                                                                  noMargins={true}
-                                                                >
-                                                                  <Styled(h1)
-                                                                    appearance="h4"
-                                                                    className="emotion-2"
-                                                                    element="h1"
-                                                                    id="dialog-5-title"
-                                                                    noMargins={true}
-                                                                  >
-                                                                    <h1
-                                                                      className="emotion-1"
-                                                                      id="dialog-5-title"
-                                                                    >
-                                                                      Title
-                                                                    </h1>
-                                                                  </Styled(h1)>
-                                                                </TextProvider>
-                                                              </Text>
-                                                            </Styled(Text)>
-                                                          </TitleContent>
-                                                        </div>
-                                                      </DialogTitle>
-                                                    </DialogTitle>
-                                                  </WithTheme(DialogTitle)>
-                                                </header>
-                                              </Styled(header)>
-                                            </DialogRow>
-                                          </DialogHeader>
-                                        </withProps(DialogHeader)>
-                                      </DialogHeader>
-                                      <DialogBody>
-                                        <DialogBody
-                                          element="div"
-                                        >
-                                          <DialogRow
-                                            className="emotion-27"
-                                            element="div"
-                                          >
-                                            <Styled(div)
-                                              className="emotion-27"
-                                              element="div"
-                                            >
-                                              <div
-                                                className="emotion-26"
-                                              >
-                                                <withProps(Styled(WithTheme(Themed(OverflowContainerWithShadows))))>
-                                                  <Styled(WithTheme(Themed(OverflowContainerWithShadows)))
-                                                    scrollY={true}
-                                                  >
-                                                    <WithTheme(Themed(OverflowContainerWithShadows))
-                                                      className="emotion-22"
-                                                      scrollY={true}
-                                                    >
-                                                      <Themed(OverflowContainerWithShadows)
-                                                        className="emotion-22"
-                                                        scrollY={true}
-                                                      >
-                                                        <ThemeProvider>
-                                                          <ThemeProvider>
-                                                            <OverflowContainerWithShadows
-                                                              className="emotion-22"
-                                                              scrollY={true}
-                                                            >
-                                                              <OverflowContainerWithShadows
-                                                                className="emotion-22"
-                                                                hasShadowBottom={false}
-                                                                hasShadowTop={false}
-                                                              >
-                                                                <div
-                                                                  className="emotion-21"
-                                                                >
-                                                                  <Scroller
-                                                                    containerRef={[Function]}
-                                                                    onScroll={[Function]}
-                                                                    scrollY={true}
-                                                                  >
-                                                                    <WithTheme(Themed(OverflowContainer))
-                                                                      className="emotion-17"
-                                                                      containerRef={[Function]}
-                                                                      onScroll={[Function]}
-                                                                      scrollY={true}
-                                                                    >
-                                                                      <Themed(OverflowContainer)
-                                                                        className="emotion-17"
-                                                                        containerRef={[Function]}
-                                                                        onScroll={[Function]}
-                                                                        scrollY={true}
-                                                                      >
-                                                                        <ThemeProvider>
-                                                                          <ThemeProvider>
-                                                                            <OverflowContainer
-                                                                              className="emotion-17"
-                                                                              containerRef={[Function]}
-                                                                              onScroll={[Function]}
-                                                                              scrollY={true}
-                                                                            >
-                                                                              <OverflowContainer
-                                                                                className="emotion-17"
-                                                                                containerRef={[Function]}
-                                                                                innerRef={[Function]}
                                                                                 onScroll={[Function]}
                                                                                 scrollY={true}
                                                                               >
@@ -2790,7 +2834,7 @@ exports[`DialogActions demo examples Snapshots: variants 1`] = `
                                                                                       <div
                                                                                         className="emotion-15"
                                                                                       >
-                                                                                        <Button
+                                                                                        <WithForwardRef(Button)
                                                                                           element="button"
                                                                                           key="0"
                                                                                           minimal={true}
@@ -2800,35 +2844,44 @@ exports[`DialogActions demo examples Snapshots: variants 1`] = `
                                                                                         >
                                                                                           <Button
                                                                                             element="button"
+                                                                                            forwardedRef={null}
                                                                                             minimal={true}
                                                                                             primary={false}
                                                                                             size="medium"
-                                                                                            text="Cancel"
                                                                                             type="button"
                                                                                           >
-                                                                                            <button
-                                                                                              className="emotion-11"
+                                                                                            <Button
+                                                                                              element="button"
+                                                                                              minimal={true}
+                                                                                              primary={false}
+                                                                                              size="medium"
+                                                                                              text="Cancel"
                                                                                               type="button"
                                                                                             >
-                                                                                              <Styled(span)>
-                                                                                                <span
-                                                                                                  className="emotion-10"
-                                                                                                >
-                                                                                                  <Styled(span)
-                                                                                                    size="medium"
+                                                                                              <button
+                                                                                                className="emotion-11"
+                                                                                                type="button"
+                                                                                              >
+                                                                                                <Styled(span)>
+                                                                                                  <span
+                                                                                                    className="emotion-10"
                                                                                                   >
-                                                                                                    <span
-                                                                                                      className="emotion-9"
+                                                                                                    <Styled(span)
+                                                                                                      size="medium"
                                                                                                     >
-                                                                                                      Cancel
-                                                                                                    </span>
-                                                                                                  </Styled(span)>
-                                                                                                </span>
-                                                                                              </Styled(span)>
-                                                                                            </button>
+                                                                                                      <span
+                                                                                                        className="emotion-9"
+                                                                                                      >
+                                                                                                        Cancel
+                                                                                                      </span>
+                                                                                                    </Styled(span)>
+                                                                                                  </span>
+                                                                                                </Styled(span)>
+                                                                                              </button>
+                                                                                            </Button>
                                                                                           </Button>
-                                                                                        </Button>
-                                                                                        <Button
+                                                                                        </WithForwardRef(Button)>
+                                                                                        <WithForwardRef(Button)
                                                                                           element="button"
                                                                                           key="1"
                                                                                           minimal={false}
@@ -2839,35 +2892,45 @@ exports[`DialogActions demo examples Snapshots: variants 1`] = `
                                                                                         >
                                                                                           <Button
                                                                                             element="button"
+                                                                                            forwardedRef={null}
                                                                                             minimal={false}
                                                                                             primary={true}
                                                                                             size="medium"
-                                                                                            text="Danger"
                                                                                             type="button"
                                                                                             variant="danger"
                                                                                           >
-                                                                                            <button
-                                                                                              className="emotion-86"
+                                                                                            <Button
+                                                                                              element="button"
+                                                                                              minimal={false}
+                                                                                              primary={true}
+                                                                                              size="medium"
+                                                                                              text="Danger"
                                                                                               type="button"
+                                                                                              variant="danger"
                                                                                             >
-                                                                                              <Styled(span)>
-                                                                                                <span
-                                                                                                  className="emotion-10"
-                                                                                                >
-                                                                                                  <Styled(span)
-                                                                                                    size="medium"
+                                                                                              <button
+                                                                                                className="emotion-86"
+                                                                                                type="button"
+                                                                                              >
+                                                                                                <Styled(span)>
+                                                                                                  <span
+                                                                                                    className="emotion-10"
                                                                                                   >
-                                                                                                    <span
-                                                                                                      className="emotion-9"
+                                                                                                    <Styled(span)
+                                                                                                      size="medium"
                                                                                                     >
-                                                                                                      Danger
-                                                                                                    </span>
-                                                                                                  </Styled(span)>
-                                                                                                </span>
-                                                                                              </Styled(span)>
-                                                                                            </button>
+                                                                                                      <span
+                                                                                                        className="emotion-9"
+                                                                                                      >
+                                                                                                        Danger
+                                                                                                      </span>
+                                                                                                    </Styled(span)>
+                                                                                                  </span>
+                                                                                                </Styled(span)>
+                                                                                              </button>
+                                                                                            </Button>
                                                                                           </Button>
-                                                                                        </Button>
+                                                                                        </WithForwardRef(Button)>
                                                                                       </div>
                                                                                     </DialogActions>
                                                                                   </DialogActions>

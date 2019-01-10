@@ -1,6 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Link demo examples Snapshots: basic 1`] = `
+.emotion-8 {
+  font-family: "Open Sans";
+}
+
+.emotion-1 {
+  font-size: 1.5em;
+}
+
 .emotion-0 {
   color: #3272d9;
   -webkit-text-decoration: none;
@@ -21,14 +29,6 @@ exports[`Link demo examples Snapshots: basic 1`] = `
 
 .emotion-0:active {
   color: #1d5bbf;
-}
-
-.emotion-8 {
-  font-family: "Open Sans";
-}
-
-.emotion-1 {
-  font-size: 1.5em;
 }
 
 .emotion-3 {
@@ -297,7 +297,7 @@ exports[`Link demo examples Snapshots: button 1`] = `
   padding-right: 0.5714285714285714em;
 }
 
-<Button
+<WithForwardRef(Button)
   element="a"
   href="#button"
   size="large"
@@ -305,33 +305,41 @@ exports[`Link demo examples Snapshots: button 1`] = `
 >
   <Button
     element="a"
+    forwardedRef={null}
     href="#button"
     size="large"
-    text="Link"
     type="button"
   >
-    <a
-      className="emotion-2"
+    <Button
+      element="a"
       href="#button"
+      size="large"
+      text="Link"
+      type="button"
     >
-      <Styled(span)>
-        <span
-          className="emotion-1"
-        >
-          <Styled(span)
-            size="large"
+      <a
+        className="emotion-2"
+        href="#button"
+      >
+        <Styled(span)>
+          <span
+            className="emotion-1"
           >
-            <span
-              className="emotion-0"
+            <Styled(span)
+              size="large"
             >
-              Link
-            </span>
-          </Styled(span)>
-        </span>
-      </Styled(span)>
-    </a>
+              <span
+                className="emotion-0"
+              >
+                Link
+              </span>
+            </Styled(span)>
+          </span>
+        </Styled(span)>
+      </a>
+    </Button>
   </Button>
-</Button>
+</WithForwardRef(Button)>
 `;
 
 exports[`Link demo examples Snapshots: children 1`] = `
@@ -386,6 +394,10 @@ exports[`Link demo examples Snapshots: children 1`] = `
 `;
 
 exports[`Link demo examples Snapshots: other 1`] = `
+.emotion-2 {
+  font-family: "Open Sans";
+}
+
 .emotion-0 {
   color: #3272d9;
   -webkit-text-decoration: none;
@@ -406,10 +418,6 @@ exports[`Link demo examples Snapshots: other 1`] = `
 
 .emotion-0:active {
   color: #1d5bbf;
-}
-
-.emotion-2 {
-  font-family: "Open Sans";
 }
 
 <Styled(div)>

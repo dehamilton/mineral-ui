@@ -1,138 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`DialogBody demo examples Snapshots: basic 1`] = `
-.emotion-21 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  font-size: 0.875em;
-  margin: 0;
-  min-height: 0%;
-  padding: 0;
-}
-
-.emotion-21:first-child {
-  margin-top: 1.7142857142857142em;
-}
-
-.emotion-21:last-child {
-  margin-bottom: 1.7142857142857142em;
-}
-
-.emotion-20 {
-  box-sizing: border-box;
-  color: #333840;
-  font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 0.875em;
-  line-height: 1.25;
-  outline: 0;
-  -moz-osx-font-smoothing: auto;
-  -webkit-font-smoothing: antialiased;
-  margin: 1.7142857142857142em 0;
-  padding: 0 1.7142857142857142em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  font-size: 0.875em;
-  margin: 0;
-  min-height: 0%;
-  padding: 0;
-}
-
-.emotion-20 *,
-.emotion-20 *::before,
-.emotion-20 *::after {
-  box-sizing: inherit;
-}
-
-.emotion-20:first-child {
-  margin-top: 1.7142857142857142em;
-}
-
-.emotion-20:last-child {
-  margin-bottom: 1.7142857142857142em;
-}
-
-.emotion-16 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-}
-
-.emotion-16 > div {
-  padding-left: 1.7142857142857142em;
-  padding-right: 1.7142857142857142em;
-}
-
-.emotion-16 > div > :first-child {
-  margin-top: 0;
-}
-
-.emotion-16 > div > :last-child {
-  margin-bottom: 0;
-}
-
-.emotion-15 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-}
-
-.emotion-15 > div {
-  padding-left: 1.7142857142857142em;
-  padding-right: 1.7142857142857142em;
-}
-
-.emotion-15 > div > :first-child {
-  margin-top: 0;
-}
-
-.emotion-15 > div > :last-child {
-  margin-bottom: 0;
-}
-
-.emotion-11 {
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  overflow-x: hidden;
-  padding-bottom: 2px;
-  padding-top: 2px;
-}
-
-.emotion-10 {
-  outline: 0;
-  overflow-y: auto;
-  -webkit-transition: outline 0.1s 0.25s;
-  transition: outline 0.1s 0.25s;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  overflow-x: hidden;
-  padding-bottom: 2px;
-  padding-top: 2px;
-}
-
-.emotion-10:focus {
-  outline: 1px solid #1d5bbf;
-}
-
 .emotion-29 {
   padding: 1em;
   position: relative;
@@ -331,6 +199,138 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
   box-sizing: inherit;
 }
 
+.emotion-21 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: 0.875em;
+  margin: 0;
+  min-height: 0%;
+  padding: 0;
+}
+
+.emotion-21:first-child {
+  margin-top: 1.7142857142857142em;
+}
+
+.emotion-21:last-child {
+  margin-bottom: 1.7142857142857142em;
+}
+
+.emotion-20 {
+  box-sizing: border-box;
+  color: #333840;
+  font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 0.875em;
+  line-height: 1.25;
+  outline: 0;
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: antialiased;
+  margin: 1.7142857142857142em 0;
+  padding: 0 1.7142857142857142em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: 0.875em;
+  margin: 0;
+  min-height: 0%;
+  padding: 0;
+}
+
+.emotion-20 *,
+.emotion-20 *::before,
+.emotion-20 *::after {
+  box-sizing: inherit;
+}
+
+.emotion-20:first-child {
+  margin-top: 1.7142857142857142em;
+}
+
+.emotion-20:last-child {
+  margin-bottom: 1.7142857142857142em;
+}
+
+.emotion-16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.emotion-16 > div {
+  padding-left: 1.7142857142857142em;
+  padding-right: 1.7142857142857142em;
+}
+
+.emotion-16 > div > :first-child {
+  margin-top: 0;
+}
+
+.emotion-16 > div > :last-child {
+  margin-bottom: 0;
+}
+
+.emotion-15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.emotion-15 > div {
+  padding-left: 1.7142857142857142em;
+  padding-right: 1.7142857142857142em;
+}
+
+.emotion-15 > div > :first-child {
+  margin-top: 0;
+}
+
+.emotion-15 > div > :last-child {
+  margin-bottom: 0;
+}
+
+.emotion-11 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow-x: hidden;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+.emotion-10 {
+  outline: 0;
+  overflow-y: auto;
+  -webkit-transition: outline 0.1s 0.25s;
+  transition: outline 0.1s 0.25s;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow-x: hidden;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+.emotion-10:focus {
+  outline: 1px solid #1d5bbf;
+}
+
 .emotion-9 {
   box-sizing: border-box;
   color: #333840;
@@ -426,7 +426,6 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
                           closeButtonLabel="close"
                           disableFocusOnOpen={true}
                           id="dialog-2"
-                          innerRef={[Function]}
                           preventCloseButtonClose={true}
                           role="dialog"
                           tabIndex="-1"
@@ -450,7 +449,6 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
                               >
                                 <DialogContent
                                   id="dialog-2-content"
-                                  innerRef={[Function]}
                                   role="document"
                                   size="medium"
                                 >
@@ -619,7 +617,6 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
                                                                             <OverflowContainer
                                                                               className="emotion-11"
                                                                               containerRef={[Function]}
-                                                                              innerRef={[Function]}
                                                                               onScroll={[Function]}
                                                                               scrollY={true}
                                                                             >
@@ -701,138 +698,6 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
 `;
 
 exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
-.emotion-20 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  font-size: 0.875em;
-  margin: 0;
-  min-height: 0%;
-  padding: 0;
-}
-
-.emotion-20:first-child {
-  margin-top: 1.7142857142857142em;
-}
-
-.emotion-20:last-child {
-  margin-bottom: 1.7142857142857142em;
-}
-
-.emotion-19 {
-  box-sizing: border-box;
-  color: #333840;
-  font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 0.875em;
-  line-height: 1.25;
-  outline: 0;
-  -moz-osx-font-smoothing: auto;
-  -webkit-font-smoothing: antialiased;
-  margin: 1.7142857142857142em 0;
-  padding: 0 1.7142857142857142em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  font-size: 0.875em;
-  margin: 0;
-  min-height: 0%;
-  padding: 0;
-}
-
-.emotion-19 *,
-.emotion-19 *::before,
-.emotion-19 *::after {
-  box-sizing: inherit;
-}
-
-.emotion-19:first-child {
-  margin-top: 1.7142857142857142em;
-}
-
-.emotion-19:last-child {
-  margin-bottom: 1.7142857142857142em;
-}
-
-.emotion-15 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-}
-
-.emotion-15 > div {
-  padding-left: 1.7142857142857142em;
-  padding-right: 1.7142857142857142em;
-}
-
-.emotion-15 > div > :first-child {
-  margin-top: 0;
-}
-
-.emotion-15 > div > :last-child {
-  margin-bottom: 0;
-}
-
-.emotion-14 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-}
-
-.emotion-14 > div {
-  padding-left: 1.7142857142857142em;
-  padding-right: 1.7142857142857142em;
-}
-
-.emotion-14 > div > :first-child {
-  margin-top: 0;
-}
-
-.emotion-14 > div > :last-child {
-  margin-bottom: 0;
-}
-
-.emotion-10 {
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  overflow-x: hidden;
-  padding-bottom: 2px;
-  padding-top: 2px;
-}
-
-.emotion-9 {
-  outline: 0;
-  overflow-y: auto;
-  -webkit-transition: outline 0.1s 0.25s;
-  transition: outline 0.1s 0.25s;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  overflow-x: hidden;
-  padding-bottom: 2px;
-  padding-top: 2px;
-}
-
-.emotion-9:focus {
-  outline: 1px solid #1d5bbf;
-}
-
 .emotion-28 {
   padding: 1em;
   position: relative;
@@ -1031,6 +896,138 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
   box-sizing: inherit;
 }
 
+.emotion-20 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: 0.875em;
+  margin: 0;
+  min-height: 0%;
+  padding: 0;
+}
+
+.emotion-20:first-child {
+  margin-top: 1.7142857142857142em;
+}
+
+.emotion-20:last-child {
+  margin-bottom: 1.7142857142857142em;
+}
+
+.emotion-19 {
+  box-sizing: border-box;
+  color: #333840;
+  font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 0.875em;
+  line-height: 1.25;
+  outline: 0;
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: antialiased;
+  margin: 1.7142857142857142em 0;
+  padding: 0 1.7142857142857142em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: 0.875em;
+  margin: 0;
+  min-height: 0%;
+  padding: 0;
+}
+
+.emotion-19 *,
+.emotion-19 *::before,
+.emotion-19 *::after {
+  box-sizing: inherit;
+}
+
+.emotion-19:first-child {
+  margin-top: 1.7142857142857142em;
+}
+
+.emotion-19:last-child {
+  margin-bottom: 1.7142857142857142em;
+}
+
+.emotion-15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.emotion-15 > div {
+  padding-left: 1.7142857142857142em;
+  padding-right: 1.7142857142857142em;
+}
+
+.emotion-15 > div > :first-child {
+  margin-top: 0;
+}
+
+.emotion-15 > div > :last-child {
+  margin-bottom: 0;
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.emotion-14 > div {
+  padding-left: 1.7142857142857142em;
+  padding-right: 1.7142857142857142em;
+}
+
+.emotion-14 > div > :first-child {
+  margin-top: 0;
+}
+
+.emotion-14 > div > :last-child {
+  margin-bottom: 0;
+}
+
+.emotion-10 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow-x: hidden;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+.emotion-9 {
+  outline: 0;
+  overflow-y: auto;
+  -webkit-transition: outline 0.1s 0.25s;
+  transition: outline 0.1s 0.25s;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow-x: hidden;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+.emotion-9:focus {
+  outline: 1px solid #1d5bbf;
+}
+
 <Styled(div)>
   <div
     className="emotion-28"
@@ -1101,22 +1098,21 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
                     >
                       <div>
                         <Dialog
-                          aria-labelledby="dialog-4-title"
+                          aria-labelledby="dialog-3-title"
                           aria-modal={true}
                           className="emotion-25"
                           closeButtonLabel="close"
                           disableFocusOnOpen={true}
-                          id="dialog-4"
-                          innerRef={[Function]}
+                          id="dialog-3"
                           preventCloseButtonClose={true}
                           role="dialog"
                           tabIndex="-1"
                         >
                           <div
-                            aria-labelledby="dialog-4-title"
+                            aria-labelledby="dialog-3-title"
                             aria-modal={true}
                             className="emotion-24"
-                            id="dialog-4"
+                            id="dialog-3"
                             role="dialog"
                             tabIndex="-1"
                           >
@@ -1130,20 +1126,19 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
                                 className="emotion-23"
                               >
                                 <DialogContent
-                                  id="dialog-4-content"
-                                  innerRef={[Function]}
+                                  id="dialog-3-content"
                                   role="document"
                                   size="medium"
                                 >
                                   <div
                                     className="emotion-22"
-                                    id="dialog-4-content"
+                                    id="dialog-3-content"
                                     role="document"
                                   >
                                     <DialogHeader
                                       titleProps={
                                         Object {
-                                          "id": "dialog-4-title",
+                                          "id": "dialog-3-title",
                                           "variant": undefined,
                                         }
                                       }
@@ -1164,12 +1159,12 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
                                                 className="emotion-6"
                                               >
                                                 <WithTheme(DialogTitle)
-                                                  id="dialog-4-title"
+                                                  id="dialog-3-title"
                                                 >
                                                   <DialogTitle
                                                     appearance="h4"
                                                     element="h1"
-                                                    id="dialog-4-title"
+                                                    id="dialog-3-title"
                                                   >
                                                     <DialogTitle
                                                       appearance="h4"
@@ -1186,33 +1181,33 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
                                                           <Styled(Text)
                                                             appearance="h4"
                                                             element="h1"
-                                                            id="dialog-4-title"
+                                                            id="dialog-3-title"
                                                             noMargins={true}
                                                           >
                                                             <Text
                                                               appearance="h4"
                                                               className="emotion-2"
                                                               element="h1"
-                                                              id="dialog-4-title"
+                                                              id="dialog-3-title"
                                                               noMargins={true}
                                                             >
                                                               <TextProvider
                                                                 appearance="h4"
                                                                 className="emotion-2"
                                                                 element="h1"
-                                                                id="dialog-4-title"
+                                                                id="dialog-3-title"
                                                                 noMargins={true}
                                                               >
                                                                 <Styled(h1)
                                                                   appearance="h4"
                                                                   className="emotion-2"
                                                                   element="h1"
-                                                                  id="dialog-4-title"
+                                                                  id="dialog-3-title"
                                                                   noMargins={true}
                                                                 >
                                                                   <h1
                                                                     className="emotion-1"
-                                                                    id="dialog-4-title"
+                                                                    id="dialog-3-title"
                                                                   >
                                                                     Title
                                                                   </h1>
@@ -1300,7 +1295,6 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
                                                                             <OverflowContainer
                                                                               className="emotion-10"
                                                                               containerRef={[Function]}
-                                                                              innerRef={[Function]}
                                                                               onScroll={[Function]}
                                                                               scrollY={true}
                                                                             >

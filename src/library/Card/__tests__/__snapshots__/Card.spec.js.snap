@@ -1,6 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Card demo examples Snapshots: basic 1`] = `
+.emotion-8::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.emotion-8 > * {
+  margin-bottom: 1em;
+}
+
+@media (min-width:40em) {
+  .emotion-8 > * {
+    float: left;
+    margin-right: 1em;
+    width: 47%;
+  }
+}
+
+@media (min-width:64em) {
+  .emotion-8 > *:nth-last-child(n+3),
+  .emotion-8 > *:nth-last-child(n+3) ~ * {
+    width: 30%;
+  }
+}
+
 .emotion-7 {
   box-sizing: border-box;
   color: #333840;
@@ -26,31 +51,6 @@ exports[`Card demo examples Snapshots: basic 1`] = `
 
 .emotion-7:focus {
   box-shadow: 0 0 0 2px #1d5bbf,0 1px 2px 0 rgba(0,0,0,0.2),0 2px 4px 0 rgba(0,0,0,0.2);
-}
-
-.emotion-8::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
-.emotion-8 > * {
-  margin-bottom: 1em;
-}
-
-@media (min-width:40em) {
-  .emotion-8 > * {
-    float: left;
-    margin-right: 1em;
-    width: 47%;
-  }
-}
-
-@media (min-width:64em) {
-  .emotion-8 > *:nth-last-child(n+3),
-  .emotion-8 > *:nth-last-child(n+3) ~ * {
-    width: 30%;
-  }
 }
 
 .emotion-3 {
@@ -210,6 +210,31 @@ exports[`Card demo examples Snapshots: basic 1`] = `
 `;
 
 exports[`Card demo examples Snapshots: children 1`] = `
+.emotion-9::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.emotion-9 > * {
+  margin-bottom: 1em;
+}
+
+@media (min-width:40em) {
+  .emotion-9 > * {
+    float: left;
+    margin-right: 1em;
+    width: 47%;
+  }
+}
+
+@media (min-width:64em) {
+  .emotion-9 > *:nth-last-child(n+3),
+  .emotion-9 > *:nth-last-child(n+3) ~ * {
+    width: 30%;
+  }
+}
+
 .emotion-8 {
   box-sizing: border-box;
   color: #333840;
@@ -235,31 +260,6 @@ exports[`Card demo examples Snapshots: children 1`] = `
 
 .emotion-8:focus {
   box-shadow: 0 0 0 2px #1d5bbf,0 1px 2px 0 rgba(0,0,0,0.2),0 2px 4px 0 rgba(0,0,0,0.2);
-}
-
-.emotion-9::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
-.emotion-9 > * {
-  margin-bottom: 1em;
-}
-
-@media (min-width:40em) {
-  .emotion-9 > * {
-    float: left;
-    margin-right: 1em;
-    width: 47%;
-  }
-}
-
-@media (min-width:64em) {
-  .emotion-9 > *:nth-last-child(n+3),
-  .emotion-9 > *:nth-last-child(n+3) ~ * {
-    width: 30%;
-  }
 }
 
 .emotion-3 {
@@ -482,7 +482,7 @@ exports[`Card demo examples Snapshots: children 1`] = `
             <div
               className="emotion-7"
             >
-              <Button
+              <WithForwardRef(Button)
                 element="button"
                 fullWidth={true}
                 size="large"
@@ -490,33 +490,41 @@ exports[`Card demo examples Snapshots: children 1`] = `
               >
                 <Button
                   element="button"
+                  forwardedRef={null}
                   fullWidth={true}
                   size="large"
-                  text="Button"
                   type="button"
                 >
-                  <button
-                    className="emotion-6"
+                  <Button
+                    element="button"
+                    fullWidth={true}
+                    size="large"
+                    text="Button"
                     type="button"
                   >
-                    <Styled(span)>
-                      <span
-                        className="emotion-5"
-                      >
-                        <Styled(span)
-                          size="large"
+                    <button
+                      className="emotion-6"
+                      type="button"
+                    >
+                      <Styled(span)>
+                        <span
+                          className="emotion-5"
                         >
-                          <span
-                            className="emotion-4"
+                          <Styled(span)
+                            size="large"
                           >
-                            Button
-                          </span>
-                        </Styled(span)>
-                      </span>
-                    </Styled(span)>
-                  </button>
+                            <span
+                              className="emotion-4"
+                            >
+                              Button
+                            </span>
+                          </Styled(span)>
+                        </span>
+                      </Styled(span)>
+                    </button>
+                  </Button>
                 </Button>
-              </Button>
+              </WithForwardRef(Button)>
             </div>
           </Styled(div)>
         </div>
@@ -1194,7 +1202,7 @@ exports[`Card demo examples Snapshots: order 1`] = `
                   <span
                     className="emotion-10"
                   >
-                    <Button
+                    <WithForwardRef(Button)
                       element="button"
                       minimal={true}
                       size="medium"
@@ -1202,33 +1210,41 @@ exports[`Card demo examples Snapshots: order 1`] = `
                     >
                       <Button
                         element="button"
+                        forwardedRef={null}
                         minimal={true}
                         size="medium"
-                        text="Button 1"
                         type="button"
                       >
-                        <button
-                          className="emotion-9"
+                        <Button
+                          element="button"
+                          minimal={true}
+                          size="medium"
+                          text="Button 1"
                           type="button"
                         >
-                          <Styled(span)>
-                            <span
-                              className="emotion-8"
-                            >
-                              <Styled(span)
-                                size="medium"
+                          <button
+                            className="emotion-9"
+                            type="button"
+                          >
+                            <Styled(span)>
+                              <span
+                                className="emotion-8"
                               >
-                                <span
-                                  className="emotion-7"
+                                <Styled(span)
+                                  size="medium"
                                 >
-                                  Button 1
-                                </span>
-                              </Styled(span)>
-                            </span>
-                          </Styled(span)>
-                        </button>
+                                  <span
+                                    className="emotion-7"
+                                  >
+                                    Button 1
+                                  </span>
+                                </Styled(span)>
+                              </span>
+                            </Styled(span)>
+                          </button>
+                        </Button>
                       </Button>
-                    </Button>
+                    </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
                 <Styled(span)
@@ -1237,7 +1253,7 @@ exports[`Card demo examples Snapshots: order 1`] = `
                   <span
                     className="emotion-10"
                   >
-                    <Button
+                    <WithForwardRef(Button)
                       element="button"
                       primary={true}
                       size="medium"
@@ -1245,33 +1261,41 @@ exports[`Card demo examples Snapshots: order 1`] = `
                     >
                       <Button
                         element="button"
+                        forwardedRef={null}
                         primary={true}
                         size="medium"
-                        text="Button 2"
                         type="button"
                       >
-                        <button
-                          className="emotion-13"
+                        <Button
+                          element="button"
+                          primary={true}
+                          size="medium"
+                          text="Button 2"
                           type="button"
                         >
-                          <Styled(span)>
-                            <span
-                              className="emotion-8"
-                            >
-                              <Styled(span)
-                                size="medium"
+                          <button
+                            className="emotion-13"
+                            type="button"
+                          >
+                            <Styled(span)>
+                              <span
+                                className="emotion-8"
                               >
-                                <span
-                                  className="emotion-7"
+                                <Styled(span)
+                                  size="medium"
                                 >
-                                  Button 2
-                                </span>
-                              </Styled(span)>
-                            </span>
-                          </Styled(span)>
-                        </button>
+                                  <span
+                                    className="emotion-7"
+                                  >
+                                    Button 2
+                                  </span>
+                                </Styled(span)>
+                              </span>
+                            </Styled(span)>
+                          </button>
+                        </Button>
                       </Button>
-                    </Button>
+                    </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
               </div>
@@ -1380,7 +1404,7 @@ exports[`Card demo examples Snapshots: order 1`] = `
                   <span
                     className="emotion-10"
                   >
-                    <Button
+                    <WithForwardRef(Button)
                       element="button"
                       minimal={true}
                       size="medium"
@@ -1388,33 +1412,41 @@ exports[`Card demo examples Snapshots: order 1`] = `
                     >
                       <Button
                         element="button"
+                        forwardedRef={null}
                         minimal={true}
                         size="medium"
-                        text="Button 1"
                         type="button"
                       >
-                        <button
-                          className="emotion-9"
+                        <Button
+                          element="button"
+                          minimal={true}
+                          size="medium"
+                          text="Button 1"
                           type="button"
                         >
-                          <Styled(span)>
-                            <span
-                              className="emotion-8"
-                            >
-                              <Styled(span)
-                                size="medium"
+                          <button
+                            className="emotion-9"
+                            type="button"
+                          >
+                            <Styled(span)>
+                              <span
+                                className="emotion-8"
                               >
-                                <span
-                                  className="emotion-7"
+                                <Styled(span)
+                                  size="medium"
                                 >
-                                  Button 1
-                                </span>
-                              </Styled(span)>
-                            </span>
-                          </Styled(span)>
-                        </button>
+                                  <span
+                                    className="emotion-7"
+                                  >
+                                    Button 1
+                                  </span>
+                                </Styled(span)>
+                              </span>
+                            </Styled(span)>
+                          </button>
+                        </Button>
                       </Button>
-                    </Button>
+                    </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
                 <Styled(span)
@@ -1423,7 +1455,7 @@ exports[`Card demo examples Snapshots: order 1`] = `
                   <span
                     className="emotion-10"
                   >
-                    <Button
+                    <WithForwardRef(Button)
                       element="button"
                       primary={true}
                       size="medium"
@@ -1431,33 +1463,41 @@ exports[`Card demo examples Snapshots: order 1`] = `
                     >
                       <Button
                         element="button"
+                        forwardedRef={null}
                         primary={true}
                         size="medium"
-                        text="Button 2"
                         type="button"
                       >
-                        <button
-                          className="emotion-13"
+                        <Button
+                          element="button"
+                          primary={true}
+                          size="medium"
+                          text="Button 2"
                           type="button"
                         >
-                          <Styled(span)>
-                            <span
-                              className="emotion-8"
-                            >
-                              <Styled(span)
-                                size="medium"
+                          <button
+                            className="emotion-13"
+                            type="button"
+                          >
+                            <Styled(span)>
+                              <span
+                                className="emotion-8"
                               >
-                                <span
-                                  className="emotion-7"
+                                <Styled(span)
+                                  size="medium"
                                 >
-                                  Button 2
-                                </span>
-                              </Styled(span)>
-                            </span>
-                          </Styled(span)>
-                        </button>
+                                  <span
+                                    className="emotion-7"
+                                  >
+                                    Button 2
+                                  </span>
+                                </Styled(span)>
+                              </span>
+                            </Styled(span)>
+                          </button>
+                        </Button>
                       </Button>
-                    </Button>
+                    </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
               </div>
@@ -1566,7 +1606,7 @@ exports[`Card demo examples Snapshots: order 1`] = `
                   <span
                     className="emotion-10"
                   >
-                    <Button
+                    <WithForwardRef(Button)
                       element="button"
                       minimal={true}
                       size="medium"
@@ -1574,33 +1614,41 @@ exports[`Card demo examples Snapshots: order 1`] = `
                     >
                       <Button
                         element="button"
+                        forwardedRef={null}
                         minimal={true}
                         size="medium"
-                        text="Button 1"
                         type="button"
                       >
-                        <button
-                          className="emotion-9"
+                        <Button
+                          element="button"
+                          minimal={true}
+                          size="medium"
+                          text="Button 1"
                           type="button"
                         >
-                          <Styled(span)>
-                            <span
-                              className="emotion-8"
-                            >
-                              <Styled(span)
-                                size="medium"
+                          <button
+                            className="emotion-9"
+                            type="button"
+                          >
+                            <Styled(span)>
+                              <span
+                                className="emotion-8"
                               >
-                                <span
-                                  className="emotion-7"
+                                <Styled(span)
+                                  size="medium"
                                 >
-                                  Button 1
-                                </span>
-                              </Styled(span)>
-                            </span>
-                          </Styled(span)>
-                        </button>
+                                  <span
+                                    className="emotion-7"
+                                  >
+                                    Button 1
+                                  </span>
+                                </Styled(span)>
+                              </span>
+                            </Styled(span)>
+                          </button>
+                        </Button>
                       </Button>
-                    </Button>
+                    </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
                 <Styled(span)
@@ -1609,7 +1657,7 @@ exports[`Card demo examples Snapshots: order 1`] = `
                   <span
                     className="emotion-10"
                   >
-                    <Button
+                    <WithForwardRef(Button)
                       element="button"
                       primary={true}
                       size="medium"
@@ -1617,33 +1665,41 @@ exports[`Card demo examples Snapshots: order 1`] = `
                     >
                       <Button
                         element="button"
+                        forwardedRef={null}
                         primary={true}
                         size="medium"
-                        text="Button 2"
                         type="button"
                       >
-                        <button
-                          className="emotion-13"
+                        <Button
+                          element="button"
+                          primary={true}
+                          size="medium"
+                          text="Button 2"
                           type="button"
                         >
-                          <Styled(span)>
-                            <span
-                              className="emotion-8"
-                            >
-                              <Styled(span)
-                                size="medium"
+                          <button
+                            className="emotion-13"
+                            type="button"
+                          >
+                            <Styled(span)>
+                              <span
+                                className="emotion-8"
                               >
-                                <span
-                                  className="emotion-7"
+                                <Styled(span)
+                                  size="medium"
                                 >
-                                  Button 2
-                                </span>
-                              </Styled(span)>
-                            </span>
-                          </Styled(span)>
-                        </button>
+                                  <span
+                                    className="emotion-7"
+                                  >
+                                    Button 2
+                                  </span>
+                                </Styled(span)>
+                              </span>
+                            </Styled(span)>
+                          </button>
+                        </Button>
                       </Button>
-                    </Button>
+                    </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
               </div>

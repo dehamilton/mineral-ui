@@ -1,17 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`MenuGroup demo examples Snapshots: menu-group 1`] = `
-.emotion-0 {
-  font-size: 0.6875em;
-  font-weight: 700;
-  margin: 0;
-  padding: 1.4545454545454546em 1.4545454545454546em 0.7272727272727273em;
-}
-
-.emotion-0:not(:first-child) {
-  margin-top: 0.7272727272727273em;
-}
-
 .emotion-19 {
   overflow: hidden;
 }
@@ -38,6 +27,17 @@ exports[`MenuGroup demo examples Snapshots: menu-group 1`] = `
 .emotion-18 *::before,
 .emotion-18 *::after {
   box-sizing: inherit;
+}
+
+.emotion-0 {
+  font-size: 0.6875em;
+  font-weight: 700;
+  margin: 0;
+  padding: 1.4545454545454546em 1.4545454545454546em 0.7272727272727273em;
+}
+
+.emotion-0:not(:first-child) {
+  margin-top: 0.7272727272727273em;
 }
 
 .emotion-4 {

@@ -1,6 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Button demo examples Snapshots: circular 1`] = `
+.emotion-18[class] > * {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -17,11 +22,6 @@ exports[`Button demo examples Snapshots: circular 1`] = `
   max-height: 100%;
   pointer-events: none;
   width: 100%;
-}
-
-.emotion-18[class] > * {
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .emotion-0 {
@@ -552,7 +552,7 @@ exports[`Button demo examples Snapshots: circular 1`] = `
         <div
           className="emotion-18"
         >
-          <Button
+          <WithForwardRef(Button)
             aria-label="Cloud"
             circular={true}
             element="button"
@@ -564,56 +564,66 @@ exports[`Button demo examples Snapshots: circular 1`] = `
               aria-label="Cloud"
               circular={true}
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               size="large"
               type="button"
             >
-              <button
+              <Button
                 aria-label="Cloud"
-                className="emotion-2"
+                circular={true}
+                element="button"
+                size="large"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-1"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  aria-label="Cloud"
+                  className="emotion-2"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-1"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                  </span>
-                </Styled(span)>
-              </button>
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             aria-label="Cloud"
             circular={true}
             element="button"
@@ -626,57 +636,68 @@ exports[`Button demo examples Snapshots: circular 1`] = `
               aria-label="Cloud"
               circular={true}
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               primary={true}
               size="large"
               type="button"
             >
-              <button
+              <Button
                 aria-label="Cloud"
-                className="emotion-5"
+                circular={true}
+                element="button"
+                primary={true}
+                size="large"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-1"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  aria-label="Cloud"
+                  className="emotion-5"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-1"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                  </span>
-                </Styled(span)>
-              </button>
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             aria-label="Cloud"
             circular={true}
             element="button"
@@ -689,57 +710,68 @@ exports[`Button demo examples Snapshots: circular 1`] = `
               aria-label="Cloud"
               circular={true}
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               minimal={true}
               size="large"
               type="button"
             >
-              <button
+              <Button
                 aria-label="Cloud"
-                className="emotion-8"
+                circular={true}
+                element="button"
+                minimal={true}
+                size="large"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-1"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  aria-label="Cloud"
+                  className="emotion-8"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-1"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                  </span>
-                </Styled(span)>
-              </button>
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             aria-label="Cloud"
             circular={true}
             element="button"
@@ -751,56 +783,66 @@ exports[`Button demo examples Snapshots: circular 1`] = `
               aria-label="Cloud"
               circular={true}
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               size="small"
               type="button"
             >
-              <button
+              <Button
                 aria-label="Cloud"
-                className="emotion-11"
+                circular={true}
+                element="button"
+                size="small"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-1"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="medium"
+                <button
+                  aria-label="Cloud"
+                  className="emotion-11"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-1"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="medium"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="medium"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-9"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="medium"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                  </span>
-                </Styled(span)>
-              </button>
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-9"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             aria-label="Cloud"
             circular={true}
             element="button"
@@ -812,56 +854,66 @@ exports[`Button demo examples Snapshots: circular 1`] = `
               aria-label="Cloud"
               circular={true}
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               size="medium"
               type="button"
             >
-              <button
+              <Button
                 aria-label="Cloud"
-                className="emotion-14"
+                circular={true}
+                element="button"
+                size="medium"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-1"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="medium"
+                <button
+                  aria-label="Cloud"
+                  className="emotion-14"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-1"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="medium"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="medium"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-9"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="medium"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                  </span>
-                </Styled(span)>
-              </button>
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-9"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             aria-label="Cloud"
             circular={true}
             element="button"
@@ -873,55 +925,65 @@ exports[`Button demo examples Snapshots: circular 1`] = `
               aria-label="Cloud"
               circular={true}
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               size="jumbo"
               type="button"
             >
-              <button
+              <Button
                 aria-label="Cloud"
-                className="emotion-17"
+                circular={true}
+                element="button"
+                size="jumbo"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-1"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  aria-label="Cloud"
+                  className="emotion-17"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-1"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                  </span>
-                </Styled(span)>
-              </button>
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
+          </WithForwardRef(Button)>
         </div>
       </Styled(div)>
     </DemoLayout>
@@ -930,6 +992,11 @@ exports[`Button demo examples Snapshots: circular 1`] = `
 `;
 
 exports[`Button demo examples Snapshots: default 1`] = `
+.emotion-15[class] > * {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -946,11 +1013,6 @@ exports[`Button demo examples Snapshots: default 1`] = `
   max-height: 100%;
   pointer-events: none;
   width: 100%;
-}
-
-.emotion-15[class] > * {
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .emotion-0 {
@@ -1393,40 +1455,47 @@ exports[`Button demo examples Snapshots: default 1`] = `
       <div
         className="emotion-15"
       >
-        <Button
+        <WithForwardRef(Button)
           element="button"
           size="large"
           type="button"
         >
           <Button
             element="button"
+            forwardedRef={null}
             size="large"
-            text="Default"
             type="button"
           >
-            <button
-              className="emotion-2"
+            <Button
+              element="button"
+              size="large"
+              text="Default"
               type="button"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="large"
+              <button
+                className="emotion-2"
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-0"
+                    <Styled(span)
+                      size="large"
                     >
-                      Default
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-0"
+                      >
+                        Default
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
-        <Button
+        </WithForwardRef(Button)>
+        <WithForwardRef(Button)
           element="button"
           size="large"
           type="button"
@@ -1434,34 +1503,42 @@ exports[`Button demo examples Snapshots: default 1`] = `
         >
           <Button
             element="button"
+            forwardedRef={null}
             size="large"
-            text="Success"
             type="button"
             variant="success"
           >
-            <button
-              className="emotion-5"
+            <Button
+              element="button"
+              size="large"
+              text="Success"
               type="button"
+              variant="success"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="large"
+              <button
+                className="emotion-5"
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-0"
+                    <Styled(span)
+                      size="large"
                     >
-                      Success
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-0"
+                      >
+                        Success
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
-        <Button
+        </WithForwardRef(Button)>
+        <WithForwardRef(Button)
           element="button"
           size="large"
           type="button"
@@ -1469,34 +1546,42 @@ exports[`Button demo examples Snapshots: default 1`] = `
         >
           <Button
             element="button"
+            forwardedRef={null}
             size="large"
-            text="Warning"
             type="button"
             variant="warning"
           >
-            <button
-              className="emotion-8"
+            <Button
+              element="button"
+              size="large"
+              text="Warning"
               type="button"
+              variant="warning"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="large"
+              <button
+                className="emotion-8"
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-0"
+                    <Styled(span)
+                      size="large"
                     >
-                      Warning
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-0"
+                      >
+                        Warning
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
-        <Button
+        </WithForwardRef(Button)>
+        <WithForwardRef(Button)
           element="button"
           size="large"
           type="button"
@@ -1504,34 +1589,42 @@ exports[`Button demo examples Snapshots: default 1`] = `
         >
           <Button
             element="button"
+            forwardedRef={null}
             size="large"
-            text="Danger"
             type="button"
             variant="danger"
           >
-            <button
-              className="emotion-11"
+            <Button
+              element="button"
+              size="large"
+              text="Danger"
               type="button"
+              variant="danger"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="large"
+              <button
+                className="emotion-11"
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-0"
+                    <Styled(span)
+                      size="large"
                     >
-                      Danger
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-0"
+                      >
+                        Danger
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
-        <Button
+        </WithForwardRef(Button)>
+        <WithForwardRef(Button)
           disabled={true}
           element="button"
           size="large"
@@ -1540,35 +1633,43 @@ exports[`Button demo examples Snapshots: default 1`] = `
           <Button
             disabled={true}
             element="button"
+            forwardedRef={null}
             size="large"
-            tabIndex={-1}
-            text="Disabled"
             type="button"
           >
-            <button
-              className="emotion-14"
+            <Button
               disabled={true}
+              element="button"
+              size="large"
               tabIndex={-1}
+              text="Disabled"
               type="button"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="large"
+              <button
+                className="emotion-14"
+                disabled={true}
+                tabIndex={-1}
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-0"
+                    <Styled(span)
+                      size="large"
                     >
-                      Disabled
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-0"
+                      >
+                        Disabled
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
+        </WithForwardRef(Button)>
       </div>
     </Styled(div)>
   </DemoLayout>
@@ -1576,6 +1677,43 @@ exports[`Button demo examples Snapshots: default 1`] = `
 `;
 
 exports[`Button demo examples Snapshots: icon-only 1`] = `
+.emotion-18[class] > * {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-height: 100%;
+  pointer-events: none;
+  width: 100%;
+}
+
+.emotion-0 {
+  fill: currentcolor;
+  font-size: 16px;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.emotion-9 {
+  fill: currentcolor;
+  font-size: 16px;
+  height: 1em;
+  width: 1em;
+}
+
 .emotion-2 {
   box-sizing: border-box;
   color: #3272d9;
@@ -1660,24 +1798,6 @@ exports[`Button demo examples Snapshots: icon-only 1`] = `
   margin: 0;
 }
 
-.emotion-1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  max-height: 100%;
-  pointer-events: none;
-  width: 100%;
-}
-
 .emotion-5 {
   box-sizing: border-box;
   color: #ffffff;
@@ -1758,25 +1878,6 @@ exports[`Button demo examples Snapshots: icon-only 1`] = `
 
 .emotion-5 [role="img"]:only-child {
   margin: 0;
-}
-
-.emotion-18[class] > * {
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.emotion-0 {
-  fill: currentcolor;
-  font-size: 16px;
-  height: 1.5em;
-  width: 1.5em;
-}
-
-.emotion-9 {
-  fill: currentcolor;
-  font-size: 16px;
-  height: 1em;
-  width: 1em;
 }
 
 .emotion-8 {
@@ -2127,7 +2228,7 @@ exports[`Button demo examples Snapshots: icon-only 1`] = `
         <div
           className="emotion-18"
         >
-          <Button
+          <WithForwardRef(Button)
             aria-label="Cloud"
             element="button"
             iconStart={<IconCloud />}
@@ -2137,56 +2238,65 @@ exports[`Button demo examples Snapshots: icon-only 1`] = `
             <Button
               aria-label="Cloud"
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               size="large"
               type="button"
             >
-              <button
+              <Button
                 aria-label="Cloud"
-                className="emotion-2"
+                element="button"
+                size="large"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-1"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  aria-label="Cloud"
+                  className="emotion-2"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-1"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                  </span>
-                </Styled(span)>
-              </button>
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             aria-label="Cloud"
             element="button"
             iconStart={<IconCloud />}
@@ -2197,57 +2307,67 @@ exports[`Button demo examples Snapshots: icon-only 1`] = `
             <Button
               aria-label="Cloud"
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               primary={true}
               size="large"
               type="button"
             >
-              <button
+              <Button
                 aria-label="Cloud"
-                className="emotion-5"
+                element="button"
+                primary={true}
+                size="large"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-1"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  aria-label="Cloud"
+                  className="emotion-5"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-1"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                  </span>
-                </Styled(span)>
-              </button>
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             aria-label="Cloud"
             element="button"
             iconStart={<IconCloud />}
@@ -2258,57 +2378,67 @@ exports[`Button demo examples Snapshots: icon-only 1`] = `
             <Button
               aria-label="Cloud"
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               minimal={true}
               size="large"
               type="button"
             >
-              <button
+              <Button
                 aria-label="Cloud"
-                className="emotion-8"
+                element="button"
+                minimal={true}
+                size="large"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-1"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  aria-label="Cloud"
+                  className="emotion-8"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-1"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                  </span>
-                </Styled(span)>
-              </button>
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             aria-label="Cloud"
             element="button"
             iconStart={<IconCloud />}
@@ -2318,56 +2448,65 @@ exports[`Button demo examples Snapshots: icon-only 1`] = `
             <Button
               aria-label="Cloud"
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               size="small"
               type="button"
             >
-              <button
+              <Button
                 aria-label="Cloud"
-                className="emotion-11"
+                element="button"
+                size="small"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-1"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="medium"
+                <button
+                  aria-label="Cloud"
+                  className="emotion-11"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-1"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="medium"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="medium"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-9"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="medium"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                  </span>
-                </Styled(span)>
-              </button>
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-9"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             aria-label="Cloud"
             element="button"
             iconStart={<IconCloud />}
@@ -2377,56 +2516,65 @@ exports[`Button demo examples Snapshots: icon-only 1`] = `
             <Button
               aria-label="Cloud"
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               size="medium"
               type="button"
             >
-              <button
+              <Button
                 aria-label="Cloud"
-                className="emotion-14"
+                element="button"
+                size="medium"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-1"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="medium"
+                <button
+                  aria-label="Cloud"
+                  className="emotion-14"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-1"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="medium"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="medium"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-9"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="medium"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                  </span>
-                </Styled(span)>
-              </button>
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-9"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             aria-label="Cloud"
             element="button"
             iconStart={<IconCloud />}
@@ -2436,55 +2584,64 @@ exports[`Button demo examples Snapshots: icon-only 1`] = `
             <Button
               aria-label="Cloud"
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               size="jumbo"
               type="button"
             >
-              <button
+              <Button
                 aria-label="Cloud"
-                className="emotion-17"
+                element="button"
+                size="jumbo"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-1"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  aria-label="Cloud"
+                  className="emotion-17"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-1"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                  </span>
-                </Styled(span)>
-              </button>
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
+          </WithForwardRef(Button)>
         </div>
       </Styled(div)>
     </DemoLayout>
@@ -2493,24 +2650,6 @@ exports[`Button demo examples Snapshots: icon-only 1`] = `
 `;
 
 exports[`Button demo examples Snapshots: icons 1`] = `
-.emotion-2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  max-height: 100%;
-  pointer-events: none;
-  width: 100%;
-}
-
 .emotion-53[class] > * {
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
@@ -2596,6 +2735,24 @@ exports[`Button demo examples Snapshots: icons 1`] = `
 
 .emotion-16 [role="img"]:only-child {
   margin: 0;
+}
+
+.emotion-2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-height: 100%;
+  pointer-events: none;
+  width: 100%;
 }
 
 .emotion-1 {
@@ -3427,7 +3584,7 @@ exports[`Button demo examples Snapshots: icons 1`] = `
         <div
           className="emotion-53"
         >
-          <Button
+          <WithForwardRef(Button)
             element="button"
             iconStart={<IconCloud />}
             size="large"
@@ -3435,65 +3592,73 @@ exports[`Button demo examples Snapshots: icons 1`] = `
           >
             <Button
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               size="large"
-              text="Start icon"
               type="button"
             >
-              <button
-                className="emotion-3"
+              <Button
+                element="button"
+                size="large"
+                text="Start icon"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-2"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  className="emotion-3"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-2"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                    <Styled(span)
-                      size="large"
-                    >
-                      <span
-                        className="emotion-1"
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                      <Styled(span)
+                        size="large"
                       >
-                        Start icon
-                      </span>
-                    </Styled(span)>
-                  </span>
-                </Styled(span)>
-              </button>
+                        <span
+                          className="emotion-1"
+                        >
+                          Start icon
+                        </span>
+                      </Styled(span)>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             element="button"
             iconEnd={<IconCloud />}
             size="large"
@@ -3501,65 +3666,73 @@ exports[`Button demo examples Snapshots: icons 1`] = `
           >
             <Button
               element="button"
+              forwardedRef={null}
+              iconEnd={<IconCloud />}
               size="large"
-              text="End icon"
               type="button"
             >
-              <button
-                className="emotion-3"
+              <Button
+                element="button"
+                size="large"
+                text="End icon"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-2"
-                  >
-                    <Styled(span)
-                      size="large"
+                <button
+                  className="emotion-3"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-2"
                     >
-                      <span
-                        className="emotion-1"
+                      <Styled(span)
+                        size="large"
                       >
-                        End icon
-                      </span>
-                    </Styled(span)>
-                    <IconCloud
-                      key="iconEnd"
-                      size="1.5em"
-                    >
-                      <Icon
-                        rtl={false}
+                        <span
+                          className="emotion-1"
+                        >
+                          End icon
+                        </span>
+                      </Styled(span)>
+                      <IconCloud
+                        key="iconEnd"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                  </span>
-                </Styled(span)>
-              </button>
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             element="button"
             iconEnd={<IconCloud />}
             iconStart={<IconCloud />}
@@ -3568,99 +3741,108 @@ exports[`Button demo examples Snapshots: icons 1`] = `
           >
             <Button
               element="button"
+              forwardedRef={null}
+              iconEnd={<IconCloud />}
+              iconStart={<IconCloud />}
               size="large"
-              text="Both icons"
               type="button"
             >
-              <button
-                className="emotion-3"
+              <Button
+                element="button"
+                size="large"
+                text="Both icons"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-2"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  className="emotion-3"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-2"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                    <Styled(span)
-                      size="large"
-                    >
-                      <span
-                        className="emotion-1"
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                      <Styled(span)
+                        size="large"
                       >
-                        Both icons
-                      </span>
-                    </Styled(span)>
-                    <IconCloud
-                      key="iconEnd"
-                      size="1.5em"
-                    >
-                      <Icon
-                        rtl={false}
+                        <span
+                          className="emotion-1"
+                        >
+                          Both icons
+                        </span>
+                      </Styled(span)>
+                      <IconCloud
+                        key="iconEnd"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                  </span>
-                </Styled(span)>
-              </button>
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
+          </WithForwardRef(Button)>
           <br />
           <br />
-          <Button
+          <WithForwardRef(Button)
             element="button"
             iconStart={<IconCloud />}
             primary={true}
@@ -3669,66 +3851,75 @@ exports[`Button demo examples Snapshots: icons 1`] = `
           >
             <Button
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               primary={true}
               size="large"
-              text="Primary"
               type="button"
             >
-              <button
-                className="emotion-16"
+              <Button
+                element="button"
+                primary={true}
+                size="large"
+                text="Primary"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-2"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  className="emotion-16"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-2"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                    <Styled(span)
-                      size="large"
-                    >
-                      <span
-                        className="emotion-1"
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                      <Styled(span)
+                        size="large"
                       >
-                        Primary
-                      </span>
-                    </Styled(span)>
-                  </span>
-                </Styled(span)>
-              </button>
+                        <span
+                          className="emotion-1"
+                        >
+                          Primary
+                        </span>
+                      </Styled(span)>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             element="button"
             iconStart={<IconCloud />}
             minimal={true}
@@ -3737,66 +3928,75 @@ exports[`Button demo examples Snapshots: icons 1`] = `
           >
             <Button
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               minimal={true}
               size="large"
-              text="Minimal"
               type="button"
             >
-              <button
-                className="emotion-20"
+              <Button
+                element="button"
+                minimal={true}
+                size="large"
+                text="Minimal"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-2"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  className="emotion-20"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-2"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                    <Styled(span)
-                      size="large"
-                    >
-                      <span
-                        className="emotion-1"
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                      <Styled(span)
+                        size="large"
                       >
-                        Minimal
-                      </span>
-                    </Styled(span)>
-                  </span>
-                </Styled(span)>
-              </button>
+                        <span
+                          className="emotion-1"
+                        >
+                          Minimal
+                        </span>
+                      </Styled(span)>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             element="button"
             iconStart={<IconCloud />}
             size="large"
@@ -3805,66 +4005,75 @@ exports[`Button demo examples Snapshots: icons 1`] = `
           >
             <Button
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               size="large"
-              text="Danger"
               type="button"
               variant="danger"
             >
-              <button
-                className="emotion-24"
+              <Button
+                element="button"
+                size="large"
+                text="Danger"
                 type="button"
+                variant="danger"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-2"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  className="emotion-24"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-2"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                    <Styled(span)
-                      size="large"
-                    >
-                      <span
-                        className="emotion-1"
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                      <Styled(span)
+                        size="large"
                       >
-                        Danger
-                      </span>
-                    </Styled(span)>
-                  </span>
-                </Styled(span)>
-              </button>
+                        <span
+                          className="emotion-1"
+                        >
+                          Danger
+                        </span>
+                      </Styled(span)>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             element="button"
             iconStart={<IconCloud />}
             size="large"
@@ -3873,66 +4082,75 @@ exports[`Button demo examples Snapshots: icons 1`] = `
           >
             <Button
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               size="large"
-              text="Success"
               type="button"
               variant="success"
             >
-              <button
-                className="emotion-28"
+              <Button
+                element="button"
+                size="large"
+                text="Success"
                 type="button"
+                variant="success"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-2"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  className="emotion-28"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-2"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                    <Styled(span)
-                      size="large"
-                    >
-                      <span
-                        className="emotion-1"
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                      <Styled(span)
+                        size="large"
                       >
-                        Success
-                      </span>
-                    </Styled(span)>
-                  </span>
-                </Styled(span)>
-              </button>
+                        <span
+                          className="emotion-1"
+                        >
+                          Success
+                        </span>
+                      </Styled(span)>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             element="button"
             iconStart={<IconCloud />}
             size="large"
@@ -3941,66 +4159,75 @@ exports[`Button demo examples Snapshots: icons 1`] = `
           >
             <Button
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               size="large"
-              text="Warning"
               type="button"
               variant="warning"
             >
-              <button
-                className="emotion-32"
+              <Button
+                element="button"
+                size="large"
+                text="Warning"
                 type="button"
+                variant="warning"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-2"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  className="emotion-32"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-2"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                    <Styled(span)
-                      size="large"
-                    >
-                      <span
-                        className="emotion-1"
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                      <Styled(span)
+                        size="large"
                       >
-                        Warning
-                      </span>
-                    </Styled(span)>
-                  </span>
-                </Styled(span)>
-              </button>
+                        <span
+                          className="emotion-1"
+                        >
+                          Warning
+                        </span>
+                      </Styled(span)>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             disabled={true}
             element="button"
             iconStart={<IconCloud />}
@@ -4010,70 +4237,79 @@ exports[`Button demo examples Snapshots: icons 1`] = `
             <Button
               disabled={true}
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               size="large"
-              tabIndex={-1}
-              text="Disabled"
               type="button"
             >
-              <button
-                className="emotion-36"
+              <Button
                 disabled={true}
+                element="button"
+                size="large"
                 tabIndex={-1}
+                text="Disabled"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-2"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  className="emotion-36"
+                  disabled={true}
+                  tabIndex={-1}
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-2"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                    <Styled(span)
-                      size="large"
-                    >
-                      <span
-                        className="emotion-1"
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                      <Styled(span)
+                        size="large"
                       >
-                        Disabled
-                      </span>
-                    </Styled(span)>
-                  </span>
-                </Styled(span)>
-              </button>
+                        <span
+                          className="emotion-1"
+                        >
+                          Disabled
+                        </span>
+                      </Styled(span)>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
+          </WithForwardRef(Button)>
           <br />
           <br />
-          <Button
+          <WithForwardRef(Button)
             element="button"
             iconStart={<IconCloud />}
             size="small"
@@ -4081,65 +4317,73 @@ exports[`Button demo examples Snapshots: icons 1`] = `
           >
             <Button
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               size="small"
-              text="Small"
               type="button"
             >
-              <button
-                className="emotion-40"
+              <Button
+                element="button"
+                size="small"
+                text="Small"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-2"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="medium"
+                <button
+                  className="emotion-40"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-2"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="medium"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="medium"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-37"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="medium"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                    <Styled(span)
-                      size="small"
-                    >
-                      <span
-                        className="emotion-38"
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-37"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                      <Styled(span)
+                        size="small"
                       >
-                        Small
-                      </span>
-                    </Styled(span)>
-                  </span>
-                </Styled(span)>
-              </button>
+                        <span
+                          className="emotion-38"
+                        >
+                          Small
+                        </span>
+                      </Styled(span)>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             element="button"
             iconStart={<IconCloud />}
             size="medium"
@@ -4147,65 +4391,73 @@ exports[`Button demo examples Snapshots: icons 1`] = `
           >
             <Button
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               size="medium"
-              text="Medium"
               type="button"
             >
-              <button
-                className="emotion-44"
+              <Button
+                element="button"
+                size="medium"
+                text="Medium"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-2"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="medium"
+                <button
+                  className="emotion-44"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-2"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="medium"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="medium"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-37"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="medium"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                    <Styled(span)
-                      size="medium"
-                    >
-                      <span
-                        className="emotion-42"
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-37"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                      <Styled(span)
+                        size="medium"
                       >
-                        Medium
-                      </span>
-                    </Styled(span)>
-                  </span>
-                </Styled(span)>
-              </button>
+                        <span
+                          className="emotion-42"
+                        >
+                          Medium
+                        </span>
+                      </Styled(span)>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             element="button"
             iconStart={<IconCloud />}
             size="large"
@@ -4213,65 +4465,73 @@ exports[`Button demo examples Snapshots: icons 1`] = `
           >
             <Button
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               size="large"
-              text="Large"
               type="button"
             >
-              <button
-                className="emotion-3"
+              <Button
+                element="button"
+                size="large"
+                text="Large"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-2"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  className="emotion-3"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-2"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                    <Styled(span)
-                      size="large"
-                    >
-                      <span
-                        className="emotion-1"
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                      <Styled(span)
+                        size="large"
                       >
-                        Large
-                      </span>
-                    </Styled(span)>
-                  </span>
-                </Styled(span)>
-              </button>
+                        <span
+                          className="emotion-1"
+                        >
+                          Large
+                        </span>
+                      </Styled(span)>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
-          <Button
+          </WithForwardRef(Button)>
+          <WithForwardRef(Button)
             element="button"
             iconStart={<IconCloud />}
             size="jumbo"
@@ -4279,64 +4539,72 @@ exports[`Button demo examples Snapshots: icons 1`] = `
           >
             <Button
               element="button"
+              forwardedRef={null}
+              iconStart={<IconCloud />}
               size="jumbo"
-              text="Jumbo"
               type="button"
             >
-              <button
-                className="emotion-52"
+              <Button
+                element="button"
+                size="jumbo"
+                text="Jumbo"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-2"
-                  >
-                    <IconCloud
-                      key="iconStart"
-                      size="1.5em"
+                <button
+                  className="emotion-52"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-2"
                     >
-                      <Icon
-                        rtl={false}
+                      <IconCloud
+                        key="iconStart"
                         size="1.5em"
                       >
-                        <Styled(svg)
-                          aria-hidden={true}
-                          focusable="false"
-                          role="img"
+                        <Icon
                           rtl={false}
                           size="1.5em"
-                          viewBox="0 0 24 24"
                         >
-                          <svg
+                          <Styled(svg)
                             aria-hidden={true}
-                            className="emotion-0"
                             focusable="false"
                             role="img"
+                            rtl={false}
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
-                            <g>
-                              <path
-                                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                              />
-                            </g>
-                          </svg>
-                        </Styled(svg)>
-                      </Icon>
-                    </IconCloud>
-                    <Styled(span)
-                      size="jumbo"
-                    >
-                      <span
-                        className="emotion-50"
+                            <svg
+                              aria-hidden={true}
+                              className="emotion-0"
+                              focusable="false"
+                              role="img"
+                              viewBox="0 0 24 24"
+                            >
+                              <g>
+                                <path
+                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                />
+                              </g>
+                            </svg>
+                          </Styled(svg)>
+                        </Icon>
+                      </IconCloud>
+                      <Styled(span)
+                        size="jumbo"
                       >
-                        Jumbo
-                      </span>
-                    </Styled(span)>
-                  </span>
-                </Styled(span)>
-              </button>
+                        <span
+                          className="emotion-50"
+                        >
+                          Jumbo
+                        </span>
+                      </Styled(span)>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
+          </WithForwardRef(Button)>
         </div>
       </Styled(div)>
     </DemoLayout>
@@ -4466,7 +4734,7 @@ exports[`Button demo examples Snapshots: link 1`] = `
   margin: 0;
 }
 
-<Button
+<WithForwardRef(Button)
   element="a"
   href="#link"
   size="large"
@@ -4474,36 +4742,49 @@ exports[`Button demo examples Snapshots: link 1`] = `
 >
   <Button
     element="a"
+    forwardedRef={null}
     href="#link"
     size="large"
-    text="Link"
     type="button"
   >
-    <a
-      className="emotion-2"
+    <Button
+      element="a"
       href="#link"
+      size="large"
+      text="Link"
+      type="button"
     >
-      <Styled(span)>
-        <span
-          className="emotion-1"
-        >
-          <Styled(span)
-            size="large"
+      <a
+        className="emotion-2"
+        href="#link"
+      >
+        <Styled(span)>
+          <span
+            className="emotion-1"
           >
-            <span
-              className="emotion-0"
+            <Styled(span)
+              size="large"
             >
-              Link
-            </span>
-          </Styled(span)>
-        </span>
-      </Styled(span)>
-    </a>
+              <span
+                className="emotion-0"
+              >
+                Link
+              </span>
+            </Styled(span)>
+          </span>
+        </Styled(span)>
+      </a>
+    </Button>
   </Button>
-</Button>
+</WithForwardRef(Button)>
 `;
 
 exports[`Button demo examples Snapshots: minimal 1`] = `
+.emotion-15[class] > * {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -4520,11 +4801,6 @@ exports[`Button demo examples Snapshots: minimal 1`] = `
   max-height: 100%;
   pointer-events: none;
   width: 100%;
-}
-
-.emotion-15[class] > * {
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .emotion-0 {
@@ -4955,7 +5231,7 @@ exports[`Button demo examples Snapshots: minimal 1`] = `
       <div
         className="emotion-15"
       >
-        <Button
+        <WithForwardRef(Button)
           element="button"
           minimal={true}
           size="large"
@@ -4963,34 +5239,42 @@ exports[`Button demo examples Snapshots: minimal 1`] = `
         >
           <Button
             element="button"
+            forwardedRef={null}
             minimal={true}
             size="large"
-            text="Default"
             type="button"
           >
-            <button
-              className="emotion-2"
+            <Button
+              element="button"
+              minimal={true}
+              size="large"
+              text="Default"
               type="button"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="large"
+              <button
+                className="emotion-2"
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-0"
+                    <Styled(span)
+                      size="large"
                     >
-                      Default
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-0"
+                      >
+                        Default
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
-        <Button
+        </WithForwardRef(Button)>
+        <WithForwardRef(Button)
           element="button"
           minimal={true}
           size="large"
@@ -4999,35 +5283,44 @@ exports[`Button demo examples Snapshots: minimal 1`] = `
         >
           <Button
             element="button"
+            forwardedRef={null}
             minimal={true}
             size="large"
-            text="Success"
             type="button"
             variant="success"
           >
-            <button
-              className="emotion-5"
+            <Button
+              element="button"
+              minimal={true}
+              size="large"
+              text="Success"
               type="button"
+              variant="success"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="large"
+              <button
+                className="emotion-5"
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-0"
+                    <Styled(span)
+                      size="large"
                     >
-                      Success
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-0"
+                      >
+                        Success
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
-        <Button
+        </WithForwardRef(Button)>
+        <WithForwardRef(Button)
           element="button"
           minimal={true}
           size="large"
@@ -5036,35 +5329,44 @@ exports[`Button demo examples Snapshots: minimal 1`] = `
         >
           <Button
             element="button"
+            forwardedRef={null}
             minimal={true}
             size="large"
-            text="Warning"
             type="button"
             variant="warning"
           >
-            <button
-              className="emotion-8"
+            <Button
+              element="button"
+              minimal={true}
+              size="large"
+              text="Warning"
               type="button"
+              variant="warning"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="large"
+              <button
+                className="emotion-8"
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-0"
+                    <Styled(span)
+                      size="large"
                     >
-                      Warning
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-0"
+                      >
+                        Warning
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
-        <Button
+        </WithForwardRef(Button)>
+        <WithForwardRef(Button)
           element="button"
           minimal={true}
           size="large"
@@ -5073,35 +5375,44 @@ exports[`Button demo examples Snapshots: minimal 1`] = `
         >
           <Button
             element="button"
+            forwardedRef={null}
             minimal={true}
             size="large"
-            text="Danger"
             type="button"
             variant="danger"
           >
-            <button
-              className="emotion-11"
+            <Button
+              element="button"
+              minimal={true}
+              size="large"
+              text="Danger"
               type="button"
+              variant="danger"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="large"
+              <button
+                className="emotion-11"
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-0"
+                    <Styled(span)
+                      size="large"
                     >
-                      Danger
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-0"
+                      >
+                        Danger
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
-        <Button
+        </WithForwardRef(Button)>
+        <WithForwardRef(Button)
           disabled={true}
           element="button"
           minimal={true}
@@ -5111,36 +5422,45 @@ exports[`Button demo examples Snapshots: minimal 1`] = `
           <Button
             disabled={true}
             element="button"
+            forwardedRef={null}
             minimal={true}
             size="large"
-            tabIndex={-1}
-            text="Disabled"
             type="button"
           >
-            <button
-              className="emotion-14"
+            <Button
               disabled={true}
+              element="button"
+              minimal={true}
+              size="large"
               tabIndex={-1}
+              text="Disabled"
               type="button"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="large"
+              <button
+                className="emotion-14"
+                disabled={true}
+                tabIndex={-1}
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-0"
+                    <Styled(span)
+                      size="large"
                     >
-                      Disabled
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-0"
+                      >
+                        Disabled
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
+        </WithForwardRef(Button)>
       </div>
     </Styled(div)>
   </DemoLayout>
@@ -5148,24 +5468,6 @@ exports[`Button demo examples Snapshots: minimal 1`] = `
 `;
 
 exports[`Button demo examples Snapshots: primary 1`] = `
-.emotion-1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  max-height: 100%;
-  pointer-events: none;
-  width: 100%;
-}
-
 .emotion-15[class] > * {
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
@@ -5251,6 +5553,24 @@ exports[`Button demo examples Snapshots: primary 1`] = `
 
 .emotion-2 [role="img"]:only-child {
   margin: 0;
+}
+
+.emotion-1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-height: 100%;
+  pointer-events: none;
+  width: 100%;
 }
 
 .emotion-0 {
@@ -5603,7 +5923,7 @@ exports[`Button demo examples Snapshots: primary 1`] = `
       <div
         className="emotion-15"
       >
-        <Button
+        <WithForwardRef(Button)
           element="button"
           primary={true}
           size="large"
@@ -5611,34 +5931,42 @@ exports[`Button demo examples Snapshots: primary 1`] = `
         >
           <Button
             element="button"
+            forwardedRef={null}
             primary={true}
             size="large"
-            text="Default"
             type="button"
           >
-            <button
-              className="emotion-2"
+            <Button
+              element="button"
+              primary={true}
+              size="large"
+              text="Default"
               type="button"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="large"
+              <button
+                className="emotion-2"
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-0"
+                    <Styled(span)
+                      size="large"
                     >
-                      Default
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-0"
+                      >
+                        Default
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
-        <Button
+        </WithForwardRef(Button)>
+        <WithForwardRef(Button)
           element="button"
           primary={true}
           size="large"
@@ -5647,35 +5975,44 @@ exports[`Button demo examples Snapshots: primary 1`] = `
         >
           <Button
             element="button"
+            forwardedRef={null}
             primary={true}
             size="large"
-            text="Success"
             type="button"
             variant="success"
           >
-            <button
-              className="emotion-5"
+            <Button
+              element="button"
+              primary={true}
+              size="large"
+              text="Success"
               type="button"
+              variant="success"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="large"
+              <button
+                className="emotion-5"
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-0"
+                    <Styled(span)
+                      size="large"
                     >
-                      Success
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-0"
+                      >
+                        Success
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
-        <Button
+        </WithForwardRef(Button)>
+        <WithForwardRef(Button)
           element="button"
           primary={true}
           size="large"
@@ -5684,35 +6021,44 @@ exports[`Button demo examples Snapshots: primary 1`] = `
         >
           <Button
             element="button"
+            forwardedRef={null}
             primary={true}
             size="large"
-            text="Warning"
             type="button"
             variant="warning"
           >
-            <button
-              className="emotion-8"
+            <Button
+              element="button"
+              primary={true}
+              size="large"
+              text="Warning"
               type="button"
+              variant="warning"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="large"
+              <button
+                className="emotion-8"
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-0"
+                    <Styled(span)
+                      size="large"
                     >
-                      Warning
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-0"
+                      >
+                        Warning
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
-        <Button
+        </WithForwardRef(Button)>
+        <WithForwardRef(Button)
           element="button"
           primary={true}
           size="large"
@@ -5721,35 +6067,44 @@ exports[`Button demo examples Snapshots: primary 1`] = `
         >
           <Button
             element="button"
+            forwardedRef={null}
             primary={true}
             size="large"
-            text="Danger"
             type="button"
             variant="danger"
           >
-            <button
-              className="emotion-11"
+            <Button
+              element="button"
+              primary={true}
+              size="large"
+              text="Danger"
               type="button"
+              variant="danger"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="large"
+              <button
+                className="emotion-11"
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-0"
+                    <Styled(span)
+                      size="large"
                     >
-                      Danger
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-0"
+                      >
+                        Danger
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
-        <Button
+        </WithForwardRef(Button)>
+        <WithForwardRef(Button)
           disabled={true}
           element="button"
           primary={true}
@@ -5759,36 +6114,45 @@ exports[`Button demo examples Snapshots: primary 1`] = `
           <Button
             disabled={true}
             element="button"
+            forwardedRef={null}
             primary={true}
             size="large"
-            tabIndex={-1}
-            text="Disabled"
             type="button"
           >
-            <button
-              className="emotion-14"
+            <Button
               disabled={true}
+              element="button"
+              primary={true}
+              size="large"
               tabIndex={-1}
+              text="Disabled"
               type="button"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="large"
+              <button
+                className="emotion-14"
+                disabled={true}
+                tabIndex={-1}
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-0"
+                    <Styled(span)
+                      size="large"
                     >
-                      Disabled
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-0"
+                      >
+                        Disabled
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
+        </WithForwardRef(Button)>
       </div>
     </Styled(div)>
   </DemoLayout>
@@ -5932,7 +6296,7 @@ exports[`Button demo examples Snapshots: rtl 1`] = `
 >
   <ThemeProvider>
     <ThemeProvider>
-      <Button
+      <WithForwardRef(Button)
         element="button"
         iconStart={<IconBackspace />}
         size="large"
@@ -5940,70 +6304,83 @@ exports[`Button demo examples Snapshots: rtl 1`] = `
       >
         <Button
           element="button"
+          forwardedRef={null}
+          iconStart={<IconBackspace />}
           size="large"
-          text="قم بعمل ما"
           type="button"
         >
-          <button
-            className="emotion-3"
+          <Button
+            element="button"
+            size="large"
+            text="قم بعمل ما"
             type="button"
           >
-            <Styled(span)>
-              <span
-                className="emotion-2"
-              >
-                <IconBackspace
-                  key="iconStart"
-                  size="1.5em"
+            <button
+              className="emotion-3"
+              type="button"
+            >
+              <Styled(span)>
+                <span
+                  className="emotion-2"
                 >
-                  <Icon
-                    rtl={true}
+                  <IconBackspace
+                    key="iconStart"
                     size="1.5em"
                   >
-                    <Styled(svg)
-                      aria-hidden={true}
-                      focusable="false"
-                      role="img"
+                    <Icon
                       rtl={true}
                       size="1.5em"
-                      viewBox="0 0 24 24"
                     >
-                      <svg
+                      <Styled(svg)
                         aria-hidden={true}
-                        className="emotion-0"
                         focusable="false"
                         role="img"
+                        rtl={true}
+                        size="1.5em"
                         viewBox="0 0 24 24"
                       >
-                        <g>
-                          <path
-                            d="M22 3H7c-.69 0-1.23.35-1.59.88L0 12l5.41 8.11c.36.53.9.89 1.59.89h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-3 12.59L17.59 17 14 13.41 10.41 17 9 15.59 12.59 12 9 8.41 10.41 7 14 10.59 17.59 7 19 8.41 15.41 12 19 15.59z"
-                          />
-                        </g>
-                      </svg>
-                    </Styled(svg)>
-                  </Icon>
-                </IconBackspace>
-                <Styled(span)
-                  size="large"
-                >
-                  <span
-                    className="emotion-1"
+                        <svg
+                          aria-hidden={true}
+                          className="emotion-0"
+                          focusable="false"
+                          role="img"
+                          viewBox="0 0 24 24"
+                        >
+                          <g>
+                            <path
+                              d="M22 3H7c-.69 0-1.23.35-1.59.88L0 12l5.41 8.11c.36.53.9.89 1.59.89h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-3 12.59L17.59 17 14 13.41 10.41 17 9 15.59 12.59 12 9 8.41 10.41 7 14 10.59 17.59 7 19 8.41 15.41 12 19 15.59z"
+                            />
+                          </g>
+                        </svg>
+                      </Styled(svg)>
+                    </Icon>
+                  </IconBackspace>
+                  <Styled(span)
+                    size="large"
                   >
-                    قم بعمل ما
-                  </span>
-                </Styled(span)>
-              </span>
-            </Styled(span)>
-          </button>
+                    <span
+                      className="emotion-1"
+                    >
+                      قم بعمل ما
+                    </span>
+                  </Styled(span)>
+                </span>
+              </Styled(span)>
+            </button>
+          </Button>
         </Button>
-      </Button>
+      </WithForwardRef(Button)>
     </ThemeProvider>
   </ThemeProvider>
 </div>
 `;
 
 exports[`Button demo examples Snapshots: sizes 1`] = `
+.emotion-15[class] > * {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .emotion-1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -6020,11 +6397,6 @@ exports[`Button demo examples Snapshots: sizes 1`] = `
   max-height: 100%;
   pointer-events: none;
   width: 100%;
-}
-
-.emotion-15[class] > * {
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .emotion-6 {
@@ -6522,139 +6894,167 @@ exports[`Button demo examples Snapshots: sizes 1`] = `
       <div
         className="emotion-15"
       >
-        <Button
+        <WithForwardRef(Button)
           element="button"
           size="small"
           type="button"
         >
           <Button
             element="button"
+            forwardedRef={null}
             size="small"
-            text="Small"
             type="button"
           >
-            <button
-              className="emotion-2"
+            <Button
+              element="button"
+              size="small"
+              text="Small"
               type="button"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="small"
+              <button
+                className="emotion-2"
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-0"
+                    <Styled(span)
+                      size="small"
                     >
-                      Small
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-0"
+                      >
+                        Small
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
-        <Button
+        </WithForwardRef(Button)>
+        <WithForwardRef(Button)
           element="button"
           size="medium"
           type="button"
         >
           <Button
             element="button"
+            forwardedRef={null}
             size="medium"
-            text="Medium"
             type="button"
           >
-            <button
-              className="emotion-5"
+            <Button
+              element="button"
+              size="medium"
+              text="Medium"
               type="button"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="medium"
+              <button
+                className="emotion-5"
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-3"
+                    <Styled(span)
+                      size="medium"
                     >
-                      Medium
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-3"
+                      >
+                        Medium
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
-        <Button
+        </WithForwardRef(Button)>
+        <WithForwardRef(Button)
           element="button"
           size="large"
           type="button"
         >
           <Button
             element="button"
+            forwardedRef={null}
             size="large"
-            text="Large"
             type="button"
           >
-            <button
-              className="emotion-8"
+            <Button
+              element="button"
+              size="large"
+              text="Large"
               type="button"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="large"
+              <button
+                className="emotion-8"
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-6"
+                    <Styled(span)
+                      size="large"
                     >
-                      Large
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-6"
+                      >
+                        Large
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
-        <Button
+        </WithForwardRef(Button)>
+        <WithForwardRef(Button)
           element="button"
           size="jumbo"
           type="button"
         >
           <Button
             element="button"
+            forwardedRef={null}
             size="jumbo"
-            text="Jumbo"
             type="button"
           >
-            <button
-              className="emotion-11"
+            <Button
+              element="button"
+              size="jumbo"
+              text="Jumbo"
               type="button"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="jumbo"
+              <button
+                className="emotion-11"
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-9"
+                    <Styled(span)
+                      size="jumbo"
                     >
-                      Jumbo
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-9"
+                      >
+                        Jumbo
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
-        <Button
+        </WithForwardRef(Button)>
+        <WithForwardRef(Button)
           element="button"
           fullWidth={true}
           size="large"
@@ -6662,33 +7062,41 @@ exports[`Button demo examples Snapshots: sizes 1`] = `
         >
           <Button
             element="button"
+            forwardedRef={null}
             fullWidth={true}
             size="large"
-            text="Full Width"
             type="button"
           >
-            <button
-              className="emotion-14"
+            <Button
+              element="button"
+              fullWidth={true}
+              size="large"
+              text="Full Width"
               type="button"
             >
-              <Styled(span)>
-                <span
-                  className="emotion-1"
-                >
-                  <Styled(span)
-                    size="large"
+              <button
+                className="emotion-14"
+                type="button"
+              >
+                <Styled(span)>
+                  <span
+                    className="emotion-1"
                   >
-                    <span
-                      className="emotion-6"
+                    <Styled(span)
+                      size="large"
                     >
-                      Full Width
-                    </span>
-                  </Styled(span)>
-                </span>
-              </Styled(span)>
-            </button>
+                      <span
+                        className="emotion-6"
+                      >
+                        Full Width
+                      </span>
+                    </Styled(span)>
+                  </span>
+                </Styled(span)>
+              </button>
+            </Button>
           </Button>
-        </Button>
+        </WithForwardRef(Button)>
       </div>
     </Styled(div)>
   </DemoLayout>
@@ -6857,40 +7265,47 @@ exports[`Button demo examples Snapshots: truncation 1`] = `
           <div
             className="emotion-16"
           >
-            <Button
+            <WithForwardRef(Button)
               element="button"
               size="large"
               type="button"
             >
               <Button
                 element="button"
+                forwardedRef={null}
                 size="large"
-                text="Supercalifragilisticexpialidocious"
                 type="button"
               >
-                <button
-                  className="emotion-2"
+                <Button
+                  element="button"
+                  size="large"
+                  text="Supercalifragilisticexpialidocious"
                   type="button"
                 >
-                  <Styled(span)>
-                    <span
-                      className="emotion-1"
-                    >
-                      <Styled(span)
-                        size="large"
+                  <button
+                    className="emotion-2"
+                    type="button"
+                  >
+                    <Styled(span)>
+                      <span
+                        className="emotion-1"
                       >
-                        <span
-                          className="emotion-0"
+                        <Styled(span)
+                          size="large"
                         >
-                          Supercalifragilisticexpialidocious
-                        </span>
-                      </Styled(span)>
-                    </span>
-                  </Styled(span)>
-                </button>
+                          <span
+                            className="emotion-0"
+                          >
+                            Supercalifragilisticexpialidocious
+                          </span>
+                        </Styled(span)>
+                      </span>
+                    </Styled(span)>
+                  </button>
+                </Button>
               </Button>
-            </Button>
-            <Button
+            </WithForwardRef(Button)>
+            <WithForwardRef(Button)
               element="button"
               iconStart={<IconCloud />}
               size="large"
@@ -6898,65 +7313,73 @@ exports[`Button demo examples Snapshots: truncation 1`] = `
             >
               <Button
                 element="button"
+                forwardedRef={null}
+                iconStart={<IconCloud />}
                 size="large"
-                text="Start icon truncation"
                 type="button"
               >
-                <button
-                  className="emotion-2"
+                <Button
+                  element="button"
+                  size="large"
+                  text="Start icon truncation"
                   type="button"
                 >
-                  <Styled(span)>
-                    <span
-                      className="emotion-1"
-                    >
-                      <IconCloud
-                        key="iconStart"
-                        size="1.5em"
+                  <button
+                    className="emotion-2"
+                    type="button"
+                  >
+                    <Styled(span)>
+                      <span
+                        className="emotion-1"
                       >
-                        <Icon
-                          rtl={false}
+                        <IconCloud
+                          key="iconStart"
                           size="1.5em"
                         >
-                          <Styled(svg)
-                            aria-hidden={true}
-                            focusable="false"
-                            role="img"
+                          <Icon
                             rtl={false}
                             size="1.5em"
-                            viewBox="0 0 24 24"
                           >
-                            <svg
+                            <Styled(svg)
                               aria-hidden={true}
-                              className="emotion-3"
                               focusable="false"
                               role="img"
+                              rtl={false}
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
-                              <g>
-                                <path
-                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                                />
-                              </g>
-                            </svg>
-                          </Styled(svg)>
-                        </Icon>
-                      </IconCloud>
-                      <Styled(span)
-                        size="large"
-                      >
-                        <span
-                          className="emotion-0"
+                              <svg
+                                aria-hidden={true}
+                                className="emotion-3"
+                                focusable="false"
+                                role="img"
+                                viewBox="0 0 24 24"
+                              >
+                                <g>
+                                  <path
+                                    d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                  />
+                                </g>
+                              </svg>
+                            </Styled(svg)>
+                          </Icon>
+                        </IconCloud>
+                        <Styled(span)
+                          size="large"
                         >
-                          Start icon truncation
-                        </span>
-                      </Styled(span)>
-                    </span>
-                  </Styled(span)>
-                </button>
+                          <span
+                            className="emotion-0"
+                          >
+                            Start icon truncation
+                          </span>
+                        </Styled(span)>
+                      </span>
+                    </Styled(span)>
+                  </button>
+                </Button>
               </Button>
-            </Button>
-            <Button
+            </WithForwardRef(Button)>
+            <WithForwardRef(Button)
               element="button"
               iconEnd={<IconCloud />}
               size="large"
@@ -6964,65 +7387,73 @@ exports[`Button demo examples Snapshots: truncation 1`] = `
             >
               <Button
                 element="button"
+                forwardedRef={null}
+                iconEnd={<IconCloud />}
                 size="large"
-                text="End icon truncation"
                 type="button"
               >
-                <button
-                  className="emotion-2"
+                <Button
+                  element="button"
+                  size="large"
+                  text="End icon truncation"
                   type="button"
                 >
-                  <Styled(span)>
-                    <span
-                      className="emotion-1"
-                    >
-                      <Styled(span)
-                        size="large"
+                  <button
+                    className="emotion-2"
+                    type="button"
+                  >
+                    <Styled(span)>
+                      <span
+                        className="emotion-1"
                       >
-                        <span
-                          className="emotion-0"
+                        <Styled(span)
+                          size="large"
                         >
-                          End icon truncation
-                        </span>
-                      </Styled(span)>
-                      <IconCloud
-                        key="iconEnd"
-                        size="1.5em"
-                      >
-                        <Icon
-                          rtl={false}
+                          <span
+                            className="emotion-0"
+                          >
+                            End icon truncation
+                          </span>
+                        </Styled(span)>
+                        <IconCloud
+                          key="iconEnd"
                           size="1.5em"
                         >
-                          <Styled(svg)
-                            aria-hidden={true}
-                            focusable="false"
-                            role="img"
+                          <Icon
                             rtl={false}
                             size="1.5em"
-                            viewBox="0 0 24 24"
                           >
-                            <svg
+                            <Styled(svg)
                               aria-hidden={true}
-                              className="emotion-3"
                               focusable="false"
                               role="img"
+                              rtl={false}
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
-                              <g>
-                                <path
-                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                                />
-                              </g>
-                            </svg>
-                          </Styled(svg)>
-                        </Icon>
-                      </IconCloud>
-                    </span>
-                  </Styled(span)>
-                </button>
+                              <svg
+                                aria-hidden={true}
+                                className="emotion-3"
+                                focusable="false"
+                                role="img"
+                                viewBox="0 0 24 24"
+                              >
+                                <g>
+                                  <path
+                                    d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                  />
+                                </g>
+                              </svg>
+                            </Styled(svg)>
+                          </Icon>
+                        </IconCloud>
+                      </span>
+                    </Styled(span)>
+                  </button>
+                </Button>
               </Button>
-            </Button>
-            <Button
+            </WithForwardRef(Button)>
+            <WithForwardRef(Button)
               element="button"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -7031,96 +7462,105 @@ exports[`Button demo examples Snapshots: truncation 1`] = `
             >
               <Button
                 element="button"
+                forwardedRef={null}
+                iconEnd={<IconCloud />}
+                iconStart={<IconCloud />}
                 size="large"
-                text="Both icons truncation"
                 type="button"
               >
-                <button
-                  className="emotion-2"
+                <Button
+                  element="button"
+                  size="large"
+                  text="Both icons truncation"
                   type="button"
                 >
-                  <Styled(span)>
-                    <span
-                      className="emotion-1"
-                    >
-                      <IconCloud
-                        key="iconStart"
-                        size="1.5em"
+                  <button
+                    className="emotion-2"
+                    type="button"
+                  >
+                    <Styled(span)>
+                      <span
+                        className="emotion-1"
                       >
-                        <Icon
-                          rtl={false}
+                        <IconCloud
+                          key="iconStart"
                           size="1.5em"
                         >
-                          <Styled(svg)
-                            aria-hidden={true}
-                            focusable="false"
-                            role="img"
+                          <Icon
                             rtl={false}
                             size="1.5em"
-                            viewBox="0 0 24 24"
                           >
-                            <svg
+                            <Styled(svg)
                               aria-hidden={true}
-                              className="emotion-3"
                               focusable="false"
                               role="img"
+                              rtl={false}
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
-                              <g>
-                                <path
-                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                                />
-                              </g>
-                            </svg>
-                          </Styled(svg)>
-                        </Icon>
-                      </IconCloud>
-                      <Styled(span)
-                        size="large"
-                      >
-                        <span
-                          className="emotion-0"
+                              <svg
+                                aria-hidden={true}
+                                className="emotion-3"
+                                focusable="false"
+                                role="img"
+                                viewBox="0 0 24 24"
+                              >
+                                <g>
+                                  <path
+                                    d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                  />
+                                </g>
+                              </svg>
+                            </Styled(svg)>
+                          </Icon>
+                        </IconCloud>
+                        <Styled(span)
+                          size="large"
                         >
-                          Both icons truncation
-                        </span>
-                      </Styled(span)>
-                      <IconCloud
-                        key="iconEnd"
-                        size="1.5em"
-                      >
-                        <Icon
-                          rtl={false}
+                          <span
+                            className="emotion-0"
+                          >
+                            Both icons truncation
+                          </span>
+                        </Styled(span)>
+                        <IconCloud
+                          key="iconEnd"
                           size="1.5em"
                         >
-                          <Styled(svg)
-                            aria-hidden={true}
-                            focusable="false"
-                            role="img"
+                          <Icon
                             rtl={false}
                             size="1.5em"
-                            viewBox="0 0 24 24"
                           >
-                            <svg
+                            <Styled(svg)
                               aria-hidden={true}
-                              className="emotion-3"
                               focusable="false"
                               role="img"
+                              rtl={false}
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
-                              <g>
-                                <path
-                                  d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
-                                />
-                              </g>
-                            </svg>
-                          </Styled(svg)>
-                        </Icon>
-                      </IconCloud>
-                    </span>
-                  </Styled(span)>
-                </button>
+                              <svg
+                                aria-hidden={true}
+                                className="emotion-3"
+                                focusable="false"
+                                role="img"
+                                viewBox="0 0 24 24"
+                              >
+                                <g>
+                                  <path
+                                    d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"
+                                  />
+                                </g>
+                              </svg>
+                            </Styled(svg)>
+                          </Icon>
+                        </IconCloud>
+                      </span>
+                    </Styled(span)>
+                  </button>
+                </Button>
               </Button>
-            </Button>
+            </WithForwardRef(Button)>
           </div>
         </Styled(div)>
       </DemoLayout>
@@ -7214,7 +7654,7 @@ exports[`Button type prop is filtered when type=[button type] when element=NonFi
   margin: 0;
 }
 
-<Button
+<WithForwardRef(Button)
   element={[Function]}
   onClick={[MockFunction]}
   size="large"
@@ -7222,26 +7662,34 @@ exports[`Button type prop is filtered when type=[button type] when element=NonFi
 >
   <Button
     element={[Function]}
+    forwardedRef={null}
     onClick={[MockFunction]}
     size="large"
-    text="Do Something"
     type="button"
   >
-    <NonFilteringLink
-      className="emotion-0"
+    <Button
+      element={[Function]}
       onClick={[MockFunction]}
       size="large"
+      text="Do Something"
+      type="button"
     >
-      <a
+      <NonFilteringLink
         className="emotion-0"
         onClick={[MockFunction]}
         size="large"
       >
-        Do Something
-      </a>
-    </NonFilteringLink>
+        <a
+          className="emotion-0"
+          onClick={[MockFunction]}
+          size="large"
+        >
+          Do Something
+        </a>
+      </NonFilteringLink>
+    </Button>
   </Button>
-</Button>
+</WithForwardRef(Button)>
 `;
 
 exports[`Button type prop is filtered when type=[button type] when element=a 1`] = `
@@ -7366,7 +7814,7 @@ exports[`Button type prop is filtered when type=[button type] when element=a 1`]
   margin: 0;
 }
 
-<Button
+<WithForwardRef(Button)
   element="a"
   onClick={[MockFunction]}
   size="large"
@@ -7374,33 +7822,41 @@ exports[`Button type prop is filtered when type=[button type] when element=a 1`]
 >
   <Button
     element="a"
+    forwardedRef={null}
     onClick={[MockFunction]}
     size="large"
-    text="Do Something"
     type="button"
   >
-    <a
-      className="emotion-2"
+    <Button
+      element="a"
       onClick={[MockFunction]}
+      size="large"
+      text="Do Something"
+      type="button"
     >
-      <Styled(span)>
-        <span
-          className="emotion-1"
-        >
-          <Styled(span)
-            size="large"
+      <a
+        className="emotion-2"
+        onClick={[MockFunction]}
+      >
+        <Styled(span)>
+          <span
+            className="emotion-1"
           >
-            <span
-              className="emotion-0"
+            <Styled(span)
+              size="large"
             >
-              Do Something
-            </span>
-          </Styled(span)>
-        </span>
-      </Styled(span)>
-    </a>
+              <span
+                className="emotion-0"
+              >
+                Do Something
+              </span>
+            </Styled(span)>
+          </span>
+        </Styled(span)>
+      </a>
+    </Button>
   </Button>
-</Button>
+</WithForwardRef(Button)>
 `;
 
 exports[`Button type prop is filtered when type=[not a button type] when element=button 1`] = `
@@ -7525,7 +7981,7 @@ exports[`Button type prop is filtered when type=[not a button type] when element
   margin: 0;
 }
 
-<Button
+<WithForwardRef(Button)
   element="button"
   onClick={[MockFunction]}
   size="large"
@@ -7533,33 +7989,41 @@ exports[`Button type prop is filtered when type=[not a button type] when element
 >
   <Button
     element="button"
+    forwardedRef={null}
     onClick={[MockFunction]}
     size="large"
-    text="Do Something"
     type="foo"
   >
-    <button
-      className="emotion-2"
+    <Button
+      element="button"
       onClick={[MockFunction]}
+      size="large"
+      text="Do Something"
+      type="foo"
     >
-      <Styled(span)>
-        <span
-          className="emotion-1"
-        >
-          <Styled(span)
-            size="large"
+      <button
+        className="emotion-2"
+        onClick={[MockFunction]}
+      >
+        <Styled(span)>
+          <span
+            className="emotion-1"
           >
-            <span
-              className="emotion-0"
+            <Styled(span)
+              size="large"
             >
-              Do Something
-            </span>
-          </Styled(span)>
-        </span>
-      </Styled(span)>
-    </button>
+              <span
+                className="emotion-0"
+              >
+                Do Something
+              </span>
+            </Styled(span)>
+          </span>
+        </Styled(span)>
+      </button>
+    </Button>
   </Button>
-</Button>
+</WithForwardRef(Button)>
 `;
 
 exports[`Button type prop is not filtered when type=[MIME type] when element=NonFilteringLink 1`] = `
@@ -7647,7 +8111,7 @@ exports[`Button type prop is not filtered when type=[MIME type] when element=Non
   margin: 0;
 }
 
-<Button
+<WithForwardRef(Button)
   element={[Function]}
   onClick={[MockFunction]}
   size="large"
@@ -7655,28 +8119,36 @@ exports[`Button type prop is not filtered when type=[MIME type] when element=Non
 >
   <Button
     element={[Function]}
+    forwardedRef={null}
     onClick={[MockFunction]}
     size="large"
-    text="Do Something"
     type="video"
   >
-    <NonFilteringLink
-      className="emotion-0"
+    <Button
+      element={[Function]}
       onClick={[MockFunction]}
       size="large"
+      text="Do Something"
       type="video"
     >
-      <a
+      <NonFilteringLink
         className="emotion-0"
         onClick={[MockFunction]}
         size="large"
         type="video"
       >
-        Do Something
-      </a>
-    </NonFilteringLink>
+        <a
+          className="emotion-0"
+          onClick={[MockFunction]}
+          size="large"
+          type="video"
+        >
+          Do Something
+        </a>
+      </NonFilteringLink>
+    </Button>
   </Button>
-</Button>
+</WithForwardRef(Button)>
 `;
 
 exports[`Button type prop is not filtered when type=[MIME type] when element=a 1`] = `
@@ -7801,7 +8273,7 @@ exports[`Button type prop is not filtered when type=[MIME type] when element=a 1
   margin: 0;
 }
 
-<Button
+<WithForwardRef(Button)
   element="a"
   onClick={[MockFunction]}
   size="large"
@@ -7809,34 +8281,42 @@ exports[`Button type prop is not filtered when type=[MIME type] when element=a 1
 >
   <Button
     element="a"
+    forwardedRef={null}
     onClick={[MockFunction]}
     size="large"
-    text="Do Something"
     type="video"
   >
-    <a
-      className="emotion-2"
+    <Button
+      element="a"
       onClick={[MockFunction]}
+      size="large"
+      text="Do Something"
       type="video"
     >
-      <Styled(span)>
-        <span
-          className="emotion-1"
-        >
-          <Styled(span)
-            size="large"
+      <a
+        className="emotion-2"
+        onClick={[MockFunction]}
+        type="video"
+      >
+        <Styled(span)>
+          <span
+            className="emotion-1"
           >
-            <span
-              className="emotion-0"
+            <Styled(span)
+              size="large"
             >
-              Do Something
-            </span>
-          </Styled(span)>
-        </span>
-      </Styled(span)>
-    </a>
+              <span
+                className="emotion-0"
+              >
+                Do Something
+              </span>
+            </Styled(span)>
+          </span>
+        </Styled(span)>
+      </a>
+    </Button>
   </Button>
-</Button>
+</WithForwardRef(Button)>
 `;
 
 exports[`Button type prop is not filtered when type=[button type] when element=button 1`] = `
@@ -7961,7 +8441,7 @@ exports[`Button type prop is not filtered when type=[button type] when element=b
   margin: 0;
 }
 
-<Button
+<WithForwardRef(Button)
   element="button"
   onClick={[MockFunction]}
   size="large"
@@ -7969,32 +8449,40 @@ exports[`Button type prop is not filtered when type=[button type] when element=b
 >
   <Button
     element="button"
+    forwardedRef={null}
     onClick={[MockFunction]}
     size="large"
-    text="Do Something"
     type="button"
   >
-    <button
-      className="emotion-2"
+    <Button
+      element="button"
       onClick={[MockFunction]}
+      size="large"
+      text="Do Something"
       type="button"
     >
-      <Styled(span)>
-        <span
-          className="emotion-1"
-        >
-          <Styled(span)
-            size="large"
+      <button
+        className="emotion-2"
+        onClick={[MockFunction]}
+        type="button"
+      >
+        <Styled(span)>
+          <span
+            className="emotion-1"
           >
-            <span
-              className="emotion-0"
+            <Styled(span)
+              size="large"
             >
-              Do Something
-            </span>
-          </Styled(span)>
-        </span>
-      </Styled(span)>
-    </button>
+              <span
+                className="emotion-0"
+              >
+                Do Something
+              </span>
+            </Styled(span)>
+          </span>
+        </Styled(span)>
+      </button>
+    </Button>
   </Button>
-</Button>
+</WithForwardRef(Button)>
 `;

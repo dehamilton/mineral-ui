@@ -1,5 +1,51 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[` 1`] = `
+.emotion-0 {
+  box-sizing: border-box;
+  color: red;
+  font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 32px;
+  line-height: 1.25;
+  outline: 0;
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 800;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.emotion-0 *,
+.emotion-0 *::before,
+.emotion-0 *::after {
+  box-sizing: inherit;
+}
+
+<Text
+  appearance="h1"
+  element="h4"
+  noMargins={true}
+>
+  <TextProvider
+    appearance="h1"
+    element="h4"
+    noMargins={true}
+  >
+    <Styled(h4)
+      appearance="h1"
+      element="h4"
+      noMargins={true}
+    >
+      <h4
+        className="emotion-0"
+      >
+        Test
+      </h4>
+    </Styled(h4)>
+  </TextProvider>
+</Text>
+`;
+
 exports[`Text demo examples Snapshots: alignment 1`] = `
 .emotion-0 {
   box-sizing: border-box;

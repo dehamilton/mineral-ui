@@ -1,55 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
-.emotion-12 {
-  margin-bottom: 1em;
-  margin-top: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-11 {
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-}
-
-.emotion-10 {
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-10 > [role="img"] {
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  margin-right: 0.5em;
-  position: relative;
-  top: 0.25em;
-}
-
-.emotion-16::after {
+.emotion-15::after {
   clear: both;
   content: "";
   display: table;
 }
 
-.emotion-16 > * {
+.emotion-15 > * {
   margin-bottom: 1em;
 }
 
 @media (min-width:40em) {
-  .emotion-16 > * {
+  .emotion-15 > * {
     float: left;
     margin-right: 1em;
     width: 47%;
@@ -57,13 +20,13 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
 }
 
 @media (min-width:64em) {
-  .emotion-16 > *:nth-last-child(n+3),
-  .emotion-16 > *:nth-last-child(n+3) ~ * {
+  .emotion-15 > *:nth-last-child(n+3),
+  .emotion-15 > *:nth-last-child(n+3) ~ * {
     width: 30%;
   }
 }
 
-.emotion-15 {
+.emotion-14 {
   box-sizing: border-box;
   color: #333840;
   font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -80,28 +43,65 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
   padding-top: 0.01em;
 }
 
-.emotion-15 *,
-.emotion-15 *::before,
-.emotion-15 *::after {
+.emotion-14 *,
+.emotion-14 *::before,
+.emotion-14 *::after {
   box-sizing: inherit;
 }
 
-.emotion-15:focus {
+.emotion-14:focus {
   box-shadow: 0 0 0 2px #1d5bbf,0 1px 2px 0 rgba(0,0,0,0.2),0 2px 4px 0 rgba(0,0,0,0.2);
 }
 
-.emotion-14 {
+.emotion-11 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-10 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.emotion-9 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-9 > [role="img"] {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-right: 0.5em;
+  position: relative;
+  top: 0.25em;
+}
+
+.emotion-13 {
   margin-bottom: 1em;
   margin-top: 1em;
   padding-left: 1em;
   padding-right: 1em;
 }
 
-.emotion-14:last-child {
+.emotion-13:last-child {
   margin-bottom: 1.5em;
 }
 
-.emotion-13 {
+.emotion-12 {
   font-size: 0.875em;
   line-height: 1.5;
 }
@@ -121,7 +121,7 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
   display: inline-block;
 }
 
-.emotion-6 {
+.emotion-7 {
   display: inline-block;
 }
 
@@ -263,12 +263,12 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
 <Component>
   <Styled(div)>
     <div
-      className="emotion-16"
+      className="emotion-15"
     >
       <Card>
         <Card>
           <div
-            className="emotion-15"
+            className="emotion-14"
           >
             <CardTitle
               actions={
@@ -298,15 +298,15 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
             >
               <CardTitle>
                 <div
-                  className="emotion-12"
+                  className="emotion-11"
                 >
                   <Styled(div)>
                     <div
-                      className="emotion-11"
+                      className="emotion-10"
                     >
                       <Styled(div)>
                         <div
-                          className="emotion-10"
+                          className="emotion-9"
                         >
                           <Styled(h3)
                             actions={
@@ -398,23 +398,18 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                                 placement="bottom-end"
                                 triggerRef={[Function]}
                               >
-                                <Popover
-                                  content={[Function]}
-                                  focusTriggerOnClose={true}
-                                  hasArrow={true}
-                                  id="dropdown-1"
-                                  isOpen={false}
-                                  itemKey="text"
-                                  onClose={[Function]}
-                                  onOpen={[Function]}
-                                  placement="bottom-end"
-                                  tag="span"
-                                  triggerRef={[Function]}
-                                >
-                                  <Manager
-                                    className="emotion-8"
+                                <Manager>
+                                  <Popover
+                                    content={[Function]}
+                                    focusTriggerOnClose={true}
+                                    hasArrow={true}
                                     id="dropdown-1"
-                                    tag="span"
+                                    isOpen={false}
+                                    itemKey="text"
+                                    onClose={[Function]}
+                                    onOpen={[Function]}
+                                    placement="bottom-end"
+                                    triggerRef={[Function]}
                                   >
                                     <span
                                       className="emotion-8"
@@ -440,42 +435,19 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                                         size="large"
                                         type="button"
                                       >
-                                        <PopoverTrigger
-                                          component="span"
-                                        >
-                                          <Target
-                                            className="emotion-6"
-                                            component="span"
+                                        <Reference>
+                                          <InnerReference
+                                            getReferenceRef={[Function]}
                                           >
-                                            <span
-                                              className="emotion-6"
-                                            >
-                                              <Styled(Button)
-                                                aria-describedby="dropdown-1-content"
-                                                aria-expanded={false}
-                                                aria-haspopup={true}
-                                                aria-owns="dropdown-1-content"
-                                                element="button"
-                                                iconStart={
-                                                  <IconMoreHoriz
-                                                    title="Card actions"
-                                                  />
-                                                }
-                                                minimal={true}
-                                                onBlur={[Function]}
-                                                onClick={[Function]}
-                                                onKeyDown={[Function]}
-                                                onKeyUp={[Function]}
-                                                role="button"
-                                                size="large"
-                                                type="button"
+                                            <PopoverTrigger>
+                                              <span
+                                                className="emotion-7"
                                               >
-                                                <Button
+                                                <Styled(WithForwardRef(Button))
                                                   aria-describedby="dropdown-1-content"
                                                   aria-expanded={false}
                                                   aria-haspopup={true}
                                                   aria-owns="dropdown-1-content"
-                                                  className="emotion-4"
                                                   element="button"
                                                   iconStart={
                                                     <IconMoreHoriz
@@ -491,13 +463,18 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                                                   size="large"
                                                   type="button"
                                                 >
-                                                  <Button
+                                                  <WithForwardRef(Button)
                                                     aria-describedby="dropdown-1-content"
                                                     aria-expanded={false}
                                                     aria-haspopup={true}
                                                     aria-owns="dropdown-1-content"
                                                     className="emotion-4"
                                                     element="button"
+                                                    iconStart={
+                                                      <IconMoreHoriz
+                                                        title="Card actions"
+                                                      />
+                                                    }
                                                     minimal={true}
                                                     onBlur={[Function]}
                                                     onClick={[Function]}
@@ -507,77 +484,117 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                                                     size="large"
                                                     type="button"
                                                   >
-                                                    <button
+                                                    <Button
                                                       aria-describedby="dropdown-1-content"
                                                       aria-expanded={false}
                                                       aria-haspopup={true}
                                                       aria-owns="dropdown-1-content"
-                                                      className="emotion-3"
+                                                      className="emotion-4"
+                                                      element="button"
+                                                      forwardedRef={null}
+                                                      iconStart={
+                                                        <IconMoreHoriz
+                                                          title="Card actions"
+                                                        />
+                                                      }
+                                                      minimal={true}
                                                       onBlur={[Function]}
                                                       onClick={[Function]}
                                                       onKeyDown={[Function]}
                                                       onKeyUp={[Function]}
                                                       role="button"
+                                                      size="large"
                                                       type="button"
                                                     >
-                                                      <Styled(span)>
-                                                        <span
-                                                          className="emotion-2"
+                                                      <Button
+                                                        aria-describedby="dropdown-1-content"
+                                                        aria-expanded={false}
+                                                        aria-haspopup={true}
+                                                        aria-owns="dropdown-1-content"
+                                                        className="emotion-4"
+                                                        element="button"
+                                                        minimal={true}
+                                                        onBlur={[Function]}
+                                                        onClick={[Function]}
+                                                        onKeyDown={[Function]}
+                                                        onKeyUp={[Function]}
+                                                        role="button"
+                                                        size="large"
+                                                        type="button"
+                                                      >
+                                                        <button
+                                                          aria-describedby="dropdown-1-content"
+                                                          aria-expanded={false}
+                                                          aria-haspopup={true}
+                                                          aria-owns="dropdown-1-content"
+                                                          className="emotion-3"
+                                                          onBlur={[Function]}
+                                                          onClick={[Function]}
+                                                          onKeyDown={[Function]}
+                                                          onKeyUp={[Function]}
+                                                          role="button"
+                                                          type="button"
                                                         >
-                                                          <IconMoreHoriz
-                                                            key="iconStart"
-                                                            size="1.5em"
-                                                            title="Card actions"
-                                                          >
-                                                            <Icon
-                                                              rtl={false}
-                                                              size="1.5em"
-                                                              title="Card actions"
+                                                          <Styled(span)>
+                                                            <span
+                                                              className="emotion-2"
                                                             >
-                                                              <Styled(svg)
-                                                                aria-hidden={null}
-                                                                aria-labelledby="icon-title-icon-2"
-                                                                focusable="false"
-                                                                role="img"
-                                                                rtl={false}
+                                                              <IconMoreHoriz
+                                                                key="iconStart"
                                                                 size="1.5em"
-                                                                viewBox="0 0 24 24"
+                                                                title="Card actions"
                                                               >
-                                                                <svg
-                                                                  aria-hidden={null}
-                                                                  aria-labelledby="icon-title-icon-2"
-                                                                  className="emotion-1"
-                                                                  focusable="false"
-                                                                  role="img"
-                                                                  viewBox="0 0 24 24"
+                                                                <Icon
+                                                                  rtl={false}
+                                                                  size="1.5em"
+                                                                  title="Card actions"
                                                                 >
-                                                                  <title
-                                                                    id="icon-title-icon-2"
+                                                                  <Styled(svg)
+                                                                    aria-hidden={null}
+                                                                    aria-labelledby="icon-title-icon-2"
+                                                                    focusable="false"
+                                                                    role="img"
+                                                                    rtl={false}
+                                                                    size="1.5em"
+                                                                    viewBox="0 0 24 24"
                                                                   >
-                                                                    Card actions
-                                                                  </title>
-                                                                  <g>
-                                                                    <path
-                                                                      d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
-                                                                    />
-                                                                  </g>
-                                                                </svg>
-                                                              </Styled(svg)>
-                                                            </Icon>
-                                                          </IconMoreHoriz>
-                                                        </span>
-                                                      </Styled(span)>
-                                                    </button>
-                                                  </Button>
-                                                </Button>
-                                              </Styled(Button)>
-                                            </span>
-                                          </Target>
-                                        </PopoverTrigger>
+                                                                    <svg
+                                                                      aria-hidden={null}
+                                                                      aria-labelledby="icon-title-icon-2"
+                                                                      className="emotion-1"
+                                                                      focusable="false"
+                                                                      role="img"
+                                                                      viewBox="0 0 24 24"
+                                                                    >
+                                                                      <title
+                                                                        id="icon-title-icon-2"
+                                                                      >
+                                                                        Card actions
+                                                                      </title>
+                                                                      <g>
+                                                                        <path
+                                                                          d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                                                                        />
+                                                                      </g>
+                                                                    </svg>
+                                                                  </Styled(svg)>
+                                                                </Icon>
+                                                              </IconMoreHoriz>
+                                                            </span>
+                                                          </Styled(span)>
+                                                        </button>
+                                                      </Button>
+                                                    </Button>
+                                                  </WithForwardRef(Button)>
+                                                </Styled(WithForwardRef(Button))>
+                                              </span>
+                                            </PopoverTrigger>
+                                          </InnerReference>
+                                        </Reference>
                                       </PopoverTrigger>
                                     </span>
-                                  </Manager>
-                                </Popover>
+                                  </Popover>
+                                </Manager>
                               </Popover>
                             </Dropdown>
                           </CardTitleMenu>
@@ -591,11 +608,11 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
             <CardBlock>
               <CardBlock>
                 <div
-                  className="emotion-14"
+                  className="emotion-13"
                 >
                   <Styled(div)>
                     <div
-                      className="emotion-13"
+                      className="emotion-12"
                     >
                       
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis
@@ -615,53 +632,6 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
 `;
 
 exports[`CardTitle demo examples Snapshots: avatar 1`] = `
-.emotion-5 {
-  margin-bottom: 1em;
-  margin-top: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-4 {
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-}
-
-.emotion-3 {
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-3 > [role="img"] {
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  margin-right: 0.5em;
-  position: relative;
-  top: 0.25em;
-}
-
-.emotion-2 {
-  color: #58606e;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  font-size: 1.125em;
-  font-weight: 700;
-  margin: 0;
-}
-
 .emotion-19::after {
   clear: both;
   content: "";
@@ -712,6 +682,53 @@ exports[`CardTitle demo examples Snapshots: avatar 1`] = `
 
 .emotion-8:focus {
   box-shadow: 0 0 0 2px #1d5bbf,0 1px 2px 0 rgba(0,0,0,0.2),0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.emotion-5 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-4 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.emotion-3 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-3 > [role="img"] {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-right: 0.5em;
+  position: relative;
+  top: 0.25em;
+}
+
+.emotion-2 {
+  color: #58606e;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: 1.125em;
+  font-weight: 700;
+  margin: 0;
 }
 
 .emotion-7 {
@@ -1033,51 +1050,6 @@ exports[`CardTitle demo examples Snapshots: avatar 1`] = `
 `;
 
 exports[`CardTitle demo examples Snapshots: rtl 1`] = `
-.emotion-6 {
-  margin-bottom: 1em;
-  margin-top: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-5 {
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-}
-
-.emotion-2 {
-  color: #58606e;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  font-size: 1.125em;
-  font-weight: 700;
-  margin: 0;
-}
-
-.emotion-11 {
-  color: #58606e;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  font-size: 0.6875em;
-  font-weight: 400;
-  -webkit-transform: translateY(0.45454545454545453em);
-  -ms-transform: translateY(0.45454545454545453em);
-  transform: translateY(0.45454545454545453em);
-  display: inline-block;
-  max-width: 33%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  word-wrap: normal;
-}
-
 .emotion-9 {
   box-sizing: border-box;
   color: #333840;
@@ -1103,6 +1075,33 @@ exports[`CardTitle demo examples Snapshots: rtl 1`] = `
 
 .emotion-9:focus {
   box-shadow: 0 0 0 2px #1d5bbf,0 1px 2px 0 rgba(0,0,0,0.2),0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.emotion-6 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-5 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.emotion-2 {
+  color: #58606e;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: 1.125em;
+  font-weight: 700;
+  margin: 0;
 }
 
 .emotion-8 {
@@ -1183,6 +1182,24 @@ exports[`CardTitle demo examples Snapshots: rtl 1`] = `
   font-size: 0.6875em;
   font-weight: 400;
   margin: 0;
+}
+
+.emotion-11 {
+  color: #58606e;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 0.6875em;
+  font-weight: 400;
+  -webkit-transform: translateY(0.45454545454545453em);
+  -ms-transform: translateY(0.45454545454545453em);
+  transform: translateY(0.45454545454545453em);
+  display: inline-block;
+  max-width: 33%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
 }
 
 .emotion-18::after {
@@ -1432,71 +1449,6 @@ exports[`CardTitle demo examples Snapshots: rtl 1`] = `
 `;
 
 exports[`CardTitle demo examples Snapshots: secondary-text 1`] = `
-.emotion-4 {
-  margin-bottom: 1em;
-  margin-top: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-3 {
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-}
-
-.emotion-2 {
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-2 > [role="img"] {
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  margin-right: 0.5em;
-  position: relative;
-  top: 0.25em;
-}
-
-.emotion-0 {
-  color: #58606e;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  font-size: 1.125em;
-  font-weight: 700;
-  margin: 0;
-}
-
-.emotion-1 {
-  color: #58606e;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  font-size: 0.6875em;
-  font-weight: 400;
-  -webkit-transform: translateY(0.45454545454545453em);
-  -ms-transform: translateY(0.45454545454545453em);
-  transform: translateY(0.45454545454545453em);
-  display: inline-block;
-  max-width: 33%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  word-wrap: normal;
-}
-
 .emotion-16::after {
   clear: both;
   content: "";
@@ -1549,6 +1501,53 @@ exports[`CardTitle demo examples Snapshots: secondary-text 1`] = `
   box-shadow: 0 0 0 2px #1d5bbf,0 1px 2px 0 rgba(0,0,0,0.2),0 2px 4px 0 rgba(0,0,0,0.2);
 }
 
+.emotion-4 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-3 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.emotion-2 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-2 > [role="img"] {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-right: 0.5em;
+  position: relative;
+  top: 0.25em;
+}
+
+.emotion-0 {
+  color: #58606e;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: 1.125em;
+  font-weight: 700;
+  margin: 0;
+}
+
 .emotion-6 {
   margin-bottom: 1em;
   margin-top: 1em;
@@ -1563,6 +1562,24 @@ exports[`CardTitle demo examples Snapshots: secondary-text 1`] = `
 .emotion-5 {
   font-size: 0.875em;
   line-height: 1.5;
+}
+
+.emotion-1 {
+  color: #58606e;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 0.6875em;
+  font-weight: 400;
+  -webkit-transform: translateY(0.45454545454545453em);
+  -ms-transform: translateY(0.45454545454545453em);
+  transform: translateY(0.45454545454545453em);
+  display: inline-block;
+  max-width: 33%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
 }
 
 <Styled(div)>
@@ -1698,6 +1715,58 @@ exports[`CardTitle demo examples Snapshots: secondary-text 1`] = `
 `;
 
 exports[`CardTitle demo examples Snapshots: titles 1`] = `
+.emotion-8::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.emotion-8 > * {
+  margin-bottom: 1em;
+}
+
+@media (min-width:40em) {
+  .emotion-8 > * {
+    float: left;
+    margin-right: 1em;
+    width: 47%;
+  }
+}
+
+@media (min-width:64em) {
+  .emotion-8 > *:nth-last-child(n+3),
+  .emotion-8 > *:nth-last-child(n+3) ~ * {
+    width: 30%;
+  }
+}
+
+.emotion-7 {
+  box-sizing: border-box;
+  color: #333840;
+  font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.25;
+  outline: 0;
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: antialiased;
+  background-color: #ffffff;
+  border: 1px solid #ebeff5;
+  border-radius: 0.1875em;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2),0 4px 8px 0 rgba(0,0,0,0.2);
+  padding-bottom: 0.01em;
+  padding-top: 0.01em;
+}
+
+.emotion-7 *,
+.emotion-7 *::before,
+.emotion-7 *::after {
+  box-sizing: inherit;
+}
+
+.emotion-7:focus {
+  box-shadow: 0 0 0 2px #1d5bbf,0 1px 2px 0 rgba(0,0,0,0.2),0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
 .emotion-4 {
   margin-bottom: 1em;
   margin-top: 1em;
@@ -1751,58 +1820,6 @@ exports[`CardTitle demo examples Snapshots: titles 1`] = `
   font-weight: 400;
   margin: 0;
   margin-top: 0.7272727272727273em;
-}
-
-.emotion-8::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
-.emotion-8 > * {
-  margin-bottom: 1em;
-}
-
-@media (min-width:40em) {
-  .emotion-8 > * {
-    float: left;
-    margin-right: 1em;
-    width: 47%;
-  }
-}
-
-@media (min-width:64em) {
-  .emotion-8 > *:nth-last-child(n+3),
-  .emotion-8 > *:nth-last-child(n+3) ~ * {
-    width: 30%;
-  }
-}
-
-.emotion-7 {
-  box-sizing: border-box;
-  color: #333840;
-  font-family: "Open Sans",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 16px;
-  line-height: 1.25;
-  outline: 0;
-  -moz-osx-font-smoothing: auto;
-  -webkit-font-smoothing: antialiased;
-  background-color: #ffffff;
-  border: 1px solid #ebeff5;
-  border-radius: 0.1875em;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2),0 4px 8px 0 rgba(0,0,0,0.2);
-  padding-bottom: 0.01em;
-  padding-top: 0.01em;
-}
-
-.emotion-7 *,
-.emotion-7 *::before,
-.emotion-7 *::after {
-  box-sizing: inherit;
-}
-
-.emotion-7:focus {
-  box-shadow: 0 0 0 2px #1d5bbf,0 1px 2px 0 rgba(0,0,0,0.2),0 2px 4px 0 rgba(0,0,0,0.2);
 }
 
 .emotion-6 {
@@ -1892,41 +1909,6 @@ exports[`CardTitle demo examples Snapshots: titles 1`] = `
 `;
 
 exports[`CardTitle demo examples Snapshots: variants 1`] = `
-.emotion-4 {
-  margin-bottom: 1em;
-  margin-top: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-3 {
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-}
-
-.emotion-1 {
-  color: #58606e;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  font-size: 1.125em;
-  font-weight: 700;
-  margin: 0;
-}
-
-.emotion-19 {
-  color: #58606e;
-  font-size: 0.6875em;
-  font-weight: 400;
-  margin: 0;
-  margin-top: 0.7272727272727273em;
-}
-
 .emotion-25::after {
   clear: both;
   content: "";
@@ -1977,6 +1959,41 @@ exports[`CardTitle demo examples Snapshots: variants 1`] = `
 
 .emotion-7:focus {
   box-shadow: 0 0 0 2px #1d5bbf,0 1px 2px 0 rgba(0,0,0,0.2),0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.emotion-4 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-3 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.emotion-1 {
+  color: #58606e;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: 1.125em;
+  font-weight: 700;
+  margin: 0;
+}
+
+.emotion-19 {
+  color: #58606e;
+  font-size: 0.6875em;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 0.7272727272727273em;
 }
 
 .emotion-6 {

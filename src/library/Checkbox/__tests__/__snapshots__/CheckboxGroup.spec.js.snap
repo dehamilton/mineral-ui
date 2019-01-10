@@ -1,6 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
+.emotion-16 > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .emotion-15 {
   box-sizing: border-box;
   color: #333840;
@@ -27,10 +31,6 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
 
 .emotion-15 > *:not(:last-child) {
   margin-bottom: 1em;
-}
-
-.emotion-16 > *:not(:last-child) {
-  margin-bottom: 1rem;
 }
 
 .emotion-4 {
@@ -69,7 +69,7 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
 }
 
 .emotion-0 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -77,7 +77,7 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -363,7 +363,6 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
                                         >
                                           <Styled(input)
                                             checked={false}
-                                            innerRef={[Function]}
                                             name="minerals"
                                             onChange={[Function]}
                                             onClick={[Function]}
@@ -512,7 +511,6 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
                                         >
                                           <Styled(input)
                                             checked={true}
-                                            innerRef={[Function]}
                                             name="minerals"
                                             onChange={[Function]}
                                             onClick={[Function]}
@@ -661,7 +659,6 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
                                         >
                                           <Styled(input)
                                             checked={true}
-                                            innerRef={[Function]}
                                             name="minerals"
                                             onChange={[Function]}
                                             onClick={[Function]}
@@ -751,6 +748,10 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
 `;
 
 exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
+.emotion-33 > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .emotion-15 {
   box-sizing: border-box;
   color: #333840;
@@ -777,10 +778,6 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
 
 .emotion-15 > *:not(:last-child) {
   margin-bottom: 1em;
-}
-
-.emotion-33 > *:not(:last-child) {
-  margin-bottom: 1rem;
 }
 
 .emotion-4 {
@@ -819,7 +816,7 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
 }
 
 .emotion-0 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -827,7 +824,7 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -1109,7 +1106,6 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                     >
                                       <Styled(input)
                                         defaultChecked={false}
-                                        innerRef={[Function]}
                                         name="minerals-1"
                                         onClick={[Function]}
                                         size="large"
@@ -1252,7 +1248,6 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                     >
                                       <Styled(input)
                                         defaultChecked={true}
-                                        innerRef={[Function]}
                                         name="minerals-1"
                                         onClick={[Function]}
                                         size="large"
@@ -1395,7 +1390,6 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                     >
                                       <Styled(input)
                                         defaultChecked={true}
-                                        innerRef={[Function]}
                                         name="minerals-1"
                                         onClick={[Function]}
                                         size="large"
@@ -1613,7 +1607,6 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                     >
                                       <Styled(input)
                                         defaultChecked={false}
-                                        innerRef={[Function]}
                                         name="minerals-2"
                                         onClick={[Function]}
                                         size="large"
@@ -1756,7 +1749,6 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                     >
                                       <Styled(input)
                                         defaultChecked={true}
-                                        innerRef={[Function]}
                                         name="minerals-2"
                                         onClick={[Function]}
                                         size="large"
@@ -1899,7 +1891,6 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                     >
                                       <Styled(input)
                                         defaultChecked={true}
-                                        innerRef={[Function]}
                                         name="minerals-2"
                                         onClick={[Function]}
                                         size="large"
@@ -1985,6 +1976,10 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
 `;
 
 exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
+.emotion-30 > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .emotion-27 {
   box-sizing: border-box;
   color: #333840;
@@ -2011,10 +2006,6 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
 
 .emotion-27 > *:not(:last-child) {
   margin-bottom: 1em;
-}
-
-.emotion-30 > *:not(:last-child) {
-  margin-bottom: 1rem;
 }
 
 .emotion-6 {
@@ -2053,7 +2044,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
 }
 
 .emotion-2 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -2061,7 +2052,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -2235,13 +2226,13 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
           >
             <div>
               <Styled(div)
-                key="formField-31-textWrapper"
+                key="formField-16-textWrapper"
               >
                 <div
                   className="emotion-1"
                 >
                   <span
-                    id="formField-31-labelText"
+                    id="formField-16-labelText"
                   >
                     What are the primary characteristics of a mineral?
                   </span>
@@ -2255,7 +2246,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                 </div>
               </Styled(div)>
               <CheckboxGroup
-                aria-describedby="formField-31-caption"
+                aria-describedby="formField-16-caption"
                 data={
                   Array [
                     Object {
@@ -2280,19 +2271,19 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                     },
                   ]
                 }
-                key="formField-31-control"
+                key="formField-16-control"
                 name="contact"
                 required={true}
                 rootProps={
                   Object {
-                    "aria-describedby": "formField-31-caption",
-                    "aria-labelledby": "formField-31-labelText",
+                    "aria-describedby": "formField-16-caption",
+                    "aria-labelledby": "formField-16-labelText",
                   }
                 }
                 variant="success"
               >
                 <WithTheme(Themed(ChoiceGroup))
-                  aria-describedby="formField-31-caption"
+                  aria-describedby="formField-16-caption"
                   data={
                     Array [
                       Object {
@@ -2322,15 +2313,15 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                   required={true}
                   rootProps={
                     Object {
-                      "aria-describedby": "formField-31-caption",
-                      "aria-labelledby": "formField-31-labelText",
+                      "aria-describedby": "formField-16-caption",
+                      "aria-labelledby": "formField-16-labelText",
                     }
                   }
                   type="checkbox"
                   variant="success"
                 >
                   <Themed(ChoiceGroup)
-                    aria-describedby="formField-31-caption"
+                    aria-describedby="formField-16-caption"
                     data={
                       Array [
                         Object {
@@ -2360,8 +2351,8 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                     required={true}
                     rootProps={
                       Object {
-                        "aria-describedby": "formField-31-caption",
-                        "aria-labelledby": "formField-31-labelText",
+                        "aria-describedby": "formField-16-caption",
+                        "aria-labelledby": "formField-16-labelText",
                       }
                     }
                     type="checkbox"
@@ -2370,7 +2361,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                     <ThemeProvider>
                       <ThemeProvider>
                         <ChoiceGroup
-                          aria-describedby="formField-31-caption"
+                          aria-describedby="formField-16-caption"
                           data={
                             Array [
                               Object {
@@ -2401,8 +2392,8 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                           role="group"
                           rootProps={
                             Object {
-                              "aria-describedby": "formField-31-caption",
-                              "aria-labelledby": "formField-31-labelText",
+                              "aria-describedby": "formField-16-caption",
+                              "aria-labelledby": "formField-16-labelText",
                             }
                           }
                           size="large"
@@ -2410,19 +2401,19 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                           variant="success"
                         >
                           <ChoiceGroup
-                            aria-describedby="formField-31-caption"
-                            aria-labelledby="formField-31-labelText"
+                            aria-describedby="formField-16-caption"
+                            aria-labelledby="formField-16-labelText"
                             role="group"
                             size="large"
                           >
                             <div
-                              aria-describedby="formField-31-caption"
-                              aria-labelledby="formField-31-labelText"
+                              aria-describedby="formField-16-caption"
+                              aria-labelledby="formField-16-labelText"
                               className="emotion-27"
                               role="group"
                             >
                               <Checkbox
-                                aria-describedby="formField-31-caption"
+                                aria-describedby="formField-16-caption"
                                 key="0"
                                 label="Naturally occurring"
                                 labelPosition="end"
@@ -2432,7 +2423,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                 variant="success"
                               >
                                 <WithTheme(Themed(Choice))
-                                  aria-describedby="formField-31-caption"
+                                  aria-describedby="formField-16-caption"
                                   iconChecked={<IconCheckBoxCheck />}
                                   inputRef={[Function]}
                                   label="Naturally occurring"
@@ -2450,7 +2441,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                   variant="success"
                                 >
                                   <Themed(Choice)
-                                    aria-describedby="formField-31-caption"
+                                    aria-describedby="formField-16-caption"
                                     iconChecked={<IconCheckBoxCheck />}
                                     inputRef={[Function]}
                                     label="Naturally occurring"
@@ -2470,7 +2461,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                     <ThemeProvider>
                                       <ThemeProvider>
                                         <Choice
-                                          aria-describedby="formField-31-caption"
+                                          aria-describedby="formField-16-caption"
                                           iconChecked={<IconCheckBoxCheck />}
                                           inputRef={[Function]}
                                           label="Naturally occurring"
@@ -2495,8 +2486,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                               className="emotion-6"
                                             >
                                               <Styled(input)
-                                                aria-describedby="formField-31-caption"
-                                                innerRef={[Function]}
+                                                aria-describedby="formField-16-caption"
                                                 name="contact"
                                                 onClick={[Function]}
                                                 size="large"
@@ -2505,7 +2495,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                 variant="success"
                                               >
                                                 <input
-                                                  aria-describedby="formField-31-caption"
+                                                  aria-describedby="formField-16-caption"
                                                   className="emotion-2"
                                                   name="contact"
                                                   onClick={[Function]}
@@ -2570,7 +2560,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                 </WithTheme(Themed(Choice))>
                               </Checkbox>
                               <Checkbox
-                                aria-describedby="formField-31-caption"
+                                aria-describedby="formField-16-caption"
                                 key="1"
                                 label="Inorganic"
                                 labelPosition="end"
@@ -2580,7 +2570,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                 variant="success"
                               >
                                 <WithTheme(Themed(Choice))
-                                  aria-describedby="formField-31-caption"
+                                  aria-describedby="formField-16-caption"
                                   iconChecked={<IconCheckBoxCheck />}
                                   inputRef={[Function]}
                                   label="Inorganic"
@@ -2598,7 +2588,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                   variant="success"
                                 >
                                   <Themed(Choice)
-                                    aria-describedby="formField-31-caption"
+                                    aria-describedby="formField-16-caption"
                                     iconChecked={<IconCheckBoxCheck />}
                                     inputRef={[Function]}
                                     label="Inorganic"
@@ -2618,7 +2608,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                     <ThemeProvider>
                                       <ThemeProvider>
                                         <Choice
-                                          aria-describedby="formField-31-caption"
+                                          aria-describedby="formField-16-caption"
                                           iconChecked={<IconCheckBoxCheck />}
                                           inputRef={[Function]}
                                           label="Inorganic"
@@ -2643,8 +2633,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                               className="emotion-6"
                                             >
                                               <Styled(input)
-                                                aria-describedby="formField-31-caption"
-                                                innerRef={[Function]}
+                                                aria-describedby="formField-16-caption"
                                                 name="contact"
                                                 onClick={[Function]}
                                                 size="large"
@@ -2653,7 +2642,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                 variant="success"
                                               >
                                                 <input
-                                                  aria-describedby="formField-31-caption"
+                                                  aria-describedby="formField-16-caption"
                                                   className="emotion-2"
                                                   name="contact"
                                                   onClick={[Function]}
@@ -2718,7 +2707,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                 </WithTheme(Themed(Choice))>
                               </Checkbox>
                               <Checkbox
-                                aria-describedby="formField-31-caption"
+                                aria-describedby="formField-16-caption"
                                 key="2"
                                 label="Solid"
                                 labelPosition="end"
@@ -2728,7 +2717,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                 variant="success"
                               >
                                 <WithTheme(Themed(Choice))
-                                  aria-describedby="formField-31-caption"
+                                  aria-describedby="formField-16-caption"
                                   iconChecked={<IconCheckBoxCheck />}
                                   inputRef={[Function]}
                                   label="Solid"
@@ -2746,7 +2735,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                   variant="success"
                                 >
                                   <Themed(Choice)
-                                    aria-describedby="formField-31-caption"
+                                    aria-describedby="formField-16-caption"
                                     iconChecked={<IconCheckBoxCheck />}
                                     inputRef={[Function]}
                                     label="Solid"
@@ -2766,7 +2755,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                     <ThemeProvider>
                                       <ThemeProvider>
                                         <Choice
-                                          aria-describedby="formField-31-caption"
+                                          aria-describedby="formField-16-caption"
                                           iconChecked={<IconCheckBoxCheck />}
                                           inputRef={[Function]}
                                           label="Solid"
@@ -2791,8 +2780,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                               className="emotion-6"
                                             >
                                               <Styled(input)
-                                                aria-describedby="formField-31-caption"
-                                                innerRef={[Function]}
+                                                aria-describedby="formField-16-caption"
                                                 name="contact"
                                                 onClick={[Function]}
                                                 size="large"
@@ -2801,7 +2789,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                 variant="success"
                                               >
                                                 <input
-                                                  aria-describedby="formField-31-caption"
+                                                  aria-describedby="formField-16-caption"
                                                   className="emotion-2"
                                                   name="contact"
                                                   onClick={[Function]}
@@ -2866,7 +2854,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                 </WithTheme(Themed(Choice))>
                               </Checkbox>
                               <Checkbox
-                                aria-describedby="formField-31-caption"
+                                aria-describedby="formField-16-caption"
                                 key="3"
                                 label="Definite chemical composition"
                                 labelPosition="end"
@@ -2876,7 +2864,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                 variant="success"
                               >
                                 <WithTheme(Themed(Choice))
-                                  aria-describedby="formField-31-caption"
+                                  aria-describedby="formField-16-caption"
                                   iconChecked={<IconCheckBoxCheck />}
                                   inputRef={[Function]}
                                   label="Definite chemical composition"
@@ -2894,7 +2882,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                   variant="success"
                                 >
                                   <Themed(Choice)
-                                    aria-describedby="formField-31-caption"
+                                    aria-describedby="formField-16-caption"
                                     iconChecked={<IconCheckBoxCheck />}
                                     inputRef={[Function]}
                                     label="Definite chemical composition"
@@ -2914,7 +2902,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                     <ThemeProvider>
                                       <ThemeProvider>
                                         <Choice
-                                          aria-describedby="formField-31-caption"
+                                          aria-describedby="formField-16-caption"
                                           iconChecked={<IconCheckBoxCheck />}
                                           inputRef={[Function]}
                                           label="Definite chemical composition"
@@ -2939,8 +2927,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                               className="emotion-6"
                                             >
                                               <Styled(input)
-                                                aria-describedby="formField-31-caption"
-                                                innerRef={[Function]}
+                                                aria-describedby="formField-16-caption"
                                                 name="contact"
                                                 onClick={[Function]}
                                                 size="large"
@@ -2949,7 +2936,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                 variant="success"
                                               >
                                                 <input
-                                                  aria-describedby="formField-31-caption"
+                                                  aria-describedby="formField-16-caption"
                                                   className="emotion-2"
                                                   name="contact"
                                                   onClick={[Function]}
@@ -3014,7 +3001,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                 </WithTheme(Themed(Choice))>
                               </Checkbox>
                               <Checkbox
-                                aria-describedby="formField-31-caption"
+                                aria-describedby="formField-16-caption"
                                 key="4"
                                 label="Crystalline structure"
                                 labelPosition="end"
@@ -3024,7 +3011,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                 variant="success"
                               >
                                 <WithTheme(Themed(Choice))
-                                  aria-describedby="formField-31-caption"
+                                  aria-describedby="formField-16-caption"
                                   iconChecked={<IconCheckBoxCheck />}
                                   inputRef={[Function]}
                                   label="Crystalline structure"
@@ -3042,7 +3029,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                   variant="success"
                                 >
                                   <Themed(Choice)
-                                    aria-describedby="formField-31-caption"
+                                    aria-describedby="formField-16-caption"
                                     iconChecked={<IconCheckBoxCheck />}
                                     inputRef={[Function]}
                                     label="Crystalline structure"
@@ -3062,7 +3049,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                     <ThemeProvider>
                                       <ThemeProvider>
                                         <Choice
-                                          aria-describedby="formField-31-caption"
+                                          aria-describedby="formField-16-caption"
                                           iconChecked={<IconCheckBoxCheck />}
                                           inputRef={[Function]}
                                           label="Crystalline structure"
@@ -3087,8 +3074,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                               className="emotion-6"
                                             >
                                               <Styled(input)
-                                                aria-describedby="formField-31-caption"
-                                                innerRef={[Function]}
+                                                aria-describedby="formField-16-caption"
                                                 name="contact"
                                                 onClick={[Function]}
                                                 size="large"
@@ -3097,7 +3083,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                 variant="success"
                                               >
                                                 <input
-                                                  aria-describedby="formField-31-caption"
+                                                  aria-describedby="formField-16-caption"
                                                   className="emotion-2"
                                                   name="contact"
                                                   onClick={[Function]}
@@ -3172,13 +3158,13 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
             </div>
             <Styled(div)
               caption="Hint: All of the above"
-              id="formField-31-caption"
+              id="formField-16-caption"
               isGroup={true}
               variant="success"
             >
               <div
                 className="emotion-28"
-                id="formField-31-caption"
+                id="formField-16-caption"
               >
                 Hint: All of the above
               </div>
@@ -3232,7 +3218,7 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
 }
 
 .emotion-0 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -3240,7 +3226,7 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -3550,7 +3536,6 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                                     >
                                       <Styled(input)
                                         defaultChecked={false}
-                                        innerRef={[Function]}
                                         name="minerals"
                                         onClick={[Function]}
                                         size="large"
@@ -3693,7 +3678,6 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                                     >
                                       <Styled(input)
                                         defaultChecked={true}
-                                        innerRef={[Function]}
                                         name="minerals"
                                         onClick={[Function]}
                                         size="large"
@@ -3836,7 +3820,6 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                                     >
                                       <Styled(input)
                                         defaultChecked={true}
-                                        innerRef={[Function]}
                                         name="minerals"
                                         onClick={[Function]}
                                         size="large"
@@ -3922,6 +3905,10 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
 `;
 
 exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
+.emotion-16 > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .emotion-15 {
   box-sizing: border-box;
   color: #333840;
@@ -3948,10 +3935,6 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
 
 .emotion-15 > *:not(:last-child) {
   margin-bottom: 1em;
-}
-
-.emotion-16 > *:not(:last-child) {
-  margin-bottom: 1rem;
 }
 
 .emotion-4 {
@@ -3990,7 +3973,7 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
 }
 
 .emotion-0 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -3998,7 +3981,7 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -4274,7 +4257,6 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
                                     >
                                       <Styled(input)
                                         defaultChecked={false}
-                                        innerRef={[Function]}
                                         name="minerals"
                                         onClick={[Function]}
                                         size="large"
@@ -4417,7 +4399,6 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
                                     >
                                       <Styled(input)
                                         defaultChecked={true}
-                                        innerRef={[Function]}
                                         name="minerals"
                                         onClick={[Function]}
                                         size="large"
@@ -4560,7 +4541,6 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
                                     >
                                       <Styled(input)
                                         defaultChecked={true}
-                                        innerRef={[Function]}
                                         name="minerals"
                                         onClick={[Function]}
                                         size="large"

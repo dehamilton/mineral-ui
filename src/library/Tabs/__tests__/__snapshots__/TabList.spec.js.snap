@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`TabList applies shadow when scrollable 1`] = `
-.emotion-25 {
+.emotion-27 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -12,7 +12,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
   position: relative;
 }
 
-.emotion-7 {
+.emotion-8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -27,7 +27,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
   white-space: nowrap;
 }
 
-.emotion-7 > *:not(:last-child) {
+.emotion-8 > *:not(:last-child) {
   margin-right: 1em;
 }
 
@@ -160,7 +160,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
   width: 1.25em;
 }
 
-.emotion-14 {
+.emotion-15 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -168,11 +168,11 @@ exports[`TabList applies shadow when scrollable 1`] = `
   min-width: 0%;
 }
 
-.emotion-14::before {
+.emotion-15::before {
   bottom: 1px;
 }
 
-.emotion-9 {
+.emotion-10 {
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -181,7 +181,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
   padding-right: 2px;
 }
 
-.emotion-8 {
+.emotion-9 {
   outline: 0;
   overflow-x: auto;
   -webkit-transition: outline 0.1s 0.25s;
@@ -196,15 +196,15 @@ exports[`TabList applies shadow when scrollable 1`] = `
   padding-right: 2px;
 }
 
-.emotion-8:focus {
+.emotion-9:focus {
   outline: 1px solid #1d5bbf;
 }
 
-.emotion-8::-webkit-scrollbar {
+.emotion-9::-webkit-scrollbar {
   display: none;
 }
 
-.emotion-13 {
+.emotion-14 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -217,7 +217,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
   min-width: 0%;
 }
 
-.emotion-13::before {
+.emotion-14::before {
   bottom: 0;
   box-shadow: inset -24px 0 22px -14px #ffffff;
   content: "";
@@ -228,18 +228,16 @@ exports[`TabList applies shadow when scrollable 1`] = `
   top: 0;
 }
 
-.emotion-13::before {
+.emotion-14::before {
   bottom: 1px;
 }
 
 <TabList
   position="top"
 >
-  <TabList
-    innerRef={[Function]}
-  >
+  <TabList>
     <div
-      className="emotion-25"
+      className="emotion-27"
     >
       <TabListIncrementButton
         icon={<IconChevronLeft />}
@@ -254,7 +252,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
           size="medium"
           tabIndex={-1}
         >
-          <WithTheme(Themed(Button))
+          <WithTheme(Themed(WithForwardRef(Button)))
             aria-hidden={true}
             className="emotion-3"
             iconStart={<IconChevronLeft />}
@@ -263,7 +261,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
             size="medium"
             tabIndex={-1}
           >
-            <Themed(Button)
+            <Themed(WithForwardRef(Button))
               aria-hidden={true}
               className="emotion-3"
               iconStart={<IconChevronLeft />}
@@ -274,7 +272,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
             >
               <ThemeProvider>
                 <ThemeProvider>
-                  <Button
+                  <WithForwardRef(Button)
                     aria-hidden={true}
                     className="emotion-3"
                     element="button"
@@ -289,64 +287,77 @@ exports[`TabList applies shadow when scrollable 1`] = `
                       aria-hidden={true}
                       className="emotion-3"
                       element="button"
+                      forwardedRef={null}
+                      iconStart={<IconChevronLeft />}
                       minimal={true}
                       onClick={[Function]}
                       size="medium"
                       tabIndex={-1}
                       type="button"
                     >
-                      <button
+                      <Button
                         aria-hidden={true}
-                        className="emotion-2"
+                        className="emotion-3"
+                        element="button"
+                        minimal={true}
                         onClick={[Function]}
+                        size="medium"
                         tabIndex={-1}
                         type="button"
                       >
-                        <Styled(span)>
-                          <span
-                            className="emotion-1"
-                          >
-                            <IconChevronLeft
-                              key="iconStart"
-                              size="medium"
+                        <button
+                          aria-hidden={true}
+                          className="emotion-2"
+                          onClick={[Function]}
+                          tabIndex={-1}
+                          type="button"
+                        >
+                          <Styled(span)>
+                            <span
+                              className="emotion-1"
                             >
-                              <Icon
-                                rtl={true}
+                              <IconChevronLeft
+                                key="iconStart"
                                 size="medium"
                               >
-                                <Styled(svg)
-                                  aria-hidden={true}
-                                  focusable="false"
-                                  role="img"
+                                <Icon
                                   rtl={true}
                                   size="medium"
-                                  viewBox="0 0 24 24"
                                 >
-                                  <svg
+                                  <Styled(svg)
                                     aria-hidden={true}
-                                    className="emotion-0"
                                     focusable="false"
                                     role="img"
+                                    rtl={true}
+                                    size="medium"
                                     viewBox="0 0 24 24"
                                   >
-                                    <g>
-                                      <path
-                                        d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
-                                      />
-                                    </g>
-                                  </svg>
-                                </Styled(svg)>
-                              </Icon>
-                            </IconChevronLeft>
-                          </span>
-                        </Styled(span)>
-                      </button>
+                                    <svg
+                                      aria-hidden={true}
+                                      className="emotion-0"
+                                      focusable="false"
+                                      role="img"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <g>
+                                        <path
+                                          d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                                        />
+                                      </g>
+                                    </svg>
+                                  </Styled(svg)>
+                                </Icon>
+                              </IconChevronLeft>
+                            </span>
+                          </Styled(span)>
+                        </button>
+                      </Button>
                     </Button>
-                  </Button>
+                  </WithForwardRef(Button)>
                 </ThemeProvider>
               </ThemeProvider>
-            </Themed(Button)>
-          </WithTheme(Themed(Button))>
+            </Themed(WithForwardRef(Button))>
+          </WithTheme(Themed(WithForwardRef(Button)))>
         </ArrowButton>
       </TabListIncrementButton>
       <withProps(Inner)
@@ -361,14 +372,14 @@ exports[`TabList applies shadow when scrollable 1`] = `
           tabIndex={null}
         >
           <WithTheme(Themed(OverflowContainerWithShadows))
-            className="emotion-14"
+            className="emotion-15"
             hideScrollbars={true}
             position="top"
             scrollX={true}
             tabIndex={null}
           >
             <Themed(OverflowContainerWithShadows)
-              className="emotion-14"
+              className="emotion-15"
               hideScrollbars={true}
               position="top"
               scrollX={true}
@@ -377,21 +388,21 @@ exports[`TabList applies shadow when scrollable 1`] = `
               <ThemeProvider>
                 <ThemeProvider>
                   <OverflowContainerWithShadows
-                    className="emotion-14"
+                    className="emotion-15"
                     hideScrollbars={true}
                     position="top"
                     scrollX={true}
                     tabIndex={null}
                   >
                     <OverflowContainerWithShadows
-                      className="emotion-14"
+                      className="emotion-15"
                       hasShadowLeft={false}
                       hasShadowRight={true}
                       position="top"
                       tabIndex={null}
                     >
                       <div
-                        className="emotion-13"
+                        className="emotion-14"
                         tabIndex={null}
                       >
                         <Scroller
@@ -402,7 +413,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
                           tabIndex={0}
                         >
                           <WithTheme(Themed(OverflowContainer))
-                            className="emotion-9"
+                            className="emotion-10"
                             containerRef={[Function]}
                             hideScrollbars={true}
                             onScroll={[Function]}
@@ -410,7 +421,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
                             tabIndex={0}
                           >
                             <Themed(OverflowContainer)
-                              className="emotion-9"
+                              className="emotion-10"
                               containerRef={[Function]}
                               hideScrollbars={true}
                               onScroll={[Function]}
@@ -420,7 +431,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
                               <ThemeProvider>
                                 <ThemeProvider>
                                   <OverflowContainer
-                                    className="emotion-9"
+                                    className="emotion-10"
                                     containerRef={[Function]}
                                     hideScrollbars={true}
                                     onScroll={[Function]}
@@ -428,25 +439,23 @@ exports[`TabList applies shadow when scrollable 1`] = `
                                     tabIndex={0}
                                   >
                                     <OverflowContainer
-                                      className="emotion-9"
+                                      className="emotion-10"
                                       containerRef={[Function]}
                                       hideScrollbars={true}
-                                      innerRef={[Function]}
                                       onScroll={[Function]}
                                       scrollX={true}
                                       tabIndex={0}
                                     >
                                       <div
-                                        className="emotion-8"
+                                        className="emotion-9"
                                         onScroll={[Function]}
                                         tabIndex={0}
                                       >
                                         <Styled(ul)
                                           count={0}
-                                          innerRef={[Function]}
                                         >
                                           <ul
-                                            className="emotion-7"
+                                            className="emotion-8"
                                           />
                                         </Styled(ul)>
                                         <EventListener
@@ -490,7 +499,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
           size="medium"
           tabIndex={-1}
         >
-          <WithTheme(Themed(Button))
+          <WithTheme(Themed(WithForwardRef(Button)))
             aria-hidden={true}
             className="emotion-3"
             iconStart={<IconChevronRight />}
@@ -499,7 +508,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
             size="medium"
             tabIndex={-1}
           >
-            <Themed(Button)
+            <Themed(WithForwardRef(Button))
               aria-hidden={true}
               className="emotion-3"
               iconStart={<IconChevronRight />}
@@ -510,7 +519,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
             >
               <ThemeProvider>
                 <ThemeProvider>
-                  <Button
+                  <WithForwardRef(Button)
                     aria-hidden={true}
                     className="emotion-3"
                     element="button"
@@ -525,64 +534,77 @@ exports[`TabList applies shadow when scrollable 1`] = `
                       aria-hidden={true}
                       className="emotion-3"
                       element="button"
+                      forwardedRef={null}
+                      iconStart={<IconChevronRight />}
                       minimal={true}
                       onClick={[Function]}
                       size="medium"
                       tabIndex={-1}
                       type="button"
                     >
-                      <button
+                      <Button
                         aria-hidden={true}
-                        className="emotion-2"
+                        className="emotion-3"
+                        element="button"
+                        minimal={true}
                         onClick={[Function]}
+                        size="medium"
                         tabIndex={-1}
                         type="button"
                       >
-                        <Styled(span)>
-                          <span
-                            className="emotion-1"
-                          >
-                            <IconChevronRight
-                              key="iconStart"
-                              size="medium"
+                        <button
+                          aria-hidden={true}
+                          className="emotion-2"
+                          onClick={[Function]}
+                          tabIndex={-1}
+                          type="button"
+                        >
+                          <Styled(span)>
+                            <span
+                              className="emotion-1"
                             >
-                              <Icon
-                                rtl={true}
+                              <IconChevronRight
+                                key="iconStart"
                                 size="medium"
                               >
-                                <Styled(svg)
-                                  aria-hidden={true}
-                                  focusable="false"
-                                  role="img"
+                                <Icon
                                   rtl={true}
                                   size="medium"
-                                  viewBox="0 0 24 24"
                                 >
-                                  <svg
+                                  <Styled(svg)
                                     aria-hidden={true}
-                                    className="emotion-0"
                                     focusable="false"
                                     role="img"
+                                    rtl={true}
+                                    size="medium"
                                     viewBox="0 0 24 24"
                                   >
-                                    <g>
-                                      <path
-                                        d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
-                                      />
-                                    </g>
-                                  </svg>
-                                </Styled(svg)>
-                              </Icon>
-                            </IconChevronRight>
-                          </span>
-                        </Styled(span)>
-                      </button>
+                                    <svg
+                                      aria-hidden={true}
+                                      className="emotion-0"
+                                      focusable="false"
+                                      role="img"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <g>
+                                        <path
+                                          d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                                        />
+                                      </g>
+                                    </svg>
+                                  </Styled(svg)>
+                                </Icon>
+                              </IconChevronRight>
+                            </span>
+                          </Styled(span)>
+                        </button>
+                      </Button>
                     </Button>
-                  </Button>
+                  </WithForwardRef(Button)>
                 </ThemeProvider>
               </ThemeProvider>
-            </Themed(Button)>
-          </WithTheme(Themed(Button))>
+            </Themed(WithForwardRef(Button))>
+          </WithTheme(Themed(WithForwardRef(Button)))>
         </ArrowButton>
       </TabListIncrementButton>
       <EventListener
@@ -635,15 +657,12 @@ exports[`TabList does not apply shadow when not scrollable 1`] = `
 <TabList
   position="top"
 >
-  <TabList
-    innerRef={[Function]}
-  >
+  <TabList>
     <div
       className="emotion-1"
     >
       <Styled(ul)
         count={0}
-        innerRef={[Function]}
       >
         <ul
           className="emotion-0"

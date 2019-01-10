@@ -88,7 +88,6 @@ exports[`OverflowContainerWithShadows applies shadow when scrollable 1`] = `
                   <OverflowContainer
                     className="emotion-1"
                     containerRef={[Function]}
-                    innerRef={[Function]}
                     onScroll={[Function]}
                     scrollX={true}
                     tabIndex={0}
@@ -187,7 +186,6 @@ exports[`OverflowContainerWithShadows does not apply shadow when not scrollable 
                   <OverflowContainer
                     className="emotion-1"
                     containerRef={[Function]}
-                    innerRef={[Function]}
                     onScroll={[Function]}
                     scrollX={true}
                   >

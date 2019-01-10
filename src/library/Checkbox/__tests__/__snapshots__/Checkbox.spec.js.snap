@@ -1,6 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Checkbox demo examples Snapshots: controlled 1`] = `
+.emotion-15 > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .emotion-4 {
   box-sizing: border-box;
   color: #333840;
@@ -37,7 +41,7 @@ exports[`Checkbox demo examples Snapshots: controlled 1`] = `
 }
 
 .emotion-0 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -45,7 +49,7 @@ exports[`Checkbox demo examples Snapshots: controlled 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -119,10 +123,6 @@ exports[`Checkbox demo examples Snapshots: controlled 1`] = `
   font-size: 0.875em;
   margin-left: 1.1428571428571428em;
   margin-right: 0;
-}
-
-.emotion-15 > *:not(:last-child) {
-  margin-bottom: 1rem;
 }
 
 <Component>
@@ -209,7 +209,6 @@ exports[`Checkbox demo examples Snapshots: controlled 1`] = `
                         >
                           <Styled(input)
                             checked={false}
-                            innerRef={[Function]}
                             name="minerals"
                             onChange={[Function]}
                             onClick={[Function]}
@@ -357,7 +356,6 @@ exports[`Checkbox demo examples Snapshots: controlled 1`] = `
                         >
                           <Styled(input)
                             checked={true}
-                            innerRef={[Function]}
                             name="minerals"
                             onChange={[Function]}
                             onClick={[Function]}
@@ -505,7 +503,6 @@ exports[`Checkbox demo examples Snapshots: controlled 1`] = `
                         >
                           <Styled(input)
                             checked={true}
-                            innerRef={[Function]}
                             name="minerals"
                             onChange={[Function]}
                             onClick={[Function]}
@@ -587,8 +584,12 @@ exports[`Checkbox demo examples Snapshots: controlled 1`] = `
 `;
 
 exports[`Checkbox demo examples Snapshots: disabled 1`] = `
+.emotion-10 > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .emotion-0 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -596,7 +597,7 @@ exports[`Checkbox demo examples Snapshots: disabled 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -630,10 +631,6 @@ exports[`Checkbox demo examples Snapshots: disabled 1`] = `
   font-size: 16px;
   height: 1em;
   width: 1em;
-}
-
-.emotion-10 > *:not(:last-child) {
-  margin-bottom: 1rem;
 }
 
 .emotion-4 {
@@ -781,7 +778,6 @@ exports[`Checkbox demo examples Snapshots: disabled 1`] = `
                     >
                       <Styled(input)
                         disabled={true}
-                        innerRef={[Function]}
                         onClick={[Function]}
                         size="large"
                         type="checkbox"
@@ -925,7 +921,6 @@ exports[`Checkbox demo examples Snapshots: disabled 1`] = `
                       <Styled(input)
                         defaultChecked={true}
                         disabled={true}
-                        innerRef={[Function]}
                         onClick={[Function]}
                         size="large"
                         type="checkbox"
@@ -1004,8 +999,12 @@ exports[`Checkbox demo examples Snapshots: disabled 1`] = `
 `;
 
 exports[`Checkbox demo examples Snapshots: hide-label 1`] = `
+.emotion-5 > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .emotion-0 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -1013,7 +1012,7 @@ exports[`Checkbox demo examples Snapshots: hide-label 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -1082,10 +1081,6 @@ exports[`Checkbox demo examples Snapshots: hide-label 1`] = `
   width: 1em;
 }
 
-.emotion-5 > *:not(:last-child) {
-  margin-bottom: 1rem;
-}
-
 .emotion-4 {
   box-sizing: border-box;
   color: #333840;
@@ -1133,7 +1128,7 @@ exports[`Checkbox demo examples Snapshots: hide-label 1`] = `
   font-size: 0.875em;
   margin-left: 1.1428571428571428em;
   margin-right: 0;
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -1141,7 +1136,7 @@ exports[`Checkbox demo examples Snapshots: hide-label 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -1217,7 +1212,6 @@ exports[`Checkbox demo examples Snapshots: hide-label 1`] = `
                       className="emotion-4"
                     >
                       <Styled(input)
-                        innerRef={[Function]}
                         onClick={[Function]}
                         size="large"
                         type="checkbox"
@@ -1291,6 +1285,10 @@ exports[`Checkbox demo examples Snapshots: hide-label 1`] = `
 `;
 
 exports[`Checkbox demo examples Snapshots: indeterminate 1`] = `
+.emotion-5 > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .emotion-4 {
   box-sizing: border-box;
   color: #333840;
@@ -1327,7 +1325,7 @@ exports[`Checkbox demo examples Snapshots: indeterminate 1`] = `
 }
 
 .emotion-0 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -1335,7 +1333,7 @@ exports[`Checkbox demo examples Snapshots: indeterminate 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -1409,10 +1407,6 @@ exports[`Checkbox demo examples Snapshots: indeterminate 1`] = `
   font-size: 0.875em;
   margin-left: 1.1428571428571428em;
   margin-right: 0;
-}
-
-.emotion-5 > *:not(:last-child) {
-  margin-bottom: 1rem;
 }
 
 <Component>
@@ -1495,7 +1489,6 @@ exports[`Checkbox demo examples Snapshots: indeterminate 1`] = `
                           className="emotion-4"
                         >
                           <Styled(input)
-                            innerRef={[Function]}
                             name="indeterminate"
                             onChange={[Function]}
                             onClick={[Function]}
@@ -1612,7 +1605,7 @@ exports[`Checkbox demo examples Snapshots: input-ref 1`] = `
 }
 
 .emotion-0 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -1620,7 +1613,7 @@ exports[`Checkbox demo examples Snapshots: input-ref 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -1892,7 +1885,6 @@ exports[`Checkbox demo examples Snapshots: input-ref 1`] = `
                           className="emotion-4"
                         >
                           <Styled(input)
-                            innerRef={[Function]}
                             onClick={[Function]}
                             size="large"
                             type="checkbox"
@@ -1961,7 +1953,7 @@ exports[`Checkbox demo examples Snapshots: input-ref 1`] = `
               </Themed(Choice)>
             </WithTheme(Themed(Choice))>
           </Checkbox>
-          <Button
+          <WithForwardRef(Button)
             element="button"
             onClick={[Function]}
             size="large"
@@ -1969,34 +1961,42 @@ exports[`Checkbox demo examples Snapshots: input-ref 1`] = `
           >
             <Button
               element="button"
+              forwardedRef={null}
               onClick={[Function]}
               size="large"
-              text="Focus the input"
               type="button"
             >
-              <button
-                className="emotion-7"
+              <Button
+                element="button"
                 onClick={[Function]}
+                size="large"
+                text="Focus the input"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-6"
-                  >
-                    <Styled(span)
-                      size="large"
+                <button
+                  className="emotion-7"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-6"
                     >
-                      <span
-                        className="emotion-5"
+                      <Styled(span)
+                        size="large"
                       >
-                        Focus the input
-                      </span>
-                    </Styled(span)>
-                  </span>
-                </Styled(span)>
-              </button>
+                        <span
+                          className="emotion-5"
+                        >
+                          Focus the input
+                        </span>
+                      </Styled(span)>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
+          </WithForwardRef(Button)>
         </div>
       </Styled(div)>
     </DemoLayout>
@@ -2005,6 +2005,10 @@ exports[`Checkbox demo examples Snapshots: input-ref 1`] = `
 `;
 
 exports[`Checkbox demo examples Snapshots: invalid 1`] = `
+.emotion-10 > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .emotion-4 {
   box-sizing: border-box;
   color: #333840;
@@ -2041,7 +2045,7 @@ exports[`Checkbox demo examples Snapshots: invalid 1`] = `
 }
 
 .emotion-0 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -2049,7 +2053,7 @@ exports[`Checkbox demo examples Snapshots: invalid 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -2123,10 +2127,6 @@ exports[`Checkbox demo examples Snapshots: invalid 1`] = `
   font-size: 0.875em;
   margin-left: 1.1428571428571428em;
   margin-right: 0;
-}
-
-.emotion-10 > *:not(:last-child) {
-  margin-bottom: 1rem;
 }
 
 <DemoForm>
@@ -2212,7 +2212,6 @@ exports[`Checkbox demo examples Snapshots: invalid 1`] = `
                       <Styled(input)
                         aria-invalid={true}
                         defaultChecked={true}
-                        innerRef={[Function]}
                         name="minerals"
                         onClick={[Function]}
                         size="large"
@@ -2355,7 +2354,6 @@ exports[`Checkbox demo examples Snapshots: invalid 1`] = `
                     >
                       <Styled(input)
                         aria-invalid={true}
-                        innerRef={[Function]}
                         name="minerals"
                         onClick={[Function]}
                         size="large"
@@ -2433,6 +2431,10 @@ exports[`Checkbox demo examples Snapshots: invalid 1`] = `
 `;
 
 exports[`Checkbox demo examples Snapshots: label-position-and-justification 1`] = `
+.emotion-23 > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .emotion-4 {
   box-sizing: border-box;
   color: #333840;
@@ -2469,7 +2471,7 @@ exports[`Checkbox demo examples Snapshots: label-position-and-justification 1`] 
 }
 
 .emotion-0 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -2477,7 +2479,7 @@ exports[`Checkbox demo examples Snapshots: label-position-and-justification 1`] 
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -2551,10 +2553,6 @@ exports[`Checkbox demo examples Snapshots: label-position-and-justification 1`] 
   font-size: 0.875em;
   margin-left: 1.1428571428571428em;
   margin-right: 0;
-}
-
-.emotion-23 > *:not(:last-child) {
-  margin-bottom: 1rem;
 }
 
 .emotion-5 {
@@ -2760,7 +2758,6 @@ exports[`Checkbox demo examples Snapshots: label-position-and-justification 1`] 
                       className="emotion-4"
                     >
                       <Styled(input)
-                        innerRef={[Function]}
                         name="minerals"
                         onClick={[Function]}
                         size="large"
@@ -2906,7 +2903,6 @@ exports[`Checkbox demo examples Snapshots: label-position-and-justification 1`] 
                       className="emotion-10"
                     >
                       <Styled(input)
-                        innerRef={[Function]}
                         name="minerals"
                         onClick={[Function]}
                         size="large"
@@ -3057,7 +3053,6 @@ exports[`Checkbox demo examples Snapshots: label-position-and-justification 1`] 
                       className="emotion-16"
                     >
                       <Styled(input)
-                        innerRef={[Function]}
                         name="minerals"
                         onClick={[Function]}
                         size="large"
@@ -3209,7 +3204,6 @@ exports[`Checkbox demo examples Snapshots: label-position-and-justification 1`] 
                       className="emotion-22"
                     >
                       <Styled(input)
-                        innerRef={[Function]}
                         name="minerals"
                         onClick={[Function]}
                         size="large"
@@ -3287,6 +3281,10 @@ exports[`Checkbox demo examples Snapshots: label-position-and-justification 1`] 
 `;
 
 exports[`Checkbox demo examples Snapshots: label-wrapping 1`] = `
+.emotion-5 > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .emotion-4 {
   box-sizing: border-box;
   color: #333840;
@@ -3323,7 +3321,7 @@ exports[`Checkbox demo examples Snapshots: label-wrapping 1`] = `
 }
 
 .emotion-0 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -3331,7 +3329,7 @@ exports[`Checkbox demo examples Snapshots: label-wrapping 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -3405,10 +3403,6 @@ exports[`Checkbox demo examples Snapshots: label-wrapping 1`] = `
   font-size: 0.875em;
   margin-left: 1.1428571428571428em;
   margin-right: 0;
-}
-
-.emotion-5 > *:not(:last-child) {
-  margin-bottom: 1rem;
 }
 
 <DemoForm>
@@ -3485,7 +3479,6 @@ exports[`Checkbox demo examples Snapshots: label-wrapping 1`] = `
                     >
                       <Styled(input)
                         defaultChecked={true}
-                        innerRef={[Function]}
                         name="example"
                         onClick={[Function]}
                         size="large"
@@ -3597,7 +3590,7 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
 }
 
 .emotion-0 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -3605,7 +3598,7 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -4633,7 +4626,6 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
                           className="emotion-4"
                         >
                           <Styled(input)
-                            innerRef={[Function]}
                             name="size"
                             onClick={[Function]}
                             size="small"
@@ -4708,7 +4700,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
             type="text"
           >
             <TextInput
-              control={[Function]}
+              control={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "input",
+                  "__emotion_forwardProp": [Function],
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    "label:Input;",
+                    [Function],
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Input",
+                  "render": [Function],
+                  "withComponent": [Function],
+                }
+              }
               controlProps={
                 Object {
                   "aria-invalid": undefined,
@@ -4725,7 +4732,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
             >
               <WithTheme(Themed(FauxControl))
                 className="emotion-8"
-                control={[Function]}
+                control={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "input",
+                    "__emotion_forwardProp": [Function],
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      "label:Input;",
+                      [Function],
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Input",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  }
+                }
                 controlProps={
                   Object {
                     "aria-invalid": undefined,
@@ -4742,7 +4764,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
               >
                 <Themed(FauxControl)
                   className="emotion-8"
-                  control={[Function]}
+                  control={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "input",
+                      "__emotion_forwardProp": [Function],
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        "label:Input;",
+                        [Function],
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Input",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
                   controlProps={
                     Object {
                       "aria-invalid": undefined,
@@ -4761,7 +4798,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
                     <ThemeProvider>
                       <FauxControl
                         className="emotion-8"
-                        control={[Function]}
+                        control={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "__emotion_base": "input",
+                            "__emotion_forwardProp": [Function],
+                            "__emotion_real": [Circular],
+                            "__emotion_styles": Array [
+                              "label:Input;",
+                              [Function],
+                            ],
+                            "defaultProps": undefined,
+                            "displayName": "Input",
+                            "render": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
                         controlProps={
                           Object {
                             "aria-invalid": undefined,
@@ -4778,7 +4830,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
                       >
                         <FauxControl
                           className="emotion-8"
-                          control={[Function]}
+                          control={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "__emotion_base": "input",
+                              "__emotion_forwardProp": [Function],
+                              "__emotion_real": [Circular],
+                              "__emotion_styles": Array [
+                                "label:Input;",
+                                [Function],
+                              ],
+                              "defaultProps": undefined,
+                              "displayName": "Input",
+                              "render": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
                         >
                           <div
                             className="emotion-7"
@@ -4822,39 +4889,46 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
               </WithTheme(Themed(FauxControl))>
             </TextInput>
           </TextInput>
-          <Button
+          <WithForwardRef(Button)
             element="button"
             size="small"
             type="button"
           >
             <Button
               element="button"
+              forwardedRef={null}
               size="small"
-              text="Small"
               type="button"
             >
-              <button
-                className="emotion-14"
+              <Button
+                element="button"
+                size="small"
+                text="Small"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-13"
-                  >
-                    <Styled(span)
-                      size="small"
+                <button
+                  className="emotion-14"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-13"
                     >
-                      <span
-                        className="emotion-12"
+                      <Styled(span)
+                        size="small"
                       >
-                        Small
-                      </span>
-                    </Styled(span)>
-                  </span>
-                </Styled(span)>
-              </button>
+                        <span
+                          className="emotion-12"
+                        >
+                          Small
+                        </span>
+                      </Styled(span)>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
+          </WithForwardRef(Button)>
         </div>
         <div>
           <Checkbox
@@ -4918,7 +4992,6 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
                           className="emotion-4"
                         >
                           <Styled(input)
-                            innerRef={[Function]}
                             name="size"
                             onClick={[Function]}
                             size="medium"
@@ -4993,7 +5066,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
             type="text"
           >
             <TextInput
-              control={[Function]}
+              control={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "input",
+                  "__emotion_forwardProp": [Function],
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    "label:Input;",
+                    [Function],
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Input",
+                  "render": [Function],
+                  "withComponent": [Function],
+                }
+              }
               controlProps={
                 Object {
                   "aria-invalid": undefined,
@@ -5010,7 +5098,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
             >
               <WithTheme(Themed(FauxControl))
                 className="emotion-8"
-                control={[Function]}
+                control={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "input",
+                    "__emotion_forwardProp": [Function],
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      "label:Input;",
+                      [Function],
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Input",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  }
+                }
                 controlProps={
                   Object {
                     "aria-invalid": undefined,
@@ -5027,7 +5130,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
               >
                 <Themed(FauxControl)
                   className="emotion-8"
-                  control={[Function]}
+                  control={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "input",
+                      "__emotion_forwardProp": [Function],
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        "label:Input;",
+                        [Function],
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Input",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
                   controlProps={
                     Object {
                       "aria-invalid": undefined,
@@ -5046,7 +5164,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
                     <ThemeProvider>
                       <FauxControl
                         className="emotion-8"
-                        control={[Function]}
+                        control={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "__emotion_base": "input",
+                            "__emotion_forwardProp": [Function],
+                            "__emotion_real": [Circular],
+                            "__emotion_styles": Array [
+                              "label:Input;",
+                              [Function],
+                            ],
+                            "defaultProps": undefined,
+                            "displayName": "Input",
+                            "render": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
                         controlProps={
                           Object {
                             "aria-invalid": undefined,
@@ -5063,7 +5196,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
                       >
                         <FauxControl
                           className="emotion-8"
-                          control={[Function]}
+                          control={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "__emotion_base": "input",
+                              "__emotion_forwardProp": [Function],
+                              "__emotion_real": [Circular],
+                              "__emotion_styles": Array [
+                                "label:Input;",
+                                [Function],
+                              ],
+                              "defaultProps": undefined,
+                              "displayName": "Input",
+                              "render": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
                         >
                           <div
                             className="emotion-7"
@@ -5107,39 +5255,46 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
               </WithTheme(Themed(FauxControl))>
             </TextInput>
           </TextInput>
-          <Button
+          <WithForwardRef(Button)
             element="button"
             size="medium"
             type="button"
           >
             <Button
               element="button"
+              forwardedRef={null}
               size="medium"
-              text="Medium"
               type="button"
             >
-              <button
-                className="emotion-29"
+              <Button
+                element="button"
+                size="medium"
+                text="Medium"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-13"
-                  >
-                    <Styled(span)
-                      size="medium"
+                <button
+                  className="emotion-29"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-13"
                     >
-                      <span
-                        className="emotion-27"
+                      <Styled(span)
+                        size="medium"
                       >
-                        Medium
-                      </span>
-                    </Styled(span)>
-                  </span>
-                </Styled(span)>
-              </button>
+                        <span
+                          className="emotion-27"
+                        >
+                          Medium
+                        </span>
+                      </Styled(span)>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
+          </WithForwardRef(Button)>
         </div>
         <div>
           <Checkbox
@@ -5203,7 +5358,6 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
                           className="emotion-4"
                         >
                           <Styled(input)
-                            innerRef={[Function]}
                             name="size"
                             onClick={[Function]}
                             size="large"
@@ -5278,7 +5432,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
             type="text"
           >
             <TextInput
-              control={[Function]}
+              control={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "input",
+                  "__emotion_forwardProp": [Function],
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    "label:Input;",
+                    [Function],
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Input",
+                  "render": [Function],
+                  "withComponent": [Function],
+                }
+              }
               controlProps={
                 Object {
                   "aria-invalid": undefined,
@@ -5295,7 +5464,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
             >
               <WithTheme(Themed(FauxControl))
                 className="emotion-8"
-                control={[Function]}
+                control={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "input",
+                    "__emotion_forwardProp": [Function],
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      "label:Input;",
+                      [Function],
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Input",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  }
+                }
                 controlProps={
                   Object {
                     "aria-invalid": undefined,
@@ -5312,7 +5496,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
               >
                 <Themed(FauxControl)
                   className="emotion-8"
-                  control={[Function]}
+                  control={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "input",
+                      "__emotion_forwardProp": [Function],
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        "label:Input;",
+                        [Function],
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Input",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
                   controlProps={
                     Object {
                       "aria-invalid": undefined,
@@ -5331,7 +5530,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
                     <ThemeProvider>
                       <FauxControl
                         className="emotion-8"
-                        control={[Function]}
+                        control={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "__emotion_base": "input",
+                            "__emotion_forwardProp": [Function],
+                            "__emotion_real": [Circular],
+                            "__emotion_styles": Array [
+                              "label:Input;",
+                              [Function],
+                            ],
+                            "defaultProps": undefined,
+                            "displayName": "Input",
+                            "render": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
                         controlProps={
                           Object {
                             "aria-invalid": undefined,
@@ -5348,7 +5562,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
                       >
                         <FauxControl
                           className="emotion-8"
-                          control={[Function]}
+                          control={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "__emotion_base": "input",
+                              "__emotion_forwardProp": [Function],
+                              "__emotion_real": [Circular],
+                              "__emotion_styles": Array [
+                                "label:Input;",
+                                [Function],
+                              ],
+                              "defaultProps": undefined,
+                              "displayName": "Input",
+                              "render": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
                         >
                           <div
                             className="emotion-7"
@@ -5392,39 +5621,46 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
               </WithTheme(Themed(FauxControl))>
             </TextInput>
           </TextInput>
-          <Button
+          <WithForwardRef(Button)
             element="button"
             size="large"
             type="button"
           >
             <Button
               element="button"
+              forwardedRef={null}
               size="large"
-              text="Large"
               type="button"
             >
-              <button
-                className="emotion-44"
+              <Button
+                element="button"
+                size="large"
+                text="Large"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-13"
-                  >
-                    <Styled(span)
-                      size="large"
+                <button
+                  className="emotion-44"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-13"
                     >
-                      <span
-                        className="emotion-42"
+                      <Styled(span)
+                        size="large"
                       >
-                        Large
-                      </span>
-                    </Styled(span)>
-                  </span>
-                </Styled(span)>
-              </button>
+                        <span
+                          className="emotion-42"
+                        >
+                          Large
+                        </span>
+                      </Styled(span)>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
+          </WithForwardRef(Button)>
         </div>
         <div>
           <Checkbox
@@ -5488,7 +5724,6 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
                           className="emotion-4"
                         >
                           <Styled(input)
-                            innerRef={[Function]}
                             name="size"
                             onClick={[Function]}
                             size="jumbo"
@@ -5563,7 +5798,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
             type="text"
           >
             <TextInput
-              control={[Function]}
+              control={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "input",
+                  "__emotion_forwardProp": [Function],
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    "label:Input;",
+                    [Function],
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Input",
+                  "render": [Function],
+                  "withComponent": [Function],
+                }
+              }
               controlProps={
                 Object {
                   "aria-invalid": undefined,
@@ -5580,7 +5830,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
             >
               <WithTheme(Themed(FauxControl))
                 className="emotion-8"
-                control={[Function]}
+                control={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "input",
+                    "__emotion_forwardProp": [Function],
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      "label:Input;",
+                      [Function],
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Input",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  }
+                }
                 controlProps={
                   Object {
                     "aria-invalid": undefined,
@@ -5597,7 +5862,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
               >
                 <Themed(FauxControl)
                   className="emotion-8"
-                  control={[Function]}
+                  control={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "input",
+                      "__emotion_forwardProp": [Function],
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        "label:Input;",
+                        [Function],
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Input",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
                   controlProps={
                     Object {
                       "aria-invalid": undefined,
@@ -5616,7 +5896,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
                     <ThemeProvider>
                       <FauxControl
                         className="emotion-8"
-                        control={[Function]}
+                        control={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "__emotion_base": "input",
+                            "__emotion_forwardProp": [Function],
+                            "__emotion_real": [Circular],
+                            "__emotion_styles": Array [
+                              "label:Input;",
+                              [Function],
+                            ],
+                            "defaultProps": undefined,
+                            "displayName": "Input",
+                            "render": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
                         controlProps={
                           Object {
                             "aria-invalid": undefined,
@@ -5633,7 +5928,22 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
                       >
                         <FauxControl
                           className="emotion-8"
-                          control={[Function]}
+                          control={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "__emotion_base": "input",
+                              "__emotion_forwardProp": [Function],
+                              "__emotion_real": [Circular],
+                              "__emotion_styles": Array [
+                                "label:Input;",
+                                [Function],
+                              ],
+                              "defaultProps": undefined,
+                              "displayName": "Input",
+                              "render": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
                         >
                           <div
                             className="emotion-7"
@@ -5677,39 +5987,46 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
               </WithTheme(Themed(FauxControl))>
             </TextInput>
           </TextInput>
-          <Button
+          <WithForwardRef(Button)
             element="button"
             size="jumbo"
             type="button"
           >
             <Button
               element="button"
+              forwardedRef={null}
               size="jumbo"
-              text="Jumbo"
               type="button"
             >
-              <button
-                className="emotion-59"
+              <Button
+                element="button"
+                size="jumbo"
+                text="Jumbo"
                 type="button"
               >
-                <Styled(span)>
-                  <span
-                    className="emotion-13"
-                  >
-                    <Styled(span)
-                      size="jumbo"
+                <button
+                  className="emotion-59"
+                  type="button"
+                >
+                  <Styled(span)>
+                    <span
+                      className="emotion-13"
                     >
-                      <span
-                        className="emotion-57"
+                      <Styled(span)
+                        size="jumbo"
                       >
-                        Jumbo
-                      </span>
-                    </Styled(span)>
-                  </span>
-                </Styled(span)>
-              </button>
+                        <span
+                          className="emotion-57"
+                        >
+                          Jumbo
+                        </span>
+                      </Styled(span)>
+                    </span>
+                  </Styled(span)>
+                </button>
+              </Button>
             </Button>
-          </Button>
+          </WithForwardRef(Button)>
         </div>
       </form>
     </Styled(form)>
@@ -5718,6 +6035,10 @@ exports[`Checkbox demo examples Snapshots: next-to-other-inputs 1`] = `
 `;
 
 exports[`Checkbox demo examples Snapshots: required 1`] = `
+.emotion-10 > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .emotion-4 {
   box-sizing: border-box;
   color: #333840;
@@ -5754,7 +6075,7 @@ exports[`Checkbox demo examples Snapshots: required 1`] = `
 }
 
 .emotion-0 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -5762,7 +6083,7 @@ exports[`Checkbox demo examples Snapshots: required 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -5836,10 +6157,6 @@ exports[`Checkbox demo examples Snapshots: required 1`] = `
   font-size: 0.875em;
   margin-left: 1.1428571428571428em;
   margin-right: 0;
-}
-
-.emotion-10 > *:not(:last-child) {
-  margin-bottom: 1rem;
 }
 
 <DemoForm>
@@ -5925,7 +6242,6 @@ exports[`Checkbox demo examples Snapshots: required 1`] = `
                       <Styled(input)
                         aria-required={true}
                         defaultChecked={true}
-                        innerRef={[Function]}
                         name="minerals"
                         onClick={[Function]}
                         required={true}
@@ -6070,7 +6386,6 @@ exports[`Checkbox demo examples Snapshots: required 1`] = `
                     >
                       <Styled(input)
                         aria-required={true}
-                        innerRef={[Function]}
                         name="minerals"
                         onClick={[Function]}
                         required={true}
@@ -6150,6 +6465,10 @@ exports[`Checkbox demo examples Snapshots: required 1`] = `
 `;
 
 exports[`Checkbox demo examples Snapshots: rtl 1`] = `
+.emotion-21 > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .emotion-4 {
   box-sizing: border-box;
   color: #333840;
@@ -6186,7 +6505,7 @@ exports[`Checkbox demo examples Snapshots: rtl 1`] = `
 }
 
 .emotion-0 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -6194,7 +6513,7 @@ exports[`Checkbox demo examples Snapshots: rtl 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -6268,10 +6587,6 @@ exports[`Checkbox demo examples Snapshots: rtl 1`] = `
   font-size: 0.875em;
   margin-left: 1.1428571428571428em;
   margin-right: 0;
-}
-
-.emotion-21 > *:not(:last-child) {
-  margin-bottom: 1rem;
 }
 
 .emotion-10 {
@@ -6478,7 +6793,6 @@ exports[`Checkbox demo examples Snapshots: rtl 1`] = `
                             className="emotion-4"
                           >
                             <Styled(input)
-                              innerRef={[Function]}
                               name="example"
                               onClick={[Function]}
                               size="large"
@@ -6608,7 +6922,6 @@ exports[`Checkbox demo examples Snapshots: rtl 1`] = `
                             className="emotion-9"
                           >
                             <Styled(input)
-                              innerRef={[Function]}
                               name="example"
                               onClick={[Function]}
                               size="large"
@@ -6753,7 +7066,6 @@ exports[`Checkbox demo examples Snapshots: rtl 1`] = `
                             className="emotion-15"
                           >
                             <Styled(input)
-                              innerRef={[Function]}
                               name="example"
                               onClick={[Function]}
                               size="large"
@@ -6889,7 +7201,6 @@ exports[`Checkbox demo examples Snapshots: rtl 1`] = `
                             className="emotion-20"
                           >
                             <Styled(input)
-                              innerRef={[Function]}
                               name="example"
                               onClick={[Function]}
                               size="large"
@@ -6968,6 +7279,10 @@ exports[`Checkbox demo examples Snapshots: rtl 1`] = `
 `;
 
 exports[`Checkbox demo examples Snapshots: sizes 1`] = `
+.emotion-20 > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .emotion-4 {
   box-sizing: border-box;
   color: #333840;
@@ -7004,7 +7319,7 @@ exports[`Checkbox demo examples Snapshots: sizes 1`] = `
 }
 
 .emotion-0 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -7012,7 +7327,7 @@ exports[`Checkbox demo examples Snapshots: sizes 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -7086,10 +7401,6 @@ exports[`Checkbox demo examples Snapshots: sizes 1`] = `
   font-size: 0.875em;
   margin-left: 1.1428571428571428em;
   margin-right: 0;
-}
-
-.emotion-20 > *:not(:last-child) {
-  margin-bottom: 1rem;
 }
 
 .emotion-3 {
@@ -7205,7 +7516,6 @@ exports[`Checkbox demo examples Snapshots: sizes 1`] = `
                       className="emotion-4"
                     >
                       <Styled(input)
-                        innerRef={[Function]}
                         name="size"
                         onClick={[Function]}
                         size="small"
@@ -7341,7 +7651,6 @@ exports[`Checkbox demo examples Snapshots: sizes 1`] = `
                       className="emotion-4"
                     >
                       <Styled(input)
-                        innerRef={[Function]}
                         name="size"
                         onClick={[Function]}
                         size="medium"
@@ -7482,7 +7791,6 @@ exports[`Checkbox demo examples Snapshots: sizes 1`] = `
                     >
                       <Styled(input)
                         defaultChecked={true}
-                        innerRef={[Function]}
                         name="size"
                         onClick={[Function]}
                         size="large"
@@ -7619,7 +7927,6 @@ exports[`Checkbox demo examples Snapshots: sizes 1`] = `
                       className="emotion-4"
                     >
                       <Styled(input)
-                        innerRef={[Function]}
                         name="size"
                         onClick={[Function]}
                         size="jumbo"
@@ -7696,6 +8003,10 @@ exports[`Checkbox demo examples Snapshots: sizes 1`] = `
 `;
 
 exports[`Checkbox demo examples Snapshots: uncontrolled 1`] = `
+.emotion-10 > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .emotion-4 {
   box-sizing: border-box;
   color: #333840;
@@ -7732,7 +8043,7 @@ exports[`Checkbox demo examples Snapshots: uncontrolled 1`] = `
 }
 
 .emotion-0 {
-  border: 0px;
+  border: 0;
   -webkit-clip: rect(0 0 0 0);
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -7740,7 +8051,7 @@ exports[`Checkbox demo examples Snapshots: uncontrolled 1`] = `
   height: 1px;
   margin: -1px;
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -7814,10 +8125,6 @@ exports[`Checkbox demo examples Snapshots: uncontrolled 1`] = `
   font-size: 0.875em;
   margin-left: 1.1428571428571428em;
   margin-right: 0;
-}
-
-.emotion-10 > *:not(:last-child) {
-  margin-bottom: 1rem;
 }
 
 <DemoForm>
@@ -7898,7 +8205,6 @@ exports[`Checkbox demo examples Snapshots: uncontrolled 1`] = `
                     >
                       <Styled(input)
                         defaultChecked={true}
-                        innerRef={[Function]}
                         name="minerals"
                         onClick={[Function]}
                         size="large"
@@ -8035,7 +8341,6 @@ exports[`Checkbox demo examples Snapshots: uncontrolled 1`] = `
                       className="emotion-4"
                     >
                       <Styled(input)
-                        innerRef={[Function]}
                         name="minerals"
                         onClick={[Function]}
                         size="large"
