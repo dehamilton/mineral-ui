@@ -4,7 +4,7 @@
 /* @flow */
 import formFieldExamples from '../../../website/app/demos/Form/FormField/examples';
 import formFieldDividerExamples from '../../../website/app/demos/Form/FormFieldDivider/examples';
-import formFieldsetExamples from '../../../website/app/demos/Form/FormFieldSet/examples';
+import formFieldsetExamples from '../../../website/app/demos/Form/FormFieldset/examples';
 import testDemoExamples from '../../../../utils/testDemoExamples';
 
 const examples = [
