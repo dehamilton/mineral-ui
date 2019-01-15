@@ -10,7 +10,7 @@ export type StyleFn = (
 ) => StyleObj | StyleArray;
 export type StyleValue = null | boolean | number | string | StyleObj;
 
-export type ComponentStyleReset = ({ theme: ThemeObj }) => StyleObj;
+export type ComponentStyleReset = (theme: ThemeObj) => StyleObj;
 
 export type CreateStyledComponent = (
   element:
@@ -22,7 +22,6 @@ export type CreateStyledComponent = (
     displayName?: string,
     filterProps?: Array<string>,
     forwardProps?: Array<string>,
-    includeStyleReset?: boolean,
     rootEl?: string,
     withProps?: Object
   }

@@ -2,7 +2,6 @@
 
 import styled from '@emotion/styled';
 import withPropsFn from 'recompose/withProps';
-import componentStyleReset from './componentStyleReset';
 import isValidProp from '../utils/isValidProp';
 
 import type { CreateStyledComponent, StyleFn } from './types';
@@ -16,28 +15,11 @@ const createStyledComponent: CreateStyledComponent = (
     displayName,
     filterProps = [],
     forwardProps = [],
-    includeStyleReset,
     rootEl,
     withProps
   } = options;
-  const outStyles: StyleFn = (props, context) => {
-    let componentStyles =
-      typeof styles === 'function' ? styles(props, context) : styles;
-
-    if (includeStyleReset) {
-      const resetStyles = componentStyleReset(props);
-      if (Array.isArray(componentStyles)) {
-        componentStyles.unshift(resetStyles);
-      } else {
-        componentStyles = {
-          ...resetStyles,
-          ...componentStyles
-        };
-      }
-    }
-
-    return componentStyles;
-  };
+  const outStyles: StyleFn = (props, context) =>
+    typeof styles === 'function' ? styles(props, context) : styles;
 
   const styledComponent = styled(element, {
     ...(process.env.NODE_ENV !== 'production' && displayName
