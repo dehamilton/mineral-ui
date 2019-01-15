@@ -1,17 +1,14 @@
 /* @flow */
 import React from 'react';
 import { withProps } from 'recompose/withProps';
-import { createStyledComponent } from '../../../../../../library/styles';
+import { componentStyleReset, createStyledComponent } from '../../../../../../library/styles';
 import _Link from '../../../../../../library/Link';
 import _DemoLayout from '../../../common/DemoLayout';
 
 const DemoLayout = withProps({ marginRight: '1em' })(
   createStyledComponent(
     _DemoLayout,
-    {},
-    {
-      includeStyleReset: true
-    }
+    ({ theme }) => componentStyleReset(theme)
   )
 );
 
