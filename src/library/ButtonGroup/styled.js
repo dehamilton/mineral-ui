@@ -1,5 +1,5 @@
 /* @flow */
-import { createStyledComponent } from '../styles';
+import { componentStyleReset, createStyledComponent } from '../styles';
 import { buttonGroupTheme } from './themes';
 
 export const ButtonGroupRoot = createStyledComponent(
@@ -29,6 +29,8 @@ export const ButtonGroupRoot = createStyledComponent(
     const borderTopEndRadiusProperty = `borderTop${end}Radius`;
 
     return {
+      ...componentStyleReset(baseTheme),
+
       display: 'flex',
 
       '& button': {
@@ -137,7 +139,6 @@ export const ButtonGroupRoot = createStyledComponent(
     };
   },
   {
-    displayName: 'ButtonGroup',
-    includeStyleReset: true
+    displayName: 'ButtonGroup'
   }
 );

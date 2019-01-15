@@ -1,7 +1,7 @@
 /* @flow */
 import React from 'react';
 import { ellipsis } from 'polished';
-import { createStyledComponent, getNormalizedValue, pxToEm } from '../styles';
+import { componentStyleReset, createStyledComponent, getNormalizedValue, pxToEm } from '../styles';
 import { createThemedComponent } from '../themes';
 import Button from '../Button';
 
@@ -17,15 +17,17 @@ import {
 
 export const CardRoot = createStyledComponent(
   'div',
-  (props) => {
-    const theme = cardTheme(props.theme);
+  ({ onClick, theme: baseTheme }) => {
+    const theme = cardTheme(baseTheme);
 
     return {
+      ...componentStyleReset(baseTheme),
+
       backgroundColor: theme.Card_backgroundColor,
       border: `1px solid ${theme.Card_borderColor}`,
       borderRadius: theme.Card_borderRadius,
       boxShadow: theme.Card_boxShadow,
-      cursor: props.onClick && 'pointer',
+      cursor: onClick && 'pointer',
       paddingBottom: '0.01em', // Necessary to prevent margin collapse of last-child
       paddingTop: '0.01em', // Necessary to prevent margin collapse of first-child
 
@@ -35,8 +37,7 @@ export const CardRoot = createStyledComponent(
     };
   },
   {
-    displayName: 'Card',
-    includeStyleReset: true
+    displayName: 'Card'
   }
 );
 

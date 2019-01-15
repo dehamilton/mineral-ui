@@ -1,6 +1,6 @@
 /* @flow */
 import React from 'react';
-import { createStyledComponent, getNormalizedValue } from '../styles';
+import { componentStyleReset, createStyledComponent, getNormalizedValue } from '../styles';
 import { createThemedComponent, mapComponentThemes } from '../themes';
 import Button from '../Button';
 import Text from '../Text';
@@ -20,7 +20,9 @@ import type { DialogRowDefaultProps, DialogRowProps } from './types';
 
 export const DialogRoot = createStyledComponent(
   'div',
-  ({ modeless }) => ({
+  ({ modeless, theme }) => ({
+    ...componentStyleReset(theme),
+
     alignItems: 'center',
     bottom: 0,
     display: 'flex',
@@ -33,8 +35,7 @@ export const DialogRoot = createStyledComponent(
   }),
   {
     displayName: 'Dialog',
-    filterProps: ['title'],
-    includeStyleReset: true
+    filterProps: ['title']
   }
 );
 
