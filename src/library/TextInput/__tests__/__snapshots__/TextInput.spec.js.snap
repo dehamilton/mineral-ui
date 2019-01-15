@@ -16065,4 +16065,4 @@ exports[`TextInput demo examples Snapshots: variants 1`] = `
 </DemoLayout>
 `;
 
-exports[`TextInput renders an html size attribute when provided 1`] = `"<div class=\\"css-wt9h7p-FauxControl-TextInput\\"><input type=\\"text\\" size=\\"1\\" class=\\"css-1uwfgy4-Input-Control\\"><div class=\\"css-1hqwkfu-Underlay\\"></div></div>"`;
+exports[`TextInput renders an html size attribute when provided 1`] = `"<div class=\\"css-emotion-FauxControl-TextInput\\"><input type=\\"text\\" size=\\"1\\" class=\\"css-emotion-Input-Control\\"><div class=\\"css-emotion-Underlay\\"></div></div>"`;
