@@ -1,6 +1,6 @@
 /* @flow */
 import React, { Fragment } from 'react';
-import { withProps } from 'recompose/withProps';
+import withProps from 'recompose/withProps';
 import {
   createStyledComponent,
   getNormalizedValue,

@@ -1,5 +1,5 @@
 /* @flow */
-import { withProps } from 'recompose/withProps';
+import withProps from 'recompose/withProps';
 import { createStyledComponent } from '../../../../../library/styles';
 import Dialog from '../../../../../library/Dialog';
 

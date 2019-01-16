@@ -6,7 +6,7 @@ import { canUseDOM } from 'exenv';
 import darken from 'polished/lib/color/darken';
 import desaturate from 'polished/lib/color/desaturate';
 import rgba from 'polished/lib/color/rgba';
-import { withProps } from 'recompose/withProps';
+import withProps from 'recompose/withProps';
 import { palette } from 'mineral-ui-tokens';
 import {
   componentStyleReset,

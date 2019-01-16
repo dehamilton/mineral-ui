@@ -1,6 +1,6 @@
 /* @flow */
 import React from 'react';
-import { withProps } from 'recompose/withProps';
+import withProps from 'recompose/withProps';
 import { palette } from 'mineral-ui-tokens';
 import { createStyledComponent } from '../../../../../../library/styles';
 import Flex from '../../../../../../library/Flex';

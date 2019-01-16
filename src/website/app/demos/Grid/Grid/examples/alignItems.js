@@ -1,5 +1,5 @@
 /* @flow */
-import { withProps } from 'recompose/withProps';
+import withProps from 'recompose/withProps';
 import { createStyledComponent } from '../../../../../../library/styles';
 import GridItem from '../../common/DemoGridItem';
 import _DemoLayout from '../../common/DemoLayout';

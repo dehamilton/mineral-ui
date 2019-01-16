@@ -1,6 +1,6 @@
 /* @flow */
 import React from 'react';
-import { withProps } from 'recompose/withProps';
+import withProps from 'recompose/withProps';
 import * as Icons from 'mineral-ui-icons';
 import { createStyledComponent } from '../../../../../library/styles';
 import Figure from '../common/Figure';

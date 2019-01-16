@@ -1,6 +1,6 @@
 /* @flow */
 import React from 'react';
-import { withProps } from 'recompose/withProps';
+import withProps from 'recompose/withProps';
 import {
   createStyledComponent,
   pxToEm

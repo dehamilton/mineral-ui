@@ -6,7 +6,7 @@ import noScroll from 'no-scroll';
 import lighten from 'polished/lib/color/lighten';
 import darken from 'polished/lib/color/darken';
 import rgba from 'polished/lib/color/rgba';
-import { withProps } from 'recompose/withProps';
+import withProps from 'recompose/withProps';
 import {
   componentStyleReset,
   createStyledComponent,
