@@ -32,6 +32,7 @@ exports[`Icon demo examples Snapshots: color 1`] = `
         color="coral"
         focusable="false"
         role="img"
+        size="medium"
         viewBox="0 0 24 24"
       >
         <g>
@@ -81,6 +82,7 @@ exports[`Icon demo examples Snapshots: custom 1`] = `
       className="emotion-0"
       focusable="false"
       role="img"
+      size="7em"
       viewBox="0 0 24 24"
     >
       <title
@@ -177,6 +179,7 @@ exports[`Icon demo examples Snapshots: icon 1`] = `
         className="emotion-0"
         focusable="false"
         role="img"
+        size="medium"
         viewBox="0 0 24 24"
       >
         <g>
@@ -231,6 +234,7 @@ exports[`Icon demo examples Snapshots: rtl 1`] = `
             className="emotion-0"
             focusable="false"
             role="img"
+            size="medium"
             viewBox="0 0 24 24"
           >
             <g>
@@ -296,6 +300,7 @@ exports[`Icon demo examples Snapshots: sizes 1`] = `
           className="emotion-0"
           focusable="false"
           role="img"
+          size="small"
           viewBox="0 0 24 24"
         >
           <g>
@@ -335,6 +340,7 @@ exports[`Icon demo examples Snapshots: sizes 1`] = `
           className="emotion-1"
           focusable="false"
           role="img"
+          size="medium"
           viewBox="0 0 24 24"
         >
           <g>
@@ -376,6 +382,7 @@ exports[`Icon demo examples Snapshots: sizes 1`] = `
           className="emotion-2"
           focusable="false"
           role="img"
+          size="large"
           viewBox="0 0 24 24"
         >
           <g>
@@ -417,6 +424,7 @@ exports[`Icon demo examples Snapshots: sizes 1`] = `
           className="emotion-3"
           focusable="false"
           role="img"
+          size="7em"
           viewBox="0 0 24 24"
         >
           <g>
@@ -472,6 +480,7 @@ exports[`Icon demo examples Snapshots: title 1`] = `
         className="emotion-0"
         focusable="false"
         role="img"
+        size="medium"
         viewBox="0 0 24 24"
       >
         <title

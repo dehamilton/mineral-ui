@@ -200,12 +200,12 @@ exports[`CardStatus demo examples Snapshots: basic 1`] = `
     className="emotion-27"
   >
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-8"
         >
           <CardTitle>
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-3"
               >
@@ -229,10 +229,10 @@ exports[`CardStatus demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-5"
               >
@@ -247,12 +247,12 @@ exports[`CardStatus demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardStatus
             variant="danger"
           >
-            <CardStatus
+            <Styled(div)
               variant="danger"
             >
               <div
@@ -276,6 +276,7 @@ exports[`CardStatus demo examples Snapshots: basic 1`] = `
                         className="emotion-6"
                         focusable="false"
                         role="img"
+                        size="medium"
                         viewBox="0 0 24 24"
                       >
                         <g>
@@ -289,18 +290,18 @@ exports[`CardStatus demo examples Snapshots: basic 1`] = `
                 </IconDangerSimple>
                 Unavailable
               </div>
-            </CardStatus>
+            </Styled(div)>
           </CardStatus>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-8"
         >
           <CardTitle>
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-3"
               >
@@ -324,10 +325,10 @@ exports[`CardStatus demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-5"
               >
@@ -342,12 +343,12 @@ exports[`CardStatus demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardStatus
             variant="success"
           >
-            <CardStatus
+            <Styled(div)
               variant="success"
             >
               <div
@@ -371,6 +372,7 @@ exports[`CardStatus demo examples Snapshots: basic 1`] = `
                         className="emotion-6"
                         focusable="false"
                         role="img"
+                        size="medium"
                         viewBox="0 0 24 24"
                       >
                         <g>
@@ -384,18 +386,18 @@ exports[`CardStatus demo examples Snapshots: basic 1`] = `
                 </IconSuccessSimple>
                 Available
               </div>
-            </CardStatus>
+            </Styled(div)>
           </CardStatus>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-8"
         >
           <CardTitle>
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-3"
               >
@@ -419,10 +421,10 @@ exports[`CardStatus demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-5"
               >
@@ -437,12 +439,12 @@ exports[`CardStatus demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardStatus
             variant="warning"
           >
-            <CardStatus
+            <Styled(div)
               variant="warning"
             >
               <div
@@ -466,6 +468,7 @@ exports[`CardStatus demo examples Snapshots: basic 1`] = `
                         className="emotion-6"
                         focusable="false"
                         role="img"
+                        size="medium"
                         viewBox="0 0 24 24"
                       >
                         <g>
@@ -479,10 +482,10 @@ exports[`CardStatus demo examples Snapshots: basic 1`] = `
                 </IconWarningSimple>
                 Warning
               </div>
-            </CardStatus>
+            </Styled(div)>
           </CardStatus>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
   </div>
 </Styled(div)>
@@ -598,12 +601,12 @@ exports[`CardStatus demo examples Snapshots: rtl 1`] = `
     <ThemeProvider>
       <ThemeProvider>
         <Card>
-          <Card>
+          <Styled(div)>
             <div
               className="emotion-4"
             >
               <CardBlock>
-                <CardBlock>
+                <Styled(div)>
                   <div
                     className="emotion-1"
                   >
@@ -617,12 +620,12 @@ exports[`CardStatus demo examples Snapshots: rtl 1`] = `
                       </div>
                     </Styled(div)>
                   </div>
-                </CardBlock>
+                </Styled(div)>
               </CardBlock>
               <CardStatus
                 variant="danger"
               >
-                <CardStatus
+                <Styled(div)
                   variant="danger"
                 >
                   <div
@@ -646,6 +649,7 @@ exports[`CardStatus demo examples Snapshots: rtl 1`] = `
                             className="emotion-2"
                             focusable="false"
                             role="img"
+                            size="medium"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -659,10 +663,10 @@ exports[`CardStatus demo examples Snapshots: rtl 1`] = `
                     </IconDangerSimple>
                     غير متوفره
                   </div>
-                </CardStatus>
+                </Styled(div)>
               </CardStatus>
             </div>
-          </Card>
+          </Styled(div)>
         </Card>
       </ThemeProvider>
     </ThemeProvider>

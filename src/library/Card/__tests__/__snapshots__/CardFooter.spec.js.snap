@@ -347,12 +347,12 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
     className="emotion-36"
   >
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-5"
         >
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-1"
               >
@@ -367,13 +367,13 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardFooter
             title="Footer Title Only"
             triggerTitle={[Function]}
           >
-            <CardFooter>
+            <Styled(div)>
               <div
                 className="emotion-4"
               >
@@ -391,18 +391,18 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardFooter>
+            </Styled(div)>
           </CardFooter>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-5"
         >
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-1"
               >
@@ -417,12 +417,12 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardFooter
             triggerTitle={[Function]}
           >
-            <CardFooter>
+            <Styled(div)>
               <div
                 className="emotion-4"
               >
@@ -433,7 +433,7 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                         <Component>
                           <div>
                             <CardActions>
-                              <CardActions>
+                              <Styled(div)>
                                 <div
                                   className="emotion-16"
                                 >
@@ -444,28 +444,22 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                                       className="emotion-11"
                                     >
                                       <WithForwardRef(Button)
-                                        element="button"
                                         minimal={true}
                                         size="medium"
-                                        type="button"
                                       >
                                         <Button
-                                          element="button"
                                           forwardedRef={null}
                                           minimal={true}
                                           size="medium"
-                                          type="button"
                                         >
-                                          <Button
-                                            element="button"
+                                          <Styled(button)
                                             minimal={true}
                                             size="medium"
                                             text="Button 1"
-                                            type="button"
                                           >
                                             <button
                                               className="emotion-10"
-                                              type="button"
+                                              size="medium"
                                             >
                                               <Styled(span)>
                                                 <span
@@ -476,6 +470,7 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                                                   >
                                                     <span
                                                       className="emotion-8"
+                                                      size="medium"
                                                     >
                                                       Button 1
                                                     </span>
@@ -483,7 +478,7 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                                                 </span>
                                               </Styled(span)>
                                             </button>
-                                          </Button>
+                                          </Styled(button)>
                                         </Button>
                                       </WithForwardRef(Button)>
                                     </span>
@@ -495,28 +490,22 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                                       className="emotion-11"
                                     >
                                       <WithForwardRef(Button)
-                                        element="button"
                                         primary={true}
                                         size="medium"
-                                        type="button"
                                       >
                                         <Button
-                                          element="button"
                                           forwardedRef={null}
                                           primary={true}
                                           size="medium"
-                                          type="button"
                                         >
-                                          <Button
-                                            element="button"
+                                          <Styled(button)
                                             primary={true}
                                             size="medium"
                                             text="Button 2"
-                                            type="button"
                                           >
                                             <button
                                               className="emotion-14"
-                                              type="button"
+                                              size="medium"
                                             >
                                               <Styled(span)>
                                                 <span
@@ -527,6 +516,7 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                                                   >
                                                     <span
                                                       className="emotion-8"
+                                                      size="medium"
                                                     >
                                                       Button 2
                                                     </span>
@@ -534,13 +524,13 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                                                 </span>
                                               </Styled(span)>
                                             </button>
-                                          </Button>
+                                          </Styled(button)>
                                         </Button>
                                       </WithForwardRef(Button)>
                                     </span>
                                   </Styled(span)>
                                 </div>
-                              </CardActions>
+                              </Styled(div)>
                             </CardActions>
                           </div>
                         </Component>
@@ -549,18 +539,18 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                   </Themed(Component)>
                 </WithTheme(Themed(Component))>
               </div>
-            </CardFooter>
+            </Styled(div)>
           </CardFooter>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-5"
         >
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-1"
               >
@@ -575,13 +565,13 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardFooter
             title="Footer Title"
             triggerTitle={[Function]}
           >
-            <CardFooter>
+            <Styled(div)>
               <div
                 className="emotion-4"
               >
@@ -605,7 +595,7 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                         <Component>
                           <div>
                             <CardBlock>
-                              <CardBlock>
+                              <Styled(div)>
                                 <div
                                   className="emotion-24"
                                 >
@@ -620,10 +610,10 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                                     </div>
                                   </Styled(div)>
                                 </div>
-                              </CardBlock>
+                              </Styled(div)>
                             </CardBlock>
                             <CardActions>
-                              <CardActions>
+                              <Styled(div)>
                                 <div
                                   className="emotion-16"
                                 >
@@ -634,28 +624,22 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                                       className="emotion-11"
                                     >
                                       <WithForwardRef(Button)
-                                        element="button"
                                         minimal={true}
                                         size="medium"
-                                        type="button"
                                       >
                                         <Button
-                                          element="button"
                                           forwardedRef={null}
                                           minimal={true}
                                           size="medium"
-                                          type="button"
                                         >
-                                          <Button
-                                            element="button"
+                                          <Styled(button)
                                             minimal={true}
                                             size="medium"
                                             text="Button 1"
-                                            type="button"
                                           >
                                             <button
                                               className="emotion-10"
-                                              type="button"
+                                              size="medium"
                                             >
                                               <Styled(span)>
                                                 <span
@@ -666,6 +650,7 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                                                   >
                                                     <span
                                                       className="emotion-8"
+                                                      size="medium"
                                                     >
                                                       Button 1
                                                     </span>
@@ -673,7 +658,7 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                                                 </span>
                                               </Styled(span)>
                                             </button>
-                                          </Button>
+                                          </Styled(button)>
                                         </Button>
                                       </WithForwardRef(Button)>
                                     </span>
@@ -685,28 +670,22 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                                       className="emotion-11"
                                     >
                                       <WithForwardRef(Button)
-                                        element="button"
                                         primary={true}
                                         size="medium"
-                                        type="button"
                                       >
                                         <Button
-                                          element="button"
                                           forwardedRef={null}
                                           primary={true}
                                           size="medium"
-                                          type="button"
                                         >
-                                          <Button
-                                            element="button"
+                                          <Styled(button)
                                             primary={true}
                                             size="medium"
                                             text="Button 2"
-                                            type="button"
                                           >
                                             <button
                                               className="emotion-14"
-                                              type="button"
+                                              size="medium"
                                             >
                                               <Styled(span)>
                                                 <span
@@ -717,6 +696,7 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                                                   >
                                                     <span
                                                       className="emotion-8"
+                                                      size="medium"
                                                     >
                                                       Button 2
                                                     </span>
@@ -724,13 +704,13 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                                                 </span>
                                               </Styled(span)>
                                             </button>
-                                          </Button>
+                                          </Styled(button)>
                                         </Button>
                                       </WithForwardRef(Button)>
                                     </span>
                                   </Styled(span)>
                                 </div>
-                              </CardActions>
+                              </Styled(div)>
                             </CardActions>
                           </div>
                         </Component>
@@ -739,10 +719,10 @@ exports[`CardFooter demo examples Snapshots: basic 1`] = `
                   </Themed(Component)>
                 </WithTheme(Themed(Component))>
               </div>
-            </CardFooter>
+            </Styled(div)>
           </CardFooter>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
   </div>
 </Styled(div)>
@@ -1135,12 +1115,12 @@ exports[`CardFooter demo examples Snapshots: controlled 1`] = `
       className="emotion-15"
     >
       <Card>
-        <Card>
+        <Styled(div)>
           <div
             className="emotion-11"
           >
             <CardBlock>
-              <CardBlock>
+              <Styled(div)>
                 <div
                   className="emotion-1"
                 >
@@ -1155,7 +1135,7 @@ exports[`CardFooter demo examples Snapshots: controlled 1`] = `
                     </div>
                   </Styled(div)>
                 </div>
-              </CardBlock>
+              </Styled(div)>
             </CardBlock>
             <CardFooter
               expandable={true}
@@ -1165,13 +1145,15 @@ exports[`CardFooter demo examples Snapshots: controlled 1`] = `
               title="Footer Title"
               triggerTitle={[Function]}
             >
-              <CardFooter
+              <Styled(div)
                 isOpen={false}
                 onClose={[Function]}
                 onOpen={[Function]}
               >
                 <div
                   className="emotion-10"
+                  onClose={[Function]}
+                  onOpen={[Function]}
                 >
                   <Styled(div)>
                     <div
@@ -1185,7 +1167,6 @@ exports[`CardFooter demo examples Snapshots: controlled 1`] = `
                         </h4>
                       </Styled(h4)>
                       <Styled(WithForwardRef(Button))
-                        element="button"
                         iconStart={
                           <IconExpandMore
                             title="Expand contents"
@@ -1194,11 +1175,9 @@ exports[`CardFooter demo examples Snapshots: controlled 1`] = `
                         minimal={true}
                         onClick={[Function]}
                         size="large"
-                        type="button"
                       >
                         <WithForwardRef(Button)
                           className="emotion-6"
-                          element="button"
                           iconStart={
                             <IconExpandMore
                               title="Expand contents"
@@ -1207,11 +1186,9 @@ exports[`CardFooter demo examples Snapshots: controlled 1`] = `
                           minimal={true}
                           onClick={[Function]}
                           size="large"
-                          type="button"
                         >
                           <Button
                             className="emotion-6"
-                            element="button"
                             forwardedRef={null}
                             iconStart={
                               <IconExpandMore
@@ -1221,20 +1198,17 @@ exports[`CardFooter demo examples Snapshots: controlled 1`] = `
                             minimal={true}
                             onClick={[Function]}
                             size="large"
-                            type="button"
                           >
-                            <Button
+                            <Styled(button)
                               className="emotion-6"
-                              element="button"
                               minimal={true}
                               onClick={[Function]}
                               size="large"
-                              type="button"
                             >
                               <button
                                 className="emotion-5"
                                 onClick={[Function]}
-                                type="button"
+                                size="large"
                               >
                                 <Styled(span)>
                                   <span
@@ -1265,6 +1239,7 @@ exports[`CardFooter demo examples Snapshots: controlled 1`] = `
                                             className="emotion-3"
                                             focusable="false"
                                             role="img"
+                                            size="1.5em"
                                             viewBox="0 0 24 24"
                                           >
                                             <title
@@ -1284,42 +1259,36 @@ exports[`CardFooter demo examples Snapshots: controlled 1`] = `
                                   </span>
                                 </Styled(span)>
                               </button>
-                            </Button>
+                            </Styled(button)>
                           </Button>
                         </WithForwardRef(Button)>
                       </Styled(WithForwardRef(Button))>
                     </div>
                   </Styled(div)>
                 </div>
-              </CardFooter>
+              </Styled(div)>
             </CardFooter>
           </div>
-        </Card>
+        </Styled(div)>
       </Card>
       <WithForwardRef(Button)
-        element="button"
         onClick={[Function]}
         size="large"
-        type="button"
       >
         <Button
-          element="button"
           forwardedRef={null}
           onClick={[Function]}
           size="large"
-          type="button"
         >
-          <Button
-            element="button"
+          <Styled(button)
             onClick={[Function]}
             size="large"
             text="Expand CardFooter"
-            type="button"
           >
             <button
               className="emotion-14"
               onClick={[Function]}
-              type="button"
+              size="large"
             >
               <Styled(span)>
                 <span
@@ -1330,6 +1299,7 @@ exports[`CardFooter demo examples Snapshots: controlled 1`] = `
                   >
                     <span
                       className="emotion-12"
+                      size="large"
                     >
                       Expand CardFooter
                     </span>
@@ -1337,7 +1307,7 @@ exports[`CardFooter demo examples Snapshots: controlled 1`] = `
                 </span>
               </Styled(span)>
             </button>
-          </Button>
+          </Styled(button)>
         </Button>
       </WithForwardRef(Button)>
     </div>
@@ -1611,12 +1581,12 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
     className="emotion-26"
   >
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-11"
         >
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-1"
               >
@@ -1631,14 +1601,14 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardFooter
             expandable={true}
             title="Collapsed by Default"
             triggerTitle={[Function]}
           >
-            <CardFooter>
+            <Styled(div)>
               <div
                 className="emotion-10"
               >
@@ -1654,7 +1624,6 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
                       </h4>
                     </Styled(h4)>
                     <Styled(WithForwardRef(Button))
-                      element="button"
                       iconStart={
                         <IconExpandMore
                           title="Expand contents"
@@ -1663,11 +1632,9 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
                       minimal={true}
                       onClick={[Function]}
                       size="large"
-                      type="button"
                     >
                       <WithForwardRef(Button)
                         className="emotion-6"
-                        element="button"
                         iconStart={
                           <IconExpandMore
                             title="Expand contents"
@@ -1676,11 +1643,9 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
                         minimal={true}
                         onClick={[Function]}
                         size="large"
-                        type="button"
                       >
                         <Button
                           className="emotion-6"
-                          element="button"
                           forwardedRef={null}
                           iconStart={
                             <IconExpandMore
@@ -1690,20 +1655,17 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
                           minimal={true}
                           onClick={[Function]}
                           size="large"
-                          type="button"
                         >
-                          <Button
+                          <Styled(button)
                             className="emotion-6"
-                            element="button"
                             minimal={true}
                             onClick={[Function]}
                             size="large"
-                            type="button"
                           >
                             <button
                               className="emotion-5"
                               onClick={[Function]}
-                              type="button"
+                              size="large"
                             >
                               <Styled(span)>
                                 <span
@@ -1734,6 +1696,7 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
                                           className="emotion-3"
                                           focusable="false"
                                           role="img"
+                                          size="1.5em"
                                           viewBox="0 0 24 24"
                                         >
                                           <title
@@ -1753,25 +1716,25 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
                                 </span>
                               </Styled(span)>
                             </button>
-                          </Button>
+                          </Styled(button)>
                         </Button>
                       </WithForwardRef(Button)>
                     </Styled(WithForwardRef(Button))>
                   </div>
                 </Styled(div)>
               </div>
-            </CardFooter>
+            </Styled(div)>
           </CardFooter>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-11"
         >
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-1"
               >
@@ -1786,7 +1749,7 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardFooter
             defaultIsOpen={true}
@@ -1794,7 +1757,7 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
             title="Expanded by Default"
             triggerTitle={[Function]}
           >
-            <CardFooter
+            <Styled(div)
               defaultIsOpen={true}
             >
               <div
@@ -1812,7 +1775,6 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
                       </h4>
                     </Styled(h4)>
                     <Styled(WithForwardRef(Button))
-                      element="button"
                       iconStart={
                         <IconExpandLess
                           title="Collapse contents"
@@ -1821,11 +1783,9 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
                       minimal={true}
                       onClick={[Function]}
                       size="large"
-                      type="button"
                     >
                       <WithForwardRef(Button)
                         className="emotion-6"
-                        element="button"
                         iconStart={
                           <IconExpandLess
                             title="Collapse contents"
@@ -1834,11 +1794,9 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
                         minimal={true}
                         onClick={[Function]}
                         size="large"
-                        type="button"
                       >
                         <Button
                           className="emotion-6"
-                          element="button"
                           forwardedRef={null}
                           iconStart={
                             <IconExpandLess
@@ -1848,20 +1806,17 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
                           minimal={true}
                           onClick={[Function]}
                           size="large"
-                          type="button"
                         >
-                          <Button
+                          <Styled(button)
                             className="emotion-6"
-                            element="button"
                             minimal={true}
                             onClick={[Function]}
                             size="large"
-                            type="button"
                           >
                             <button
                               className="emotion-5"
                               onClick={[Function]}
-                              type="button"
+                              size="large"
                             >
                               <Styled(span)>
                                 <span
@@ -1892,6 +1847,7 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
                                           className="emotion-3"
                                           focusable="false"
                                           role="img"
+                                          size="1.5em"
                                           viewBox="0 0 24 24"
                                         >
                                           <title
@@ -1911,7 +1867,7 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
                                 </span>
                               </Styled(span)>
                             </button>
-                          </Button>
+                          </Styled(button)>
                         </Button>
                       </WithForwardRef(Button)>
                     </Styled(WithForwardRef(Button))>
@@ -1924,7 +1880,7 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
                         <Component>
                           <div>
                             <CardBlock>
-                              <CardBlock>
+                              <Styled(div)>
                                 <div
                                   className="emotion-23"
                                 >
@@ -1939,7 +1895,7 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
                                     </div>
                                   </Styled(div)>
                                 </div>
-                              </CardBlock>
+                              </Styled(div)>
                             </CardBlock>
                           </div>
                         </Component>
@@ -1948,10 +1904,10 @@ exports[`CardFooter demo examples Snapshots: expandable 1`] = `
                   </Themed(Component)>
                 </WithTheme(Themed(Component))>
               </div>
-            </CardFooter>
+            </Styled(div)>
           </CardFooter>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
   </div>
 </Styled(div)>
@@ -2217,12 +2173,12 @@ exports[`CardFooter demo examples Snapshots: rtl 1`] = `
     <ThemeProvider>
       <ThemeProvider>
         <Card>
-          <Card>
+          <Styled(div)>
             <div
               className="emotion-11"
             >
               <CardBlock>
-                <CardBlock>
+                <Styled(div)>
                   <div
                     className="emotion-1"
                   >
@@ -2236,14 +2192,14 @@ exports[`CardFooter demo examples Snapshots: rtl 1`] = `
                       </div>
                     </Styled(div)>
                   </div>
-                </CardBlock>
+                </Styled(div)>
               </CardBlock>
               <CardFooter
                 expandable={true}
                 title="تذييل العنوان"
                 triggerTitle={[Function]}
               >
-                <CardFooter>
+                <Styled(div)>
                   <div
                     className="emotion-10"
                   >
@@ -2259,7 +2215,6 @@ exports[`CardFooter demo examples Snapshots: rtl 1`] = `
                           </h4>
                         </Styled(h4)>
                         <Styled(WithForwardRef(Button))
-                          element="button"
                           iconStart={
                             <IconExpandMore
                               title="قم بتوسيع المحتويات"
@@ -2268,11 +2223,9 @@ exports[`CardFooter demo examples Snapshots: rtl 1`] = `
                           minimal={true}
                           onClick={[Function]}
                           size="large"
-                          type="button"
                         >
                           <WithForwardRef(Button)
                             className="emotion-6"
-                            element="button"
                             iconStart={
                               <IconExpandMore
                                 title="قم بتوسيع المحتويات"
@@ -2281,11 +2234,9 @@ exports[`CardFooter demo examples Snapshots: rtl 1`] = `
                             minimal={true}
                             onClick={[Function]}
                             size="large"
-                            type="button"
                           >
                             <Button
                               className="emotion-6"
-                              element="button"
                               forwardedRef={null}
                               iconStart={
                                 <IconExpandMore
@@ -2295,20 +2246,17 @@ exports[`CardFooter demo examples Snapshots: rtl 1`] = `
                               minimal={true}
                               onClick={[Function]}
                               size="large"
-                              type="button"
                             >
-                              <Button
+                              <Styled(button)
                                 className="emotion-6"
-                                element="button"
                                 minimal={true}
                                 onClick={[Function]}
                                 size="large"
-                                type="button"
                               >
                                 <button
                                   className="emotion-5"
                                   onClick={[Function]}
-                                  type="button"
+                                  size="large"
                                 >
                                   <Styled(span)>
                                     <span
@@ -2339,6 +2287,7 @@ exports[`CardFooter demo examples Snapshots: rtl 1`] = `
                                               className="emotion-3"
                                               focusable="false"
                                               role="img"
+                                              size="1.5em"
                                               viewBox="0 0 24 24"
                                             >
                                               <title
@@ -2358,17 +2307,17 @@ exports[`CardFooter demo examples Snapshots: rtl 1`] = `
                                     </span>
                                   </Styled(span)>
                                 </button>
-                              </Button>
+                              </Styled(button)>
                             </Button>
                           </WithForwardRef(Button)>
                         </Styled(WithForwardRef(Button))>
                       </div>
                     </Styled(div)>
                   </div>
-                </CardFooter>
+                </Styled(div)>
               </CardFooter>
             </div>
-          </Card>
+          </Styled(div)>
         </Card>
       </ThemeProvider>
     </ThemeProvider>
@@ -2513,12 +2462,12 @@ exports[`CardFooter demo examples Snapshots: variants 1`] = `
     className="emotion-24"
   >
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-7"
         >
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-1"
               >
@@ -2533,14 +2482,14 @@ exports[`CardFooter demo examples Snapshots: variants 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardFooter
             title="Success Footer Title"
             triggerTitle={[Function]}
             variant="success"
           >
-            <CardFooter
+            <Styled(div)
               variant="success"
             >
               <div
@@ -2566,7 +2515,7 @@ exports[`CardFooter demo examples Snapshots: variants 1`] = `
                         <Component>
                           <div>
                             <CardBlock>
-                              <CardBlock>
+                              <Styled(div)>
                                 <div
                                   className="emotion-5"
                                 >
@@ -2581,7 +2530,7 @@ exports[`CardFooter demo examples Snapshots: variants 1`] = `
                                     </div>
                                   </Styled(div)>
                                 </div>
-                              </CardBlock>
+                              </Styled(div)>
                             </CardBlock>
                           </div>
                         </Component>
@@ -2590,18 +2539,18 @@ exports[`CardFooter demo examples Snapshots: variants 1`] = `
                   </Themed(Component)>
                 </WithTheme(Themed(Component))>
               </div>
-            </CardFooter>
+            </Styled(div)>
           </CardFooter>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-7"
         >
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-1"
               >
@@ -2616,14 +2565,14 @@ exports[`CardFooter demo examples Snapshots: variants 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardFooter
             title="Warning Footer Title"
             triggerTitle={[Function]}
             variant="warning"
           >
-            <CardFooter
+            <Styled(div)
               variant="warning"
             >
               <div
@@ -2649,7 +2598,7 @@ exports[`CardFooter demo examples Snapshots: variants 1`] = `
                         <Component>
                           <div>
                             <CardBlock>
-                              <CardBlock>
+                              <Styled(div)>
                                 <div
                                   className="emotion-5"
                                 >
@@ -2664,7 +2613,7 @@ exports[`CardFooter demo examples Snapshots: variants 1`] = `
                                     </div>
                                   </Styled(div)>
                                 </div>
-                              </CardBlock>
+                              </Styled(div)>
                             </CardBlock>
                           </div>
                         </Component>
@@ -2673,18 +2622,18 @@ exports[`CardFooter demo examples Snapshots: variants 1`] = `
                   </Themed(Component)>
                 </WithTheme(Themed(Component))>
               </div>
-            </CardFooter>
+            </Styled(div)>
           </CardFooter>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-7"
         >
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-1"
               >
@@ -2699,14 +2648,14 @@ exports[`CardFooter demo examples Snapshots: variants 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardFooter
             title="Danger Footer Title"
             triggerTitle={[Function]}
             variant="danger"
           >
-            <CardFooter
+            <Styled(div)
               variant="danger"
             >
               <div
@@ -2732,7 +2681,7 @@ exports[`CardFooter demo examples Snapshots: variants 1`] = `
                         <Component>
                           <div>
                             <CardBlock>
-                              <CardBlock>
+                              <Styled(div)>
                                 <div
                                   className="emotion-5"
                                 >
@@ -2747,7 +2696,7 @@ exports[`CardFooter demo examples Snapshots: variants 1`] = `
                                     </div>
                                   </Styled(div)>
                                 </div>
-                              </CardBlock>
+                              </Styled(div)>
                             </CardBlock>
                           </div>
                         </Component>
@@ -2756,10 +2705,10 @@ exports[`CardFooter demo examples Snapshots: variants 1`] = `
                   </Themed(Component)>
                 </WithTheme(Themed(Component))>
               </div>
-            </CardFooter>
+            </Styled(div)>
           </CardFooter>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
   </div>
 </Styled(div)>

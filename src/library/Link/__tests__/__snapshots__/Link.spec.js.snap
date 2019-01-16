@@ -56,12 +56,10 @@ exports[`Link demo examples Snapshots: basic 1`] = `
           href="http://example.com"
         >
           <Link
-            element="a"
             href="http://example.com"
             target="_blank"
           >
-            <Link
-              element="a"
+            <Styled(a)
               href="http://example.com"
               target="_blank"
             >
@@ -72,7 +70,7 @@ exports[`Link demo examples Snapshots: basic 1`] = `
               >
                 consectetur
               </a>
-            </Link>
+            </Styled(a)>
           </Link>
         </Link>
          adipiscing elit,
@@ -87,12 +85,10 @@ exports[`Link demo examples Snapshots: basic 1`] = `
           href="http://example.com"
         >
           <Link
-            element="a"
             href="http://example.com"
             target="_blank"
           >
-            <Link
-              element="a"
+            <Styled(a)
               href="http://example.com"
               target="_blank"
             >
@@ -103,7 +99,7 @@ exports[`Link demo examples Snapshots: basic 1`] = `
               >
                 incididunt
               </a>
-            </Link>
+            </Styled(a)>
           </Link>
         </Link>
          ut labore et dolore magna aliqua.
@@ -118,12 +114,10 @@ exports[`Link demo examples Snapshots: basic 1`] = `
           href="http://example.com"
         >
           <Link
-            element="a"
             href="http://example.com"
             target="_blank"
           >
-            <Link
-              element="a"
+            <Styled(a)
               href="http://example.com"
               target="_blank"
             >
@@ -134,7 +128,7 @@ exports[`Link demo examples Snapshots: basic 1`] = `
               >
                 ad minim veniam
               </a>
-            </Link>
+            </Styled(a)>
           </Link>
         </Link>
          quis nostrud exercitation
@@ -149,12 +143,10 @@ exports[`Link demo examples Snapshots: basic 1`] = `
           href="http://example.com"
         >
           <Link
-            element="a"
             href="http://example.com"
             target="_blank"
           >
-            <Link
-              element="a"
+            <Styled(a)
               href="http://example.com"
               target="_blank"
             >
@@ -165,7 +157,7 @@ exports[`Link demo examples Snapshots: basic 1`] = `
               >
                 nisi ut
               </a>
-            </Link>
+            </Styled(a)>
           </Link>
         </Link>
          aliquip ex ea commodo consequat.
@@ -298,28 +290,26 @@ exports[`Link demo examples Snapshots: button 1`] = `
 }
 
 <WithForwardRef(Button)
-  element="a"
+  as="a"
   href="#button"
   size="large"
-  type="button"
 >
   <Button
-    element="a"
+    as="a"
     forwardedRef={null}
     href="#button"
     size="large"
-    type="button"
   >
-    <Button
-      element="a"
+    <Styled(button)
+      as="a"
       href="#button"
       size="large"
       text="Link"
-      type="button"
     >
       <a
         className="emotion-2"
         href="#button"
+        size="large"
       >
         <Styled(span)>
           <span
@@ -330,6 +320,7 @@ exports[`Link demo examples Snapshots: button 1`] = `
             >
               <span
                 className="emotion-0"
+                size="large"
               >
                 Link
               </span>
@@ -337,7 +328,7 @@ exports[`Link demo examples Snapshots: button 1`] = `
           </span>
         </Styled(span)>
       </a>
-    </Button>
+    </Styled(button)>
   </Button>
 </WithForwardRef(Button)>
 `;
@@ -369,12 +360,10 @@ exports[`Link demo examples Snapshots: children 1`] = `
   href="http://example.com"
 >
   <Link
-    element="a"
     href="http://example.com"
     target="_blank"
   >
-    <Link
-      element="a"
+    <Styled(a)
       href="http://example.com"
       target="_blank"
     >
@@ -388,7 +377,7 @@ exports[`Link demo examples Snapshots: children 1`] = `
           src="/images/125x125.png"
         />
       </a>
-    </Link>
+    </Styled(a)>
   </Link>
 </Link>
 `;
@@ -448,12 +437,11 @@ exports[`Link demo examples Snapshots: other 1`] = `
         }
       >
         <Link
-          element={[Function]}
+          as={[Function]}
           to="/components/link"
         >
-          <Link
-            element={[Function]}
-            replace={false}
+          <Styled(a)
+            as={[Function]}
             to="/components/link"
           >
             <Link
@@ -469,7 +457,7 @@ exports[`Link demo examples Snapshots: other 1`] = `
                 ReactRouter Link
               </a>
             </Link>
-          </Link>
+          </Styled(a)>
         </Link>
       </Router>
     </BrowserRouter>
@@ -625,12 +613,10 @@ exports[`Link demo examples Snapshots: variants 1`] = `
             href="http://example.com"
           >
             <Link
-              element="a"
               href="http://example.com"
               target="_blank"
             >
-              <Link
-                element="a"
+              <Styled(a)
                 href="http://example.com"
                 target="_blank"
               >
@@ -641,7 +627,7 @@ exports[`Link demo examples Snapshots: variants 1`] = `
                 >
                   Default
                 </a>
-              </Link>
+              </Styled(a)>
             </Link>
           </Link>
           <Link
@@ -649,13 +635,11 @@ exports[`Link demo examples Snapshots: variants 1`] = `
             variant="danger"
           >
             <Link
-              element="a"
               href="http://example.com"
               target="_blank"
               variant="danger"
             >
-              <Link
-                element="a"
+              <Styled(a)
                 href="http://example.com"
                 target="_blank"
                 variant="danger"
@@ -667,7 +651,7 @@ exports[`Link demo examples Snapshots: variants 1`] = `
                 >
                   Danger
                 </a>
-              </Link>
+              </Styled(a)>
             </Link>
           </Link>
           <Link
@@ -675,13 +659,11 @@ exports[`Link demo examples Snapshots: variants 1`] = `
             variant="success"
           >
             <Link
-              element="a"
               href="http://example.com"
               target="_blank"
               variant="success"
             >
-              <Link
-                element="a"
+              <Styled(a)
                 href="http://example.com"
                 target="_blank"
                 variant="success"
@@ -693,7 +675,7 @@ exports[`Link demo examples Snapshots: variants 1`] = `
                 >
                   Success
                 </a>
-              </Link>
+              </Styled(a)>
             </Link>
           </Link>
           <Link
@@ -701,13 +683,11 @@ exports[`Link demo examples Snapshots: variants 1`] = `
             variant="warning"
           >
             <Link
-              element="a"
               href="http://example.com"
               target="_blank"
               variant="warning"
             >
-              <Link
-                element="a"
+              <Styled(a)
                 href="http://example.com"
                 target="_blank"
                 variant="warning"
@@ -719,7 +699,7 @@ exports[`Link demo examples Snapshots: variants 1`] = `
                 >
                   Warning
                 </a>
-              </Link>
+              </Styled(a)>
             </Link>
           </Link>
         </div>

@@ -235,7 +235,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
 <TabList
   position="top"
 >
-  <TabList>
+  <Styled(div)>
     <div
       className="emotion-27"
     >
@@ -244,7 +244,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
         key="start"
         onClick={[Function]}
       >
-        <ArrowButton
+        <Styled(WithTheme(Themed(WithForwardRef(Button))))
           aria-hidden={true}
           iconStart={<IconChevronLeft />}
           minimal={true}
@@ -275,42 +275,36 @@ exports[`TabList applies shadow when scrollable 1`] = `
                   <WithForwardRef(Button)
                     aria-hidden={true}
                     className="emotion-3"
-                    element="button"
                     iconStart={<IconChevronLeft />}
                     minimal={true}
                     onClick={[Function]}
                     size="medium"
                     tabIndex={-1}
-                    type="button"
                   >
                     <Button
                       aria-hidden={true}
                       className="emotion-3"
-                      element="button"
                       forwardedRef={null}
                       iconStart={<IconChevronLeft />}
                       minimal={true}
                       onClick={[Function]}
                       size="medium"
                       tabIndex={-1}
-                      type="button"
                     >
-                      <Button
+                      <Styled(button)
                         aria-hidden={true}
                         className="emotion-3"
-                        element="button"
                         minimal={true}
                         onClick={[Function]}
                         size="medium"
                         tabIndex={-1}
-                        type="button"
                       >
                         <button
                           aria-hidden={true}
                           className="emotion-2"
                           onClick={[Function]}
+                          size="medium"
                           tabIndex={-1}
-                          type="button"
                         >
                           <Styled(span)>
                             <span
@@ -337,6 +331,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
                                       className="emotion-0"
                                       focusable="false"
                                       role="img"
+                                      size="medium"
                                       viewBox="0 0 24 24"
                                     >
                                       <g>
@@ -351,21 +346,21 @@ exports[`TabList applies shadow when scrollable 1`] = `
                             </span>
                           </Styled(span)>
                         </button>
-                      </Button>
+                      </Styled(button)>
                     </Button>
                   </WithForwardRef(Button)>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(WithForwardRef(Button))>
           </WithTheme(Themed(WithForwardRef(Button)))>
-        </ArrowButton>
+        </Styled(WithTheme(Themed(WithForwardRef(Button))))>
       </TabListIncrementButton>
-      <withProps(Inner)
+      <withProps(Styled(WithTheme(Themed(OverflowContainerWithShadows))))
         key="inner"
         position="top"
         scrollX={true}
       >
-        <Inner
+        <Styled(WithTheme(Themed(OverflowContainerWithShadows)))
           hideScrollbars={true}
           position="top"
           scrollX={true}
@@ -394,7 +389,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
                     scrollX={true}
                     tabIndex={null}
                   >
-                    <OverflowContainerWithShadows
+                    <Styled(div)
                       className="emotion-15"
                       hasShadowLeft={false}
                       hasShadowRight={true}
@@ -405,7 +400,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
                         className="emotion-14"
                         tabIndex={null}
                       >
-                        <Scroller
+                        <Styled(WithTheme(Themed(OverflowContainer)))
                           containerRef={[Function]}
                           hideScrollbars={true}
                           onScroll={[Function]}
@@ -438,7 +433,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
                                     scrollX={true}
                                     tabIndex={0}
                                   >
-                                    <OverflowContainer
+                                    <Styled(div)
                                       className="emotion-10"
                                       containerRef={[Function]}
                                       hideScrollbars={true}
@@ -470,28 +465,28 @@ exports[`TabList applies shadow when scrollable 1`] = `
                                           }
                                         />
                                       </div>
-                                    </OverflowContainer>
+                                    </Styled(div)>
                                   </OverflowContainer>
                                 </ThemeProvider>
                               </ThemeProvider>
                             </Themed(OverflowContainer)>
                           </WithTheme(Themed(OverflowContainer))>
-                        </Scroller>
+                        </Styled(WithTheme(Themed(OverflowContainer)))>
                       </div>
-                    </OverflowContainerWithShadows>
+                    </Styled(div)>
                   </OverflowContainerWithShadows>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(OverflowContainerWithShadows)>
           </WithTheme(Themed(OverflowContainerWithShadows))>
-        </Inner>
-      </withProps(Inner)>
+        </Styled(WithTheme(Themed(OverflowContainerWithShadows)))>
+      </withProps(Styled(WithTheme(Themed(OverflowContainerWithShadows))))>
       <TabListIncrementButton
         icon={<IconChevronRight />}
         key="end"
         onClick={[Function]}
       >
-        <ArrowButton
+        <Styled(WithTheme(Themed(WithForwardRef(Button))))
           aria-hidden={true}
           iconStart={<IconChevronRight />}
           minimal={true}
@@ -522,42 +517,36 @@ exports[`TabList applies shadow when scrollable 1`] = `
                   <WithForwardRef(Button)
                     aria-hidden={true}
                     className="emotion-3"
-                    element="button"
                     iconStart={<IconChevronRight />}
                     minimal={true}
                     onClick={[Function]}
                     size="medium"
                     tabIndex={-1}
-                    type="button"
                   >
                     <Button
                       aria-hidden={true}
                       className="emotion-3"
-                      element="button"
                       forwardedRef={null}
                       iconStart={<IconChevronRight />}
                       minimal={true}
                       onClick={[Function]}
                       size="medium"
                       tabIndex={-1}
-                      type="button"
                     >
-                      <Button
+                      <Styled(button)
                         aria-hidden={true}
                         className="emotion-3"
-                        element="button"
                         minimal={true}
                         onClick={[Function]}
                         size="medium"
                         tabIndex={-1}
-                        type="button"
                       >
                         <button
                           aria-hidden={true}
                           className="emotion-2"
                           onClick={[Function]}
+                          size="medium"
                           tabIndex={-1}
-                          type="button"
                         >
                           <Styled(span)>
                             <span
@@ -584,6 +573,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
                                       className="emotion-0"
                                       focusable="false"
                                       role="img"
+                                      size="medium"
                                       viewBox="0 0 24 24"
                                     >
                                       <g>
@@ -598,14 +588,14 @@ exports[`TabList applies shadow when scrollable 1`] = `
                             </span>
                           </Styled(span)>
                         </button>
-                      </Button>
+                      </Styled(button)>
                     </Button>
                   </WithForwardRef(Button)>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(WithForwardRef(Button))>
           </WithTheme(Themed(WithForwardRef(Button)))>
-        </ArrowButton>
+        </Styled(WithTheme(Themed(WithForwardRef(Button))))>
       </TabListIncrementButton>
       <EventListener
         listeners={
@@ -619,7 +609,7 @@ exports[`TabList applies shadow when scrollable 1`] = `
         }
       />
     </div>
-  </TabList>
+  </Styled(div)>
 </TabList>
 `;
 
@@ -657,7 +647,7 @@ exports[`TabList does not apply shadow when not scrollable 1`] = `
 <TabList
   position="top"
 >
-  <TabList>
+  <Styled(div)>
     <div
       className="emotion-1"
     >
@@ -680,6 +670,6 @@ exports[`TabList does not apply shadow when not scrollable 1`] = `
         }
       />
     </div>
-  </TabList>
+  </Styled(div)>
 </TabList>
 `;

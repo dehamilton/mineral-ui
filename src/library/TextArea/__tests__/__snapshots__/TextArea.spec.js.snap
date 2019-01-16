@@ -230,12 +230,12 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
         size="large"
         spellCheck={false}
       >
-        <TextArea
+        <Styled(WithTheme(Themed(FauxControl)))
           control={
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "__emotion_base": "textarea",
-              "__emotion_forwardProp": [Function],
+              "__emotion_forwardProp": undefined,
               "__emotion_real": [Circular],
               "__emotion_styles": Array [
                 [Function],
@@ -274,7 +274,7 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "__emotion_base": "textarea",
-                "__emotion_forwardProp": [Function],
+                "__emotion_forwardProp": undefined,
                 "__emotion_real": [Circular],
                 "__emotion_styles": Array [
                   [Function],
@@ -313,7 +313,7 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -354,7 +354,7 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "__emotion_base": "textarea",
-                        "__emotion_forwardProp": [Function],
+                        "__emotion_forwardProp": undefined,
                         "__emotion_real": [Circular],
                         "__emotion_styles": Array [
                           [Function],
@@ -387,13 +387,13 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
                     iconEnd={null}
                     size="large"
                   >
-                    <FauxControl
+                    <Styled(div)
                       className="emotion-3"
                       control={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "__emotion_base": "textarea",
-                          "__emotion_forwardProp": [Function],
+                          "__emotion_forwardProp": undefined,
                           "__emotion_real": [Circular],
                           "__emotion_styles": Array [
                             [Function],
@@ -408,7 +408,7 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
                       <div
                         className="emotion-2"
                       >
-                        <Control
+                        <Styled(textarea)
                           autoSize={true}
                           controlPropsIn={
                             Object {
@@ -448,22 +448,23 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
 Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pellentesque, vestibulum odio sit amet, vehicula ante. Curabitur et turpis velit. Pellentesque in tincidunt nulla. Aenean malesuada ornare condimentum. Vivamus maximus efficitur sem, non consectetur arcu pretium in. Integer sodales quis quam nec iaculis. Donec accumsan tortor et magna tristique euismod. Nullam pellentesque, ligula nec condimentum rhoncus, arcu dui mollis lectus, ac porttitor purus nisi sed lacus."
                             onInput={[Function]}
                             rows={8}
+                            size="large"
                             spellCheck={false}
                           />
-                        </Control>
-                        <Underlay>
+                        </Styled(textarea)>
+                        <Styled(div)>
                           <div
                             className="emotion-1"
                           />
-                        </Underlay>
+                        </Styled(div)>
                       </div>
-                    </FauxControl>
+                    </Styled(div)>
                   </FauxControl>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(FauxControl)>
           </WithTheme(Themed(FauxControl))>
-        </TextArea>
+        </Styled(WithTheme(Themed(FauxControl)))>
       </TextArea>
       <TextArea
         autoSize={true}
@@ -471,12 +472,12 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
         rows={1}
         size="large"
       >
-        <TextArea
+        <Styled(WithTheme(Themed(FauxControl)))
           control={
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "__emotion_base": "textarea",
-              "__emotion_forwardProp": [Function],
+              "__emotion_forwardProp": undefined,
               "__emotion_real": [Circular],
               "__emotion_styles": Array [
                 [Function],
@@ -512,7 +513,7 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "__emotion_base": "textarea",
-                "__emotion_forwardProp": [Function],
+                "__emotion_forwardProp": undefined,
                 "__emotion_real": [Circular],
                 "__emotion_styles": Array [
                   [Function],
@@ -548,7 +549,7 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -586,7 +587,7 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "__emotion_base": "textarea",
-                        "__emotion_forwardProp": [Function],
+                        "__emotion_forwardProp": undefined,
                         "__emotion_real": [Circular],
                         "__emotion_styles": Array [
                           [Function],
@@ -616,13 +617,13 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
                     iconEnd={null}
                     size="large"
                   >
-                    <FauxControl
+                    <Styled(div)
                       className="emotion-3"
                       control={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "__emotion_base": "textarea",
-                          "__emotion_forwardProp": [Function],
+                          "__emotion_forwardProp": undefined,
                           "__emotion_real": [Circular],
                           "__emotion_styles": Array [
                             [Function],
@@ -637,7 +638,7 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
                       <div
                         className="emotion-2"
                       >
-                        <Control
+                        <Styled(textarea)
                           autoSize={true}
                           controlPropsIn={
                             Object {
@@ -669,21 +670,22 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
                             defaultValue="Hello World"
                             onInput={[Function]}
                             rows={1}
+                            size="large"
                           />
-                        </Control>
-                        <Underlay>
+                        </Styled(textarea)>
+                        <Styled(div)>
                           <div
                             className="emotion-1"
                           />
-                        </Underlay>
+                        </Styled(div)>
                       </div>
-                    </FauxControl>
+                    </Styled(div)>
                   </FauxControl>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(FauxControl)>
           </WithTheme(Themed(FauxControl))>
-        </TextArea>
+        </Styled(WithTheme(Themed(FauxControl)))>
       </TextArea>
       <TextArea
         autoSize={true}
@@ -691,12 +693,12 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
         rows={1}
         size="small"
       >
-        <TextArea
+        <Styled(WithTheme(Themed(FauxControl)))
           control={
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "__emotion_base": "textarea",
-              "__emotion_forwardProp": [Function],
+              "__emotion_forwardProp": undefined,
               "__emotion_real": [Circular],
               "__emotion_styles": Array [
                 [Function],
@@ -732,7 +734,7 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "__emotion_base": "textarea",
-                "__emotion_forwardProp": [Function],
+                "__emotion_forwardProp": undefined,
                 "__emotion_real": [Circular],
                 "__emotion_styles": Array [
                   [Function],
@@ -768,7 +770,7 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -806,7 +808,7 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "__emotion_base": "textarea",
-                        "__emotion_forwardProp": [Function],
+                        "__emotion_forwardProp": undefined,
                         "__emotion_real": [Circular],
                         "__emotion_styles": Array [
                           [Function],
@@ -836,13 +838,13 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
                     iconEnd={null}
                     size="small"
                   >
-                    <FauxControl
+                    <Styled(div)
                       className="emotion-3"
                       control={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "__emotion_base": "textarea",
-                          "__emotion_forwardProp": [Function],
+                          "__emotion_forwardProp": undefined,
                           "__emotion_real": [Circular],
                           "__emotion_styles": Array [
                             [Function],
@@ -857,7 +859,7 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
                       <div
                         className="emotion-2"
                       >
-                        <Control
+                        <Styled(textarea)
                           autoSize={true}
                           controlPropsIn={
                             Object {
@@ -889,21 +891,22 @@ Duis vitae nisl dignissim, congue elit et, ornare dolor. Pellentesque eu dui pel
                             defaultValue="Hello World"
                             onInput={[Function]}
                             rows={1}
+                            size="small"
                           />
-                        </Control>
-                        <Underlay>
+                        </Styled(textarea)>
+                        <Styled(div)>
                           <div
                             className="emotion-1"
                           />
-                        </Underlay>
+                        </Styled(div)>
                       </div>
-                    </FauxControl>
+                    </Styled(div)>
                   </FauxControl>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(FauxControl)>
           </WithTheme(Themed(FauxControl))>
-        </TextArea>
+        </Styled(WithTheme(Themed(FauxControl)))>
       </TextArea>
     </div>
   </Styled(div)>
@@ -1058,12 +1061,12 @@ exports[`TextArea demo examples Snapshots: controlled 1`] = `
       size="large"
       value="Hello World"
     >
-      <TextArea
+      <Styled(WithTheme(Themed(FauxControl)))
         control={
           Object {
             "$$typeof": Symbol(react.forward_ref),
             "__emotion_base": "textarea",
-            "__emotion_forwardProp": [Function],
+            "__emotion_forwardProp": undefined,
             "__emotion_real": [Circular],
             "__emotion_styles": Array [
               [Function],
@@ -1100,7 +1103,7 @@ exports[`TextArea demo examples Snapshots: controlled 1`] = `
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "__emotion_base": "textarea",
-              "__emotion_forwardProp": [Function],
+              "__emotion_forwardProp": undefined,
               "__emotion_real": [Circular],
               "__emotion_styles": Array [
                 [Function],
@@ -1137,7 +1140,7 @@ exports[`TextArea demo examples Snapshots: controlled 1`] = `
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "__emotion_base": "textarea",
-                "__emotion_forwardProp": [Function],
+                "__emotion_forwardProp": undefined,
                 "__emotion_real": [Circular],
                 "__emotion_styles": Array [
                   [Function],
@@ -1176,7 +1179,7 @@ exports[`TextArea demo examples Snapshots: controlled 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "textarea",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
                         [Function],
@@ -1207,13 +1210,13 @@ exports[`TextArea demo examples Snapshots: controlled 1`] = `
                   iconEnd={null}
                   size="large"
                 >
-                  <FauxControl
+                  <Styled(div)
                     className="emotion-3"
                     control={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "__emotion_base": "textarea",
-                        "__emotion_forwardProp": [Function],
+                        "__emotion_forwardProp": undefined,
                         "__emotion_real": [Circular],
                         "__emotion_styles": Array [
                           [Function],
@@ -1228,7 +1231,7 @@ exports[`TextArea demo examples Snapshots: controlled 1`] = `
                     <div
                       className="emotion-2"
                     >
-                      <Control
+                      <Styled(textarea)
                         controlPropsIn={
                           Object {
                             "aria-invalid": undefined,
@@ -1261,22 +1264,23 @@ exports[`TextArea demo examples Snapshots: controlled 1`] = `
                           onChange={[Function]}
                           onInput={[Function]}
                           rows={8}
+                          size="large"
                           value="Hello World"
                         />
-                      </Control>
-                      <Underlay>
+                      </Styled(textarea)>
+                      <Styled(div)>
                         <div
                           className="emotion-1"
                         />
-                      </Underlay>
+                      </Styled(div)>
                     </div>
-                  </FauxControl>
+                  </Styled(div)>
                 </FauxControl>
               </ThemeProvider>
             </ThemeProvider>
           </Themed(FauxControl)>
         </WithTheme(Themed(FauxControl))>
-      </TextArea>
+      </Styled(WithTheme(Themed(FauxControl)))>
     </TextArea>
   </MyForm>
 </Component>
@@ -1419,12 +1423,12 @@ exports[`TextArea demo examples Snapshots: disabled 1`] = `
   disabled={true}
   size="large"
 >
-  <TextArea
+  <Styled(WithTheme(Themed(FauxControl)))
     control={
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "__emotion_base": "textarea",
-        "__emotion_forwardProp": [Function],
+        "__emotion_forwardProp": undefined,
         "__emotion_real": [Circular],
         "__emotion_styles": Array [
           [Function],
@@ -1461,7 +1465,7 @@ exports[`TextArea demo examples Snapshots: disabled 1`] = `
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "__emotion_base": "textarea",
-          "__emotion_forwardProp": [Function],
+          "__emotion_forwardProp": undefined,
           "__emotion_real": [Circular],
           "__emotion_styles": Array [
             [Function],
@@ -1498,7 +1502,7 @@ exports[`TextArea demo examples Snapshots: disabled 1`] = `
           Object {
             "$$typeof": Symbol(react.forward_ref),
             "__emotion_base": "textarea",
-            "__emotion_forwardProp": [Function],
+            "__emotion_forwardProp": undefined,
             "__emotion_real": [Circular],
             "__emotion_styles": Array [
               [Function],
@@ -1537,7 +1541,7 @@ exports[`TextArea demo examples Snapshots: disabled 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -1568,13 +1572,13 @@ exports[`TextArea demo examples Snapshots: disabled 1`] = `
               iconEnd={null}
               size="large"
             >
-              <FauxControl
+              <Styled(div)
                 className="emotion-3"
                 control={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "textarea",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
                       [Function],
@@ -1589,8 +1593,9 @@ exports[`TextArea demo examples Snapshots: disabled 1`] = `
               >
                 <div
                   className="emotion-2"
+                  disabled={true}
                 >
-                  <Control
+                  <Styled(textarea)
                     controlPropsIn={
                       Object {
                         "aria-invalid": undefined,
@@ -1623,23 +1628,25 @@ exports[`TextArea demo examples Snapshots: disabled 1`] = `
                       disabled={true}
                       onInput={[Function]}
                       rows={8}
+                      size="large"
                     />
-                  </Control>
-                  <Underlay
+                  </Styled(textarea)>
+                  <Styled(div)
                     disabled={true}
                   >
                     <div
                       className="emotion-1"
+                      disabled={true}
                     />
-                  </Underlay>
+                  </Styled(div)>
                 </div>
-              </FauxControl>
+              </Styled(div)>
             </FauxControl>
           </ThemeProvider>
         </ThemeProvider>
       </Themed(FauxControl)>
     </WithTheme(Themed(FauxControl))>
-  </TextArea>
+  </Styled(WithTheme(Themed(FauxControl)))>
 </TextArea>
 `;
 
@@ -1855,7 +1862,7 @@ exports[`TextArea demo examples Snapshots: form-field 1`] = `
         requiredText="Required"
         rows={2}
       >
-        <FormField>
+        <Styled(div)>
           <div
             className="emotion-10"
           >
@@ -1888,12 +1895,12 @@ exports[`TextArea demo examples Snapshots: form-field 1`] = `
                 rows={2}
                 size="large"
               >
-                <TextArea
+                <Styled(WithTheme(Themed(FauxControl)))
                   control={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "textarea",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
                         [Function],
@@ -1929,7 +1936,7 @@ exports[`TextArea demo examples Snapshots: form-field 1`] = `
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "__emotion_base": "textarea",
-                        "__emotion_forwardProp": [Function],
+                        "__emotion_forwardProp": undefined,
                         "__emotion_real": [Circular],
                         "__emotion_styles": Array [
                           [Function],
@@ -1965,7 +1972,7 @@ exports[`TextArea demo examples Snapshots: form-field 1`] = `
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "__emotion_base": "textarea",
-                          "__emotion_forwardProp": [Function],
+                          "__emotion_forwardProp": undefined,
                           "__emotion_real": [Circular],
                           "__emotion_styles": Array [
                             [Function],
@@ -2003,7 +2010,7 @@ exports[`TextArea demo examples Snapshots: form-field 1`] = `
                               Object {
                                 "$$typeof": Symbol(react.forward_ref),
                                 "__emotion_base": "textarea",
-                                "__emotion_forwardProp": [Function],
+                                "__emotion_forwardProp": undefined,
                                 "__emotion_real": [Circular],
                                 "__emotion_styles": Array [
                                   [Function],
@@ -2033,13 +2040,13 @@ exports[`TextArea demo examples Snapshots: form-field 1`] = `
                             iconEnd={null}
                             size="large"
                           >
-                            <FauxControl
+                            <Styled(div)
                               className="emotion-5"
                               control={
                                 Object {
                                   "$$typeof": Symbol(react.forward_ref),
                                   "__emotion_base": "textarea",
-                                  "__emotion_forwardProp": [Function],
+                                  "__emotion_forwardProp": undefined,
                                   "__emotion_real": [Circular],
                                   "__emotion_styles": Array [
                                     [Function],
@@ -2054,7 +2061,7 @@ exports[`TextArea demo examples Snapshots: form-field 1`] = `
                               <div
                                 className="emotion-4"
                               >
-                                <Control
+                                <Styled(textarea)
                                   aria-describedby="formField-1-caption"
                                   aria-required={true}
                                   autoSize={true}
@@ -2090,21 +2097,22 @@ exports[`TextArea demo examples Snapshots: form-field 1`] = `
                                     onInput={[Function]}
                                     required={true}
                                     rows={2}
+                                    size="large"
                                   />
-                                </Control>
-                                <Underlay>
+                                </Styled(textarea)>
+                                <Styled(div)>
                                   <div
                                     className="emotion-3"
                                   />
-                                </Underlay>
+                                </Styled(div)>
                               </div>
-                            </FauxControl>
+                            </Styled(div)>
                           </FauxControl>
                         </ThemeProvider>
                       </ThemeProvider>
                     </Themed(FauxControl)>
                   </WithTheme(Themed(FauxControl))>
-                </TextArea>
+                </Styled(WithTheme(Themed(FauxControl)))>
               </TextArea>
             </label>
             <Styled(div)
@@ -2120,7 +2128,7 @@ exports[`TextArea demo examples Snapshots: form-field 1`] = `
               </div>
             </Styled(div)>
           </div>
-        </FormField>
+        </Styled(div)>
       </FormField>
     </div>
   </Styled(div)>
@@ -2406,12 +2414,12 @@ exports[`TextArea demo examples Snapshots: input-ref 1`] = `
             inputRef={[Function]}
             size="large"
           >
-            <TextArea
+            <Styled(WithTheme(Themed(FauxControl)))
               control={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -2446,7 +2454,7 @@ exports[`TextArea demo examples Snapshots: input-ref 1`] = `
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "textarea",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
                       [Function],
@@ -2481,7 +2489,7 @@ exports[`TextArea demo examples Snapshots: input-ref 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "textarea",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
                         [Function],
@@ -2518,7 +2526,7 @@ exports[`TextArea demo examples Snapshots: input-ref 1`] = `
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "textarea",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
                               [Function],
@@ -2547,13 +2555,13 @@ exports[`TextArea demo examples Snapshots: input-ref 1`] = `
                         iconEnd={null}
                         size="large"
                       >
-                        <FauxControl
+                        <Styled(div)
                           className="emotion-3"
                           control={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "textarea",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
                                 [Function],
@@ -2568,7 +2576,7 @@ exports[`TextArea demo examples Snapshots: input-ref 1`] = `
                           <div
                             className="emotion-2"
                           >
-                            <Control
+                            <Styled(textarea)
                               controlPropsIn={
                                 Object {
                                   "aria-invalid": undefined,
@@ -2596,46 +2604,41 @@ exports[`TextArea demo examples Snapshots: input-ref 1`] = `
                                 className="emotion-0"
                                 onInput={[Function]}
                                 rows={8}
+                                size="large"
                               />
-                            </Control>
-                            <Underlay>
+                            </Styled(textarea)>
+                            <Styled(div)>
                               <div
                                 className="emotion-1"
                               />
-                            </Underlay>
+                            </Styled(div)>
                           </div>
-                        </FauxControl>
+                        </Styled(div)>
                       </FauxControl>
                     </ThemeProvider>
                   </ThemeProvider>
                 </Themed(FauxControl)>
               </WithTheme(Themed(FauxControl))>
-            </TextArea>
+            </Styled(WithTheme(Themed(FauxControl)))>
           </TextArea>
           <WithForwardRef(Button)
-            element="button"
             onClick={[Function]}
             size="large"
-            type="button"
           >
             <Button
-              element="button"
               forwardedRef={null}
               onClick={[Function]}
               size="large"
-              type="button"
             >
-              <Button
-                element="button"
+              <Styled(button)
                 onClick={[Function]}
                 size="large"
                 text="Focus the input"
-                type="button"
               >
                 <button
                   className="emotion-9"
                   onClick={[Function]}
-                  type="button"
+                  size="large"
                 >
                   <Styled(span)>
                     <span
@@ -2646,6 +2649,7 @@ exports[`TextArea demo examples Snapshots: input-ref 1`] = `
                       >
                         <span
                           className="emotion-7"
+                          size="large"
                         >
                           Focus the input
                         </span>
@@ -2653,7 +2657,7 @@ exports[`TextArea demo examples Snapshots: input-ref 1`] = `
                     </span>
                   </Styled(span)>
                 </button>
-              </Button>
+              </Styled(button)>
             </Button>
           </WithForwardRef(Button)>
         </div>
@@ -2808,12 +2812,12 @@ exports[`TextArea demo examples Snapshots: invalid 1`] = `
   invalid={true}
   size="large"
 >
-  <TextArea
+  <Styled(WithTheme(Themed(FauxControl)))
     control={
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "__emotion_base": "textarea",
-        "__emotion_forwardProp": [Function],
+        "__emotion_forwardProp": undefined,
         "__emotion_real": [Circular],
         "__emotion_styles": Array [
           [Function],
@@ -2848,7 +2852,7 @@ exports[`TextArea demo examples Snapshots: invalid 1`] = `
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "__emotion_base": "textarea",
-          "__emotion_forwardProp": [Function],
+          "__emotion_forwardProp": undefined,
           "__emotion_real": [Circular],
           "__emotion_styles": Array [
             [Function],
@@ -2883,7 +2887,7 @@ exports[`TextArea demo examples Snapshots: invalid 1`] = `
           Object {
             "$$typeof": Symbol(react.forward_ref),
             "__emotion_base": "textarea",
-            "__emotion_forwardProp": [Function],
+            "__emotion_forwardProp": undefined,
             "__emotion_real": [Circular],
             "__emotion_styles": Array [
               [Function],
@@ -2920,7 +2924,7 @@ exports[`TextArea demo examples Snapshots: invalid 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -2949,13 +2953,13 @@ exports[`TextArea demo examples Snapshots: invalid 1`] = `
               iconEnd={null}
               size="large"
             >
-              <FauxControl
+              <Styled(div)
                 className="emotion-3"
                 control={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "textarea",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
                       [Function],
@@ -2970,7 +2974,7 @@ exports[`TextArea demo examples Snapshots: invalid 1`] = `
                 <div
                   className="emotion-2"
                 >
-                  <Control
+                  <Styled(textarea)
                     aria-invalid={true}
                     controlPropsIn={
                       Object {
@@ -3000,21 +3004,22 @@ exports[`TextArea demo examples Snapshots: invalid 1`] = `
                       className="emotion-0"
                       onInput={[Function]}
                       rows={8}
+                      size="large"
                     />
-                  </Control>
-                  <Underlay>
+                  </Styled(textarea)>
+                  <Styled(div)>
                     <div
                       className="emotion-1"
                     />
-                  </Underlay>
+                  </Styled(div)>
                 </div>
-              </FauxControl>
+              </Styled(div)>
             </FauxControl>
           </ThemeProvider>
         </ThemeProvider>
       </Themed(FauxControl)>
     </WithTheme(Themed(FauxControl))>
-  </TextArea>
+  </Styled(WithTheme(Themed(FauxControl)))>
 </TextArea>
 `;
 
@@ -4490,12 +4495,12 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
             rows={1}
             size="small"
           >
-            <TextArea
+            <Styled(WithTheme(Themed(FauxControl)))
               control={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -4531,7 +4536,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "textarea",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
                       [Function],
@@ -4567,7 +4572,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "textarea",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
                         [Function],
@@ -4605,7 +4610,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "textarea",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
                               [Function],
@@ -4635,13 +4640,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                         iconEnd={null}
                         size="small"
                       >
-                        <FauxControl
+                        <Styled(div)
                           className="emotion-3"
                           control={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "textarea",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
                                 [Function],
@@ -4656,7 +4661,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           <div
                             className="emotion-2"
                           >
-                            <Control
+                            <Styled(textarea)
                               controlPropsIn={
                                 Object {
                                   "aria-invalid": undefined,
@@ -4687,21 +4692,22 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                                 defaultValue="Small"
                                 onInput={[Function]}
                                 rows={1}
+                                size="small"
                               />
-                            </Control>
-                            <Underlay>
+                            </Styled(textarea)>
+                            <Styled(div)>
                               <div
                                 className="emotion-1"
                               />
-                            </Underlay>
+                            </Styled(div)>
                           </div>
-                        </FauxControl>
+                        </Styled(div)>
                       </FauxControl>
                     </ThemeProvider>
                   </ThemeProvider>
                 </Themed(FauxControl)>
               </WithTheme(Themed(FauxControl))>
-            </TextArea>
+            </Styled(WithTheme(Themed(FauxControl)))>
           </TextArea>
           <TextArea
             autoSize={true}
@@ -4709,12 +4715,12 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
             rows={1}
             size="small"
           >
-            <TextArea
+            <Styled(WithTheme(Themed(FauxControl)))
               control={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -4750,7 +4756,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "textarea",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
                       [Function],
@@ -4786,7 +4792,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "textarea",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
                         [Function],
@@ -4824,7 +4830,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "textarea",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
                               [Function],
@@ -4854,13 +4860,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                         iconEnd={null}
                         size="small"
                       >
-                        <FauxControl
+                        <Styled(div)
                           className="emotion-3"
                           control={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "textarea",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
                                 [Function],
@@ -4875,7 +4881,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           <div
                             className="emotion-2"
                           >
-                            <Control
+                            <Styled(textarea)
                               autoSize={true}
                               controlPropsIn={
                                 Object {
@@ -4907,40 +4913,40 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                                 defaultValue="Small"
                                 onInput={[Function]}
                                 rows={1}
+                                size="small"
                               />
-                            </Control>
-                            <Underlay>
+                            </Styled(textarea)>
+                            <Styled(div)>
                               <div
                                 className="emotion-1"
                               />
-                            </Underlay>
+                            </Styled(div)>
                           </div>
-                        </FauxControl>
+                        </Styled(div)>
                       </FauxControl>
                     </ThemeProvider>
                   </ThemeProvider>
                 </Themed(FauxControl)>
               </WithTheme(Themed(FauxControl))>
-            </TextArea>
+            </Styled(WithTheme(Themed(FauxControl)))>
           </TextArea>
           <TextInput
             defaultValue="Small"
             size="small"
             type="text"
           >
-            <TextInput
+            <Styled(WithTheme(Themed(FauxControl)))
               control={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "input",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
-                    "label:Input;",
                     [Function],
                   ],
                   "defaultProps": undefined,
-                  "displayName": "Input",
+                  "displayName": "Styled(input)",
                   "render": [Function],
                   "withComponent": [Function],
                 }
@@ -4965,14 +4971,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "input",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
-                      "label:Input;",
                       [Function],
                     ],
                     "defaultProps": undefined,
-                    "displayName": "Input",
+                    "displayName": "Styled(input)",
                     "render": [Function],
                     "withComponent": [Function],
                   }
@@ -4997,14 +5002,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "input",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
-                        "label:Input;",
                         [Function],
                       ],
                       "defaultProps": undefined,
-                      "displayName": "Input",
+                      "displayName": "Styled(input)",
                       "render": [Function],
                       "withComponent": [Function],
                     }
@@ -5031,14 +5035,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "input",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
-                              "label:Input;",
                               [Function],
                             ],
                             "defaultProps": undefined,
-                            "displayName": "Input",
+                            "displayName": "Styled(input)",
                             "render": [Function],
                             "withComponent": [Function],
                           }
@@ -5057,20 +5060,19 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                         }
                         size="small"
                       >
-                        <FauxControl
+                        <Styled(div)
                           className="emotion-17"
                           control={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "input",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
-                                "label:Input;",
                                 [Function],
                               ],
                               "defaultProps": undefined,
-                              "displayName": "Input",
+                              "displayName": "Styled(input)",
                               "render": [Function],
                               "withComponent": [Function],
                             }
@@ -5079,7 +5081,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           <div
                             className="emotion-16"
                           >
-                            <Control
+                            <Styled(input)
                               controlPropsIn={
                                 Object {
                                   "aria-invalid": undefined,
@@ -5103,41 +5105,35 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                                 size="small"
                                 type="text"
                               />
-                            </Control>
-                            <Underlay>
+                            </Styled(input)>
+                            <Styled(div)>
                               <div
                                 className="emotion-1"
                               />
-                            </Underlay>
+                            </Styled(div)>
                           </div>
-                        </FauxControl>
+                        </Styled(div)>
                       </FauxControl>
                     </ThemeProvider>
                   </ThemeProvider>
                 </Themed(FauxControl)>
               </WithTheme(Themed(FauxControl))>
-            </TextInput>
+            </Styled(WithTheme(Themed(FauxControl)))>
           </TextInput>
           <WithForwardRef(Button)
-            element="button"
             size="small"
-            type="button"
           >
             <Button
-              element="button"
               forwardedRef={null}
               size="small"
-              type="button"
             >
-              <Button
-                element="button"
+              <Styled(button)
                 size="small"
                 text="Small"
-                type="button"
               >
                 <button
                   className="emotion-23"
-                  type="button"
+                  size="small"
                 >
                   <Styled(span)>
                     <span
@@ -5148,6 +5144,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                       >
                         <span
                           className="emotion-21"
+                          size="small"
                         >
                           Small
                         </span>
@@ -5155,7 +5152,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                     </span>
                   </Styled(span)>
                 </button>
-              </Button>
+              </Styled(button)>
             </Button>
           </WithForwardRef(Button)>
         </div>
@@ -5165,12 +5162,12 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
             rows={1}
             size="medium"
           >
-            <TextArea
+            <Styled(WithTheme(Themed(FauxControl)))
               control={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -5206,7 +5203,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "textarea",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
                       [Function],
@@ -5242,7 +5239,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "textarea",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
                         [Function],
@@ -5280,7 +5277,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "textarea",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
                               [Function],
@@ -5310,13 +5307,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                         iconEnd={null}
                         size="medium"
                       >
-                        <FauxControl
+                        <Styled(div)
                           className="emotion-3"
                           control={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "textarea",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
                                 [Function],
@@ -5331,7 +5328,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           <div
                             className="emotion-2"
                           >
-                            <Control
+                            <Styled(textarea)
                               controlPropsIn={
                                 Object {
                                   "aria-invalid": undefined,
@@ -5362,21 +5359,22 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                                 defaultValue="Medium"
                                 onInput={[Function]}
                                 rows={1}
+                                size="medium"
                               />
-                            </Control>
-                            <Underlay>
+                            </Styled(textarea)>
+                            <Styled(div)>
                               <div
                                 className="emotion-1"
                               />
-                            </Underlay>
+                            </Styled(div)>
                           </div>
-                        </FauxControl>
+                        </Styled(div)>
                       </FauxControl>
                     </ThemeProvider>
                   </ThemeProvider>
                 </Themed(FauxControl)>
               </WithTheme(Themed(FauxControl))>
-            </TextArea>
+            </Styled(WithTheme(Themed(FauxControl)))>
           </TextArea>
           <TextArea
             autoSize={true}
@@ -5384,12 +5382,12 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
             rows={1}
             size="medium"
           >
-            <TextArea
+            <Styled(WithTheme(Themed(FauxControl)))
               control={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -5425,7 +5423,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "textarea",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
                       [Function],
@@ -5461,7 +5459,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "textarea",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
                         [Function],
@@ -5499,7 +5497,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "textarea",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
                               [Function],
@@ -5529,13 +5527,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                         iconEnd={null}
                         size="medium"
                       >
-                        <FauxControl
+                        <Styled(div)
                           className="emotion-3"
                           control={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "textarea",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
                                 [Function],
@@ -5550,7 +5548,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           <div
                             className="emotion-2"
                           >
-                            <Control
+                            <Styled(textarea)
                               autoSize={true}
                               controlPropsIn={
                                 Object {
@@ -5582,40 +5580,40 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                                 defaultValue="Medium"
                                 onInput={[Function]}
                                 rows={1}
+                                size="medium"
                               />
-                            </Control>
-                            <Underlay>
+                            </Styled(textarea)>
+                            <Styled(div)>
                               <div
                                 className="emotion-1"
                               />
-                            </Underlay>
+                            </Styled(div)>
                           </div>
-                        </FauxControl>
+                        </Styled(div)>
                       </FauxControl>
                     </ThemeProvider>
                   </ThemeProvider>
                 </Themed(FauxControl)>
               </WithTheme(Themed(FauxControl))>
-            </TextArea>
+            </Styled(WithTheme(Themed(FauxControl)))>
           </TextArea>
           <TextInput
             defaultValue="Medium"
             size="medium"
             type="text"
           >
-            <TextInput
+            <Styled(WithTheme(Themed(FauxControl)))
               control={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "input",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
-                    "label:Input;",
                     [Function],
                   ],
                   "defaultProps": undefined,
-                  "displayName": "Input",
+                  "displayName": "Styled(input)",
                   "render": [Function],
                   "withComponent": [Function],
                 }
@@ -5640,14 +5638,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "input",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
-                      "label:Input;",
                       [Function],
                     ],
                     "defaultProps": undefined,
-                    "displayName": "Input",
+                    "displayName": "Styled(input)",
                     "render": [Function],
                     "withComponent": [Function],
                   }
@@ -5672,14 +5669,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "input",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
-                        "label:Input;",
                         [Function],
                       ],
                       "defaultProps": undefined,
-                      "displayName": "Input",
+                      "displayName": "Styled(input)",
                       "render": [Function],
                       "withComponent": [Function],
                     }
@@ -5706,14 +5702,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "input",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
-                              "label:Input;",
                               [Function],
                             ],
                             "defaultProps": undefined,
-                            "displayName": "Input",
+                            "displayName": "Styled(input)",
                             "render": [Function],
                             "withComponent": [Function],
                           }
@@ -5732,20 +5727,19 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                         }
                         size="medium"
                       >
-                        <FauxControl
+                        <Styled(div)
                           className="emotion-17"
                           control={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "input",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
-                                "label:Input;",
                                 [Function],
                               ],
                               "defaultProps": undefined,
-                              "displayName": "Input",
+                              "displayName": "Styled(input)",
                               "render": [Function],
                               "withComponent": [Function],
                             }
@@ -5754,7 +5748,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           <div
                             className="emotion-16"
                           >
-                            <Control
+                            <Styled(input)
                               controlPropsIn={
                                 Object {
                                   "aria-invalid": undefined,
@@ -5778,41 +5772,35 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                                 size="medium"
                                 type="text"
                               />
-                            </Control>
-                            <Underlay>
+                            </Styled(input)>
+                            <Styled(div)>
                               <div
                                 className="emotion-1"
                               />
-                            </Underlay>
+                            </Styled(div)>
                           </div>
-                        </FauxControl>
+                        </Styled(div)>
                       </FauxControl>
                     </ThemeProvider>
                   </ThemeProvider>
                 </Themed(FauxControl)>
               </WithTheme(Themed(FauxControl))>
-            </TextInput>
+            </Styled(WithTheme(Themed(FauxControl)))>
           </TextInput>
           <WithForwardRef(Button)
-            element="button"
             size="medium"
-            type="button"
           >
             <Button
-              element="button"
               forwardedRef={null}
               size="medium"
-              type="button"
             >
-              <Button
-                element="button"
+              <Styled(button)
                 size="medium"
                 text="Medium"
-                type="button"
               >
                 <button
                   className="emotion-47"
-                  type="button"
+                  size="medium"
                 >
                   <Styled(span)>
                     <span
@@ -5823,6 +5811,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                       >
                         <span
                           className="emotion-45"
+                          size="medium"
                         >
                           Medium
                         </span>
@@ -5830,7 +5819,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                     </span>
                   </Styled(span)>
                 </button>
-              </Button>
+              </Styled(button)>
             </Button>
           </WithForwardRef(Button)>
         </div>
@@ -5840,12 +5829,12 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
             rows={1}
             size="large"
           >
-            <TextArea
+            <Styled(WithTheme(Themed(FauxControl)))
               control={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -5881,7 +5870,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "textarea",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
                       [Function],
@@ -5917,7 +5906,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "textarea",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
                         [Function],
@@ -5955,7 +5944,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "textarea",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
                               [Function],
@@ -5985,13 +5974,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                         iconEnd={null}
                         size="large"
                       >
-                        <FauxControl
+                        <Styled(div)
                           className="emotion-3"
                           control={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "textarea",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
                                 [Function],
@@ -6006,7 +5995,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           <div
                             className="emotion-2"
                           >
-                            <Control
+                            <Styled(textarea)
                               controlPropsIn={
                                 Object {
                                   "aria-invalid": undefined,
@@ -6037,21 +6026,22 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                                 defaultValue="Large"
                                 onInput={[Function]}
                                 rows={1}
+                                size="large"
                               />
-                            </Control>
-                            <Underlay>
+                            </Styled(textarea)>
+                            <Styled(div)>
                               <div
                                 className="emotion-1"
                               />
-                            </Underlay>
+                            </Styled(div)>
                           </div>
-                        </FauxControl>
+                        </Styled(div)>
                       </FauxControl>
                     </ThemeProvider>
                   </ThemeProvider>
                 </Themed(FauxControl)>
               </WithTheme(Themed(FauxControl))>
-            </TextArea>
+            </Styled(WithTheme(Themed(FauxControl)))>
           </TextArea>
           <TextArea
             autoSize={true}
@@ -6059,12 +6049,12 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
             rows={1}
             size="large"
           >
-            <TextArea
+            <Styled(WithTheme(Themed(FauxControl)))
               control={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -6100,7 +6090,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "textarea",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
                       [Function],
@@ -6136,7 +6126,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "textarea",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
                         [Function],
@@ -6174,7 +6164,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "textarea",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
                               [Function],
@@ -6204,13 +6194,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                         iconEnd={null}
                         size="large"
                       >
-                        <FauxControl
+                        <Styled(div)
                           className="emotion-3"
                           control={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "textarea",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
                                 [Function],
@@ -6225,7 +6215,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           <div
                             className="emotion-2"
                           >
-                            <Control
+                            <Styled(textarea)
                               autoSize={true}
                               controlPropsIn={
                                 Object {
@@ -6257,40 +6247,40 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                                 defaultValue="Large"
                                 onInput={[Function]}
                                 rows={1}
+                                size="large"
                               />
-                            </Control>
-                            <Underlay>
+                            </Styled(textarea)>
+                            <Styled(div)>
                               <div
                                 className="emotion-1"
                               />
-                            </Underlay>
+                            </Styled(div)>
                           </div>
-                        </FauxControl>
+                        </Styled(div)>
                       </FauxControl>
                     </ThemeProvider>
                   </ThemeProvider>
                 </Themed(FauxControl)>
               </WithTheme(Themed(FauxControl))>
-            </TextArea>
+            </Styled(WithTheme(Themed(FauxControl)))>
           </TextArea>
           <TextInput
             defaultValue="Large"
             size="large"
             type="text"
           >
-            <TextInput
+            <Styled(WithTheme(Themed(FauxControl)))
               control={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "input",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
-                    "label:Input;",
                     [Function],
                   ],
                   "defaultProps": undefined,
-                  "displayName": "Input",
+                  "displayName": "Styled(input)",
                   "render": [Function],
                   "withComponent": [Function],
                 }
@@ -6315,14 +6305,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "input",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
-                      "label:Input;",
                       [Function],
                     ],
                     "defaultProps": undefined,
-                    "displayName": "Input",
+                    "displayName": "Styled(input)",
                     "render": [Function],
                     "withComponent": [Function],
                   }
@@ -6347,14 +6336,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "input",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
-                        "label:Input;",
                         [Function],
                       ],
                       "defaultProps": undefined,
-                      "displayName": "Input",
+                      "displayName": "Styled(input)",
                       "render": [Function],
                       "withComponent": [Function],
                     }
@@ -6381,14 +6369,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "input",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
-                              "label:Input;",
                               [Function],
                             ],
                             "defaultProps": undefined,
-                            "displayName": "Input",
+                            "displayName": "Styled(input)",
                             "render": [Function],
                             "withComponent": [Function],
                           }
@@ -6407,20 +6394,19 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                         }
                         size="large"
                       >
-                        <FauxControl
+                        <Styled(div)
                           className="emotion-17"
                           control={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "input",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
-                                "label:Input;",
                                 [Function],
                               ],
                               "defaultProps": undefined,
-                              "displayName": "Input",
+                              "displayName": "Styled(input)",
                               "render": [Function],
                               "withComponent": [Function],
                             }
@@ -6429,7 +6415,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           <div
                             className="emotion-16"
                           >
-                            <Control
+                            <Styled(input)
                               controlPropsIn={
                                 Object {
                                   "aria-invalid": undefined,
@@ -6453,41 +6439,35 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                                 size="large"
                                 type="text"
                               />
-                            </Control>
-                            <Underlay>
+                            </Styled(input)>
+                            <Styled(div)>
                               <div
                                 className="emotion-1"
                               />
-                            </Underlay>
+                            </Styled(div)>
                           </div>
-                        </FauxControl>
+                        </Styled(div)>
                       </FauxControl>
                     </ThemeProvider>
                   </ThemeProvider>
                 </Themed(FauxControl)>
               </WithTheme(Themed(FauxControl))>
-            </TextInput>
+            </Styled(WithTheme(Themed(FauxControl)))>
           </TextInput>
           <WithForwardRef(Button)
-            element="button"
             size="large"
-            type="button"
           >
             <Button
-              element="button"
               forwardedRef={null}
               size="large"
-              type="button"
             >
-              <Button
-                element="button"
+              <Styled(button)
                 size="large"
                 text="Large"
-                type="button"
               >
                 <button
                   className="emotion-71"
-                  type="button"
+                  size="large"
                 >
                   <Styled(span)>
                     <span
@@ -6498,6 +6478,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                       >
                         <span
                           className="emotion-69"
+                          size="large"
                         >
                           Large
                         </span>
@@ -6505,7 +6486,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                     </span>
                   </Styled(span)>
                 </button>
-              </Button>
+              </Styled(button)>
             </Button>
           </WithForwardRef(Button)>
         </div>
@@ -6515,12 +6496,12 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
             rows={1}
             size="jumbo"
           >
-            <TextArea
+            <Styled(WithTheme(Themed(FauxControl)))
               control={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -6556,7 +6537,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "textarea",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
                       [Function],
@@ -6592,7 +6573,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "textarea",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
                         [Function],
@@ -6630,7 +6611,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "textarea",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
                               [Function],
@@ -6660,13 +6641,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                         iconEnd={null}
                         size="jumbo"
                       >
-                        <FauxControl
+                        <Styled(div)
                           className="emotion-3"
                           control={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "textarea",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
                                 [Function],
@@ -6681,7 +6662,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           <div
                             className="emotion-2"
                           >
-                            <Control
+                            <Styled(textarea)
                               controlPropsIn={
                                 Object {
                                   "aria-invalid": undefined,
@@ -6712,21 +6693,22 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                                 defaultValue="Jumbo"
                                 onInput={[Function]}
                                 rows={1}
+                                size="jumbo"
                               />
-                            </Control>
-                            <Underlay>
+                            </Styled(textarea)>
+                            <Styled(div)>
                               <div
                                 className="emotion-1"
                               />
-                            </Underlay>
+                            </Styled(div)>
                           </div>
-                        </FauxControl>
+                        </Styled(div)>
                       </FauxControl>
                     </ThemeProvider>
                   </ThemeProvider>
                 </Themed(FauxControl)>
               </WithTheme(Themed(FauxControl))>
-            </TextArea>
+            </Styled(WithTheme(Themed(FauxControl)))>
           </TextArea>
           <TextArea
             autoSize={true}
@@ -6734,12 +6716,12 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
             rows={1}
             size="jumbo"
           >
-            <TextArea
+            <Styled(WithTheme(Themed(FauxControl)))
               control={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -6775,7 +6757,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "textarea",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
                       [Function],
@@ -6811,7 +6793,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "textarea",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
                         [Function],
@@ -6849,7 +6831,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "textarea",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
                               [Function],
@@ -6879,13 +6861,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                         iconEnd={null}
                         size="jumbo"
                       >
-                        <FauxControl
+                        <Styled(div)
                           className="emotion-3"
                           control={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "textarea",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
                                 [Function],
@@ -6900,7 +6882,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           <div
                             className="emotion-2"
                           >
-                            <Control
+                            <Styled(textarea)
                               autoSize={true}
                               controlPropsIn={
                                 Object {
@@ -6932,40 +6914,40 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                                 defaultValue="Jumbo"
                                 onInput={[Function]}
                                 rows={1}
+                                size="jumbo"
                               />
-                            </Control>
-                            <Underlay>
+                            </Styled(textarea)>
+                            <Styled(div)>
                               <div
                                 className="emotion-1"
                               />
-                            </Underlay>
+                            </Styled(div)>
                           </div>
-                        </FauxControl>
+                        </Styled(div)>
                       </FauxControl>
                     </ThemeProvider>
                   </ThemeProvider>
                 </Themed(FauxControl)>
               </WithTheme(Themed(FauxControl))>
-            </TextArea>
+            </Styled(WithTheme(Themed(FauxControl)))>
           </TextArea>
           <TextInput
             defaultValue="Jumbo"
             size="jumbo"
             type="text"
           >
-            <TextInput
+            <Styled(WithTheme(Themed(FauxControl)))
               control={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "input",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
-                    "label:Input;",
                     [Function],
                   ],
                   "defaultProps": undefined,
-                  "displayName": "Input",
+                  "displayName": "Styled(input)",
                   "render": [Function],
                   "withComponent": [Function],
                 }
@@ -6990,14 +6972,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "input",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
-                      "label:Input;",
                       [Function],
                     ],
                     "defaultProps": undefined,
-                    "displayName": "Input",
+                    "displayName": "Styled(input)",
                     "render": [Function],
                     "withComponent": [Function],
                   }
@@ -7022,14 +7003,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "input",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
-                        "label:Input;",
                         [Function],
                       ],
                       "defaultProps": undefined,
-                      "displayName": "Input",
+                      "displayName": "Styled(input)",
                       "render": [Function],
                       "withComponent": [Function],
                     }
@@ -7056,14 +7036,13 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "input",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
-                              "label:Input;",
                               [Function],
                             ],
                             "defaultProps": undefined,
-                            "displayName": "Input",
+                            "displayName": "Styled(input)",
                             "render": [Function],
                             "withComponent": [Function],
                           }
@@ -7082,20 +7061,19 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                         }
                         size="jumbo"
                       >
-                        <FauxControl
+                        <Styled(div)
                           className="emotion-17"
                           control={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "input",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
-                                "label:Input;",
                                 [Function],
                               ],
                               "defaultProps": undefined,
-                              "displayName": "Input",
+                              "displayName": "Styled(input)",
                               "render": [Function],
                               "withComponent": [Function],
                             }
@@ -7104,7 +7082,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                           <div
                             className="emotion-16"
                           >
-                            <Control
+                            <Styled(input)
                               controlPropsIn={
                                 Object {
                                   "aria-invalid": undefined,
@@ -7128,41 +7106,35 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                                 size="jumbo"
                                 type="text"
                               />
-                            </Control>
-                            <Underlay>
+                            </Styled(input)>
+                            <Styled(div)>
                               <div
                                 className="emotion-1"
                               />
-                            </Underlay>
+                            </Styled(div)>
                           </div>
-                        </FauxControl>
+                        </Styled(div)>
                       </FauxControl>
                     </ThemeProvider>
                   </ThemeProvider>
                 </Themed(FauxControl)>
               </WithTheme(Themed(FauxControl))>
-            </TextInput>
+            </Styled(WithTheme(Themed(FauxControl)))>
           </TextInput>
           <WithForwardRef(Button)
-            element="button"
             size="jumbo"
-            type="button"
           >
             <Button
-              element="button"
               forwardedRef={null}
               size="jumbo"
-              type="button"
             >
-              <Button
-                element="button"
+              <Styled(button)
                 size="jumbo"
                 text="Jumbo"
-                type="button"
               >
                 <button
                   className="emotion-95"
-                  type="button"
+                  size="jumbo"
                 >
                   <Styled(span)>
                     <span
@@ -7173,6 +7145,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                       >
                         <span
                           className="emotion-93"
+                          size="jumbo"
                         >
                           Jumbo
                         </span>
@@ -7180,7 +7153,7 @@ exports[`TextArea demo examples Snapshots: next-to-other-inputs 1`] = `
                     </span>
                   </Styled(span)>
                 </button>
-              </Button>
+              </Styled(button)>
             </Button>
           </WithForwardRef(Button)>
         </div>
@@ -7335,12 +7308,12 @@ exports[`TextArea demo examples Snapshots: placeholder 1`] = `
   placeholder="Leave a comment"
   size="large"
 >
-  <TextArea
+  <Styled(WithTheme(Themed(FauxControl)))
     control={
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "__emotion_base": "textarea",
-        "__emotion_forwardProp": [Function],
+        "__emotion_forwardProp": undefined,
         "__emotion_real": [Circular],
         "__emotion_styles": Array [
           [Function],
@@ -7376,7 +7349,7 @@ exports[`TextArea demo examples Snapshots: placeholder 1`] = `
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "__emotion_base": "textarea",
-          "__emotion_forwardProp": [Function],
+          "__emotion_forwardProp": undefined,
           "__emotion_real": [Circular],
           "__emotion_styles": Array [
             [Function],
@@ -7412,7 +7385,7 @@ exports[`TextArea demo examples Snapshots: placeholder 1`] = `
           Object {
             "$$typeof": Symbol(react.forward_ref),
             "__emotion_base": "textarea",
-            "__emotion_forwardProp": [Function],
+            "__emotion_forwardProp": undefined,
             "__emotion_real": [Circular],
             "__emotion_styles": Array [
               [Function],
@@ -7450,7 +7423,7 @@ exports[`TextArea demo examples Snapshots: placeholder 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -7480,13 +7453,13 @@ exports[`TextArea demo examples Snapshots: placeholder 1`] = `
               iconEnd={null}
               size="large"
             >
-              <FauxControl
+              <Styled(div)
                 className="emotion-3"
                 control={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "textarea",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
                       [Function],
@@ -7501,7 +7474,7 @@ exports[`TextArea demo examples Snapshots: placeholder 1`] = `
                 <div
                   className="emotion-2"
                 >
-                  <Control
+                  <Styled(textarea)
                     controlPropsIn={
                       Object {
                         "aria-invalid": undefined,
@@ -7532,21 +7505,22 @@ exports[`TextArea demo examples Snapshots: placeholder 1`] = `
                       onInput={[Function]}
                       placeholder="Leave a comment"
                       rows={8}
+                      size="large"
                     />
-                  </Control>
-                  <Underlay>
+                  </Styled(textarea)>
+                  <Styled(div)>
                     <div
                       className="emotion-1"
                     />
-                  </Underlay>
+                  </Styled(div)>
                 </div>
-              </FauxControl>
+              </Styled(div)>
             </FauxControl>
           </ThemeProvider>
         </ThemeProvider>
       </Themed(FauxControl)>
     </WithTheme(Themed(FauxControl))>
-  </TextArea>
+  </Styled(WithTheme(Themed(FauxControl)))>
 </TextArea>
 `;
 
@@ -7696,12 +7670,12 @@ exports[`TextArea demo examples Snapshots: read-only 1`] = `
   readOnly={true}
   size="large"
 >
-  <TextArea
+  <Styled(WithTheme(Themed(FauxControl)))
     control={
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "__emotion_base": "textarea",
-        "__emotion_forwardProp": [Function],
+        "__emotion_forwardProp": undefined,
         "__emotion_real": [Circular],
         "__emotion_styles": Array [
           [Function],
@@ -7738,7 +7712,7 @@ exports[`TextArea demo examples Snapshots: read-only 1`] = `
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "__emotion_base": "textarea",
-          "__emotion_forwardProp": [Function],
+          "__emotion_forwardProp": undefined,
           "__emotion_real": [Circular],
           "__emotion_styles": Array [
             [Function],
@@ -7775,7 +7749,7 @@ exports[`TextArea demo examples Snapshots: read-only 1`] = `
           Object {
             "$$typeof": Symbol(react.forward_ref),
             "__emotion_base": "textarea",
-            "__emotion_forwardProp": [Function],
+            "__emotion_forwardProp": undefined,
             "__emotion_real": [Circular],
             "__emotion_styles": Array [
               [Function],
@@ -7814,7 +7788,7 @@ exports[`TextArea demo examples Snapshots: read-only 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -7845,13 +7819,13 @@ exports[`TextArea demo examples Snapshots: read-only 1`] = `
               readOnly={true}
               size="large"
             >
-              <FauxControl
+              <Styled(div)
                 className="emotion-3"
                 control={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "textarea",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
                       [Function],
@@ -7866,7 +7840,7 @@ exports[`TextArea demo examples Snapshots: read-only 1`] = `
                 <div
                   className="emotion-2"
                 >
-                  <Control
+                  <Styled(textarea)
                     controlPropsIn={
                       Object {
                         "aria-invalid": undefined,
@@ -7899,24 +7873,25 @@ exports[`TextArea demo examples Snapshots: read-only 1`] = `
                       onInput={[Function]}
                       readOnly={true}
                       rows={8}
+                      size="large"
                     />
-                  </Control>
-                  <Underlay
+                  </Styled(textarea)>
+                  <Styled(div)
                     readOnly={true}
                   >
                     <div
                       className="emotion-1"
                       readOnly={true}
                     />
-                  </Underlay>
+                  </Styled(div)>
                 </div>
-              </FauxControl>
+              </Styled(div)>
             </FauxControl>
           </ThemeProvider>
         </ThemeProvider>
       </Themed(FauxControl)>
     </WithTheme(Themed(FauxControl))>
-  </TextArea>
+  </Styled(WithTheme(Themed(FauxControl)))>
 </TextArea>
 `;
 
@@ -8065,12 +8040,12 @@ exports[`TextArea demo examples Snapshots: required 1`] = `
   required={true}
   size="large"
 >
-  <TextArea
+  <Styled(WithTheme(Themed(FauxControl)))
     control={
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "__emotion_base": "textarea",
-        "__emotion_forwardProp": [Function],
+        "__emotion_forwardProp": undefined,
         "__emotion_real": [Circular],
         "__emotion_styles": Array [
           [Function],
@@ -8105,7 +8080,7 @@ exports[`TextArea demo examples Snapshots: required 1`] = `
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "__emotion_base": "textarea",
-          "__emotion_forwardProp": [Function],
+          "__emotion_forwardProp": undefined,
           "__emotion_real": [Circular],
           "__emotion_styles": Array [
             [Function],
@@ -8140,7 +8115,7 @@ exports[`TextArea demo examples Snapshots: required 1`] = `
           Object {
             "$$typeof": Symbol(react.forward_ref),
             "__emotion_base": "textarea",
-            "__emotion_forwardProp": [Function],
+            "__emotion_forwardProp": undefined,
             "__emotion_real": [Circular],
             "__emotion_styles": Array [
               [Function],
@@ -8177,7 +8152,7 @@ exports[`TextArea demo examples Snapshots: required 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -8206,13 +8181,13 @@ exports[`TextArea demo examples Snapshots: required 1`] = `
               iconEnd={null}
               size="large"
             >
-              <FauxControl
+              <Styled(div)
                 className="emotion-3"
                 control={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "textarea",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
                       [Function],
@@ -8227,7 +8202,7 @@ exports[`TextArea demo examples Snapshots: required 1`] = `
                 <div
                   className="emotion-2"
                 >
-                  <Control
+                  <Styled(textarea)
                     aria-required={true}
                     controlPropsIn={
                       Object {
@@ -8259,21 +8234,22 @@ exports[`TextArea demo examples Snapshots: required 1`] = `
                       onInput={[Function]}
                       required={true}
                       rows={8}
+                      size="large"
                     />
-                  </Control>
-                  <Underlay>
+                  </Styled(textarea)>
+                  <Styled(div)>
                     <div
                       className="emotion-1"
                     />
-                  </Underlay>
+                  </Styled(div)>
                 </div>
-              </FauxControl>
+              </Styled(div)>
             </FauxControl>
           </ThemeProvider>
         </ThemeProvider>
       </Themed(FauxControl)>
     </WithTheme(Themed(FauxControl))>
-  </TextArea>
+  </Styled(WithTheme(Themed(FauxControl)))>
 </TextArea>
 `;
 
@@ -8644,12 +8620,12 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
         rows={1}
         size="small"
       >
-        <TextArea
+        <Styled(WithTheme(Themed(FauxControl)))
           control={
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "__emotion_base": "textarea",
-              "__emotion_forwardProp": [Function],
+              "__emotion_forwardProp": undefined,
               "__emotion_real": [Circular],
               "__emotion_styles": Array [
                 [Function],
@@ -8685,7 +8661,7 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "__emotion_base": "textarea",
-                "__emotion_forwardProp": [Function],
+                "__emotion_forwardProp": undefined,
                 "__emotion_real": [Circular],
                 "__emotion_styles": Array [
                   [Function],
@@ -8721,7 +8697,7 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -8759,7 +8735,7 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "__emotion_base": "textarea",
-                        "__emotion_forwardProp": [Function],
+                        "__emotion_forwardProp": undefined,
                         "__emotion_real": [Circular],
                         "__emotion_styles": Array [
                           [Function],
@@ -8789,13 +8765,13 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                     iconEnd={null}
                     size="small"
                   >
-                    <FauxControl
+                    <Styled(div)
                       className="emotion-3"
                       control={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "__emotion_base": "textarea",
-                          "__emotion_forwardProp": [Function],
+                          "__emotion_forwardProp": undefined,
                           "__emotion_real": [Circular],
                           "__emotion_styles": Array [
                             [Function],
@@ -8810,7 +8786,7 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                       <div
                         className="emotion-2"
                       >
-                        <Control
+                        <Styled(textarea)
                           controlPropsIn={
                             Object {
                               "aria-invalid": undefined,
@@ -8841,33 +8817,34 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                             defaultValue="Small"
                             onInput={[Function]}
                             rows={1}
+                            size="small"
                           />
-                        </Control>
-                        <Underlay>
+                        </Styled(textarea)>
+                        <Styled(div)>
                           <div
                             className="emotion-1"
                           />
-                        </Underlay>
+                        </Styled(div)>
                       </div>
-                    </FauxControl>
+                    </Styled(div)>
                   </FauxControl>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(FauxControl)>
           </WithTheme(Themed(FauxControl))>
-        </TextArea>
+        </Styled(WithTheme(Themed(FauxControl)))>
       </TextArea>
       <TextArea
         defaultValue="Medium"
         rows={1}
         size="medium"
       >
-        <TextArea
+        <Styled(WithTheme(Themed(FauxControl)))
           control={
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "__emotion_base": "textarea",
-              "__emotion_forwardProp": [Function],
+              "__emotion_forwardProp": undefined,
               "__emotion_real": [Circular],
               "__emotion_styles": Array [
                 [Function],
@@ -8903,7 +8880,7 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "__emotion_base": "textarea",
-                "__emotion_forwardProp": [Function],
+                "__emotion_forwardProp": undefined,
                 "__emotion_real": [Circular],
                 "__emotion_styles": Array [
                   [Function],
@@ -8939,7 +8916,7 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -8977,7 +8954,7 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "__emotion_base": "textarea",
-                        "__emotion_forwardProp": [Function],
+                        "__emotion_forwardProp": undefined,
                         "__emotion_real": [Circular],
                         "__emotion_styles": Array [
                           [Function],
@@ -9007,13 +8984,13 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                     iconEnd={null}
                     size="medium"
                   >
-                    <FauxControl
+                    <Styled(div)
                       className="emotion-3"
                       control={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "__emotion_base": "textarea",
-                          "__emotion_forwardProp": [Function],
+                          "__emotion_forwardProp": undefined,
                           "__emotion_real": [Circular],
                           "__emotion_styles": Array [
                             [Function],
@@ -9028,7 +9005,7 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                       <div
                         className="emotion-2"
                       >
-                        <Control
+                        <Styled(textarea)
                           controlPropsIn={
                             Object {
                               "aria-invalid": undefined,
@@ -9059,33 +9036,34 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                             defaultValue="Medium"
                             onInput={[Function]}
                             rows={1}
+                            size="medium"
                           />
-                        </Control>
-                        <Underlay>
+                        </Styled(textarea)>
+                        <Styled(div)>
                           <div
                             className="emotion-1"
                           />
-                        </Underlay>
+                        </Styled(div)>
                       </div>
-                    </FauxControl>
+                    </Styled(div)>
                   </FauxControl>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(FauxControl)>
           </WithTheme(Themed(FauxControl))>
-        </TextArea>
+        </Styled(WithTheme(Themed(FauxControl)))>
       </TextArea>
       <TextArea
         defaultValue="Large"
         rows={1}
         size="large"
       >
-        <TextArea
+        <Styled(WithTheme(Themed(FauxControl)))
           control={
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "__emotion_base": "textarea",
-              "__emotion_forwardProp": [Function],
+              "__emotion_forwardProp": undefined,
               "__emotion_real": [Circular],
               "__emotion_styles": Array [
                 [Function],
@@ -9121,7 +9099,7 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "__emotion_base": "textarea",
-                "__emotion_forwardProp": [Function],
+                "__emotion_forwardProp": undefined,
                 "__emotion_real": [Circular],
                 "__emotion_styles": Array [
                   [Function],
@@ -9157,7 +9135,7 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -9195,7 +9173,7 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "__emotion_base": "textarea",
-                        "__emotion_forwardProp": [Function],
+                        "__emotion_forwardProp": undefined,
                         "__emotion_real": [Circular],
                         "__emotion_styles": Array [
                           [Function],
@@ -9225,13 +9203,13 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                     iconEnd={null}
                     size="large"
                   >
-                    <FauxControl
+                    <Styled(div)
                       className="emotion-3"
                       control={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "__emotion_base": "textarea",
-                          "__emotion_forwardProp": [Function],
+                          "__emotion_forwardProp": undefined,
                           "__emotion_real": [Circular],
                           "__emotion_styles": Array [
                             [Function],
@@ -9246,7 +9224,7 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                       <div
                         className="emotion-2"
                       >
-                        <Control
+                        <Styled(textarea)
                           controlPropsIn={
                             Object {
                               "aria-invalid": undefined,
@@ -9277,33 +9255,34 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                             defaultValue="Large"
                             onInput={[Function]}
                             rows={1}
+                            size="large"
                           />
-                        </Control>
-                        <Underlay>
+                        </Styled(textarea)>
+                        <Styled(div)>
                           <div
                             className="emotion-1"
                           />
-                        </Underlay>
+                        </Styled(div)>
                       </div>
-                    </FauxControl>
+                    </Styled(div)>
                   </FauxControl>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(FauxControl)>
           </WithTheme(Themed(FauxControl))>
-        </TextArea>
+        </Styled(WithTheme(Themed(FauxControl)))>
       </TextArea>
       <TextArea
         defaultValue="Jumbo"
         rows={1}
         size="jumbo"
       >
-        <TextArea
+        <Styled(WithTheme(Themed(FauxControl)))
           control={
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "__emotion_base": "textarea",
-              "__emotion_forwardProp": [Function],
+              "__emotion_forwardProp": undefined,
               "__emotion_real": [Circular],
               "__emotion_styles": Array [
                 [Function],
@@ -9339,7 +9318,7 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "__emotion_base": "textarea",
-                "__emotion_forwardProp": [Function],
+                "__emotion_forwardProp": undefined,
                 "__emotion_real": [Circular],
                 "__emotion_styles": Array [
                   [Function],
@@ -9375,7 +9354,7 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -9413,7 +9392,7 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "__emotion_base": "textarea",
-                        "__emotion_forwardProp": [Function],
+                        "__emotion_forwardProp": undefined,
                         "__emotion_real": [Circular],
                         "__emotion_styles": Array [
                           [Function],
@@ -9443,13 +9422,13 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                     iconEnd={null}
                     size="jumbo"
                   >
-                    <FauxControl
+                    <Styled(div)
                       className="emotion-3"
                       control={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "__emotion_base": "textarea",
-                          "__emotion_forwardProp": [Function],
+                          "__emotion_forwardProp": undefined,
                           "__emotion_real": [Circular],
                           "__emotion_styles": Array [
                             [Function],
@@ -9464,7 +9443,7 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                       <div
                         className="emotion-2"
                       >
-                        <Control
+                        <Styled(textarea)
                           controlPropsIn={
                             Object {
                               "aria-invalid": undefined,
@@ -9495,21 +9474,22 @@ exports[`TextArea demo examples Snapshots: rows 1`] = `
                             defaultValue="Jumbo"
                             onInput={[Function]}
                             rows={1}
+                            size="jumbo"
                           />
-                        </Control>
-                        <Underlay>
+                        </Styled(textarea)>
+                        <Styled(div)>
                           <div
                             className="emotion-1"
                           />
-                        </Underlay>
+                        </Styled(div)>
                       </div>
-                    </FauxControl>
+                    </Styled(div)>
                   </FauxControl>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(FauxControl)>
           </WithTheme(Themed(FauxControl))>
-        </TextArea>
+        </Styled(WithTheme(Themed(FauxControl)))>
       </TextArea>
     </div>
   </Styled(div)>
@@ -9666,12 +9646,12 @@ exports[`TextArea demo examples Snapshots: rtl 1`] = `
         defaultValue="مرحبا بالعالم"
         size="large"
       >
-        <TextArea
+        <Styled(WithTheme(Themed(FauxControl)))
           control={
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "__emotion_base": "textarea",
-              "__emotion_forwardProp": [Function],
+              "__emotion_forwardProp": undefined,
               "__emotion_real": [Circular],
               "__emotion_styles": Array [
                 [Function],
@@ -9707,7 +9687,7 @@ exports[`TextArea demo examples Snapshots: rtl 1`] = `
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "__emotion_base": "textarea",
-                "__emotion_forwardProp": [Function],
+                "__emotion_forwardProp": undefined,
                 "__emotion_real": [Circular],
                 "__emotion_styles": Array [
                   [Function],
@@ -9743,7 +9723,7 @@ exports[`TextArea demo examples Snapshots: rtl 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -9781,7 +9761,7 @@ exports[`TextArea demo examples Snapshots: rtl 1`] = `
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "__emotion_base": "textarea",
-                        "__emotion_forwardProp": [Function],
+                        "__emotion_forwardProp": undefined,
                         "__emotion_real": [Circular],
                         "__emotion_styles": Array [
                           [Function],
@@ -9811,13 +9791,13 @@ exports[`TextArea demo examples Snapshots: rtl 1`] = `
                     iconEnd={null}
                     size="large"
                   >
-                    <FauxControl
+                    <Styled(div)
                       className="emotion-3"
                       control={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "__emotion_base": "textarea",
-                          "__emotion_forwardProp": [Function],
+                          "__emotion_forwardProp": undefined,
                           "__emotion_real": [Circular],
                           "__emotion_styles": Array [
                             [Function],
@@ -9832,7 +9812,7 @@ exports[`TextArea demo examples Snapshots: rtl 1`] = `
                       <div
                         className="emotion-2"
                       >
-                        <Control
+                        <Styled(textarea)
                           controlPropsIn={
                             Object {
                               "aria-invalid": undefined,
@@ -9863,21 +9843,22 @@ exports[`TextArea demo examples Snapshots: rtl 1`] = `
                             defaultValue="مرحبا بالعالم"
                             onInput={[Function]}
                             rows={8}
+                            size="large"
                           />
-                        </Control>
-                        <Underlay>
+                        </Styled(textarea)>
+                        <Styled(div)>
                           <div
                             className="emotion-1"
                           />
-                        </Underlay>
+                        </Styled(div)>
                       </div>
-                    </FauxControl>
+                    </Styled(div)>
                   </FauxControl>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(FauxControl)>
           </WithTheme(Themed(FauxControl))>
-        </TextArea>
+        </Styled(WithTheme(Themed(FauxControl)))>
       </TextArea>
     </ThemeProvider>
   </ThemeProvider>
@@ -10250,12 +10231,12 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
         defaultValue="Small"
         size="small"
       >
-        <TextArea
+        <Styled(WithTheme(Themed(FauxControl)))
           control={
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "__emotion_base": "textarea",
-              "__emotion_forwardProp": [Function],
+              "__emotion_forwardProp": undefined,
               "__emotion_real": [Circular],
               "__emotion_styles": Array [
                 [Function],
@@ -10291,7 +10272,7 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "__emotion_base": "textarea",
-                "__emotion_forwardProp": [Function],
+                "__emotion_forwardProp": undefined,
                 "__emotion_real": [Circular],
                 "__emotion_styles": Array [
                   [Function],
@@ -10327,7 +10308,7 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -10365,7 +10346,7 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "__emotion_base": "textarea",
-                        "__emotion_forwardProp": [Function],
+                        "__emotion_forwardProp": undefined,
                         "__emotion_real": [Circular],
                         "__emotion_styles": Array [
                           [Function],
@@ -10395,13 +10376,13 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                     iconEnd={null}
                     size="small"
                   >
-                    <FauxControl
+                    <Styled(div)
                       className="emotion-3"
                       control={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "__emotion_base": "textarea",
-                          "__emotion_forwardProp": [Function],
+                          "__emotion_forwardProp": undefined,
                           "__emotion_real": [Circular],
                           "__emotion_styles": Array [
                             [Function],
@@ -10416,7 +10397,7 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                       <div
                         className="emotion-2"
                       >
-                        <Control
+                        <Styled(textarea)
                           controlPropsIn={
                             Object {
                               "aria-invalid": undefined,
@@ -10447,32 +10428,33 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                             defaultValue="Small"
                             onInput={[Function]}
                             rows={2}
+                            size="small"
                           />
-                        </Control>
-                        <Underlay>
+                        </Styled(textarea)>
+                        <Styled(div)>
                           <div
                             className="emotion-1"
                           />
-                        </Underlay>
+                        </Styled(div)>
                       </div>
-                    </FauxControl>
+                    </Styled(div)>
                   </FauxControl>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(FauxControl)>
           </WithTheme(Themed(FauxControl))>
-        </TextArea>
+        </Styled(WithTheme(Themed(FauxControl)))>
       </TextArea>
       <TextArea
         defaultValue="Medium"
         size="medium"
       >
-        <TextArea
+        <Styled(WithTheme(Themed(FauxControl)))
           control={
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "__emotion_base": "textarea",
-              "__emotion_forwardProp": [Function],
+              "__emotion_forwardProp": undefined,
               "__emotion_real": [Circular],
               "__emotion_styles": Array [
                 [Function],
@@ -10508,7 +10490,7 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "__emotion_base": "textarea",
-                "__emotion_forwardProp": [Function],
+                "__emotion_forwardProp": undefined,
                 "__emotion_real": [Circular],
                 "__emotion_styles": Array [
                   [Function],
@@ -10544,7 +10526,7 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -10582,7 +10564,7 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "__emotion_base": "textarea",
-                        "__emotion_forwardProp": [Function],
+                        "__emotion_forwardProp": undefined,
                         "__emotion_real": [Circular],
                         "__emotion_styles": Array [
                           [Function],
@@ -10612,13 +10594,13 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                     iconEnd={null}
                     size="medium"
                   >
-                    <FauxControl
+                    <Styled(div)
                       className="emotion-3"
                       control={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "__emotion_base": "textarea",
-                          "__emotion_forwardProp": [Function],
+                          "__emotion_forwardProp": undefined,
                           "__emotion_real": [Circular],
                           "__emotion_styles": Array [
                             [Function],
@@ -10633,7 +10615,7 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                       <div
                         className="emotion-2"
                       >
-                        <Control
+                        <Styled(textarea)
                           controlPropsIn={
                             Object {
                               "aria-invalid": undefined,
@@ -10664,32 +10646,33 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                             defaultValue="Medium"
                             onInput={[Function]}
                             rows={6}
+                            size="medium"
                           />
-                        </Control>
-                        <Underlay>
+                        </Styled(textarea)>
+                        <Styled(div)>
                           <div
                             className="emotion-1"
                           />
-                        </Underlay>
+                        </Styled(div)>
                       </div>
-                    </FauxControl>
+                    </Styled(div)>
                   </FauxControl>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(FauxControl)>
           </WithTheme(Themed(FauxControl))>
-        </TextArea>
+        </Styled(WithTheme(Themed(FauxControl)))>
       </TextArea>
       <TextArea
         defaultValue="Large"
         size="large"
       >
-        <TextArea
+        <Styled(WithTheme(Themed(FauxControl)))
           control={
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "__emotion_base": "textarea",
-              "__emotion_forwardProp": [Function],
+              "__emotion_forwardProp": undefined,
               "__emotion_real": [Circular],
               "__emotion_styles": Array [
                 [Function],
@@ -10725,7 +10708,7 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "__emotion_base": "textarea",
-                "__emotion_forwardProp": [Function],
+                "__emotion_forwardProp": undefined,
                 "__emotion_real": [Circular],
                 "__emotion_styles": Array [
                   [Function],
@@ -10761,7 +10744,7 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -10799,7 +10782,7 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "__emotion_base": "textarea",
-                        "__emotion_forwardProp": [Function],
+                        "__emotion_forwardProp": undefined,
                         "__emotion_real": [Circular],
                         "__emotion_styles": Array [
                           [Function],
@@ -10829,13 +10812,13 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                     iconEnd={null}
                     size="large"
                   >
-                    <FauxControl
+                    <Styled(div)
                       className="emotion-3"
                       control={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "__emotion_base": "textarea",
-                          "__emotion_forwardProp": [Function],
+                          "__emotion_forwardProp": undefined,
                           "__emotion_real": [Circular],
                           "__emotion_styles": Array [
                             [Function],
@@ -10850,7 +10833,7 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                       <div
                         className="emotion-2"
                       >
-                        <Control
+                        <Styled(textarea)
                           controlPropsIn={
                             Object {
                               "aria-invalid": undefined,
@@ -10881,32 +10864,33 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                             defaultValue="Large"
                             onInput={[Function]}
                             rows={8}
+                            size="large"
                           />
-                        </Control>
-                        <Underlay>
+                        </Styled(textarea)>
+                        <Styled(div)>
                           <div
                             className="emotion-1"
                           />
-                        </Underlay>
+                        </Styled(div)>
                       </div>
-                    </FauxControl>
+                    </Styled(div)>
                   </FauxControl>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(FauxControl)>
           </WithTheme(Themed(FauxControl))>
-        </TextArea>
+        </Styled(WithTheme(Themed(FauxControl)))>
       </TextArea>
       <TextArea
         defaultValue="Jumbo"
         size="jumbo"
       >
-        <TextArea
+        <Styled(WithTheme(Themed(FauxControl)))
           control={
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "__emotion_base": "textarea",
-              "__emotion_forwardProp": [Function],
+              "__emotion_forwardProp": undefined,
               "__emotion_real": [Circular],
               "__emotion_styles": Array [
                 [Function],
@@ -10942,7 +10926,7 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "__emotion_base": "textarea",
-                "__emotion_forwardProp": [Function],
+                "__emotion_forwardProp": undefined,
                 "__emotion_real": [Circular],
                 "__emotion_styles": Array [
                   [Function],
@@ -10978,7 +10962,7 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -11016,7 +11000,7 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "__emotion_base": "textarea",
-                        "__emotion_forwardProp": [Function],
+                        "__emotion_forwardProp": undefined,
                         "__emotion_real": [Circular],
                         "__emotion_styles": Array [
                           [Function],
@@ -11046,13 +11030,13 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                     iconEnd={null}
                     size="jumbo"
                   >
-                    <FauxControl
+                    <Styled(div)
                       className="emotion-3"
                       control={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "__emotion_base": "textarea",
-                          "__emotion_forwardProp": [Function],
+                          "__emotion_forwardProp": undefined,
                           "__emotion_real": [Circular],
                           "__emotion_styles": Array [
                             [Function],
@@ -11067,7 +11051,7 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                       <div
                         className="emotion-2"
                       >
-                        <Control
+                        <Styled(textarea)
                           controlPropsIn={
                             Object {
                               "aria-invalid": undefined,
@@ -11098,21 +11082,22 @@ exports[`TextArea demo examples Snapshots: size 1`] = `
                             defaultValue="Jumbo"
                             onInput={[Function]}
                             rows={12}
+                            size="jumbo"
                           />
-                        </Control>
-                        <Underlay>
+                        </Styled(textarea)>
+                        <Styled(div)>
                           <div
                             className="emotion-1"
                           />
-                        </Underlay>
+                        </Styled(div)>
                       </div>
-                    </FauxControl>
+                    </Styled(div)>
                   </FauxControl>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(FauxControl)>
           </WithTheme(Themed(FauxControl))>
-        </TextArea>
+        </Styled(WithTheme(Themed(FauxControl)))>
       </TextArea>
     </div>
   </Styled(div)>
@@ -11264,12 +11249,12 @@ exports[`TextArea demo examples Snapshots: uncontrolled 1`] = `
   defaultValue="Hello World"
   size="large"
 >
-  <TextArea
+  <Styled(WithTheme(Themed(FauxControl)))
     control={
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "__emotion_base": "textarea",
-        "__emotion_forwardProp": [Function],
+        "__emotion_forwardProp": undefined,
         "__emotion_real": [Circular],
         "__emotion_styles": Array [
           [Function],
@@ -11305,7 +11290,7 @@ exports[`TextArea demo examples Snapshots: uncontrolled 1`] = `
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "__emotion_base": "textarea",
-          "__emotion_forwardProp": [Function],
+          "__emotion_forwardProp": undefined,
           "__emotion_real": [Circular],
           "__emotion_styles": Array [
             [Function],
@@ -11341,7 +11326,7 @@ exports[`TextArea demo examples Snapshots: uncontrolled 1`] = `
           Object {
             "$$typeof": Symbol(react.forward_ref),
             "__emotion_base": "textarea",
-            "__emotion_forwardProp": [Function],
+            "__emotion_forwardProp": undefined,
             "__emotion_real": [Circular],
             "__emotion_styles": Array [
               [Function],
@@ -11379,7 +11364,7 @@ exports[`TextArea demo examples Snapshots: uncontrolled 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -11409,13 +11394,13 @@ exports[`TextArea demo examples Snapshots: uncontrolled 1`] = `
               iconEnd={null}
               size="large"
             >
-              <FauxControl
+              <Styled(div)
                 className="emotion-3"
                 control={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "textarea",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
                       [Function],
@@ -11430,7 +11415,7 @@ exports[`TextArea demo examples Snapshots: uncontrolled 1`] = `
                 <div
                   className="emotion-2"
                 >
-                  <Control
+                  <Styled(textarea)
                     controlPropsIn={
                       Object {
                         "aria-invalid": undefined,
@@ -11461,21 +11446,22 @@ exports[`TextArea demo examples Snapshots: uncontrolled 1`] = `
                       defaultValue="Hello World"
                       onInput={[Function]}
                       rows={8}
+                      size="large"
                     />
-                  </Control>
-                  <Underlay>
+                  </Styled(textarea)>
+                  <Styled(div)>
                     <div
                       className="emotion-1"
                     />
-                  </Underlay>
+                  </Styled(div)>
                 </div>
-              </FauxControl>
+              </Styled(div)>
             </FauxControl>
           </ThemeProvider>
         </ThemeProvider>
       </Themed(FauxControl)>
     </WithTheme(Themed(FauxControl))>
-  </TextArea>
+  </Styled(WithTheme(Themed(FauxControl)))>
 </TextArea>
 `;
 
@@ -11890,12 +11876,12 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
         size="large"
         variant="success"
       >
-        <TextArea
+        <Styled(WithTheme(Themed(FauxControl)))
           control={
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "__emotion_base": "textarea",
-              "__emotion_forwardProp": [Function],
+              "__emotion_forwardProp": undefined,
               "__emotion_real": [Circular],
               "__emotion_styles": Array [
                 [Function],
@@ -11932,7 +11918,7 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "__emotion_base": "textarea",
-                "__emotion_forwardProp": [Function],
+                "__emotion_forwardProp": undefined,
                 "__emotion_real": [Circular],
                 "__emotion_styles": Array [
                   [Function],
@@ -11969,7 +11955,7 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -12008,7 +11994,7 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "__emotion_base": "textarea",
-                        "__emotion_forwardProp": [Function],
+                        "__emotion_forwardProp": undefined,
                         "__emotion_real": [Circular],
                         "__emotion_styles": Array [
                           [Function],
@@ -12039,13 +12025,13 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
                     size="large"
                     variant="success"
                   >
-                    <FauxControl
+                    <Styled(div)
                       className="emotion-3"
                       control={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "__emotion_base": "textarea",
-                          "__emotion_forwardProp": [Function],
+                          "__emotion_forwardProp": undefined,
                           "__emotion_real": [Circular],
                           "__emotion_styles": Array [
                             [Function],
@@ -12061,7 +12047,7 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
                       <div
                         className="emotion-2"
                       >
-                        <Control
+                        <Styled(textarea)
                           controlPropsIn={
                             Object {
                               "aria-invalid": undefined,
@@ -12093,35 +12079,36 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
                             defaultValue="Success"
                             onInput={[Function]}
                             rows={8}
+                            size="large"
                           />
-                        </Control>
-                        <Underlay
+                        </Styled(textarea)>
+                        <Styled(div)
                           variant="success"
                         >
                           <div
                             className="emotion-1"
                           />
-                        </Underlay>
+                        </Styled(div)>
                       </div>
-                    </FauxControl>
+                    </Styled(div)>
                   </FauxControl>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(FauxControl)>
           </WithTheme(Themed(FauxControl))>
-        </TextArea>
+        </Styled(WithTheme(Themed(FauxControl)))>
       </TextArea>
       <TextArea
         defaultValue="Warning"
         size="large"
         variant="warning"
       >
-        <TextArea
+        <Styled(WithTheme(Themed(FauxControl)))
           control={
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "__emotion_base": "textarea",
-              "__emotion_forwardProp": [Function],
+              "__emotion_forwardProp": undefined,
               "__emotion_real": [Circular],
               "__emotion_styles": Array [
                 [Function],
@@ -12158,7 +12145,7 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "__emotion_base": "textarea",
-                "__emotion_forwardProp": [Function],
+                "__emotion_forwardProp": undefined,
                 "__emotion_real": [Circular],
                 "__emotion_styles": Array [
                   [Function],
@@ -12195,7 +12182,7 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -12234,7 +12221,7 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "__emotion_base": "textarea",
-                        "__emotion_forwardProp": [Function],
+                        "__emotion_forwardProp": undefined,
                         "__emotion_real": [Circular],
                         "__emotion_styles": Array [
                           [Function],
@@ -12265,13 +12252,13 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
                     size="large"
                     variant="warning"
                   >
-                    <FauxControl
+                    <Styled(div)
                       className="emotion-3"
                       control={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "__emotion_base": "textarea",
-                          "__emotion_forwardProp": [Function],
+                          "__emotion_forwardProp": undefined,
                           "__emotion_real": [Circular],
                           "__emotion_styles": Array [
                             [Function],
@@ -12287,7 +12274,7 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
                       <div
                         className="emotion-9"
                       >
-                        <Control
+                        <Styled(textarea)
                           controlPropsIn={
                             Object {
                               "aria-invalid": undefined,
@@ -12319,35 +12306,36 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
                             defaultValue="Warning"
                             onInput={[Function]}
                             rows={8}
+                            size="large"
                           />
-                        </Control>
-                        <Underlay
+                        </Styled(textarea)>
+                        <Styled(div)
                           variant="warning"
                         >
                           <div
                             className="emotion-8"
                           />
-                        </Underlay>
+                        </Styled(div)>
                       </div>
-                    </FauxControl>
+                    </Styled(div)>
                   </FauxControl>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(FauxControl)>
           </WithTheme(Themed(FauxControl))>
-        </TextArea>
+        </Styled(WithTheme(Themed(FauxControl)))>
       </TextArea>
       <TextArea
         defaultValue="Danger"
         size="large"
         variant="danger"
       >
-        <TextArea
+        <Styled(WithTheme(Themed(FauxControl)))
           control={
             Object {
               "$$typeof": Symbol(react.forward_ref),
               "__emotion_base": "textarea",
-              "__emotion_forwardProp": [Function],
+              "__emotion_forwardProp": undefined,
               "__emotion_real": [Circular],
               "__emotion_styles": Array [
                 [Function],
@@ -12384,7 +12372,7 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "__emotion_base": "textarea",
-                "__emotion_forwardProp": [Function],
+                "__emotion_forwardProp": undefined,
                 "__emotion_real": [Circular],
                 "__emotion_styles": Array [
                   [Function],
@@ -12421,7 +12409,7 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "textarea",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
                     [Function],
@@ -12460,7 +12448,7 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "__emotion_base": "textarea",
-                        "__emotion_forwardProp": [Function],
+                        "__emotion_forwardProp": undefined,
                         "__emotion_real": [Circular],
                         "__emotion_styles": Array [
                           [Function],
@@ -12491,13 +12479,13 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
                     size="large"
                     variant="danger"
                   >
-                    <FauxControl
+                    <Styled(div)
                       className="emotion-3"
                       control={
                         Object {
                           "$$typeof": Symbol(react.forward_ref),
                           "__emotion_base": "textarea",
-                          "__emotion_forwardProp": [Function],
+                          "__emotion_forwardProp": undefined,
                           "__emotion_real": [Circular],
                           "__emotion_styles": Array [
                             [Function],
@@ -12513,7 +12501,7 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
                       <div
                         className="emotion-16"
                       >
-                        <Control
+                        <Styled(textarea)
                           controlPropsIn={
                             Object {
                               "aria-invalid": undefined,
@@ -12545,23 +12533,24 @@ exports[`TextArea demo examples Snapshots: variants 1`] = `
                             defaultValue="Danger"
                             onInput={[Function]}
                             rows={8}
+                            size="large"
                           />
-                        </Control>
-                        <Underlay
+                        </Styled(textarea)>
+                        <Styled(div)
                           variant="danger"
                         >
                           <div
                             className="emotion-15"
                           />
-                        </Underlay>
+                        </Styled(div)>
                       </div>
-                    </FauxControl>
+                    </Styled(div)>
                   </FauxControl>
                 </ThemeProvider>
               </ThemeProvider>
             </Themed(FauxControl)>
           </WithTheme(Themed(FauxControl))>
-        </TextArea>
+        </Styled(WithTheme(Themed(FauxControl)))>
       </TextArea>
     </div>
   </Styled(div)>

@@ -156,7 +156,7 @@ exports[`Tooltip demo examples Snapshots: basic 1`] = `
             placement="bottom"
           >
             <Manager>
-              <Popover
+              <Styled(span)
                 content={[Function]}
                 focusTriggerOnClose={false}
                 hasArrow={true}
@@ -168,12 +168,14 @@ exports[`Tooltip demo examples Snapshots: basic 1`] = `
               >
                 <span
                   className="emotion-4"
+                  content={[Function]}
                   id="tooltip-1"
+                  onClose={[Function]}
+                  onOpen={[Function]}
                 >
                   <PopoverTrigger
                     aria-describedby="tooltip-1-content"
                     aria-owns="tooltip-1-content"
-                    element="button"
                     iconStart={
                       <IconPerson
                         title="account settings"
@@ -187,20 +189,18 @@ exports[`Tooltip demo examples Snapshots: basic 1`] = `
                     role="button"
                     size="large"
                     tabIndex={0}
-                    type="button"
                   >
                     <Reference>
                       <InnerReference
                         getReferenceRef={[Function]}
                       >
-                        <PopoverTrigger>
+                        <Styled(span)>
                           <span
                             className="emotion-3"
                           >
                             <WithForwardRef(Button)
                               aria-describedby="tooltip-1-content"
                               aria-owns="tooltip-1-content"
-                              element="button"
                               iconStart={
                                 <IconPerson
                                   title="account settings"
@@ -214,12 +214,10 @@ exports[`Tooltip demo examples Snapshots: basic 1`] = `
                               role="button"
                               size="large"
                               tabIndex={0}
-                              type="button"
                             >
                               <Button
                                 aria-describedby="tooltip-1-content"
                                 aria-owns="tooltip-1-content"
-                                element="button"
                                 forwardedRef={null}
                                 iconStart={
                                   <IconPerson
@@ -234,12 +232,10 @@ exports[`Tooltip demo examples Snapshots: basic 1`] = `
                                 role="button"
                                 size="large"
                                 tabIndex={0}
-                                type="button"
                               >
-                                <Button
+                                <Styled(button)
                                   aria-describedby="tooltip-1-content"
                                   aria-owns="tooltip-1-content"
-                                  element="button"
                                   onBlur={[Function]}
                                   onClick={[Function]}
                                   onFocus={[Function]}
@@ -248,7 +244,6 @@ exports[`Tooltip demo examples Snapshots: basic 1`] = `
                                   role="button"
                                   size="large"
                                   tabIndex={0}
-                                  type="button"
                                 >
                                   <button
                                     aria-describedby="tooltip-1-content"
@@ -260,8 +255,8 @@ exports[`Tooltip demo examples Snapshots: basic 1`] = `
                                     onMouseEnter={[Function]}
                                     onMouseLeave={[Function]}
                                     role="button"
+                                    size="large"
                                     tabIndex={0}
-                                    type="button"
                                   >
                                     <Styled(span)>
                                       <span
@@ -292,6 +287,7 @@ exports[`Tooltip demo examples Snapshots: basic 1`] = `
                                                 className="emotion-0"
                                                 focusable="false"
                                                 role="img"
+                                                size="1.5em"
                                                 viewBox="0 0 24 24"
                                               >
                                                 <title
@@ -311,16 +307,16 @@ exports[`Tooltip demo examples Snapshots: basic 1`] = `
                                       </span>
                                     </Styled(span)>
                                   </button>
-                                </Button>
+                                </Styled(button)>
                               </Button>
                             </WithForwardRef(Button)>
                           </span>
-                        </PopoverTrigger>
+                        </Styled(span)>
                       </InnerReference>
                     </Reference>
                   </PopoverTrigger>
                 </span>
-              </Popover>
+              </Styled(span)>
             </Manager>
           </Popover>
         </ThemeProvider>
@@ -590,7 +586,7 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                   placement="top"
                 >
                   <Manager>
-                    <Popover
+                    <Styled(span)
                       content={[Function]}
                       focusTriggerOnClose={false}
                       hasArrow={true}
@@ -602,12 +598,14 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                     >
                       <span
                         className="emotion-8"
+                        content={[Function]}
                         id="tooltip-14"
+                        onClose={[Function]}
+                        onOpen={[Function]}
                       >
                         <PopoverTrigger
                           aria-describedby="tooltip-14-content"
                           aria-owns="tooltip-14-content"
-                          element="button"
                           onBlur={[Function]}
                           onClick={[Function]}
                           onFocus={[Function]}
@@ -616,20 +614,18 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                           role="button"
                           size="large"
                           tabIndex={0}
-                          type="button"
                         >
                           <Reference>
                             <InnerReference
                               getReferenceRef={[Function]}
                             >
-                              <PopoverTrigger>
+                              <Styled(span)>
                                 <span
                                   className="emotion-3"
                                 >
                                   <WithForwardRef(Button)
                                     aria-describedby="tooltip-14-content"
                                     aria-owns="tooltip-14-content"
-                                    element="button"
                                     onBlur={[Function]}
                                     onClick={[Function]}
                                     onFocus={[Function]}
@@ -638,12 +634,10 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                                     role="button"
                                     size="large"
                                     tabIndex={0}
-                                    type="button"
                                   >
                                     <Button
                                       aria-describedby="tooltip-14-content"
                                       aria-owns="tooltip-14-content"
-                                      element="button"
                                       forwardedRef={null}
                                       onBlur={[Function]}
                                       onClick={[Function]}
@@ -653,12 +647,10 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                                       role="button"
                                       size="large"
                                       tabIndex={0}
-                                      type="button"
                                     >
-                                      <Button
+                                      <Styled(button)
                                         aria-describedby="tooltip-14-content"
                                         aria-owns="tooltip-14-content"
-                                        element="button"
                                         onBlur={[Function]}
                                         onClick={[Function]}
                                         onFocus={[Function]}
@@ -668,7 +660,6 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                                         size="large"
                                         tabIndex={0}
                                         text="Button"
-                                        type="button"
                                       >
                                         <button
                                           aria-describedby="tooltip-14-content"
@@ -680,8 +671,8 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                                           onMouseEnter={[Function]}
                                           onMouseLeave={[Function]}
                                           role="button"
+                                          size="large"
                                           tabIndex={0}
-                                          type="button"
                                         >
                                           <Styled(span)>
                                             <span
@@ -692,6 +683,7 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                                               >
                                                 <span
                                                   className="emotion-0"
+                                                  size="large"
                                                 >
                                                   Button
                                                 </span>
@@ -699,11 +691,11 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                                             </span>
                                           </Styled(span)>
                                         </button>
-                                      </Button>
+                                      </Styled(button)>
                                     </Button>
                                   </WithForwardRef(Button)>
                                 </span>
-                              </PopoverTrigger>
+                              </Styled(span)>
                             </InnerReference>
                           </Reference>
                         </PopoverTrigger>
@@ -863,7 +855,6 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                                         class="emotion-2"
                                         role="button"
                                         tabindex="0"
-                                        type="button"
                                       >
                                         <span
                                           class="emotion-1"
@@ -878,7 +869,7 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                                     </span>
                                   }
                                 >
-                                  <PopoverContent
+                                  <Styled(div)
                                     aria-live="polite"
                                     id="tooltip-14-content"
                                     onBlur={[Function]}
@@ -914,7 +905,7 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                                           <ThemeProvider>
                                             <ThemeProvider>
                                               <CardBlock>
-                                                <CardBlock>
+                                                <Styled(div)>
                                                   <div
                                                     className="emotion-5"
                                                   >
@@ -926,7 +917,7 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                                                       </div>
                                                     </Styled(div)>
                                                   </div>
-                                                </CardBlock>
+                                                </Styled(div)>
                                               </CardBlock>
                                             </ThemeProvider>
                                           </ThemeProvider>
@@ -936,7 +927,7 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                                         size="8px"
                                         style={Object {}}
                                       >
-                                        <PopoverArrow
+                                        <Styled(span)
                                           aria-hidden={true}
                                           size="8px"
                                           style={Object {}}
@@ -944,14 +935,15 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                                           <span
                                             aria-hidden={true}
                                             className="emotion-6"
+                                            size="8px"
                                             style={Object {}}
                                           >
                                             ▼
                                           </span>
-                                        </PopoverArrow>
+                                        </Styled(span)>
                                       </PopoverArrow>
                                     </div>
-                                  </PopoverContent>
+                                  </Styled(div)>
                                 </InnerPopper>
                               </Popper>
                             </RtlPopper>
@@ -976,7 +968,7 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                           }
                         />
                       </span>
-                    </Popover>
+                    </Styled(span)>
                   </Manager>
                 </Popover>
               </ThemeProvider>
@@ -985,29 +977,23 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
         </WithTheme(Themed(Popover))>
       </Tooltip>
       <WithForwardRef(Button)
-        element="button"
         onClick={[Function]}
         size="large"
-        type="button"
       >
         <Button
-          element="button"
           forwardedRef={null}
           onClick={[Function]}
           size="large"
-          type="button"
         >
-          <Button
-            element="button"
+          <Styled(button)
             onClick={[Function]}
             size="large"
             text="Close Tooltip"
-            type="button"
           >
             <button
               className="emotion-2"
               onClick={[Function]}
-              type="button"
+              size="large"
             >
               <Styled(span)>
                 <span
@@ -1018,6 +1004,7 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                   >
                     <span
                       className="emotion-0"
+                      size="large"
                     >
                       Close Tooltip
                     </span>
@@ -1025,7 +1012,7 @@ exports[`Tooltip demo examples Snapshots: controlled 1`] = `
                 </span>
               </Styled(span)>
             </button>
-          </Button>
+          </Styled(button)>
         </Button>
       </WithForwardRef(Button)>
     </div>
@@ -1113,7 +1100,7 @@ exports[`Tooltip demo examples Snapshots: cursor 1`] = `
                 placement="bottom"
               >
                 <Manager>
-                  <Popover
+                  <Styled(span)
                     content={[Function]}
                     cursor="help"
                     focusTriggerOnClose={false}
@@ -1126,7 +1113,11 @@ exports[`Tooltip demo examples Snapshots: cursor 1`] = `
                   >
                     <span
                       className="emotion-2"
+                      content={[Function]}
+                      cursor="help"
                       id="tooltip-9"
+                      onClose={[Function]}
+                      onOpen={[Function]}
                     >
                       <PopoverTrigger
                         aria-describedby="tooltip-9-content"
@@ -1144,11 +1135,12 @@ exports[`Tooltip demo examples Snapshots: cursor 1`] = `
                           <InnerReference
                             getReferenceRef={[Function]}
                           >
-                            <PopoverTrigger
+                            <Styled(span)
                               cursor="help"
                             >
                               <span
                                 className="emotion-1"
+                                cursor="help"
                               >
                                 <Styled(span)
                                   aria-describedby="tooltip-9-content"
@@ -1177,12 +1169,12 @@ exports[`Tooltip demo examples Snapshots: cursor 1`] = `
                                   </span>
                                 </Styled(span)>
                               </span>
-                            </PopoverTrigger>
+                            </Styled(span)>
                           </InnerReference>
                         </Reference>
                       </PopoverTrigger>
                     </span>
-                  </Popover>
+                  </Styled(span)>
                 </Manager>
               </Popover>
             </ThemeProvider>
@@ -1232,7 +1224,7 @@ exports[`Tooltip demo examples Snapshots: cursor 1`] = `
                 placement="bottom"
               >
                 <Manager>
-                  <Popover
+                  <Styled(span)
                     content={[Function]}
                     cursor="not-allowed"
                     focusTriggerOnClose={false}
@@ -1245,7 +1237,11 @@ exports[`Tooltip demo examples Snapshots: cursor 1`] = `
                   >
                     <span
                       className="emotion-2"
+                      content={[Function]}
+                      cursor="not-allowed"
                       id="tooltip-10"
+                      onClose={[Function]}
+                      onOpen={[Function]}
                     >
                       <PopoverTrigger
                         aria-describedby="tooltip-10-content"
@@ -1263,11 +1259,12 @@ exports[`Tooltip demo examples Snapshots: cursor 1`] = `
                           <InnerReference
                             getReferenceRef={[Function]}
                           >
-                            <PopoverTrigger
+                            <Styled(span)
                               cursor="not-allowed"
                             >
                               <span
                                 className="emotion-4"
+                                cursor="not-allowed"
                               >
                                 <Styled(span)
                                   aria-describedby="tooltip-10-content"
@@ -1296,12 +1293,12 @@ exports[`Tooltip demo examples Snapshots: cursor 1`] = `
                                   </span>
                                 </Styled(span)>
                               </span>
-                            </PopoverTrigger>
+                            </Styled(span)>
                           </InnerReference>
                         </Reference>
                       </PopoverTrigger>
                     </span>
-                  </Popover>
+                  </Styled(span)>
                 </Manager>
               </Popover>
             </ThemeProvider>
@@ -1351,7 +1348,7 @@ exports[`Tooltip demo examples Snapshots: cursor 1`] = `
                 placement="bottom"
               >
                 <Manager>
-                  <Popover
+                  <Styled(span)
                     content={[Function]}
                     cursor="move"
                     focusTriggerOnClose={false}
@@ -1364,7 +1361,11 @@ exports[`Tooltip demo examples Snapshots: cursor 1`] = `
                   >
                     <span
                       className="emotion-2"
+                      content={[Function]}
+                      cursor="move"
                       id="tooltip-11"
+                      onClose={[Function]}
+                      onOpen={[Function]}
                     >
                       <PopoverTrigger
                         aria-describedby="tooltip-11-content"
@@ -1382,11 +1383,12 @@ exports[`Tooltip demo examples Snapshots: cursor 1`] = `
                           <InnerReference
                             getReferenceRef={[Function]}
                           >
-                            <PopoverTrigger
+                            <Styled(span)
                               cursor="move"
                             >
                               <span
                                 className="emotion-7"
+                                cursor="move"
                               >
                                 <Styled(span)
                                   aria-describedby="tooltip-11-content"
@@ -1415,12 +1417,12 @@ exports[`Tooltip demo examples Snapshots: cursor 1`] = `
                                   </span>
                                 </Styled(span)>
                               </span>
-                            </PopoverTrigger>
+                            </Styled(span)>
                           </InnerReference>
                         </Reference>
                       </PopoverTrigger>
                     </span>
-                  </Popover>
+                  </Styled(span)>
                 </Manager>
               </Popover>
             </ThemeProvider>
@@ -1549,17 +1551,14 @@ exports[`Tooltip demo examples Snapshots: disabled 1`] = `
   placement="bottom"
 >
   <WithForwardRef(Button)
-    element="button"
     iconStart={
       <IconPerson
         title="account settings"
       />
     }
     size="large"
-    type="button"
   >
     <Button
-      element="button"
       forwardedRef={null}
       iconStart={
         <IconPerson
@@ -1567,16 +1566,13 @@ exports[`Tooltip demo examples Snapshots: disabled 1`] = `
         />
       }
       size="large"
-      type="button"
     >
-      <Button
-        element="button"
+      <Styled(button)
         size="large"
-        type="button"
       >
         <button
           className="emotion-2"
-          type="button"
+          size="large"
         >
           <Styled(span)>
             <span
@@ -1607,6 +1603,7 @@ exports[`Tooltip demo examples Snapshots: disabled 1`] = `
                       className="emotion-0"
                       focusable="false"
                       role="img"
+                      size="1.5em"
                       viewBox="0 0 24 24"
                     >
                       <title
@@ -1626,7 +1623,7 @@ exports[`Tooltip demo examples Snapshots: disabled 1`] = `
             </span>
           </Styled(span)>
         </button>
-      </Button>
+      </Styled(button)>
     </Button>
   </WithForwardRef(Button)>
 </Tooltip>
@@ -1883,7 +1880,7 @@ exports[`Tooltip demo examples Snapshots: overflow 1`] = `
                 placement="top"
               >
                 <Manager>
-                  <Popover
+                  <Styled(span)
                     content={[Function]}
                     focusTriggerOnClose={false}
                     hasArrow={true}
@@ -1895,12 +1892,14 @@ exports[`Tooltip demo examples Snapshots: overflow 1`] = `
                   >
                     <span
                       className="emotion-8"
+                      content={[Function]}
                       id="tooltip-6"
+                      onClose={[Function]}
+                      onOpen={[Function]}
                     >
                       <PopoverTrigger
                         aria-describedby="tooltip-6-content"
                         aria-owns="tooltip-6-content"
-                        element="button"
                         onBlur={[Function]}
                         onClick={[Function]}
                         onFocus={[Function]}
@@ -1909,20 +1908,18 @@ exports[`Tooltip demo examples Snapshots: overflow 1`] = `
                         role="button"
                         size="large"
                         tabIndex={0}
-                        type="button"
                       >
                         <Reference>
                           <InnerReference
                             getReferenceRef={[Function]}
                           >
-                            <PopoverTrigger>
+                            <Styled(span)>
                               <span
                                 className="emotion-3"
                               >
                                 <WithForwardRef(Button)
                                   aria-describedby="tooltip-6-content"
                                   aria-owns="tooltip-6-content"
-                                  element="button"
                                   onBlur={[Function]}
                                   onClick={[Function]}
                                   onFocus={[Function]}
@@ -1931,12 +1928,10 @@ exports[`Tooltip demo examples Snapshots: overflow 1`] = `
                                   role="button"
                                   size="large"
                                   tabIndex={0}
-                                  type="button"
                                 >
                                   <Button
                                     aria-describedby="tooltip-6-content"
                                     aria-owns="tooltip-6-content"
-                                    element="button"
                                     forwardedRef={null}
                                     onBlur={[Function]}
                                     onClick={[Function]}
@@ -1946,12 +1941,10 @@ exports[`Tooltip demo examples Snapshots: overflow 1`] = `
                                     role="button"
                                     size="large"
                                     tabIndex={0}
-                                    type="button"
                                   >
-                                    <Button
+                                    <Styled(button)
                                       aria-describedby="tooltip-6-content"
                                       aria-owns="tooltip-6-content"
-                                      element="button"
                                       onBlur={[Function]}
                                       onClick={[Function]}
                                       onFocus={[Function]}
@@ -1961,7 +1954,6 @@ exports[`Tooltip demo examples Snapshots: overflow 1`] = `
                                       size="large"
                                       tabIndex={0}
                                       text="Button"
-                                      type="button"
                                     >
                                       <button
                                         aria-describedby="tooltip-6-content"
@@ -1973,8 +1965,8 @@ exports[`Tooltip demo examples Snapshots: overflow 1`] = `
                                         onMouseEnter={[Function]}
                                         onMouseLeave={[Function]}
                                         role="button"
+                                        size="large"
                                         tabIndex={0}
-                                        type="button"
                                       >
                                         <Styled(span)>
                                           <span
@@ -1985,6 +1977,7 @@ exports[`Tooltip demo examples Snapshots: overflow 1`] = `
                                             >
                                               <span
                                                 className="emotion-0"
+                                                size="large"
                                               >
                                                 Button
                                               </span>
@@ -1992,11 +1985,11 @@ exports[`Tooltip demo examples Snapshots: overflow 1`] = `
                                           </span>
                                         </Styled(span)>
                                       </button>
-                                    </Button>
+                                    </Styled(button)>
                                   </Button>
                                 </WithForwardRef(Button)>
                               </span>
-                            </PopoverTrigger>
+                            </Styled(span)>
                           </InnerReference>
                         </Reference>
                       </PopoverTrigger>
@@ -2156,7 +2149,6 @@ exports[`Tooltip demo examples Snapshots: overflow 1`] = `
                                       class="emotion-2"
                                       role="button"
                                       tabindex="0"
-                                      type="button"
                                     >
                                       <span
                                         class="emotion-1"
@@ -2171,7 +2163,7 @@ exports[`Tooltip demo examples Snapshots: overflow 1`] = `
                                   </span>
                                 }
                               >
-                                <PopoverContent
+                                <Styled(div)
                                   aria-live="polite"
                                   id="tooltip-6-content"
                                   onBlur={[Function]}
@@ -2207,7 +2199,7 @@ exports[`Tooltip demo examples Snapshots: overflow 1`] = `
                                         <ThemeProvider>
                                           <ThemeProvider>
                                             <CardBlock>
-                                              <CardBlock>
+                                              <Styled(div)>
                                                 <div
                                                   className="emotion-5"
                                                 >
@@ -2219,7 +2211,7 @@ exports[`Tooltip demo examples Snapshots: overflow 1`] = `
                                                     </div>
                                                   </Styled(div)>
                                                 </div>
-                                              </CardBlock>
+                                              </Styled(div)>
                                             </CardBlock>
                                           </ThemeProvider>
                                         </ThemeProvider>
@@ -2229,7 +2221,7 @@ exports[`Tooltip demo examples Snapshots: overflow 1`] = `
                                       size="8px"
                                       style={Object {}}
                                     >
-                                      <PopoverArrow
+                                      <Styled(span)
                                         aria-hidden={true}
                                         size="8px"
                                         style={Object {}}
@@ -2237,14 +2229,15 @@ exports[`Tooltip demo examples Snapshots: overflow 1`] = `
                                         <span
                                           aria-hidden={true}
                                           className="emotion-6"
+                                          size="8px"
                                           style={Object {}}
                                         >
                                           ▼
                                         </span>
-                                      </PopoverArrow>
+                                      </Styled(span)>
                                     </PopoverArrow>
                                   </div>
-                                </PopoverContent>
+                                </Styled(div)>
                               </InnerPopper>
                             </Popper>
                           </RtlPopper>
@@ -2269,7 +2262,7 @@ exports[`Tooltip demo examples Snapshots: overflow 1`] = `
                         }
                       />
                     </span>
-                  </Popover>
+                  </Styled(span)>
                 </Manager>
               </Popover>
             </ThemeProvider>
@@ -2530,7 +2523,7 @@ exports[`Tooltip demo examples Snapshots: placement 1`] = `
                 placement="bottom"
               >
                 <Manager>
-                  <Popover
+                  <Styled(span)
                     content={[Function]}
                     focusTriggerOnClose={false}
                     hasArrow={true}
@@ -2542,12 +2535,14 @@ exports[`Tooltip demo examples Snapshots: placement 1`] = `
                   >
                     <span
                       className="emotion-8"
+                      content={[Function]}
                       id="tooltip-4"
+                      onClose={[Function]}
+                      onOpen={[Function]}
                     >
                       <PopoverTrigger
                         aria-describedby="tooltip-4-content"
                         aria-owns="tooltip-4-content"
-                        element="button"
                         iconStart={
                           <IconDelete
                             title="delete"
@@ -2561,21 +2556,19 @@ exports[`Tooltip demo examples Snapshots: placement 1`] = `
                         role="button"
                         size="large"
                         tabIndex={0}
-                        type="button"
                         variant="danger"
                       >
                         <Reference>
                           <InnerReference
                             getReferenceRef={[Function]}
                           >
-                            <PopoverTrigger>
+                            <Styled(span)>
                               <span
                                 className="emotion-3"
                               >
                                 <WithForwardRef(Button)
                                   aria-describedby="tooltip-4-content"
                                   aria-owns="tooltip-4-content"
-                                  element="button"
                                   iconStart={
                                     <IconDelete
                                       title="delete"
@@ -2589,13 +2582,11 @@ exports[`Tooltip demo examples Snapshots: placement 1`] = `
                                   role="button"
                                   size="large"
                                   tabIndex={0}
-                                  type="button"
                                   variant="danger"
                                 >
                                   <Button
                                     aria-describedby="tooltip-4-content"
                                     aria-owns="tooltip-4-content"
-                                    element="button"
                                     forwardedRef={null}
                                     iconStart={
                                       <IconDelete
@@ -2610,13 +2601,11 @@ exports[`Tooltip demo examples Snapshots: placement 1`] = `
                                     role="button"
                                     size="large"
                                     tabIndex={0}
-                                    type="button"
                                     variant="danger"
                                   >
-                                    <Button
+                                    <Styled(button)
                                       aria-describedby="tooltip-4-content"
                                       aria-owns="tooltip-4-content"
-                                      element="button"
                                       onBlur={[Function]}
                                       onClick={[Function]}
                                       onFocus={[Function]}
@@ -2625,7 +2614,6 @@ exports[`Tooltip demo examples Snapshots: placement 1`] = `
                                       role="button"
                                       size="large"
                                       tabIndex={0}
-                                      type="button"
                                       variant="danger"
                                     >
                                       <button
@@ -2638,8 +2626,8 @@ exports[`Tooltip demo examples Snapshots: placement 1`] = `
                                         onMouseEnter={[Function]}
                                         onMouseLeave={[Function]}
                                         role="button"
+                                        size="large"
                                         tabIndex={0}
-                                        type="button"
                                       >
                                         <Styled(span)>
                                           <span
@@ -2670,6 +2658,7 @@ exports[`Tooltip demo examples Snapshots: placement 1`] = `
                                                     className="emotion-0"
                                                     focusable="false"
                                                     role="img"
+                                                    size="1.5em"
                                                     viewBox="0 0 24 24"
                                                   >
                                                     <title
@@ -2689,11 +2678,11 @@ exports[`Tooltip demo examples Snapshots: placement 1`] = `
                                           </span>
                                         </Styled(span)>
                                       </button>
-                                    </Button>
+                                    </Styled(button)>
                                   </Button>
                                 </WithForwardRef(Button)>
                               </span>
-                            </PopoverTrigger>
+                            </Styled(span)>
                           </InnerReference>
                         </Reference>
                       </PopoverTrigger>
@@ -2841,7 +2830,6 @@ exports[`Tooltip demo examples Snapshots: placement 1`] = `
                                       class="emotion-2"
                                       role="button"
                                       tabindex="0"
-                                      type="button"
                                     >
                                       <span
                                         class="emotion-1"
@@ -2869,7 +2857,7 @@ exports[`Tooltip demo examples Snapshots: placement 1`] = `
                                   </span>
                                 }
                               >
-                                <PopoverContent
+                                <Styled(div)
                                   aria-live="polite"
                                   id="tooltip-4-content"
                                   onBlur={[Function]}
@@ -2905,7 +2893,7 @@ exports[`Tooltip demo examples Snapshots: placement 1`] = `
                                         <ThemeProvider>
                                           <ThemeProvider>
                                             <CardBlock>
-                                              <CardBlock>
+                                              <Styled(div)>
                                                 <div
                                                   className="emotion-5"
                                                 >
@@ -2917,7 +2905,7 @@ exports[`Tooltip demo examples Snapshots: placement 1`] = `
                                                     </div>
                                                   </Styled(div)>
                                                 </div>
-                                              </CardBlock>
+                                              </Styled(div)>
                                             </CardBlock>
                                           </ThemeProvider>
                                         </ThemeProvider>
@@ -2927,7 +2915,7 @@ exports[`Tooltip demo examples Snapshots: placement 1`] = `
                                       size="8px"
                                       style={Object {}}
                                     >
-                                      <PopoverArrow
+                                      <Styled(span)
                                         aria-hidden={true}
                                         size="8px"
                                         style={Object {}}
@@ -2935,14 +2923,15 @@ exports[`Tooltip demo examples Snapshots: placement 1`] = `
                                         <span
                                           aria-hidden={true}
                                           className="emotion-6"
+                                          size="8px"
                                           style={Object {}}
                                         >
                                           ▼
                                         </span>
-                                      </PopoverArrow>
+                                      </Styled(span)>
                                     </PopoverArrow>
                                   </div>
-                                </PopoverContent>
+                                </Styled(div)>
                               </InnerPopper>
                             </Popper>
                           </RtlPopper>
@@ -2967,7 +2956,7 @@ exports[`Tooltip demo examples Snapshots: placement 1`] = `
                         }
                       />
                     </span>
-                  </Popover>
+                  </Styled(span)>
                 </Manager>
               </Popover>
             </ThemeProvider>
@@ -3323,6 +3312,7 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
       >
         <div
           className="emotion-10"
+          height={360}
         >
           <Styled(div)
             scrollAreaHeight={360}
@@ -3401,7 +3391,7 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                           usePortal={true}
                         >
                           <Manager>
-                            <Popover
+                            <Styled(span)
                               content={[Function]}
                               focusTriggerOnClose={false}
                               hasArrow={true}
@@ -3414,12 +3404,14 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                             >
                               <span
                                 className="emotion-8"
+                                content={[Function]}
                                 id="tooltip-8"
+                                onClose={[Function]}
+                                onOpen={[Function]}
                               >
                                 <PopoverTrigger
                                   aria-describedby="tooltip-8-content"
                                   aria-owns="tooltip-8-content"
-                                  element="button"
                                   onBlur={[Function]}
                                   onClick={[Function]}
                                   onFocus={[Function]}
@@ -3428,20 +3420,18 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                                   role="button"
                                   size="large"
                                   tabIndex={0}
-                                  type="button"
                                 >
                                   <Reference>
                                     <InnerReference
                                       getReferenceRef={[Function]}
                                     >
-                                      <PopoverTrigger>
+                                      <Styled(span)>
                                         <span
                                           className="emotion-3"
                                         >
                                           <WithForwardRef(Button)
                                             aria-describedby="tooltip-8-content"
                                             aria-owns="tooltip-8-content"
-                                            element="button"
                                             onBlur={[Function]}
                                             onClick={[Function]}
                                             onFocus={[Function]}
@@ -3450,12 +3440,10 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                                             role="button"
                                             size="large"
                                             tabIndex={0}
-                                            type="button"
                                           >
                                             <Button
                                               aria-describedby="tooltip-8-content"
                                               aria-owns="tooltip-8-content"
-                                              element="button"
                                               forwardedRef={null}
                                               onBlur={[Function]}
                                               onClick={[Function]}
@@ -3465,12 +3453,10 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                                               role="button"
                                               size="large"
                                               tabIndex={0}
-                                              type="button"
                                             >
-                                              <Button
+                                              <Styled(button)
                                                 aria-describedby="tooltip-8-content"
                                                 aria-owns="tooltip-8-content"
-                                                element="button"
                                                 onBlur={[Function]}
                                                 onClick={[Function]}
                                                 onFocus={[Function]}
@@ -3480,7 +3466,6 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                                                 size="large"
                                                 tabIndex={0}
                                                 text="Button"
-                                                type="button"
                                               >
                                                 <button
                                                   aria-describedby="tooltip-8-content"
@@ -3492,8 +3477,8 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                                                   onMouseEnter={[Function]}
                                                   onMouseLeave={[Function]}
                                                   role="button"
+                                                  size="large"
                                                   tabIndex={0}
-                                                  type="button"
                                                 >
                                                   <Styled(span)>
                                                     <span
@@ -3504,6 +3489,7 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                                                       >
                                                         <span
                                                           className="emotion-0"
+                                                          size="large"
                                                         >
                                                           Button
                                                         </span>
@@ -3511,11 +3497,11 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                                                     </span>
                                                   </Styled(span)>
                                                 </button>
-                                              </Button>
+                                              </Styled(button)>
                                             </Button>
                                           </WithForwardRef(Button)>
                                         </span>
-                                      </PopoverTrigger>
+                                      </Styled(span)>
                                     </InnerReference>
                                   </Reference>
                                 </PopoverTrigger>
@@ -3812,7 +3798,6 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                                                     class="emotion-2"
                                                     role="button"
                                                     tabindex="0"
-                                                    type="button"
                                                   >
                                                     <span
                                                       class="emotion-1"
@@ -3827,7 +3812,7 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                                                 </span>
                                               }
                                             >
-                                              <PopoverContent
+                                              <Styled(div)
                                                 aria-live="polite"
                                                 id="tooltip-8-content"
                                                 onBlur={[Function]}
@@ -3863,7 +3848,7 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                                                       <ThemeProvider>
                                                         <ThemeProvider>
                                                           <CardBlock>
-                                                            <CardBlock>
+                                                            <Styled(div)>
                                                               <div
                                                                 className="emotion-5"
                                                               >
@@ -3875,7 +3860,7 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                                                                   </div>
                                                                 </Styled(div)>
                                                               </div>
-                                                            </CardBlock>
+                                                            </Styled(div)>
                                                           </CardBlock>
                                                         </ThemeProvider>
                                                       </ThemeProvider>
@@ -3885,7 +3870,7 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                                                     size="8px"
                                                     style={Object {}}
                                                   >
-                                                    <PopoverArrow
+                                                    <Styled(span)
                                                       aria-hidden={true}
                                                       size="8px"
                                                       style={Object {}}
@@ -3893,14 +3878,15 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                                                       <span
                                                         aria-hidden={true}
                                                         className="emotion-6"
+                                                        size="8px"
                                                         style={Object {}}
                                                       >
                                                         ▼
                                                       </span>
-                                                    </PopoverArrow>
+                                                    </Styled(span)>
                                                   </PopoverArrow>
                                                 </div>
-                                              </PopoverContent>
+                                              </Styled(div)>
                                             </InnerPopper>
                                           </Popper>
                                         </RtlPopper>
@@ -3927,7 +3913,7 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                                   }
                                 />
                               </span>
-                            </Popover>
+                            </Styled(span)>
                           </Manager>
                         </Popover>
                       </ThemeProvider>
@@ -3940,42 +3926,34 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
         </div>
       </Styled(div)>
       <Styled(WithForwardRef(Button))
-        element="button"
         minimal={true}
         onClick={[Function]}
         size="small"
-        type="button"
       >
         <WithForwardRef(Button)
           className="emotion-14"
-          element="button"
           minimal={true}
           onClick={[Function]}
           size="small"
-          type="button"
         >
           <Button
             className="emotion-14"
-            element="button"
             forwardedRef={null}
             minimal={true}
             onClick={[Function]}
             size="small"
-            type="button"
           >
-            <Button
+            <Styled(button)
               className="emotion-14"
-              element="button"
               minimal={true}
               onClick={[Function]}
               size="small"
               text="Re-center"
-              type="button"
             >
               <button
                 className="emotion-13"
                 onClick={[Function]}
-                type="button"
+                size="small"
               >
                 <Styled(span)>
                   <span
@@ -3986,6 +3964,7 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                     >
                       <span
                         className="emotion-11"
+                        size="small"
                       >
                         Re-center
                       </span>
@@ -3993,7 +3972,7 @@ exports[`Tooltip demo examples Snapshots: portal 1`] = `
                   </span>
                 </Styled(span)>
               </button>
-            </Button>
+            </Styled(button)>
           </Button>
         </WithForwardRef(Button)>
       </Styled(WithForwardRef(Button))>
@@ -4142,7 +4121,7 @@ exports[`Tooltip demo examples Snapshots: prose 1`] = `
                   usePortal={true}
                 >
                   <Manager>
-                    <Popover
+                    <Styled(span)
                       content={[Function]}
                       focusTriggerOnClose={false}
                       hasArrow={true}
@@ -4155,7 +4134,10 @@ exports[`Tooltip demo examples Snapshots: prose 1`] = `
                     >
                       <span
                         className="emotion-6"
+                        content={[Function]}
                         id="tooltip-3"
+                        onClose={[Function]}
+                        onOpen={[Function]}
                       >
                         <PopoverTrigger
                           aria-describedby="tooltip-3-content"
@@ -4172,7 +4154,7 @@ exports[`Tooltip demo examples Snapshots: prose 1`] = `
                             <InnerReference
                               getReferenceRef={[Function]}
                             >
-                              <PopoverTrigger>
+                              <Styled(span)>
                                 <span
                                   className="emotion-1"
                                 >
@@ -4203,7 +4185,7 @@ exports[`Tooltip demo examples Snapshots: prose 1`] = `
                                     </span>
                                   </Styled(span)>
                                 </span>
-                              </PopoverTrigger>
+                              </Styled(span)>
                             </InnerReference>
                           </Reference>
                         </PopoverTrigger>
@@ -4356,7 +4338,7 @@ exports[`Tooltip demo examples Snapshots: prose 1`] = `
                                         </span>
                                       }
                                     >
-                                      <PopoverContent
+                                      <Styled(div)
                                         aria-live="polite"
                                         id="tooltip-3-content"
                                         onBlur={[Function]}
@@ -4392,7 +4374,7 @@ exports[`Tooltip demo examples Snapshots: prose 1`] = `
                                               <ThemeProvider>
                                                 <ThemeProvider>
                                                   <CardBlock>
-                                                    <CardBlock>
+                                                    <Styled(div)>
                                                       <div
                                                         className="emotion-3"
                                                       >
@@ -4404,7 +4386,7 @@ exports[`Tooltip demo examples Snapshots: prose 1`] = `
                                                           </div>
                                                         </Styled(div)>
                                                       </div>
-                                                    </CardBlock>
+                                                    </Styled(div)>
                                                   </CardBlock>
                                                 </ThemeProvider>
                                               </ThemeProvider>
@@ -4414,7 +4396,7 @@ exports[`Tooltip demo examples Snapshots: prose 1`] = `
                                             size="8px"
                                             style={Object {}}
                                           >
-                                            <PopoverArrow
+                                            <Styled(span)
                                               aria-hidden={true}
                                               size="8px"
                                               style={Object {}}
@@ -4422,14 +4404,15 @@ exports[`Tooltip demo examples Snapshots: prose 1`] = `
                                               <span
                                                 aria-hidden={true}
                                                 className="emotion-4"
+                                                size="8px"
                                                 style={Object {}}
                                               >
                                                 ▼
                                               </span>
-                                            </PopoverArrow>
+                                            </Styled(span)>
                                           </PopoverArrow>
                                         </div>
-                                      </PopoverContent>
+                                      </Styled(div)>
                                     </InnerPopper>
                                   </Popper>
                                 </RtlPopper>
@@ -4456,7 +4439,7 @@ exports[`Tooltip demo examples Snapshots: prose 1`] = `
                           }
                         />
                       </span>
-                    </Popover>
+                    </Styled(span)>
                   </Manager>
                 </Popover>
               </ThemeProvider>
@@ -4814,6 +4797,7 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
       >
         <div
           className="emotion-10"
+          height={360}
         >
           <Styled(div)
             scrollAreaHeight={360}
@@ -4860,7 +4844,7 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                           placement="left"
                         >
                           <Manager>
-                            <Popover
+                            <Styled(span)
                               content={[Function]}
                               focusTriggerOnClose={false}
                               hasArrow={true}
@@ -4872,12 +4856,14 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                             >
                               <span
                                 className="emotion-8"
+                                content={[Function]}
                                 id="tooltip-7"
+                                onClose={[Function]}
+                                onOpen={[Function]}
                               >
                                 <PopoverTrigger
                                   aria-describedby="tooltip-7-content"
                                   aria-owns="tooltip-7-content"
-                                  element="button"
                                   onBlur={[Function]}
                                   onClick={[Function]}
                                   onFocus={[Function]}
@@ -4886,20 +4872,18 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                                   role="button"
                                   size="large"
                                   tabIndex={0}
-                                  type="button"
                                 >
                                   <Reference>
                                     <InnerReference
                                       getReferenceRef={[Function]}
                                     >
-                                      <PopoverTrigger>
+                                      <Styled(span)>
                                         <span
                                           className="emotion-3"
                                         >
                                           <WithForwardRef(Button)
                                             aria-describedby="tooltip-7-content"
                                             aria-owns="tooltip-7-content"
-                                            element="button"
                                             onBlur={[Function]}
                                             onClick={[Function]}
                                             onFocus={[Function]}
@@ -4908,12 +4892,10 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                                             role="button"
                                             size="large"
                                             tabIndex={0}
-                                            type="button"
                                           >
                                             <Button
                                               aria-describedby="tooltip-7-content"
                                               aria-owns="tooltip-7-content"
-                                              element="button"
                                               forwardedRef={null}
                                               onBlur={[Function]}
                                               onClick={[Function]}
@@ -4923,12 +4905,10 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                                               role="button"
                                               size="large"
                                               tabIndex={0}
-                                              type="button"
                                             >
-                                              <Button
+                                              <Styled(button)
                                                 aria-describedby="tooltip-7-content"
                                                 aria-owns="tooltip-7-content"
-                                                element="button"
                                                 onBlur={[Function]}
                                                 onClick={[Function]}
                                                 onFocus={[Function]}
@@ -4938,7 +4918,6 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                                                 size="large"
                                                 tabIndex={0}
                                                 text="Button"
-                                                type="button"
                                               >
                                                 <button
                                                   aria-describedby="tooltip-7-content"
@@ -4950,8 +4929,8 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                                                   onMouseEnter={[Function]}
                                                   onMouseLeave={[Function]}
                                                   role="button"
+                                                  size="large"
                                                   tabIndex={0}
-                                                  type="button"
                                                 >
                                                   <Styled(span)>
                                                     <span
@@ -4962,6 +4941,7 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                                                       >
                                                         <span
                                                           className="emotion-0"
+                                                          size="large"
                                                         >
                                                           Button
                                                         </span>
@@ -4969,11 +4949,11 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                                                     </span>
                                                   </Styled(span)>
                                                 </button>
-                                              </Button>
+                                              </Styled(button)>
                                             </Button>
                                           </WithForwardRef(Button)>
                                         </span>
-                                      </PopoverTrigger>
+                                      </Styled(span)>
                                     </InnerReference>
                                   </Reference>
                                 </PopoverTrigger>
@@ -5133,7 +5113,6 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                                                 class="emotion-2"
                                                 role="button"
                                                 tabindex="0"
-                                                type="button"
                                               >
                                                 <span
                                                   class="emotion-1"
@@ -5148,7 +5127,7 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                                             </span>
                                           }
                                         >
-                                          <PopoverContent
+                                          <Styled(div)
                                             aria-live="polite"
                                             id="tooltip-7-content"
                                             onBlur={[Function]}
@@ -5184,7 +5163,7 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                                                   <ThemeProvider>
                                                     <ThemeProvider>
                                                       <CardBlock>
-                                                        <CardBlock>
+                                                        <Styled(div)>
                                                           <div
                                                             className="emotion-5"
                                                           >
@@ -5196,7 +5175,7 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                                                               </div>
                                                             </Styled(div)>
                                                           </div>
-                                                        </CardBlock>
+                                                        </Styled(div)>
                                                       </CardBlock>
                                                     </ThemeProvider>
                                                   </ThemeProvider>
@@ -5206,7 +5185,7 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                                                 size="8px"
                                                 style={Object {}}
                                               >
-                                                <PopoverArrow
+                                                <Styled(span)
                                                   aria-hidden={true}
                                                   size="8px"
                                                   style={Object {}}
@@ -5214,14 +5193,15 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                                                   <span
                                                     aria-hidden={true}
                                                     className="emotion-6"
+                                                    size="8px"
                                                     style={Object {}}
                                                   >
                                                     ▼
                                                   </span>
-                                                </PopoverArrow>
+                                                </Styled(span)>
                                               </PopoverArrow>
                                             </div>
-                                          </PopoverContent>
+                                          </Styled(div)>
                                         </InnerPopper>
                                       </Popper>
                                     </RtlPopper>
@@ -5246,7 +5226,7 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                                   }
                                 />
                               </span>
-                            </Popover>
+                            </Styled(span)>
                           </Manager>
                         </Popover>
                       </ThemeProvider>
@@ -5259,42 +5239,34 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
         </div>
       </Styled(div)>
       <Styled(WithForwardRef(Button))
-        element="button"
         minimal={true}
         onClick={[Function]}
         size="small"
-        type="button"
       >
         <WithForwardRef(Button)
           className="emotion-14"
-          element="button"
           minimal={true}
           onClick={[Function]}
           size="small"
-          type="button"
         >
           <Button
             className="emotion-14"
-            element="button"
             forwardedRef={null}
             minimal={true}
             onClick={[Function]}
             size="small"
-            type="button"
           >
-            <Button
+            <Styled(button)
               className="emotion-14"
-              element="button"
               minimal={true}
               onClick={[Function]}
               size="small"
               text="Re-center"
-              type="button"
             >
               <button
                 className="emotion-13"
                 onClick={[Function]}
-                type="button"
+                size="small"
               >
                 <Styled(span)>
                   <span
@@ -5305,6 +5277,7 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                     >
                       <span
                         className="emotion-11"
+                        size="small"
                       >
                         Re-center
                       </span>
@@ -5312,7 +5285,7 @@ exports[`Tooltip demo examples Snapshots: scrolling-container 1`] = `
                   </span>
                 </Styled(span)>
               </button>
-            </Button>
+            </Styled(button)>
           </Button>
         </WithForwardRef(Button)>
       </Styled(WithForwardRef(Button))>

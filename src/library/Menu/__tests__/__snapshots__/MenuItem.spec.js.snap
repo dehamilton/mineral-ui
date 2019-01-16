@@ -120,14 +120,14 @@ exports[`MenuItem demo examples Snapshots: basic 1`] = `
     className="emotion-13"
   >
     <Menu>
-      <Menu>
+      <Styled(div)>
         <div
           className="emotion-12"
         >
           <MenuItem
             element="div"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               onKeyDown={[Function]}
               tabIndex={0}
@@ -157,12 +157,12 @@ exports[`MenuItem demo examples Snapshots: basic 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               onKeyDown={[Function]}
               tabIndex={0}
@@ -192,12 +192,12 @@ exports[`MenuItem demo examples Snapshots: basic 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               onKeyDown={[Function]}
               tabIndex={0}
@@ -227,10 +227,10 @@ exports[`MenuItem demo examples Snapshots: basic 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
         </div>
-      </Menu>
+      </Styled(div)>
     </Menu>
   </div>
 </Styled(div)>
@@ -391,14 +391,14 @@ exports[`MenuItem demo examples Snapshots: disabled 1`] = `
     className="emotion-17"
   >
     <Menu>
-      <Menu>
+      <Styled(div)>
         <div
           className="emotion-16"
         >
           <MenuItem
             element="div"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               onKeyDown={[Function]}
               tabIndex={0}
@@ -428,12 +428,12 @@ exports[`MenuItem demo examples Snapshots: disabled 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               onKeyDown={[Function]}
               tabIndex={0}
@@ -463,20 +463,21 @@ exports[`MenuItem demo examples Snapshots: disabled 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             disabled={true}
             element="div"
             onClick={[Function]}
           >
-            <MenuItem
+            <Styled(div)
               disabled={true}
               element="div"
               tabIndex="-1"
             >
               <div
                 className="emotion-11"
+                disabled={true}
                 tabIndex="-1"
               >
                 <Styled(span)>
@@ -499,12 +500,12 @@ exports[`MenuItem demo examples Snapshots: disabled 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               onKeyDown={[Function]}
               tabIndex={0}
@@ -534,10 +535,10 @@ exports[`MenuItem demo examples Snapshots: disabled 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
         </div>
-      </Menu>
+      </Styled(div)>
     </Menu>
   </div>
 </Styled(div)>
@@ -853,7 +854,7 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
       className="emotion-38"
     >
       <Menu>
-        <Menu>
+        <Styled(div)>
           <div
             className="emotion-16"
           >
@@ -861,7 +862,7 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
               element="div"
               iconStart={<IconCloud />}
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 iconStart={<IconCloud />}
                 onKeyDown={[Function]}
@@ -897,6 +898,7 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
                               className="emotion-0"
                               focusable="false"
                               role="img"
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
                               <g>
@@ -924,13 +926,13 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuItem
               element="div"
               iconEnd={<IconCloud />}
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 iconEnd={<IconCloud />}
                 onKeyDown={[Function]}
@@ -979,6 +981,7 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
                               className="emotion-0"
                               focusable="false"
                               role="img"
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
                               <g>
@@ -993,14 +996,14 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuItem
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 iconEnd={<IconCloud />}
                 iconStart={<IconCloud />}
@@ -1037,6 +1040,7 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
                               className="emotion-0"
                               focusable="false"
                               role="img"
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
                               <g>
@@ -1082,6 +1086,7 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
                               className="emotion-0"
                               focusable="false"
                               role="img"
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
                               <g>
@@ -1096,13 +1101,13 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
           </div>
-        </Menu>
+        </Styled(div)>
       </Menu>
       <Menu>
-        <Menu>
+        <Styled(div)>
           <div
             className="emotion-16"
           >
@@ -1111,7 +1116,7 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
               iconStart={<IconCloud />}
               variant="danger"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 iconStart={<IconCloud />}
                 onKeyDown={[Function]}
@@ -1148,6 +1153,7 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
                               className="emotion-0"
                               focusable="false"
                               role="img"
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
                               <g>
@@ -1175,14 +1181,14 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuItem
               element="div"
               iconStart={<IconCloud />}
               variant="success"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 iconStart={<IconCloud />}
                 onKeyDown={[Function]}
@@ -1219,6 +1225,7 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
                               className="emotion-0"
                               focusable="false"
                               role="img"
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
                               <g>
@@ -1246,14 +1253,14 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuItem
               element="div"
               iconStart={<IconCloud />}
               variant="warning"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 iconStart={<IconCloud />}
                 onKeyDown={[Function]}
@@ -1290,6 +1297,7 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
                               className="emotion-0"
                               focusable="false"
                               role="img"
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
                               <g>
@@ -1317,14 +1325,14 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuItem
               disabled={true}
               element="div"
               iconStart={<IconCloud />}
             >
-              <MenuItem
+              <Styled(div)
                 disabled={true}
                 element="div"
                 iconStart={<IconCloud />}
@@ -1332,6 +1340,7 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
               >
                 <div
                   className="emotion-36"
+                  disabled={true}
                   tabIndex="-1"
                 >
                   <Styled(span)>
@@ -1359,6 +1368,7 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
                               className="emotion-0"
                               focusable="false"
                               role="img"
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
                               <g>
@@ -1386,10 +1396,10 @@ exports[`MenuItem demo examples Snapshots: icons 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
           </div>
-        </Menu>
+        </Styled(div)>
       </Menu>
     </div>
   </Styled(div)>
@@ -1534,7 +1544,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
     className="emotion-123"
   >
     <Menu>
-      <Menu>
+      <Styled(div)>
         <div
           className="emotion-67"
         >
@@ -1543,7 +1553,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
             iconEnd={<IconCloud />}
             iconStart={<IconCloud />}
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -1580,6 +1590,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -1625,6 +1636,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -1639,14 +1651,14 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
             iconEnd={<IconCloud />}
             iconStart={<IconCloud />}
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -1683,6 +1695,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -1728,6 +1741,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -1742,14 +1756,14 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
             iconEnd={<IconCloud />}
             iconStart={<IconCloud />}
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -1786,6 +1800,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -1831,6 +1846,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -1845,7 +1861,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
@@ -1853,7 +1869,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
             iconStart={<IconCloud />}
             secondaryText="Kitchen Sink"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -1891,6 +1907,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -1941,6 +1958,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -1955,7 +1973,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
@@ -1963,7 +1981,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
             iconStart={<IconCloud />}
             secondaryText="Kitchen Siiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiink"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -2001,6 +2019,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2051,6 +2070,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2065,7 +2085,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
@@ -2073,7 +2093,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
             iconStart={<IconCloud />}
             secondaryText="Kitchen Sink with much longer text to force wrapping"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -2111,6 +2131,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2161,6 +2182,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2175,7 +2197,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
@@ -2183,7 +2205,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
             iconStart={<IconCloud />}
             secondaryText="Kitchen sink"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -2221,6 +2243,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2273,6 +2296,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2287,7 +2311,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
@@ -2295,7 +2319,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
             iconStart={<IconCloud />}
             secondaryText="Kitchen sink"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -2333,6 +2357,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2385,6 +2410,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2399,7 +2425,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
@@ -2407,7 +2433,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
             iconStart={<IconCloud />}
             secondaryText="Kitchen Sink with much longer text to force wrapping"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -2445,6 +2471,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2497,6 +2524,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2511,7 +2539,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
@@ -2519,7 +2547,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
             iconStart={<IconCloud />}
             secondaryText="Kitchen Sink with much longer text to force wrapping"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -2557,6 +2585,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2609,6 +2638,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2623,13 +2653,13 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
         </div>
-      </Menu>
+      </Styled(div)>
     </Menu>
     <Menu>
-      <Menu>
+      <Styled(div)>
         <div
           className="emotion-67"
         >
@@ -2638,7 +2668,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
             iconEnd={<IconCloud />}
             iconStart={<IconCloud />}
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -2675,6 +2705,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2720,6 +2751,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2734,14 +2766,14 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
             iconEnd={<IconCloud />}
             iconStart={<IconCloud />}
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -2778,6 +2810,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2823,6 +2856,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2837,7 +2871,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
@@ -2845,7 +2879,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
             iconStart={<IconCloud />}
             secondaryText="Kitchen Sink"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -2883,6 +2917,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2933,6 +2968,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -2947,7 +2983,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
@@ -2955,7 +2991,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
             iconStart={<IconCloud />}
             secondaryText="Kitchen Sink with much longer text to force wrapping"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -2993,6 +3029,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -3043,6 +3080,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -3057,7 +3095,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
@@ -3065,7 +3103,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
             iconStart={<IconCloud />}
             secondaryText="Kitchen sink"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -3103,6 +3141,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -3155,6 +3194,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -3169,7 +3209,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
@@ -3177,7 +3217,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
             iconStart={<IconCloud />}
             secondaryText="Kitchen sink"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -3215,6 +3255,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -3267,6 +3308,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -3281,7 +3323,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
@@ -3289,7 +3331,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
             iconStart={<IconCloud />}
             secondaryText="Kitchen Sink with much longer text to force wrapping"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -3327,6 +3369,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -3379,6 +3422,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -3393,7 +3437,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
@@ -3401,7 +3445,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
             iconStart={<IconCloud />}
             secondaryText="Kitchen Sink with much longer text to force wrapping"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               iconStart={<IconCloud />}
@@ -3439,6 +3483,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -3491,6 +3536,7 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -3505,10 +3551,10 @@ exports[`MenuItem demo examples Snapshots: kitchen-sink 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
         </div>
-      </Menu>
+      </Styled(div)>
     </Menu>
   </div>
 </Styled(div)>
@@ -3656,14 +3702,14 @@ exports[`MenuItem demo examples Snapshots: rtl 1`] = `
     <ThemeProvider>
       <ThemeProvider>
         <Menu>
-          <Menu>
+          <Styled(div)>
             <div
               className="emotion-19"
             >
               <MenuItem
                 element="div"
               >
-                <MenuItem
+                <Styled(div)
                   element="div"
                   onKeyDown={[Function]}
                   tabIndex={0}
@@ -3693,13 +3739,13 @@ exports[`MenuItem demo examples Snapshots: rtl 1`] = `
                       </span>
                     </Styled(span)>
                   </div>
-                </MenuItem>
+                </Styled(div)>
               </MenuItem>
               <MenuItem
                 element="div"
                 secondaryText="نص ثانوي"
               >
-                <MenuItem
+                <Styled(div)
                   element="div"
                   onKeyDown={[Function]}
                   secondaryText="نص ثانوي"
@@ -3737,13 +3783,13 @@ exports[`MenuItem demo examples Snapshots: rtl 1`] = `
                       </span>
                     </Styled(span)>
                   </div>
-                </MenuItem>
+                </Styled(div)>
               </MenuItem>
               <MenuItem
                 element="div"
                 iconStart={<IconHelp />}
               >
-                <MenuItem
+                <Styled(div)
                   element="div"
                   iconStart={<IconHelp />}
                   onKeyDown={[Function]}
@@ -3779,6 +3825,7 @@ exports[`MenuItem demo examples Snapshots: rtl 1`] = `
                                 className="emotion-9"
                                 focusable="false"
                                 role="img"
+                                size="1.5em"
                                 viewBox="0 0 24 24"
                               >
                                 <g>
@@ -3806,13 +3853,13 @@ exports[`MenuItem demo examples Snapshots: rtl 1`] = `
                       </span>
                     </Styled(span)>
                   </div>
-                </MenuItem>
+                </Styled(div)>
               </MenuItem>
               <MenuItem
                 element="div"
                 iconEnd={<IconHelp />}
               >
-                <MenuItem
+                <Styled(div)
                   element="div"
                   iconEnd={<IconHelp />}
                   onKeyDown={[Function]}
@@ -3861,6 +3908,7 @@ exports[`MenuItem demo examples Snapshots: rtl 1`] = `
                                 className="emotion-9"
                                 focusable="false"
                                 role="img"
+                                size="1.5em"
                                 viewBox="0 0 24 24"
                               >
                                 <g>
@@ -3875,10 +3923,10 @@ exports[`MenuItem demo examples Snapshots: rtl 1`] = `
                       </span>
                     </Styled(span)>
                   </div>
-                </MenuItem>
+                </Styled(div)>
               </MenuItem>
             </div>
-          </Menu>
+          </Styled(div)>
         </Menu>
       </ThemeProvider>
     </ThemeProvider>
@@ -4013,7 +4061,7 @@ exports[`MenuItem demo examples Snapshots: secondary-text 1`] = `
     className="emotion-16"
   >
     <Menu>
-      <Menu>
+      <Styled(div)>
         <div
           className="emotion-15"
         >
@@ -4021,7 +4069,7 @@ exports[`MenuItem demo examples Snapshots: secondary-text 1`] = `
             element="div"
             secondaryText="Star stuff"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               onKeyDown={[Function]}
               secondaryText="Star stuff"
@@ -4059,13 +4107,13 @@ exports[`MenuItem demo examples Snapshots: secondary-text 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
             secondaryText="Distant epochs"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               onKeyDown={[Function]}
               secondaryText="Distant epochs"
@@ -4103,13 +4151,13 @@ exports[`MenuItem demo examples Snapshots: secondary-text 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
             secondaryText="Cosmic ocean"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               onKeyDown={[Function]}
               secondaryText="Cosmic ocean"
@@ -4147,10 +4195,10 @@ exports[`MenuItem demo examples Snapshots: secondary-text 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
         </div>
-      </Menu>
+      </Styled(div)>
     </Menu>
   </div>
 </Styled(div)>
@@ -4381,7 +4429,7 @@ exports[`MenuItem demo examples Snapshots: variants 1`] = `
     className="emotion-16"
   >
     <Menu>
-      <Menu>
+      <Styled(div)>
         <div
           className="emotion-15"
         >
@@ -4389,7 +4437,7 @@ exports[`MenuItem demo examples Snapshots: variants 1`] = `
             element="div"
             variant="danger"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               onKeyDown={[Function]}
               tabIndex={0}
@@ -4424,6 +4472,7 @@ exports[`MenuItem demo examples Snapshots: variants 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -4451,13 +4500,13 @@ exports[`MenuItem demo examples Snapshots: variants 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
             variant="success"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               onKeyDown={[Function]}
               tabIndex={0}
@@ -4492,6 +4541,7 @@ exports[`MenuItem demo examples Snapshots: variants 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -4519,13 +4569,13 @@ exports[`MenuItem demo examples Snapshots: variants 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
             variant="warning"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               onKeyDown={[Function]}
               tabIndex={0}
@@ -4560,6 +4610,7 @@ exports[`MenuItem demo examples Snapshots: variants 1`] = `
                             className="emotion-0"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -4587,10 +4638,10 @@ exports[`MenuItem demo examples Snapshots: variants 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
         </div>
-      </Menu>
+      </Styled(div)>
     </Menu>
   </div>
 </Styled(div)>

@@ -474,12 +474,12 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
     className="emotion-38"
   >
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-12"
         >
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-1"
               >
@@ -494,10 +494,10 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardActions>
-            <CardActions>
+            <Styled(div)>
               <div
                 className="emotion-11"
               >
@@ -508,25 +508,19 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                     className="emotion-5"
                   >
                     <WithForwardRef(Button)
-                      element="button"
                       size="medium"
-                      type="button"
                     >
                       <Button
-                        element="button"
                         forwardedRef={null}
                         size="medium"
-                        type="button"
                       >
-                        <Button
-                          element="button"
+                        <Styled(button)
                           size="medium"
                           text="Button 1"
-                          type="button"
                         >
                           <button
                             className="emotion-4"
-                            type="button"
+                            size="medium"
                           >
                             <Styled(span)>
                               <span
@@ -537,6 +531,7 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                                 >
                                   <span
                                     className="emotion-2"
+                                    size="medium"
                                   >
                                     Button 1
                                   </span>
@@ -544,7 +539,7 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                               </span>
                             </Styled(span)>
                           </button>
-                        </Button>
+                        </Styled(button)>
                       </Button>
                     </WithForwardRef(Button)>
                   </span>
@@ -556,27 +551,21 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                     className="emotion-5"
                   >
                     <WithForwardRef(Button)
-                      element="button"
                       iconStart={<IconCloud />}
                       size="medium"
-                      type="button"
                     >
                       <Button
-                        element="button"
                         forwardedRef={null}
                         iconStart={<IconCloud />}
                         size="medium"
-                        type="button"
                       >
-                        <Button
-                          element="button"
+                        <Styled(button)
                           size="medium"
                           text="Button 2"
-                          type="button"
                         >
                           <button
                             className="emotion-4"
-                            type="button"
+                            size="medium"
                           >
                             <Styled(span)>
                               <span
@@ -603,6 +592,7 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                                         className="emotion-6"
                                         focusable="false"
                                         role="img"
+                                        size="medium"
                                         viewBox="0 0 24 24"
                                       >
                                         <g>
@@ -619,6 +609,7 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                                 >
                                   <span
                                     className="emotion-2"
+                                    size="medium"
                                   >
                                     Button 2
                                   </span>
@@ -626,24 +617,24 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                               </span>
                             </Styled(span)>
                           </button>
-                        </Button>
+                        </Styled(button)>
                       </Button>
                     </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
               </div>
-            </CardActions>
+            </Styled(div)>
           </CardActions>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-12"
         >
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-1"
               >
@@ -658,10 +649,10 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardActions>
-            <CardActions>
+            <Styled(div)>
               <div
                 className="emotion-11"
               >
@@ -672,28 +663,22 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                     className="emotion-5"
                   >
                     <WithForwardRef(Button)
-                      element="button"
                       minimal={true}
                       size="medium"
-                      type="button"
                     >
                       <Button
-                        element="button"
                         forwardedRef={null}
                         minimal={true}
                         size="medium"
-                        type="button"
                       >
-                        <Button
-                          element="button"
+                        <Styled(button)
                           minimal={true}
                           size="medium"
                           text="Button 1"
-                          type="button"
                         >
                           <button
                             className="emotion-17"
-                            type="button"
+                            size="medium"
                           >
                             <Styled(span)>
                               <span
@@ -704,6 +689,7 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                                 >
                                   <span
                                     className="emotion-2"
+                                    size="medium"
                                   >
                                     Button 1
                                   </span>
@@ -711,7 +697,7 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                               </span>
                             </Styled(span)>
                           </button>
-                        </Button>
+                        </Styled(button)>
                       </Button>
                     </WithForwardRef(Button)>
                   </span>
@@ -723,30 +709,24 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                     className="emotion-5"
                   >
                     <WithForwardRef(Button)
-                      element="button"
                       iconStart={<IconCloud />}
                       primary={true}
                       size="medium"
-                      type="button"
                     >
                       <Button
-                        element="button"
                         forwardedRef={null}
                         iconStart={<IconCloud />}
                         primary={true}
                         size="medium"
-                        type="button"
                       >
-                        <Button
-                          element="button"
+                        <Styled(button)
                           primary={true}
                           size="medium"
                           text="Button 2"
-                          type="button"
                         >
                           <button
                             className="emotion-22"
-                            type="button"
+                            size="medium"
                           >
                             <Styled(span)>
                               <span
@@ -773,6 +753,7 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                                         className="emotion-6"
                                         focusable="false"
                                         role="img"
+                                        size="medium"
                                         viewBox="0 0 24 24"
                                       >
                                         <g>
@@ -789,6 +770,7 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                                 >
                                   <span
                                     className="emotion-2"
+                                    size="medium"
                                   >
                                     Button 2
                                   </span>
@@ -796,24 +778,24 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                               </span>
                             </Styled(span)>
                           </button>
-                        </Button>
+                        </Styled(button)>
                       </Button>
                     </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
               </div>
-            </CardActions>
+            </Styled(div)>
           </CardActions>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-12"
         >
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-1"
               >
@@ -828,10 +810,10 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardActions>
-            <CardActions>
+            <Styled(div)>
               <div
                 className="emotion-11"
               >
@@ -842,7 +824,6 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                     className="emotion-5"
                   >
                     <WithForwardRef(Button)
-                      element="button"
                       iconStart={
                         <IconCloud
                           title="Button label 1"
@@ -850,10 +831,8 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                       }
                       minimal={true}
                       size="medium"
-                      type="button"
                     >
                       <Button
-                        element="button"
                         forwardedRef={null}
                         iconStart={
                           <IconCloud
@@ -862,17 +841,14 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                         }
                         minimal={true}
                         size="medium"
-                        type="button"
                       >
-                        <Button
-                          element="button"
+                        <Styled(button)
                           minimal={true}
                           size="medium"
-                          type="button"
                         >
                           <button
                             className="emotion-30"
-                            type="button"
+                            size="medium"
                           >
                             <Styled(span)>
                               <span
@@ -903,6 +879,7 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                                         className="emotion-6"
                                         focusable="false"
                                         role="img"
+                                        size="medium"
                                         viewBox="0 0 24 24"
                                       >
                                         <title
@@ -922,7 +899,7 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                               </span>
                             </Styled(span)>
                           </button>
-                        </Button>
+                        </Styled(button)>
                       </Button>
                     </WithForwardRef(Button)>
                   </span>
@@ -934,7 +911,6 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                     className="emotion-5"
                   >
                     <WithForwardRef(Button)
-                      element="button"
                       iconStart={
                         <IconCloud
                           title="Button label 2"
@@ -942,10 +918,8 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                       }
                       minimal={true}
                       size="medium"
-                      type="button"
                     >
                       <Button
-                        element="button"
                         forwardedRef={null}
                         iconStart={
                           <IconCloud
@@ -954,17 +928,14 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                         }
                         minimal={true}
                         size="medium"
-                        type="button"
                       >
-                        <Button
-                          element="button"
+                        <Styled(button)
                           minimal={true}
                           size="medium"
-                          type="button"
                         >
                           <button
                             className="emotion-30"
-                            type="button"
+                            size="medium"
                           >
                             <Styled(span)>
                               <span
@@ -995,6 +966,7 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                                         className="emotion-6"
                                         focusable="false"
                                         role="img"
+                                        size="medium"
                                         viewBox="0 0 24 24"
                                       >
                                         <title
@@ -1014,16 +986,16 @@ exports[`CardActions demo examples Snapshots: basic 1`] = `
                               </span>
                             </Styled(span)>
                           </button>
-                        </Button>
+                        </Styled(button)>
                       </Button>
                     </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
               </div>
-            </CardActions>
+            </Styled(div)>
           </CardActions>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
   </div>
 </Styled(div)>
@@ -1264,12 +1236,12 @@ exports[`CardActions demo examples Snapshots: rtl 1`] = `
     <ThemeProvider>
       <ThemeProvider>
         <Card>
-          <Card>
+          <Styled(div)>
             <div
               className="emotion-12"
             >
               <CardBlock>
-                <CardBlock>
+                <Styled(div)>
                   <div
                     className="emotion-1"
                   >
@@ -1283,10 +1255,10 @@ exports[`CardActions demo examples Snapshots: rtl 1`] = `
                       </div>
                     </Styled(div)>
                   </div>
-                </CardBlock>
+                </Styled(div)>
               </CardBlock>
               <CardActions>
-                <CardActions>
+                <Styled(div)>
                   <div
                     className="emotion-11"
                   >
@@ -1297,25 +1269,19 @@ exports[`CardActions demo examples Snapshots: rtl 1`] = `
                         className="emotion-5"
                       >
                         <WithForwardRef(Button)
-                          element="button"
                           size="medium"
-                          type="button"
                         >
                           <Button
-                            element="button"
                             forwardedRef={null}
                             size="medium"
-                            type="button"
                           >
-                            <Button
-                              element="button"
+                            <Styled(button)
                               size="medium"
                               text="زر واحد"
-                              type="button"
                             >
                               <button
                                 className="emotion-4"
-                                type="button"
+                                size="medium"
                               >
                                 <Styled(span)>
                                   <span
@@ -1326,6 +1292,7 @@ exports[`CardActions demo examples Snapshots: rtl 1`] = `
                                     >
                                       <span
                                         className="emotion-2"
+                                        size="medium"
                                       >
                                         زر واحد
                                       </span>
@@ -1333,7 +1300,7 @@ exports[`CardActions demo examples Snapshots: rtl 1`] = `
                                   </span>
                                 </Styled(span)>
                               </button>
-                            </Button>
+                            </Styled(button)>
                           </Button>
                         </WithForwardRef(Button)>
                       </span>
@@ -1345,27 +1312,21 @@ exports[`CardActions demo examples Snapshots: rtl 1`] = `
                         className="emotion-5"
                       >
                         <WithForwardRef(Button)
-                          element="button"
                           iconStart={<IconCloud />}
                           size="medium"
-                          type="button"
                         >
                           <Button
-                            element="button"
                             forwardedRef={null}
                             iconStart={<IconCloud />}
                             size="medium"
-                            type="button"
                           >
-                            <Button
-                              element="button"
+                            <Styled(button)
                               size="medium"
                               text="زر اثنين"
-                              type="button"
                             >
                               <button
                                 className="emotion-4"
-                                type="button"
+                                size="medium"
                               >
                                 <Styled(span)>
                                   <span
@@ -1392,6 +1353,7 @@ exports[`CardActions demo examples Snapshots: rtl 1`] = `
                                             className="emotion-6"
                                             focusable="false"
                                             role="img"
+                                            size="medium"
                                             viewBox="0 0 24 24"
                                           >
                                             <g>
@@ -1408,6 +1370,7 @@ exports[`CardActions demo examples Snapshots: rtl 1`] = `
                                     >
                                       <span
                                         className="emotion-2"
+                                        size="medium"
                                       >
                                         زر اثنين
                                       </span>
@@ -1415,16 +1378,16 @@ exports[`CardActions demo examples Snapshots: rtl 1`] = `
                                   </span>
                                 </Styled(span)>
                               </button>
-                            </Button>
+                            </Styled(button)>
                           </Button>
                         </WithForwardRef(Button)>
                       </span>
                     </Styled(span)>
                   </div>
-                </CardActions>
+                </Styled(div)>
               </CardActions>
             </div>
-          </Card>
+          </Styled(div)>
         </Card>
       </ThemeProvider>
     </ThemeProvider>
@@ -1564,12 +1527,12 @@ exports[`CardActions demo examples Snapshots: with-links 1`] = `
     className="emotion-8"
   >
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-7"
         >
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-1"
               >
@@ -1584,10 +1547,10 @@ exports[`CardActions demo examples Snapshots: with-links 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardActions>
-            <CardActions>
+            <Styled(div)>
               <div
                 className="emotion-6"
               >
@@ -1601,12 +1564,10 @@ exports[`CardActions demo examples Snapshots: with-links 1`] = `
                       href="https://example.com"
                     >
                       <Link
-                        element="a"
                         href="https://example.com"
                         target="_blank"
                       >
-                        <Link
-                          element="a"
+                        <Styled(a)
                           href="https://example.com"
                           target="_blank"
                         >
@@ -1617,7 +1578,7 @@ exports[`CardActions demo examples Snapshots: with-links 1`] = `
                           >
                             Link 1
                           </a>
-                        </Link>
+                        </Styled(a)>
                       </Link>
                     </Link>
                   </span>
@@ -1632,12 +1593,10 @@ exports[`CardActions demo examples Snapshots: with-links 1`] = `
                       href="https://example.com"
                     >
                       <Link
-                        element="a"
                         href="https://example.com"
                         target="_blank"
                       >
-                        <Link
-                          element="a"
+                        <Styled(a)
                           href="https://example.com"
                           target="_blank"
                         >
@@ -1648,16 +1607,16 @@ exports[`CardActions demo examples Snapshots: with-links 1`] = `
                           >
                             Link 2
                           </a>
-                        </Link>
+                        </Styled(a)>
                       </Link>
                     </Link>
                   </span>
                 </Styled(span)>
               </div>
-            </CardActions>
+            </Styled(div)>
           </CardActions>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
   </div>
 </Styled(div)>

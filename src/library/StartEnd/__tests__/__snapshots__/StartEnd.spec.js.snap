@@ -402,7 +402,7 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                 gutterWidth="md"
                 justifyContent="between"
               >
-                <Flex
+                <Styled(Box)
                   alignItems="stretch"
                   className="emotion-15"
                   direction="row"
@@ -428,6 +428,7 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                     >
                       <div
                         className="emotion-12"
+                        direction="row"
                       >
                         <FlexItem
                           grow={0}
@@ -435,7 +436,7 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                           marginEnd="1em"
                           shrink={1}
                         >
-                          <FlexItem
+                          <Styled(Box)
                             element="div"
                             grow={0}
                             marginEnd="1em"
@@ -480,14 +481,14 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                                 </div>
                               </Styled(div)>
                             </Box>
-                          </FlexItem>
+                          </Styled(Box)>
                         </FlexItem>
                         <FlexItem
                           grow={0}
                           key=".$.1"
                           shrink={1}
                         >
-                          <FlexItem
+                          <Styled(Box)
                             element="div"
                             grow={0}
                             shrink={1}
@@ -529,12 +530,12 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                                 </div>
                               </Styled(div)>
                             </Box>
-                          </FlexItem>
+                          </Styled(Box)>
                         </FlexItem>
                       </div>
                     </Styled(div)>
                   </Box>
-                </Flex>
+                </Styled(Box)>
               </Component>
             </WithTheme(Component)>
           </Flex>
@@ -569,7 +570,7 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                 gutterWidth="md"
                 justifyContent="between"
               >
-                <Flex
+                <Styled(Box)
                   alignItems="start"
                   className="emotion-15"
                   direction="row"
@@ -595,6 +596,7 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                     >
                       <div
                         className="emotion-32"
+                        direction="row"
                       >
                         <FlexItem
                           grow={0}
@@ -602,7 +604,7 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                           marginEnd="1em"
                           shrink={1}
                         >
-                          <FlexItem
+                          <Styled(Box)
                             element="div"
                             grow={0}
                             marginEnd="1em"
@@ -647,14 +649,14 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                                 </div>
                               </Styled(div)>
                             </Box>
-                          </FlexItem>
+                          </Styled(Box)>
                         </FlexItem>
                         <FlexItem
                           grow={0}
                           key=".$.1"
                           shrink={1}
                         >
-                          <FlexItem
+                          <Styled(Box)
                             element="div"
                             grow={0}
                             shrink={1}
@@ -696,12 +698,12 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                                 </div>
                               </Styled(div)>
                             </Box>
-                          </FlexItem>
+                          </Styled(Box)>
                         </FlexItem>
                       </div>
                     </Styled(div)>
                   </Box>
-                </Flex>
+                </Styled(Box)>
               </Component>
             </WithTheme(Component)>
           </Flex>
@@ -736,7 +738,7 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                 gutterWidth="md"
                 justifyContent="between"
               >
-                <Flex
+                <Styled(Box)
                   alignItems="center"
                   className="emotion-15"
                   direction="row"
@@ -762,6 +764,7 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                     >
                       <div
                         className="emotion-52"
+                        direction="row"
                       >
                         <FlexItem
                           grow={0}
@@ -769,7 +772,7 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                           marginEnd="1em"
                           shrink={1}
                         >
-                          <FlexItem
+                          <Styled(Box)
                             element="div"
                             grow={0}
                             marginEnd="1em"
@@ -814,14 +817,14 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                                 </div>
                               </Styled(div)>
                             </Box>
-                          </FlexItem>
+                          </Styled(Box)>
                         </FlexItem>
                         <FlexItem
                           grow={0}
                           key=".$.1"
                           shrink={1}
                         >
-                          <FlexItem
+                          <Styled(Box)
                             element="div"
                             grow={0}
                             shrink={1}
@@ -863,12 +866,12 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                                 </div>
                               </Styled(div)>
                             </Box>
-                          </FlexItem>
+                          </Styled(Box)>
                         </FlexItem>
                       </div>
                     </Styled(div)>
                   </Box>
-                </Flex>
+                </Styled(Box)>
               </Component>
             </WithTheme(Component)>
           </Flex>
@@ -903,7 +906,7 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                 gutterWidth="md"
                 justifyContent="between"
               >
-                <Flex
+                <Styled(Box)
                   alignItems="end"
                   className="emotion-15"
                   direction="row"
@@ -929,6 +932,7 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                     >
                       <div
                         className="emotion-72"
+                        direction="row"
                       >
                         <FlexItem
                           grow={0}
@@ -936,7 +940,7 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                           marginEnd="1em"
                           shrink={1}
                         >
-                          <FlexItem
+                          <Styled(Box)
                             element="div"
                             grow={0}
                             marginEnd="1em"
@@ -981,14 +985,14 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                                 </div>
                               </Styled(div)>
                             </Box>
-                          </FlexItem>
+                          </Styled(Box)>
                         </FlexItem>
                         <FlexItem
                           grow={0}
                           key=".$.1"
                           shrink={1}
                         >
-                          <FlexItem
+                          <Styled(Box)
                             element="div"
                             grow={0}
                             shrink={1}
@@ -1030,12 +1034,12 @@ exports[`StartEnd demo examples Snapshots: align-items 1`] = `
                                 </div>
                               </Styled(div)>
                             </Box>
-                          </FlexItem>
+                          </Styled(Box)>
                         </FlexItem>
                       </div>
                     </Styled(div)>
                   </Box>
-                </Flex>
+                </Styled(Box)>
               </Component>
             </WithTheme(Component)>
           </Flex>
@@ -1255,7 +1259,7 @@ exports[`StartEnd demo examples Snapshots: basic 1`] = `
           gutterWidth="md"
           justifyContent="between"
         >
-          <Flex
+          <Styled(Box)
             alignItems="stretch"
             className="emotion-15"
             direction="row"
@@ -1281,6 +1285,7 @@ exports[`StartEnd demo examples Snapshots: basic 1`] = `
               >
                 <div
                   className="emotion-12"
+                  direction="row"
                 >
                   <FlexItem
                     grow={0}
@@ -1288,7 +1293,7 @@ exports[`StartEnd demo examples Snapshots: basic 1`] = `
                     marginEnd="1em"
                     shrink={1}
                   >
-                    <FlexItem
+                    <Styled(Box)
                       element="div"
                       grow={0}
                       marginEnd="1em"
@@ -1333,14 +1338,14 @@ exports[`StartEnd demo examples Snapshots: basic 1`] = `
                           </div>
                         </Styled(div)>
                       </Box>
-                    </FlexItem>
+                    </Styled(Box)>
                   </FlexItem>
                   <FlexItem
                     grow={0}
                     key=".$.1"
                     shrink={1}
                   >
-                    <FlexItem
+                    <Styled(Box)
                       element="div"
                       grow={0}
                       shrink={1}
@@ -1382,12 +1387,12 @@ exports[`StartEnd demo examples Snapshots: basic 1`] = `
                           </div>
                         </Styled(div)>
                       </Box>
-                    </FlexItem>
+                    </Styled(Box)>
                   </FlexItem>
                 </div>
               </Styled(div)>
             </Box>
-          </Flex>
+          </Styled(Box)>
         </Component>
       </WithTheme(Component)>
     </Flex>
@@ -1578,7 +1583,7 @@ exports[`StartEnd demo examples Snapshots: direction 1`] = `
           gutterWidth="md"
           justifyContent="between"
         >
-          <Flex
+          <Styled(Box)
             alignItems="stretch"
             className="emotion-15"
             direction="column"
@@ -1604,13 +1609,14 @@ exports[`StartEnd demo examples Snapshots: direction 1`] = `
               >
                 <div
                   className="emotion-12"
+                  direction="column"
                 >
                   <FlexItem
                     grow={0}
                     key=".$.0"
                     shrink={1}
                   >
-                    <FlexItem
+                    <Styled(Box)
                       element="div"
                       grow={0}
                       shrink={1}
@@ -1652,14 +1658,14 @@ exports[`StartEnd demo examples Snapshots: direction 1`] = `
                           </div>
                         </Styled(div)>
                       </Box>
-                    </FlexItem>
+                    </Styled(Box)>
                   </FlexItem>
                   <FlexItem
                     grow={0}
                     key=".$.1"
                     shrink={1}
                   >
-                    <FlexItem
+                    <Styled(Box)
                       element="div"
                       grow={0}
                       shrink={1}
@@ -1701,12 +1707,12 @@ exports[`StartEnd demo examples Snapshots: direction 1`] = `
                           </div>
                         </Styled(div)>
                       </Box>
-                    </FlexItem>
+                    </Styled(Box)>
                   </FlexItem>
                 </div>
               </Styled(div)>
             </Box>
-          </Flex>
+          </Styled(Box)>
         </Component>
       </WithTheme(Component)>
     </Flex>
@@ -2010,7 +2016,7 @@ exports[`StartEnd demo examples Snapshots: priority 1`] = `
               gutterWidth="md"
               justifyContent="between"
             >
-              <Flex
+              <Styled(Box)
                 alignItems="stretch"
                 className="emotion-15"
                 direction="row"
@@ -2036,6 +2042,7 @@ exports[`StartEnd demo examples Snapshots: priority 1`] = `
                   >
                     <div
                       className="emotion-12"
+                      direction="row"
                     >
                       <FlexItem
                         grow={1}
@@ -2043,7 +2050,7 @@ exports[`StartEnd demo examples Snapshots: priority 1`] = `
                         marginEnd="1em"
                         shrink={1}
                       >
-                        <FlexItem
+                        <Styled(Box)
                           element="div"
                           grow={1}
                           marginEnd="1em"
@@ -2088,14 +2095,14 @@ exports[`StartEnd demo examples Snapshots: priority 1`] = `
                               </div>
                             </Styled(div)>
                           </Box>
-                        </FlexItem>
+                        </Styled(Box)>
                       </FlexItem>
                       <FlexItem
                         grow={0}
                         key=".$.1"
                         shrink={1}
                       >
-                        <FlexItem
+                        <Styled(Box)
                           element="div"
                           grow={0}
                           shrink={1}
@@ -2137,12 +2144,12 @@ exports[`StartEnd demo examples Snapshots: priority 1`] = `
                               </div>
                             </Styled(div)>
                           </Box>
-                        </FlexItem>
+                        </Styled(Box)>
                       </FlexItem>
                     </div>
                   </Styled(div)>
                 </Box>
-              </Flex>
+              </Styled(Box)>
             </Component>
           </WithTheme(Component)>
         </Flex>
@@ -2176,7 +2183,7 @@ exports[`StartEnd demo examples Snapshots: priority 1`] = `
               gutterWidth="md"
               justifyContent="between"
             >
-              <Flex
+              <Styled(Box)
                 alignItems="stretch"
                 className="emotion-15"
                 direction="row"
@@ -2202,6 +2209,7 @@ exports[`StartEnd demo examples Snapshots: priority 1`] = `
                   >
                     <div
                       className="emotion-12"
+                      direction="row"
                     >
                       <FlexItem
                         grow={0}
@@ -2209,7 +2217,7 @@ exports[`StartEnd demo examples Snapshots: priority 1`] = `
                         marginEnd="1em"
                         shrink={1}
                       >
-                        <FlexItem
+                        <Styled(Box)
                           element="div"
                           grow={0}
                           marginEnd="1em"
@@ -2254,14 +2262,14 @@ exports[`StartEnd demo examples Snapshots: priority 1`] = `
                               </div>
                             </Styled(div)>
                           </Box>
-                        </FlexItem>
+                        </Styled(Box)>
                       </FlexItem>
                       <FlexItem
                         grow={1}
                         key=".$.1"
                         shrink={1}
                       >
-                        <FlexItem
+                        <Styled(Box)
                           element="div"
                           grow={1}
                           shrink={1}
@@ -2303,12 +2311,12 @@ exports[`StartEnd demo examples Snapshots: priority 1`] = `
                               </div>
                             </Styled(div)>
                           </Box>
-                        </FlexItem>
+                        </Styled(Box)>
                       </FlexItem>
                     </div>
                   </Styled(div)>
                 </Box>
-              </Flex>
+              </Styled(Box)>
             </Component>
           </WithTheme(Component)>
         </Flex>
@@ -2342,7 +2350,7 @@ exports[`StartEnd demo examples Snapshots: priority 1`] = `
               gutterWidth="md"
               justifyContent="between"
             >
-              <Flex
+              <Styled(Box)
                 alignItems="stretch"
                 className="emotion-15"
                 direction="row"
@@ -2368,6 +2376,7 @@ exports[`StartEnd demo examples Snapshots: priority 1`] = `
                   >
                     <div
                       className="emotion-12"
+                      direction="row"
                     >
                       <FlexItem
                         grow={1}
@@ -2375,7 +2384,7 @@ exports[`StartEnd demo examples Snapshots: priority 1`] = `
                         marginEnd="1em"
                         shrink={1}
                       >
-                        <FlexItem
+                        <Styled(Box)
                           element="div"
                           grow={1}
                           marginEnd="1em"
@@ -2420,14 +2429,14 @@ exports[`StartEnd demo examples Snapshots: priority 1`] = `
                               </div>
                             </Styled(div)>
                           </Box>
-                        </FlexItem>
+                        </Styled(Box)>
                       </FlexItem>
                       <FlexItem
                         grow={1}
                         key=".$.1"
                         shrink={1}
                       >
-                        <FlexItem
+                        <Styled(Box)
                           element="div"
                           grow={1}
                           shrink={1}
@@ -2469,12 +2478,12 @@ exports[`StartEnd demo examples Snapshots: priority 1`] = `
                               </div>
                             </Styled(div)>
                           </Box>
-                        </FlexItem>
+                        </Styled(Box)>
                       </FlexItem>
                     </div>
                   </Styled(div)>
                 </Box>
-              </Flex>
+              </Styled(Box)>
             </Component>
           </WithTheme(Component)>
         </Flex>
@@ -2770,7 +2779,7 @@ exports[`StartEnd demo examples Snapshots: responsive 1`] = `
           gutterWidth="md"
           justifyContent="between"
         >
-          <Flex
+          <Styled(Box)
             alignItems="stretch"
             breakpoints={
               Array [
@@ -2826,6 +2835,12 @@ exports[`StartEnd demo examples Snapshots: responsive 1`] = `
               >
                 <div
                   className="emotion-12"
+                  direction={
+                    Array [
+                      "column",
+                      "row",
+                    ]
+                  }
                 >
                   <FlexItem
                     breakpoints={
@@ -2849,7 +2864,7 @@ exports[`StartEnd demo examples Snapshots: responsive 1`] = `
                     }
                     shrink={1}
                   >
-                    <FlexItem
+                    <Styled(Box)
                       breakpoints={
                         Array [
                           800,
@@ -2942,7 +2957,7 @@ exports[`StartEnd demo examples Snapshots: responsive 1`] = `
                           </div>
                         </Styled(div)>
                       </Box>
-                    </FlexItem>
+                    </Styled(Box)>
                   </FlexItem>
                   <FlexItem
                     breakpoints={
@@ -2954,7 +2969,7 @@ exports[`StartEnd demo examples Snapshots: responsive 1`] = `
                     key=".$.1"
                     shrink={1}
                   >
-                    <FlexItem
+                    <Styled(Box)
                       breakpoints={
                         Array [
                           800,
@@ -3011,12 +3026,12 @@ exports[`StartEnd demo examples Snapshots: responsive 1`] = `
                           </div>
                         </Styled(div)>
                       </Box>
-                    </FlexItem>
+                    </Styled(Box)>
                   </FlexItem>
                 </div>
               </Styled(div)>
             </Box>
-          </Flex>
+          </Styled(Box)>
         </Component>
       </WithTheme(Component)>
     </Flex>
@@ -3238,7 +3253,7 @@ exports[`StartEnd demo examples Snapshots: rtl 1`] = `
                 gutterWidth="md"
                 justifyContent="between"
               >
-                <Flex
+                <Styled(Box)
                   alignItems="stretch"
                   className="emotion-15"
                   direction="row"
@@ -3264,6 +3279,7 @@ exports[`StartEnd demo examples Snapshots: rtl 1`] = `
                     >
                       <div
                         className="emotion-12"
+                        direction="row"
                       >
                         <FlexItem
                           grow={0}
@@ -3271,7 +3287,7 @@ exports[`StartEnd demo examples Snapshots: rtl 1`] = `
                           marginEnd="1em"
                           shrink={1}
                         >
-                          <FlexItem
+                          <Styled(Box)
                             element="div"
                             grow={0}
                             marginEnd="1em"
@@ -3316,14 +3332,14 @@ exports[`StartEnd demo examples Snapshots: rtl 1`] = `
                                 </div>
                               </Styled(div)>
                             </Box>
-                          </FlexItem>
+                          </Styled(Box)>
                         </FlexItem>
                         <FlexItem
                           grow={0}
                           key=".$.1"
                           shrink={1}
                         >
-                          <FlexItem
+                          <Styled(Box)
                             element="div"
                             grow={0}
                             shrink={1}
@@ -3365,12 +3381,12 @@ exports[`StartEnd demo examples Snapshots: rtl 1`] = `
                                 </div>
                               </Styled(div)>
                             </Box>
-                          </FlexItem>
+                          </Styled(Box)>
                         </FlexItem>
                       </div>
                     </Styled(div)>
                   </Box>
-                </Flex>
+                </Styled(Box)>
               </Component>
             </WithTheme(Component)>
           </Flex>

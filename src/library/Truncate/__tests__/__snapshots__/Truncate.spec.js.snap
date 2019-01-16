@@ -22,7 +22,7 @@ exports[`Truncate does not render tooltip when not truncated 1`] = `
 }
 
 <Truncate>
-  <Truncate
+  <Styled(span)
     showTooltip={false}
   >
     <span
@@ -41,7 +41,7 @@ exports[`Truncate does not render tooltip when not truncated 1`] = `
         }
       />
     </span>
-  </Truncate>
+  </Styled(span)>
 </Truncate>
 `;
 
@@ -128,7 +128,7 @@ exports[`Truncate renders a tooltip when truncated 1`] = `
                 placement="bottom"
               >
                 <Manager>
-                  <Popover
+                  <Styled(span)
                     className="emotion-3"
                     content={[Function]}
                     focusTriggerOnClose={false}
@@ -141,7 +141,10 @@ exports[`Truncate renders a tooltip when truncated 1`] = `
                   >
                     <span
                       className="emotion-2"
+                      content={[Function]}
                       id="tooltip-1"
+                      onClose={[Function]}
+                      onOpen={[Function]}
                     >
                       <PopoverTrigger
                         aria-describedby="tooltip-1-content"
@@ -159,11 +162,11 @@ exports[`Truncate renders a tooltip when truncated 1`] = `
                           <InnerReference
                             getReferenceRef={[Function]}
                           >
-                            <PopoverTrigger>
+                            <Styled(span)>
                               <span
                                 className="emotion-1"
                               >
-                                <Truncate
+                                <Styled(span)
                                   aria-describedby="tooltip-1-content"
                                   aria-owns="tooltip-1-content"
                                   onBlur={[Function]}
@@ -200,14 +203,14 @@ exports[`Truncate renders a tooltip when truncated 1`] = `
                                       }
                                     />
                                   </span>
-                                </Truncate>
+                                </Styled(span)>
                               </span>
-                            </PopoverTrigger>
+                            </Styled(span)>
                           </InnerReference>
                         </Reference>
                       </PopoverTrigger>
                     </span>
-                  </Popover>
+                  </Styled(span)>
                 </Manager>
               </Popover>
             </ThemeProvider>

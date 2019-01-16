@@ -131,14 +131,14 @@ exports[`MenuGroup demo examples Snapshots: menu-group 1`] = `
     className="emotion-19"
   >
     <Menu>
-      <Menu>
+      <Styled(div)>
         <div
           className="emotion-18"
         >
           <MenuGroup
             title="Menu Group Title"
           >
-            <MenuGroupTitle
+            <Styled(h3)
               key="MenuGroup"
             >
               <h3
@@ -146,11 +146,11 @@ exports[`MenuGroup demo examples Snapshots: menu-group 1`] = `
               >
                 Menu Group Title
               </h3>
-            </MenuGroupTitle>
+            </Styled(h3)>
             <MenuItem
               element="div"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 onKeyDown={[Function]}
                 tabIndex={0}
@@ -180,12 +180,12 @@ exports[`MenuGroup demo examples Snapshots: menu-group 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuItem
               element="div"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 onKeyDown={[Function]}
                 tabIndex={0}
@@ -215,13 +215,13 @@ exports[`MenuGroup demo examples Snapshots: menu-group 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
           </MenuGroup>
           <MenuGroup
             title="Menu Group Title"
           >
-            <MenuGroupTitle
+            <Styled(h3)
               key="MenuGroup"
             >
               <h3
@@ -229,11 +229,11 @@ exports[`MenuGroup demo examples Snapshots: menu-group 1`] = `
               >
                 Menu Group Title
               </h3>
-            </MenuGroupTitle>
+            </Styled(h3)>
             <MenuItem
               element="div"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 onKeyDown={[Function]}
                 tabIndex={0}
@@ -263,12 +263,12 @@ exports[`MenuGroup demo examples Snapshots: menu-group 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuItem
               element="div"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 onKeyDown={[Function]}
                 tabIndex={0}
@@ -298,11 +298,11 @@ exports[`MenuGroup demo examples Snapshots: menu-group 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
           </MenuGroup>
         </div>
-      </Menu>
+      </Styled(div)>
     </Menu>
   </div>
 </Styled(div)>

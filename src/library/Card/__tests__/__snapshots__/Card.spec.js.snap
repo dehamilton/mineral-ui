@@ -138,12 +138,12 @@ exports[`Card demo examples Snapshots: basic 1`] = `
     className="emotion-8"
   >
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-7"
         >
           <CardTitle>
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-3"
               >
@@ -167,13 +167,13 @@ exports[`Card demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <CardImage
             alt="gradient placeholder"
             src="/images/500x500.png"
           >
-            <CardImage
+            <Styled(img)
               alt="gradient placeholder"
               src="/images/500x500.png"
             >
@@ -182,10 +182,10 @@ exports[`Card demo examples Snapshots: basic 1`] = `
                 className="emotion-4"
                 src="/images/500x500.png"
               />
-            </CardImage>
+            </Styled(img)>
           </CardImage>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-6"
               >
@@ -200,10 +200,10 @@ exports[`Card demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
   </div>
 </Styled(div)>
@@ -447,12 +447,12 @@ exports[`Card demo examples Snapshots: children 1`] = `
     className="emotion-9"
   >
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-8"
         >
           <CardTitle>
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-3"
               >
@@ -476,35 +476,29 @@ exports[`Card demo examples Snapshots: children 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <Styled(div)>
             <div
               className="emotion-7"
             >
               <WithForwardRef(Button)
-                element="button"
                 fullWidth={true}
                 size="large"
-                type="button"
               >
                 <Button
-                  element="button"
                   forwardedRef={null}
                   fullWidth={true}
                   size="large"
-                  type="button"
                 >
-                  <Button
-                    element="button"
+                  <Styled(button)
                     fullWidth={true}
                     size="large"
                     text="Button"
-                    type="button"
                   >
                     <button
                       className="emotion-6"
-                      type="button"
+                      size="large"
                     >
                       <Styled(span)>
                         <span
@@ -515,6 +509,7 @@ exports[`Card demo examples Snapshots: children 1`] = `
                           >
                             <span
                               className="emotion-4"
+                              size="large"
                             >
                               Button
                             </span>
@@ -522,13 +517,13 @@ exports[`Card demo examples Snapshots: children 1`] = `
                         </span>
                       </Styled(span)>
                     </button>
-                  </Button>
+                  </Styled(button)>
                 </Button>
               </WithForwardRef(Button)>
             </div>
           </Styled(div)>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
   </div>
 </Styled(div)>
@@ -658,7 +653,7 @@ exports[`Card demo examples Snapshots: clickable 1`] = `
     <Card
       onClick={[Function]}
     >
-      <Card
+      <Styled(div)
         onClick={[Function]}
         onKeyDown={[Function]}
         role="button"
@@ -672,7 +667,7 @@ exports[`Card demo examples Snapshots: clickable 1`] = `
           tabIndex={0}
         >
           <CardTitle>
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-3"
               >
@@ -696,10 +691,10 @@ exports[`Card demo examples Snapshots: clickable 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-5"
               >
@@ -714,10 +709,10 @@ exports[`Card demo examples Snapshots: clickable 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
   </div>
 </Styled(div)>
@@ -1127,12 +1122,12 @@ exports[`Card demo examples Snapshots: order 1`] = `
     className="emotion-60"
   >
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-19"
         >
           <CardTitle>
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-3"
               >
@@ -1156,13 +1151,13 @@ exports[`Card demo examples Snapshots: order 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <CardImage
             alt="gradient image"
             src="/images/500x500.png"
           >
-            <CardImage
+            <Styled(img)
               alt="gradient image"
               src="/images/500x500.png"
             >
@@ -1171,10 +1166,10 @@ exports[`Card demo examples Snapshots: order 1`] = `
                 className="emotion-4"
                 src="/images/500x500.png"
               />
-            </CardImage>
+            </Styled(img)>
           </CardImage>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-6"
               >
@@ -1189,10 +1184,10 @@ exports[`Card demo examples Snapshots: order 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardActions>
-            <CardActions>
+            <Styled(div)>
               <div
                 className="emotion-15"
               >
@@ -1203,28 +1198,22 @@ exports[`Card demo examples Snapshots: order 1`] = `
                     className="emotion-10"
                   >
                     <WithForwardRef(Button)
-                      element="button"
                       minimal={true}
                       size="medium"
-                      type="button"
                     >
                       <Button
-                        element="button"
                         forwardedRef={null}
                         minimal={true}
                         size="medium"
-                        type="button"
                       >
-                        <Button
-                          element="button"
+                        <Styled(button)
                           minimal={true}
                           size="medium"
                           text="Button 1"
-                          type="button"
                         >
                           <button
                             className="emotion-9"
-                            type="button"
+                            size="medium"
                           >
                             <Styled(span)>
                               <span
@@ -1235,6 +1224,7 @@ exports[`Card demo examples Snapshots: order 1`] = `
                                 >
                                   <span
                                     className="emotion-7"
+                                    size="medium"
                                   >
                                     Button 1
                                   </span>
@@ -1242,7 +1232,7 @@ exports[`Card demo examples Snapshots: order 1`] = `
                               </span>
                             </Styled(span)>
                           </button>
-                        </Button>
+                        </Styled(button)>
                       </Button>
                     </WithForwardRef(Button)>
                   </span>
@@ -1254,28 +1244,22 @@ exports[`Card demo examples Snapshots: order 1`] = `
                     className="emotion-10"
                   >
                     <WithForwardRef(Button)
-                      element="button"
                       primary={true}
                       size="medium"
-                      type="button"
                     >
                       <Button
-                        element="button"
                         forwardedRef={null}
                         primary={true}
                         size="medium"
-                        type="button"
                       >
-                        <Button
-                          element="button"
+                        <Styled(button)
                           primary={true}
                           size="medium"
                           text="Button 2"
-                          type="button"
                         >
                           <button
                             className="emotion-13"
-                            type="button"
+                            size="medium"
                           >
                             <Styled(span)>
                               <span
@@ -1286,6 +1270,7 @@ exports[`Card demo examples Snapshots: order 1`] = `
                                 >
                                   <span
                                     className="emotion-7"
+                                    size="medium"
                                   >
                                     Button 2
                                   </span>
@@ -1293,19 +1278,19 @@ exports[`Card demo examples Snapshots: order 1`] = `
                               </span>
                             </Styled(span)>
                           </button>
-                        </Button>
+                        </Styled(button)>
                       </Button>
                     </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
               </div>
-            </CardActions>
+            </Styled(div)>
           </CardActions>
           <CardFooter
             title="Card Footer"
             triggerTitle={[Function]}
           >
-            <CardFooter>
+            <Styled(div)>
               <div
                 className="emotion-18"
               >
@@ -1323,13 +1308,13 @@ exports[`Card demo examples Snapshots: order 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardFooter>
+            </Styled(div)>
           </CardFooter>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-19"
         >
@@ -1337,7 +1322,7 @@ exports[`Card demo examples Snapshots: order 1`] = `
             alt="gradient image"
             src="/images/500x500.png"
           >
-            <CardImage
+            <Styled(img)
               alt="gradient image"
               src="/images/500x500.png"
             >
@@ -1346,10 +1331,10 @@ exports[`Card demo examples Snapshots: order 1`] = `
                 className="emotion-4"
                 src="/images/500x500.png"
               />
-            </CardImage>
+            </Styled(img)>
           </CardImage>
           <CardTitle>
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-3"
               >
@@ -1373,10 +1358,10 @@ exports[`Card demo examples Snapshots: order 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-6"
               >
@@ -1391,10 +1376,10 @@ exports[`Card demo examples Snapshots: order 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardActions>
-            <CardActions>
+            <Styled(div)>
               <div
                 className="emotion-15"
               >
@@ -1405,28 +1390,22 @@ exports[`Card demo examples Snapshots: order 1`] = `
                     className="emotion-10"
                   >
                     <WithForwardRef(Button)
-                      element="button"
                       minimal={true}
                       size="medium"
-                      type="button"
                     >
                       <Button
-                        element="button"
                         forwardedRef={null}
                         minimal={true}
                         size="medium"
-                        type="button"
                       >
-                        <Button
-                          element="button"
+                        <Styled(button)
                           minimal={true}
                           size="medium"
                           text="Button 1"
-                          type="button"
                         >
                           <button
                             className="emotion-9"
-                            type="button"
+                            size="medium"
                           >
                             <Styled(span)>
                               <span
@@ -1437,6 +1416,7 @@ exports[`Card demo examples Snapshots: order 1`] = `
                                 >
                                   <span
                                     className="emotion-7"
+                                    size="medium"
                                   >
                                     Button 1
                                   </span>
@@ -1444,7 +1424,7 @@ exports[`Card demo examples Snapshots: order 1`] = `
                               </span>
                             </Styled(span)>
                           </button>
-                        </Button>
+                        </Styled(button)>
                       </Button>
                     </WithForwardRef(Button)>
                   </span>
@@ -1456,28 +1436,22 @@ exports[`Card demo examples Snapshots: order 1`] = `
                     className="emotion-10"
                   >
                     <WithForwardRef(Button)
-                      element="button"
                       primary={true}
                       size="medium"
-                      type="button"
                     >
                       <Button
-                        element="button"
                         forwardedRef={null}
                         primary={true}
                         size="medium"
-                        type="button"
                       >
-                        <Button
-                          element="button"
+                        <Styled(button)
                           primary={true}
                           size="medium"
                           text="Button 2"
-                          type="button"
                         >
                           <button
                             className="emotion-13"
-                            type="button"
+                            size="medium"
                           >
                             <Styled(span)>
                               <span
@@ -1488,6 +1462,7 @@ exports[`Card demo examples Snapshots: order 1`] = `
                                 >
                                   <span
                                     className="emotion-7"
+                                    size="medium"
                                   >
                                     Button 2
                                   </span>
@@ -1495,19 +1470,19 @@ exports[`Card demo examples Snapshots: order 1`] = `
                               </span>
                             </Styled(span)>
                           </button>
-                        </Button>
+                        </Styled(button)>
                       </Button>
                     </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
               </div>
-            </CardActions>
+            </Styled(div)>
           </CardActions>
           <CardFooter
             title="Card Footer"
             triggerTitle={[Function]}
           >
-            <CardFooter>
+            <Styled(div)>
               <div
                 className="emotion-18"
               >
@@ -1525,18 +1500,18 @@ exports[`Card demo examples Snapshots: order 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardFooter>
+            </Styled(div)>
           </CardFooter>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-19"
         >
           <CardTitle>
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-3"
               >
@@ -1560,10 +1535,10 @@ exports[`Card demo examples Snapshots: order 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-6"
               >
@@ -1578,13 +1553,13 @@ exports[`Card demo examples Snapshots: order 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardImage
             alt="gradient image"
             src="/images/500x500.png"
           >
-            <CardImage
+            <Styled(img)
               alt="gradient image"
               src="/images/500x500.png"
             >
@@ -1593,10 +1568,10 @@ exports[`Card demo examples Snapshots: order 1`] = `
                 className="emotion-4"
                 src="/images/500x500.png"
               />
-            </CardImage>
+            </Styled(img)>
           </CardImage>
           <CardActions>
-            <CardActions>
+            <Styled(div)>
               <div
                 className="emotion-15"
               >
@@ -1607,28 +1582,22 @@ exports[`Card demo examples Snapshots: order 1`] = `
                     className="emotion-10"
                   >
                     <WithForwardRef(Button)
-                      element="button"
                       minimal={true}
                       size="medium"
-                      type="button"
                     >
                       <Button
-                        element="button"
                         forwardedRef={null}
                         minimal={true}
                         size="medium"
-                        type="button"
                       >
-                        <Button
-                          element="button"
+                        <Styled(button)
                           minimal={true}
                           size="medium"
                           text="Button 1"
-                          type="button"
                         >
                           <button
                             className="emotion-9"
-                            type="button"
+                            size="medium"
                           >
                             <Styled(span)>
                               <span
@@ -1639,6 +1608,7 @@ exports[`Card demo examples Snapshots: order 1`] = `
                                 >
                                   <span
                                     className="emotion-7"
+                                    size="medium"
                                   >
                                     Button 1
                                   </span>
@@ -1646,7 +1616,7 @@ exports[`Card demo examples Snapshots: order 1`] = `
                               </span>
                             </Styled(span)>
                           </button>
-                        </Button>
+                        </Styled(button)>
                       </Button>
                     </WithForwardRef(Button)>
                   </span>
@@ -1658,28 +1628,22 @@ exports[`Card demo examples Snapshots: order 1`] = `
                     className="emotion-10"
                   >
                     <WithForwardRef(Button)
-                      element="button"
                       primary={true}
                       size="medium"
-                      type="button"
                     >
                       <Button
-                        element="button"
                         forwardedRef={null}
                         primary={true}
                         size="medium"
-                        type="button"
                       >
-                        <Button
-                          element="button"
+                        <Styled(button)
                           primary={true}
                           size="medium"
                           text="Button 2"
-                          type="button"
                         >
                           <button
                             className="emotion-13"
-                            type="button"
+                            size="medium"
                           >
                             <Styled(span)>
                               <span
@@ -1690,6 +1654,7 @@ exports[`Card demo examples Snapshots: order 1`] = `
                                 >
                                   <span
                                     className="emotion-7"
+                                    size="medium"
                                   >
                                     Button 2
                                   </span>
@@ -1697,19 +1662,19 @@ exports[`Card demo examples Snapshots: order 1`] = `
                               </span>
                             </Styled(span)>
                           </button>
-                        </Button>
+                        </Styled(button)>
                       </Button>
                     </WithForwardRef(Button)>
                   </span>
                 </Styled(span)>
               </div>
-            </CardActions>
+            </Styled(div)>
           </CardActions>
           <CardFooter
             title="Card Footer"
             triggerTitle={[Function]}
           >
-            <CardFooter>
+            <Styled(div)>
               <div
                 className="emotion-18"
               >
@@ -1727,10 +1692,10 @@ exports[`Card demo examples Snapshots: order 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardFooter>
+            </Styled(div)>
           </CardFooter>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
   </div>
 </Styled(div)>

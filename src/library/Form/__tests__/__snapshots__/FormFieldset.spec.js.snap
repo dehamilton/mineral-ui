@@ -244,7 +244,7 @@ exports[`FormFieldset demo examples Snapshots: basic 1`] = `
 <FormFieldset
   legend="Login"
 >
-  <FormFieldset>
+  <Styled(fieldset)>
     <fieldset
       className="emotion-19"
     >
@@ -262,7 +262,7 @@ exports[`FormFieldset demo examples Snapshots: basic 1`] = `
               label="Email"
               requiredText="Required"
             >
-              <FormField>
+              <Styled(div)>
                 <div
                   className="emotion-8"
                 >
@@ -285,19 +285,18 @@ exports[`FormFieldset demo examples Snapshots: basic 1`] = `
                       size="large"
                       type="email"
                     >
-                      <TextInput
+                      <Styled(WithTheme(Themed(FauxControl)))
                         control={
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "input",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
-                              "label:Input;",
                               [Function],
                             ],
                             "defaultProps": undefined,
-                            "displayName": "Input",
+                            "displayName": "Styled(input)",
                             "render": [Function],
                             "withComponent": [Function],
                           }
@@ -322,14 +321,13 @@ exports[`FormFieldset demo examples Snapshots: basic 1`] = `
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "input",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
-                                "label:Input;",
                                 [Function],
                               ],
                               "defaultProps": undefined,
-                              "displayName": "Input",
+                              "displayName": "Styled(input)",
                               "render": [Function],
                               "withComponent": [Function],
                             }
@@ -354,14 +352,13 @@ exports[`FormFieldset demo examples Snapshots: basic 1`] = `
                               Object {
                                 "$$typeof": Symbol(react.forward_ref),
                                 "__emotion_base": "input",
-                                "__emotion_forwardProp": [Function],
+                                "__emotion_forwardProp": undefined,
                                 "__emotion_real": [Circular],
                                 "__emotion_styles": Array [
-                                  "label:Input;",
                                   [Function],
                                 ],
                                 "defaultProps": undefined,
-                                "displayName": "Input",
+                                "displayName": "Styled(input)",
                                 "render": [Function],
                                 "withComponent": [Function],
                               }
@@ -388,14 +385,13 @@ exports[`FormFieldset demo examples Snapshots: basic 1`] = `
                                     Object {
                                       "$$typeof": Symbol(react.forward_ref),
                                       "__emotion_base": "input",
-                                      "__emotion_forwardProp": [Function],
+                                      "__emotion_forwardProp": undefined,
                                       "__emotion_real": [Circular],
                                       "__emotion_styles": Array [
-                                        "label:Input;",
                                         [Function],
                                       ],
                                       "defaultProps": undefined,
-                                      "displayName": "Input",
+                                      "displayName": "Styled(input)",
                                       "render": [Function],
                                       "withComponent": [Function],
                                     }
@@ -414,20 +410,19 @@ exports[`FormFieldset demo examples Snapshots: basic 1`] = `
                                   }
                                   size="large"
                                 >
-                                  <FauxControl
+                                  <Styled(div)
                                     className="emotion-4"
                                     control={
                                       Object {
                                         "$$typeof": Symbol(react.forward_ref),
                                         "__emotion_base": "input",
-                                        "__emotion_forwardProp": [Function],
+                                        "__emotion_forwardProp": undefined,
                                         "__emotion_real": [Circular],
                                         "__emotion_styles": Array [
-                                          "label:Input;",
                                           [Function],
                                         ],
                                         "defaultProps": undefined,
-                                        "displayName": "Input",
+                                        "displayName": "Styled(input)",
                                         "render": [Function],
                                         "withComponent": [Function],
                                       }
@@ -436,7 +431,7 @@ exports[`FormFieldset demo examples Snapshots: basic 1`] = `
                                     <div
                                       className="emotion-3"
                                     >
-                                      <Control
+                                      <Styled(input)
                                         controlPropsIn={
                                           Object {
                                             "aria-describedby": undefined,
@@ -458,30 +453,30 @@ exports[`FormFieldset demo examples Snapshots: basic 1`] = `
                                           size="large"
                                           type="email"
                                         />
-                                      </Control>
-                                      <Underlay>
+                                      </Styled(input)>
+                                      <Styled(div)>
                                         <div
                                           className="emotion-2"
                                         />
-                                      </Underlay>
+                                      </Styled(div)>
                                     </div>
-                                  </FauxControl>
+                                  </Styled(div)>
                                 </FauxControl>
                               </ThemeProvider>
                             </ThemeProvider>
                           </Themed(FauxControl)>
                         </WithTheme(Themed(FauxControl))>
-                      </TextInput>
+                      </Styled(WithTheme(Themed(FauxControl)))>
                     </TextInput>
                   </label>
                 </div>
-              </FormField>
+              </Styled(div)>
             </FormField>
             <FormField
               label="Password"
               requiredText="Required"
             >
-              <FormField>
+              <Styled(div)>
                 <div
                   className="emotion-8"
                 >
@@ -504,19 +499,18 @@ exports[`FormFieldset demo examples Snapshots: basic 1`] = `
                       size="large"
                       type="password"
                     >
-                      <TextInput
+                      <Styled(WithTheme(Themed(FauxControl)))
                         control={
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "input",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
-                              "label:Input;",
                               [Function],
                             ],
                             "defaultProps": undefined,
-                            "displayName": "Input",
+                            "displayName": "Styled(input)",
                             "render": [Function],
                             "withComponent": [Function],
                           }
@@ -541,14 +535,13 @@ exports[`FormFieldset demo examples Snapshots: basic 1`] = `
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "input",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
-                                "label:Input;",
                                 [Function],
                               ],
                               "defaultProps": undefined,
-                              "displayName": "Input",
+                              "displayName": "Styled(input)",
                               "render": [Function],
                               "withComponent": [Function],
                             }
@@ -573,14 +566,13 @@ exports[`FormFieldset demo examples Snapshots: basic 1`] = `
                               Object {
                                 "$$typeof": Symbol(react.forward_ref),
                                 "__emotion_base": "input",
-                                "__emotion_forwardProp": [Function],
+                                "__emotion_forwardProp": undefined,
                                 "__emotion_real": [Circular],
                                 "__emotion_styles": Array [
-                                  "label:Input;",
                                   [Function],
                                 ],
                                 "defaultProps": undefined,
-                                "displayName": "Input",
+                                "displayName": "Styled(input)",
                                 "render": [Function],
                                 "withComponent": [Function],
                               }
@@ -607,14 +599,13 @@ exports[`FormFieldset demo examples Snapshots: basic 1`] = `
                                     Object {
                                       "$$typeof": Symbol(react.forward_ref),
                                       "__emotion_base": "input",
-                                      "__emotion_forwardProp": [Function],
+                                      "__emotion_forwardProp": undefined,
                                       "__emotion_real": [Circular],
                                       "__emotion_styles": Array [
-                                        "label:Input;",
                                         [Function],
                                       ],
                                       "defaultProps": undefined,
-                                      "displayName": "Input",
+                                      "displayName": "Styled(input)",
                                       "render": [Function],
                                       "withComponent": [Function],
                                     }
@@ -633,20 +624,19 @@ exports[`FormFieldset demo examples Snapshots: basic 1`] = `
                                   }
                                   size="large"
                                 >
-                                  <FauxControl
+                                  <Styled(div)
                                     className="emotion-4"
                                     control={
                                       Object {
                                         "$$typeof": Symbol(react.forward_ref),
                                         "__emotion_base": "input",
-                                        "__emotion_forwardProp": [Function],
+                                        "__emotion_forwardProp": undefined,
                                         "__emotion_real": [Circular],
                                         "__emotion_styles": Array [
-                                          "label:Input;",
                                           [Function],
                                         ],
                                         "defaultProps": undefined,
-                                        "displayName": "Input",
+                                        "displayName": "Styled(input)",
                                         "render": [Function],
                                         "withComponent": [Function],
                                       }
@@ -655,7 +645,7 @@ exports[`FormFieldset demo examples Snapshots: basic 1`] = `
                                     <div
                                       className="emotion-3"
                                     >
-                                      <Control
+                                      <Styled(input)
                                         controlPropsIn={
                                           Object {
                                             "aria-describedby": undefined,
@@ -677,30 +667,30 @@ exports[`FormFieldset demo examples Snapshots: basic 1`] = `
                                           size="large"
                                           type="password"
                                         />
-                                      </Control>
-                                      <Underlay>
+                                      </Styled(input)>
+                                      <Styled(div)>
                                         <div
                                           className="emotion-2"
                                         />
-                                      </Underlay>
+                                      </Styled(div)>
                                     </div>
-                                  </FauxControl>
+                                  </Styled(div)>
                                 </FauxControl>
                               </ThemeProvider>
                             </ThemeProvider>
                           </Themed(FauxControl)>
                         </WithTheme(Themed(FauxControl))>
-                      </TextInput>
+                      </Styled(WithTheme(Themed(FauxControl)))>
                     </TextInput>
                   </label>
                 </div>
-              </FormField>
+              </Styled(div)>
             </FormField>
           </div>
         </Styled(div)>
       </DemoLayout>
     </fieldset>
-  </FormFieldset>
+  </Styled(fieldset)>
 </FormFieldset>
 `;
 
@@ -940,7 +930,7 @@ exports[`FormFieldset demo examples Snapshots: disabled 1`] = `
   disabled={true}
   legend="Login"
 >
-  <FormFieldset
+  <Styled(fieldset)
     disabled={true}
   >
     <fieldset
@@ -961,7 +951,7 @@ exports[`FormFieldset demo examples Snapshots: disabled 1`] = `
               label="Email"
               requiredText="Required"
             >
-              <FormField>
+              <Styled(div)>
                 <div
                   className="emotion-8"
                 >
@@ -985,19 +975,18 @@ exports[`FormFieldset demo examples Snapshots: disabled 1`] = `
                       size="large"
                       type="email"
                     >
-                      <TextInput
+                      <Styled(WithTheme(Themed(FauxControl)))
                         control={
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "input",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
-                              "label:Input;",
                               [Function],
                             ],
                             "defaultProps": undefined,
-                            "displayName": "Input",
+                            "displayName": "Styled(input)",
                             "render": [Function],
                             "withComponent": [Function],
                           }
@@ -1023,14 +1012,13 @@ exports[`FormFieldset demo examples Snapshots: disabled 1`] = `
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "input",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
-                                "label:Input;",
                                 [Function],
                               ],
                               "defaultProps": undefined,
-                              "displayName": "Input",
+                              "displayName": "Styled(input)",
                               "render": [Function],
                               "withComponent": [Function],
                             }
@@ -1056,14 +1044,13 @@ exports[`FormFieldset demo examples Snapshots: disabled 1`] = `
                               Object {
                                 "$$typeof": Symbol(react.forward_ref),
                                 "__emotion_base": "input",
-                                "__emotion_forwardProp": [Function],
+                                "__emotion_forwardProp": undefined,
                                 "__emotion_real": [Circular],
                                 "__emotion_styles": Array [
-                                  "label:Input;",
                                   [Function],
                                 ],
                                 "defaultProps": undefined,
-                                "displayName": "Input",
+                                "displayName": "Styled(input)",
                                 "render": [Function],
                                 "withComponent": [Function],
                               }
@@ -1091,14 +1078,13 @@ exports[`FormFieldset demo examples Snapshots: disabled 1`] = `
                                     Object {
                                       "$$typeof": Symbol(react.forward_ref),
                                       "__emotion_base": "input",
-                                      "__emotion_forwardProp": [Function],
+                                      "__emotion_forwardProp": undefined,
                                       "__emotion_real": [Circular],
                                       "__emotion_styles": Array [
-                                        "label:Input;",
                                         [Function],
                                       ],
                                       "defaultProps": undefined,
-                                      "displayName": "Input",
+                                      "displayName": "Styled(input)",
                                       "render": [Function],
                                       "withComponent": [Function],
                                     }
@@ -1118,20 +1104,19 @@ exports[`FormFieldset demo examples Snapshots: disabled 1`] = `
                                   disabled={true}
                                   size="large"
                                 >
-                                  <FauxControl
+                                  <Styled(div)
                                     className="emotion-4"
                                     control={
                                       Object {
                                         "$$typeof": Symbol(react.forward_ref),
                                         "__emotion_base": "input",
-                                        "__emotion_forwardProp": [Function],
+                                        "__emotion_forwardProp": undefined,
                                         "__emotion_real": [Circular],
                                         "__emotion_styles": Array [
-                                          "label:Input;",
                                           [Function],
                                         ],
                                         "defaultProps": undefined,
-                                        "displayName": "Input",
+                                        "displayName": "Styled(input)",
                                         "render": [Function],
                                         "withComponent": [Function],
                                       }
@@ -1140,8 +1125,9 @@ exports[`FormFieldset demo examples Snapshots: disabled 1`] = `
                                   >
                                     <div
                                       className="emotion-3"
+                                      disabled={true}
                                     >
-                                      <Control
+                                      <Styled(input)
                                         controlPropsIn={
                                           Object {
                                             "aria-describedby": undefined,
@@ -1165,32 +1151,33 @@ exports[`FormFieldset demo examples Snapshots: disabled 1`] = `
                                           size="large"
                                           type="email"
                                         />
-                                      </Control>
-                                      <Underlay
+                                      </Styled(input)>
+                                      <Styled(div)
                                         disabled={true}
                                       >
                                         <div
                                           className="emotion-2"
+                                          disabled={true}
                                         />
-                                      </Underlay>
+                                      </Styled(div)>
                                     </div>
-                                  </FauxControl>
+                                  </Styled(div)>
                                 </FauxControl>
                               </ThemeProvider>
                             </ThemeProvider>
                           </Themed(FauxControl)>
                         </WithTheme(Themed(FauxControl))>
-                      </TextInput>
+                      </Styled(WithTheme(Themed(FauxControl)))>
                     </TextInput>
                   </label>
                 </div>
-              </FormField>
+              </Styled(div)>
             </FormField>
             <FormField
               label="Password"
               requiredText="Required"
             >
-              <FormField>
+              <Styled(div)>
                 <div
                   className="emotion-8"
                 >
@@ -1214,19 +1201,18 @@ exports[`FormFieldset demo examples Snapshots: disabled 1`] = `
                       size="large"
                       type="password"
                     >
-                      <TextInput
+                      <Styled(WithTheme(Themed(FauxControl)))
                         control={
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "input",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
-                              "label:Input;",
                               [Function],
                             ],
                             "defaultProps": undefined,
-                            "displayName": "Input",
+                            "displayName": "Styled(input)",
                             "render": [Function],
                             "withComponent": [Function],
                           }
@@ -1252,14 +1238,13 @@ exports[`FormFieldset demo examples Snapshots: disabled 1`] = `
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "input",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
-                                "label:Input;",
                                 [Function],
                               ],
                               "defaultProps": undefined,
-                              "displayName": "Input",
+                              "displayName": "Styled(input)",
                               "render": [Function],
                               "withComponent": [Function],
                             }
@@ -1285,14 +1270,13 @@ exports[`FormFieldset demo examples Snapshots: disabled 1`] = `
                               Object {
                                 "$$typeof": Symbol(react.forward_ref),
                                 "__emotion_base": "input",
-                                "__emotion_forwardProp": [Function],
+                                "__emotion_forwardProp": undefined,
                                 "__emotion_real": [Circular],
                                 "__emotion_styles": Array [
-                                  "label:Input;",
                                   [Function],
                                 ],
                                 "defaultProps": undefined,
-                                "displayName": "Input",
+                                "displayName": "Styled(input)",
                                 "render": [Function],
                                 "withComponent": [Function],
                               }
@@ -1320,14 +1304,13 @@ exports[`FormFieldset demo examples Snapshots: disabled 1`] = `
                                     Object {
                                       "$$typeof": Symbol(react.forward_ref),
                                       "__emotion_base": "input",
-                                      "__emotion_forwardProp": [Function],
+                                      "__emotion_forwardProp": undefined,
                                       "__emotion_real": [Circular],
                                       "__emotion_styles": Array [
-                                        "label:Input;",
                                         [Function],
                                       ],
                                       "defaultProps": undefined,
-                                      "displayName": "Input",
+                                      "displayName": "Styled(input)",
                                       "render": [Function],
                                       "withComponent": [Function],
                                     }
@@ -1347,20 +1330,19 @@ exports[`FormFieldset demo examples Snapshots: disabled 1`] = `
                                   disabled={true}
                                   size="large"
                                 >
-                                  <FauxControl
+                                  <Styled(div)
                                     className="emotion-4"
                                     control={
                                       Object {
                                         "$$typeof": Symbol(react.forward_ref),
                                         "__emotion_base": "input",
-                                        "__emotion_forwardProp": [Function],
+                                        "__emotion_forwardProp": undefined,
                                         "__emotion_real": [Circular],
                                         "__emotion_styles": Array [
-                                          "label:Input;",
                                           [Function],
                                         ],
                                         "defaultProps": undefined,
-                                        "displayName": "Input",
+                                        "displayName": "Styled(input)",
                                         "render": [Function],
                                         "withComponent": [Function],
                                       }
@@ -1369,8 +1351,9 @@ exports[`FormFieldset demo examples Snapshots: disabled 1`] = `
                                   >
                                     <div
                                       className="emotion-3"
+                                      disabled={true}
                                     >
-                                      <Control
+                                      <Styled(input)
                                         controlPropsIn={
                                           Object {
                                             "aria-describedby": undefined,
@@ -1394,32 +1377,33 @@ exports[`FormFieldset demo examples Snapshots: disabled 1`] = `
                                           size="large"
                                           type="password"
                                         />
-                                      </Control>
-                                      <Underlay
+                                      </Styled(input)>
+                                      <Styled(div)
                                         disabled={true}
                                       >
                                         <div
                                           className="emotion-2"
+                                          disabled={true}
                                         />
-                                      </Underlay>
+                                      </Styled(div)>
                                     </div>
-                                  </FauxControl>
+                                  </Styled(div)>
                                 </FauxControl>
                               </ThemeProvider>
                             </ThemeProvider>
                           </Themed(FauxControl)>
                         </WithTheme(Themed(FauxControl))>
-                      </TextInput>
+                      </Styled(WithTheme(Themed(FauxControl)))>
                     </TextInput>
                   </label>
                 </div>
-              </FormField>
+              </Styled(div)>
             </FormField>
           </div>
         </Styled(div)>
       </DemoLayout>
     </fieldset>
-  </FormFieldset>
+  </Styled(fieldset)>
 </FormFieldset>
 `;
 
@@ -1678,7 +1662,7 @@ exports[`FormFieldset demo examples Snapshots: rtl 1`] = `
       <FormFieldset
         legend="أسطورة"
       >
-        <FormFieldset>
+        <Styled(fieldset)>
           <fieldset
             className="emotion-10"
           >
@@ -1689,7 +1673,7 @@ exports[`FormFieldset demo examples Snapshots: rtl 1`] = `
               label="مرحبا بالعالم"
               requiredText="Required"
             >
-              <FormField>
+              <Styled(div)>
                 <div
                   className="emotion-9"
                 >
@@ -1714,19 +1698,18 @@ exports[`FormFieldset demo examples Snapshots: rtl 1`] = `
                       size="large"
                       type="text"
                     >
-                      <TextInput
+                      <Styled(WithTheme(Themed(FauxControl)))
                         control={
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "input",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
-                              "label:Input;",
                               [Function],
                             ],
                             "defaultProps": undefined,
-                            "displayName": "Input",
+                            "displayName": "Styled(input)",
                             "render": [Function],
                             "withComponent": [Function],
                           }
@@ -1753,14 +1736,13 @@ exports[`FormFieldset demo examples Snapshots: rtl 1`] = `
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "input",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
-                                "label:Input;",
                                 [Function],
                               ],
                               "defaultProps": undefined,
-                              "displayName": "Input",
+                              "displayName": "Styled(input)",
                               "render": [Function],
                               "withComponent": [Function],
                             }
@@ -1787,14 +1769,13 @@ exports[`FormFieldset demo examples Snapshots: rtl 1`] = `
                               Object {
                                 "$$typeof": Symbol(react.forward_ref),
                                 "__emotion_base": "input",
-                                "__emotion_forwardProp": [Function],
+                                "__emotion_forwardProp": undefined,
                                 "__emotion_real": [Circular],
                                 "__emotion_styles": Array [
-                                  "label:Input;",
                                   [Function],
                                 ],
                                 "defaultProps": undefined,
-                                "displayName": "Input",
+                                "displayName": "Styled(input)",
                                 "render": [Function],
                                 "withComponent": [Function],
                               }
@@ -1823,14 +1804,13 @@ exports[`FormFieldset demo examples Snapshots: rtl 1`] = `
                                     Object {
                                       "$$typeof": Symbol(react.forward_ref),
                                       "__emotion_base": "input",
-                                      "__emotion_forwardProp": [Function],
+                                      "__emotion_forwardProp": undefined,
                                       "__emotion_real": [Circular],
                                       "__emotion_styles": Array [
-                                        "label:Input;",
                                         [Function],
                                       ],
                                       "defaultProps": undefined,
-                                      "displayName": "Input",
+                                      "displayName": "Styled(input)",
                                       "render": [Function],
                                       "withComponent": [Function],
                                     }
@@ -1851,20 +1831,19 @@ exports[`FormFieldset demo examples Snapshots: rtl 1`] = `
                                   iconStart={<IconBackspace />}
                                   size="large"
                                 >
-                                  <FauxControl
+                                  <Styled(div)
                                     className="emotion-5"
                                     control={
                                       Object {
                                         "$$typeof": Symbol(react.forward_ref),
                                         "__emotion_base": "input",
-                                        "__emotion_forwardProp": [Function],
+                                        "__emotion_forwardProp": undefined,
                                         "__emotion_real": [Circular],
                                         "__emotion_styles": Array [
-                                          "label:Input;",
                                           [Function],
                                         ],
                                         "defaultProps": undefined,
-                                        "displayName": "Input",
+                                        "displayName": "Styled(input)",
                                         "render": [Function],
                                         "withComponent": [Function],
                                       }
@@ -1894,6 +1873,7 @@ exports[`FormFieldset demo examples Snapshots: rtl 1`] = `
                                               className="emotion-1"
                                               focusable="false"
                                               role="img"
+                                              size="1.5em"
                                               viewBox="0 0 24 24"
                                             >
                                               <g>
@@ -1905,7 +1885,7 @@ exports[`FormFieldset demo examples Snapshots: rtl 1`] = `
                                           </Styled(svg)>
                                         </Icon>
                                       </IconBackspace>
-                                      <Control
+                                      <Styled(input)
                                         controlPropsIn={
                                           Object {
                                             "aria-describedby": undefined,
@@ -1931,27 +1911,27 @@ exports[`FormFieldset demo examples Snapshots: rtl 1`] = `
                                           size="large"
                                           type="text"
                                         />
-                                      </Control>
-                                      <Underlay>
+                                      </Styled(input)>
+                                      <Styled(div)>
                                         <div
                                           className="emotion-3"
                                         />
-                                      </Underlay>
+                                      </Styled(div)>
                                     </div>
-                                  </FauxControl>
+                                  </Styled(div)>
                                 </FauxControl>
                               </ThemeProvider>
                             </ThemeProvider>
                           </Themed(FauxControl)>
                         </WithTheme(Themed(FauxControl))>
-                      </TextInput>
+                      </Styled(WithTheme(Themed(FauxControl)))>
                     </TextInput>
                   </label>
                 </div>
-              </FormField>
+              </Styled(div)>
             </FormField>
           </fieldset>
-        </FormFieldset>
+        </Styled(fieldset)>
       </FormFieldset>
     </ThemeProvider>
   </ThemeProvider>

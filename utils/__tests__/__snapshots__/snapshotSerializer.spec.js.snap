@@ -125,25 +125,19 @@ exports[`snapshotSerializer Excludes verbose ThemeProvider props from snapshot 1
 <ThemeProvider>
   <ThemeProvider>
     <WithForwardRef(Button)
-      element="button"
       size="large"
-      type="button"
     >
       <Button
-        element="button"
         forwardedRef={null}
         size="large"
-        type="button"
       >
-        <Button
-          element="button"
+        <Styled(button)
           size="large"
           text="Submit"
-          type="button"
         >
           <button
             className="emotion-2"
-            type="button"
+            size="large"
           >
             <Styled(span)>
               <span
@@ -154,6 +148,7 @@ exports[`snapshotSerializer Excludes verbose ThemeProvider props from snapshot 1
                 >
                   <span
                     className="emotion-0"
+                    size="large"
                   >
                     Submit
                   </span>
@@ -161,7 +156,7 @@ exports[`snapshotSerializer Excludes verbose ThemeProvider props from snapshot 1
               </span>
             </Styled(span)>
           </button>
-        </Button>
+        </Styled(button)>
       </Button>
     </WithForwardRef(Button)>
   </ThemeProvider>

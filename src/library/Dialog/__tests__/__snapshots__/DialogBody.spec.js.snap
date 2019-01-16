@@ -259,29 +259,6 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
   margin-bottom: 1.7142857142857142em;
 }
 
-.emotion-16 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-}
-
-.emotion-16 > div {
-  padding-left: 1.7142857142857142em;
-  padding-right: 1.7142857142857142em;
-}
-
-.emotion-16 > div > :first-child {
-  margin-top: 0;
-}
-
-.emotion-16 > div > :last-child {
-  margin-bottom: 0;
-}
-
 .emotion-15 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -354,8 +331,8 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
   <div
     className="emotion-29"
   >
-    <withProps(DemoDialog)>
-      <DemoDialog
+    <withProps(Styled(Dialog))>
+      <Styled(Dialog)
         closeButtonLabel="close"
         closeOnClickOutside={false}
         closeOnEscape={false}
@@ -405,7 +382,7 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
                 timeout={250}
                 unmountOnExit={true}
               >
-                <Animate
+                <Styled(div)
                   state="entering"
                 >
                   <div
@@ -419,7 +396,7 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
                       tag="div"
                     >
                       <div>
-                        <Dialog
+                        <Styled(div)
                           aria-labelledby="dialog-2-title"
                           aria-modal={true}
                           className="emotion-26"
@@ -438,16 +415,16 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
                             role="dialog"
                             tabIndex="-1"
                           >
-                            <Overlay>
+                            <Styled(div)>
                               <div
                                 className="emotion-0"
                               />
-                            </Overlay>
+                            </Styled(div)>
                             <Styled(div)>
                               <div
                                 className="emotion-24"
                               >
-                                <DialogContent
+                                <Styled(div)
                                   id="dialog-2-content"
                                   role="document"
                                   size="medium"
@@ -456,6 +433,7 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
                                     className="emotion-23"
                                     id="dialog-2-content"
                                     role="document"
+                                    size="medium"
                                   >
                                     <DialogHeader
                                       titleProps={
@@ -465,8 +443,8 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
                                         }
                                       }
                                     >
-                                      <withProps(DialogHeader)>
-                                        <DialogHeader
+                                      <withProps(Styled(DialogRow))>
+                                        <Styled(DialogRow)
                                           element="header"
                                         >
                                           <DialogRow
@@ -488,7 +466,7 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
                                                     element="h1"
                                                     id="dialog-2-title"
                                                   >
-                                                    <DialogTitle
+                                                    <Styled(div)
                                                       appearance="h4"
                                                       element="h1"
                                                     >
@@ -539,17 +517,17 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
                                                           </Styled(Text)>
                                                         </TitleContent>
                                                       </div>
-                                                    </DialogTitle>
+                                                    </Styled(div)>
                                                   </DialogTitle>
                                                 </WithTheme(DialogTitle)>
                                               </header>
                                             </Styled(header)>
                                           </DialogRow>
-                                        </DialogHeader>
-                                      </withProps(DialogHeader)>
+                                        </Styled(DialogRow)>
+                                      </withProps(Styled(DialogRow))>
                                     </DialogHeader>
                                     <DialogBody>
-                                      <DialogBody
+                                      <Styled(DialogRow)
                                         element="div"
                                       >
                                         <DialogRow
@@ -568,28 +546,28 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
                                                   scrollY={true}
                                                 >
                                                   <WithTheme(Themed(OverflowContainerWithShadows))
-                                                    className="emotion-16"
+                                                    className="emotion-15"
                                                     scrollY={true}
                                                   >
                                                     <Themed(OverflowContainerWithShadows)
-                                                      className="emotion-16"
+                                                      className="emotion-15"
                                                       scrollY={true}
                                                     >
                                                       <ThemeProvider>
                                                         <ThemeProvider>
                                                           <OverflowContainerWithShadows
-                                                            className="emotion-16"
+                                                            className="emotion-15"
                                                             scrollY={true}
                                                           >
-                                                            <OverflowContainerWithShadows
-                                                              className="emotion-16"
+                                                            <Styled(div)
+                                                              className="emotion-15"
                                                               hasShadowBottom={false}
                                                               hasShadowTop={false}
                                                             >
                                                               <div
                                                                 className="emotion-15"
                                                               >
-                                                                <Scroller
+                                                                <Styled(WithTheme(Themed(OverflowContainer)))
                                                                   containerRef={[Function]}
                                                                   onScroll={[Function]}
                                                                   scrollY={true}
@@ -614,7 +592,7 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
                                                                             onScroll={[Function]}
                                                                             scrollY={true}
                                                                           >
-                                                                            <OverflowContainer
+                                                                            <Styled(div)
                                                                               className="emotion-11"
                                                                               containerRef={[Function]}
                                                                               onScroll={[Function]}
@@ -656,15 +634,15 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
                                                                                   }
                                                                                 />
                                                                               </div>
-                                                                            </OverflowContainer>
+                                                                            </Styled(div)>
                                                                           </OverflowContainer>
                                                                         </ThemeProvider>
                                                                       </ThemeProvider>
                                                                     </Themed(OverflowContainer)>
                                                                   </WithTheme(Themed(OverflowContainer))>
-                                                                </Scroller>
+                                                                </Styled(WithTheme(Themed(OverflowContainer)))>
                                                               </div>
-                                                            </OverflowContainerWithShadows>
+                                                            </Styled(div)>
                                                           </OverflowContainerWithShadows>
                                                         </ThemeProvider>
                                                       </ThemeProvider>
@@ -675,24 +653,24 @@ exports[`DialogBody demo examples Snapshots: basic 1`] = `
                                             </div>
                                           </Styled(div)>
                                         </DialogRow>
-                                      </DialogBody>
+                                      </Styled(DialogRow)>
                                     </DialogBody>
                                   </div>
-                                </DialogContent>
+                                </Styled(div)>
                               </div>
                             </Styled(div)>
                           </div>
-                        </Dialog>
+                        </Styled(div)>
                       </div>
                     </FocusTrap>
                   </div>
-                </Animate>
+                </Styled(div)>
               </Transition>
             </Component>
           </WithTheme(Component)>
         </Dialog>
-      </DemoDialog>
-    </withProps(DemoDialog)>
+      </Styled(Dialog)>
+    </withProps(Styled(Dialog))>
   </div>
 </Styled(div)>
 `;
@@ -956,29 +934,6 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
   margin-bottom: 1.7142857142857142em;
 }
 
-.emotion-15 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-}
-
-.emotion-15 > div {
-  padding-left: 1.7142857142857142em;
-  padding-right: 1.7142857142857142em;
-}
-
-.emotion-15 > div > :first-child {
-  margin-top: 0;
-}
-
-.emotion-15 > div > :last-child {
-  margin-bottom: 0;
-}
-
 .emotion-14 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1032,8 +987,8 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
   <div
     className="emotion-28"
   >
-    <withProps(DemoDialog)>
-      <DemoDialog
+    <withProps(Styled(Dialog))>
+      <Styled(Dialog)
         closeButtonLabel="close"
         closeOnClickOutside={false}
         closeOnEscape={false}
@@ -1083,7 +1038,7 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
                 timeout={250}
                 unmountOnExit={true}
               >
-                <Animate
+                <Styled(div)
                   state="entering"
                 >
                   <div
@@ -1097,7 +1052,7 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
                       tag="div"
                     >
                       <div>
-                        <Dialog
+                        <Styled(div)
                           aria-labelledby="dialog-3-title"
                           aria-modal={true}
                           className="emotion-25"
@@ -1116,16 +1071,16 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
                             role="dialog"
                             tabIndex="-1"
                           >
-                            <Overlay>
+                            <Styled(div)>
                               <div
                                 className="emotion-0"
                               />
-                            </Overlay>
+                            </Styled(div)>
                             <Styled(div)>
                               <div
                                 className="emotion-23"
                               >
-                                <DialogContent
+                                <Styled(div)
                                   id="dialog-3-content"
                                   role="document"
                                   size="medium"
@@ -1134,6 +1089,7 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
                                     className="emotion-22"
                                     id="dialog-3-content"
                                     role="document"
+                                    size="medium"
                                   >
                                     <DialogHeader
                                       titleProps={
@@ -1143,8 +1099,8 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
                                         }
                                       }
                                     >
-                                      <withProps(DialogHeader)>
-                                        <DialogHeader
+                                      <withProps(Styled(DialogRow))>
+                                        <Styled(DialogRow)
                                           element="header"
                                         >
                                           <DialogRow
@@ -1166,7 +1122,7 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
                                                     element="h1"
                                                     id="dialog-3-title"
                                                   >
-                                                    <DialogTitle
+                                                    <Styled(div)
                                                       appearance="h4"
                                                       element="h1"
                                                     >
@@ -1217,17 +1173,17 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
                                                           </Styled(Text)>
                                                         </TitleContent>
                                                       </div>
-                                                    </DialogTitle>
+                                                    </Styled(div)>
                                                   </DialogTitle>
                                                 </WithTheme(DialogTitle)>
                                               </header>
                                             </Styled(header)>
                                           </DialogRow>
-                                        </DialogHeader>
-                                      </withProps(DialogHeader)>
+                                        </Styled(DialogRow)>
+                                      </withProps(Styled(DialogRow))>
                                     </DialogHeader>
                                     <DialogBody>
-                                      <DialogBody
+                                      <Styled(DialogRow)
                                         element="div"
                                       >
                                         <DialogRow
@@ -1246,28 +1202,28 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
                                                   scrollY={true}
                                                 >
                                                   <WithTheme(Themed(OverflowContainerWithShadows))
-                                                    className="emotion-15"
+                                                    className="emotion-14"
                                                     scrollY={true}
                                                   >
                                                     <Themed(OverflowContainerWithShadows)
-                                                      className="emotion-15"
+                                                      className="emotion-14"
                                                       scrollY={true}
                                                     >
                                                       <ThemeProvider>
                                                         <ThemeProvider>
                                                           <OverflowContainerWithShadows
-                                                            className="emotion-15"
+                                                            className="emotion-14"
                                                             scrollY={true}
                                                           >
-                                                            <OverflowContainerWithShadows
-                                                              className="emotion-15"
+                                                            <Styled(div)
+                                                              className="emotion-14"
                                                               hasShadowBottom={false}
                                                               hasShadowTop={false}
                                                             >
                                                               <div
                                                                 className="emotion-14"
                                                               >
-                                                                <Scroller
+                                                                <Styled(WithTheme(Themed(OverflowContainer)))
                                                                   containerRef={[Function]}
                                                                   onScroll={[Function]}
                                                                   scrollY={true}
@@ -1292,7 +1248,7 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
                                                                             onScroll={[Function]}
                                                                             scrollY={true}
                                                                           >
-                                                                            <OverflowContainer
+                                                                            <Styled(div)
                                                                               className="emotion-10"
                                                                               containerRef={[Function]}
                                                                               onScroll={[Function]}
@@ -1344,15 +1300,15 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
                                                                                   }
                                                                                 />
                                                                               </div>
-                                                                            </OverflowContainer>
+                                                                            </Styled(div)>
                                                                           </OverflowContainer>
                                                                         </ThemeProvider>
                                                                       </ThemeProvider>
                                                                     </Themed(OverflowContainer)>
                                                                   </WithTheme(Themed(OverflowContainer))>
-                                                                </Scroller>
+                                                                </Styled(WithTheme(Themed(OverflowContainer)))>
                                                               </div>
-                                                            </OverflowContainerWithShadows>
+                                                            </Styled(div)>
                                                           </OverflowContainerWithShadows>
                                                         </ThemeProvider>
                                                       </ThemeProvider>
@@ -1363,24 +1319,24 @@ exports[`DialogBody demo examples Snapshots: scrolling 1`] = `
                                             </div>
                                           </Styled(div)>
                                         </DialogRow>
-                                      </DialogBody>
+                                      </Styled(DialogRow)>
                                     </DialogBody>
                                   </div>
-                                </DialogContent>
+                                </Styled(div)>
                               </div>
                             </Styled(div)>
                           </div>
-                        </Dialog>
+                        </Styled(div)>
                       </div>
                     </FocusTrap>
                   </div>
-                </Animate>
+                </Styled(div)>
               </Transition>
             </Component>
           </WithTheme(Component)>
         </Dialog>
-      </DemoDialog>
-    </withProps(DemoDialog)>
+      </Styled(Dialog)>
+    </withProps(Styled(Dialog))>
   </div>
 </Styled(div)>
 `;

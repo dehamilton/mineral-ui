@@ -127,12 +127,12 @@ exports[`CardDivider demo examples Snapshots: basic 1`] = `
     className="emotion-13"
   >
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-12"
         >
           <CardTitle>
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-3"
               >
@@ -156,10 +156,10 @@ exports[`CardDivider demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-5"
               >
@@ -174,20 +174,20 @@ exports[`CardDivider demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardDivider>
-            <CardDivider
+            <Styled(div)
               role="separator"
             >
               <div
                 className="emotion-6"
                 role="separator"
               />
-            </CardDivider>
+            </Styled(div)>
           </CardDivider>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-5"
               >
@@ -202,20 +202,20 @@ exports[`CardDivider demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
           <CardDivider>
-            <CardDivider
+            <Styled(div)
               role="separator"
             >
               <div
                 className="emotion-6"
                 role="separator"
               />
-            </CardDivider>
+            </Styled(div)>
           </CardDivider>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-5"
               >
@@ -230,10 +230,10 @@ exports[`CardDivider demo examples Snapshots: basic 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
   </div>
 </Styled(div)>

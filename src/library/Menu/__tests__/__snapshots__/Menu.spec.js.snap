@@ -333,7 +333,7 @@ exports[`Menu demo examples Snapshots: basic 1`] = `
     className="emotion-41"
   >
     <Menu>
-      <Menu>
+      <Styled(div)>
         <div
           className="emotion-40"
         >
@@ -341,7 +341,7 @@ exports[`Menu demo examples Snapshots: basic 1`] = `
             element="div"
             onClick={[Function]}
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               onClick={[Function]}
               onKeyDown={[Function]}
@@ -373,13 +373,13 @@ exports[`Menu demo examples Snapshots: basic 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
             secondaryText="Secondary text"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               onKeyDown={[Function]}
               secondaryText="Secondary text"
@@ -417,13 +417,13 @@ exports[`Menu demo examples Snapshots: basic 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
             iconStart={<IconCloud />}
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconStart={<IconCloud />}
               onKeyDown={[Function]}
@@ -459,6 +459,7 @@ exports[`Menu demo examples Snapshots: basic 1`] = `
                             className="emotion-9"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -486,13 +487,13 @@ exports[`Menu demo examples Snapshots: basic 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
             iconEnd={<IconCloud />}
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               iconEnd={<IconCloud />}
               onKeyDown={[Function]}
@@ -541,6 +542,7 @@ exports[`Menu demo examples Snapshots: basic 1`] = `
                             className="emotion-9"
                             focusable="false"
                             role="img"
+                            size="1.5em"
                             viewBox="0 0 24 24"
                           >
                             <g>
@@ -555,30 +557,31 @@ exports[`Menu demo examples Snapshots: basic 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuDivider>
-            <MenuDivider
+            <Styled(div)
               role="separator"
             >
               <div
                 className="emotion-19"
                 role="separator"
               />
-            </MenuDivider>
+            </Styled(div)>
           </MenuDivider>
           <MenuItem
             disabled={true}
             element="div"
             onClick={[Function]}
           >
-            <MenuItem
+            <Styled(div)
               disabled={true}
               element="div"
               tabIndex="-1"
             >
               <div
                 className="emotion-23"
+                disabled={true}
                 tabIndex="-1"
               >
                 <Styled(span)>
@@ -601,12 +604,12 @@ exports[`Menu demo examples Snapshots: basic 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuGroup
             title="Group Title"
           >
-            <MenuGroupTitle
+            <Styled(h3)
               key="MenuGroup"
             >
               <h3
@@ -614,12 +617,12 @@ exports[`Menu demo examples Snapshots: basic 1`] = `
               >
                 Group Title
               </h3>
-            </MenuGroupTitle>
+            </Styled(h3)>
             <MenuItem
               element="div"
               variant="success"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 onKeyDown={[Function]}
                 tabIndex={0}
@@ -654,6 +657,7 @@ exports[`Menu demo examples Snapshots: basic 1`] = `
                               className="emotion-9"
                               focusable="false"
                               role="img"
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
                               <g>
@@ -681,13 +685,13 @@ exports[`Menu demo examples Snapshots: basic 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuItem
               element="div"
               variant="warning"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 onKeyDown={[Function]}
                 tabIndex={0}
@@ -722,6 +726,7 @@ exports[`Menu demo examples Snapshots: basic 1`] = `
                               className="emotion-9"
                               focusable="false"
                               role="img"
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
                               <g>
@@ -749,13 +754,13 @@ exports[`Menu demo examples Snapshots: basic 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuItem
               element="div"
               variant="danger"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 onKeyDown={[Function]}
                 tabIndex={0}
@@ -790,6 +795,7 @@ exports[`Menu demo examples Snapshots: basic 1`] = `
                               className="emotion-9"
                               focusable="false"
                               role="img"
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
                               <g>
@@ -817,11 +823,11 @@ exports[`Menu demo examples Snapshots: basic 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
           </MenuGroup>
         </div>
-      </Menu>
+      </Styled(div)>
     </Menu>
   </div>
 </Styled(div)>
@@ -1011,7 +1017,7 @@ exports[`Menu demo examples Snapshots: custom-item 1`] = `
         item={[Function]}
         itemKey="text"
       >
-        <Menu
+        <Styled(div)
           item={[Function]}
           itemKey="text"
         >
@@ -1083,7 +1089,7 @@ exports[`Menu demo examples Snapshots: custom-item 1`] = `
                         shape="circle"
                         size="large"
                       >
-                        <Avatar
+                        <Styled(span)
                           className="emotion-1"
                           noBackground={true}
                           shape="circle"
@@ -1091,13 +1097,15 @@ exports[`Menu demo examples Snapshots: custom-item 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            shape="circle"
+                            size="large"
                           >
                             <img
                               alt="Newton"
                               src="/images/avatar.svg"
                             />
                           </span>
-                        </Avatar>
+                        </Styled(span)>
                       </Avatar>
                     </Styled(Avatar)>
                     <Styled(span)>
@@ -1183,7 +1191,7 @@ exports[`Menu demo examples Snapshots: custom-item 1`] = `
                         shape="circle"
                         size="large"
                       >
-                        <Avatar
+                        <Styled(span)
                           className="emotion-1"
                           noBackground={true}
                           shape="circle"
@@ -1191,13 +1199,15 @@ exports[`Menu demo examples Snapshots: custom-item 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            shape="circle"
+                            size="large"
                           >
                             <img
                               alt="Descartes"
                               src="/images/avatar.svg"
                             />
                           </span>
-                        </Avatar>
+                        </Styled(span)>
                       </Avatar>
                     </Styled(Avatar)>
                     <Styled(span)>
@@ -1283,7 +1293,7 @@ exports[`Menu demo examples Snapshots: custom-item 1`] = `
                         shape="circle"
                         size="large"
                       >
-                        <Avatar
+                        <Styled(span)
                           className="emotion-1"
                           noBackground={true}
                           shape="circle"
@@ -1291,13 +1301,15 @@ exports[`Menu demo examples Snapshots: custom-item 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            shape="circle"
+                            size="large"
                           >
                             <img
                               alt="Euclid"
                               src="/images/avatar.svg"
                             />
                           </span>
-                        </Avatar>
+                        </Styled(span)>
                       </Avatar>
                     </Styled(Avatar)>
                     <Styled(span)>
@@ -1319,7 +1331,7 @@ exports[`Menu demo examples Snapshots: custom-item 1`] = `
               </CustomItem>
             </MenuItem>
           </div>
-        </Menu>
+        </Styled(div)>
       </Menu>
     </div>
   </Styled(div)>
@@ -1706,7 +1718,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
         }
         itemKey="text"
       >
-        <Menu
+        <Styled(div)
           itemKey="text"
         >
           <div
@@ -1726,7 +1738,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
               onClick={[Function]}
               text="Menu item with onClick"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 index={0}
                 isHighlighted={false}
@@ -1767,7 +1779,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuItem
               element="div"
@@ -1783,7 +1795,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
               secondaryText="Secondary text"
               text="Menu item"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 index={1}
                 isHighlighted={false}
@@ -1830,7 +1842,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuItem
               element="div"
@@ -1846,7 +1858,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
               key="Icon at start"
               text="Icon at start"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 iconStart={<IconCloud />}
                 index={2}
@@ -1891,6 +1903,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
                               className="emotion-9"
                               focusable="false"
                               role="img"
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
                               <g>
@@ -1918,7 +1931,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuItem
               element="div"
@@ -1934,7 +1947,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
               key="Icon at end"
               text="Icon at end"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 iconEnd={<IconCloud />}
                 index={3}
@@ -1992,6 +2005,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
                               className="emotion-9"
                               focusable="false"
                               role="img"
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
                               <g>
@@ -2006,19 +2020,19 @@ exports[`Menu demo examples Snapshots: data 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuDivider
               key="4"
             >
-              <MenuDivider
+              <Styled(div)
                 role="separator"
               >
                 <div
                   className="emotion-19"
                   role="separator"
                 />
-              </MenuDivider>
+              </Styled(div)>
             </MenuDivider>
             <MenuItem
               disabled={true}
@@ -2036,7 +2050,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
               onClick={[Function]}
               text="Disabled menu item"
             >
-              <MenuItem
+              <Styled(div)
                 disabled={true}
                 element="div"
                 index={4}
@@ -2053,6 +2067,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
               >
                 <div
                   className="emotion-23"
+                  disabled={true}
                   tabIndex="-1"
                 >
                   <Styled(span)>
@@ -2075,13 +2090,13 @@ exports[`Menu demo examples Snapshots: data 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuGroup
               key="5"
               title="Group Title"
             >
-              <MenuGroupTitle
+              <Styled(h3)
                 key="MenuGroup"
               >
                 <h3
@@ -2089,7 +2104,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
                 >
                   Group Title
                 </h3>
-              </MenuGroupTitle>
+              </Styled(h3)>
             </MenuGroup>
             <MenuItem
               element="div"
@@ -2105,7 +2120,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
               text="Success variant"
               variant="success"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 index={5}
                 isHighlighted={false}
@@ -2149,6 +2164,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
                               className="emotion-9"
                               focusable="false"
                               role="img"
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
                               <g>
@@ -2176,7 +2192,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuItem
               element="div"
@@ -2192,7 +2208,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
               text="Warning variant"
               variant="warning"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 index={6}
                 isHighlighted={false}
@@ -2236,6 +2252,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
                               className="emotion-9"
                               focusable="false"
                               role="img"
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
                               <g>
@@ -2263,7 +2280,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuItem
               element="div"
@@ -2279,7 +2296,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
               text="Danger variant"
               variant="danger"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 index={7}
                 isHighlighted={false}
@@ -2323,6 +2340,7 @@ exports[`Menu demo examples Snapshots: data 1`] = `
                               className="emotion-9"
                               focusable="false"
                               role="img"
+                              size="1.5em"
                               viewBox="0 0 24 24"
                             >
                               <g>
@@ -2350,10 +2368,10 @@ exports[`Menu demo examples Snapshots: data 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
           </div>
-        </Menu>
+        </Styled(div)>
       </Menu>
     </div>
   </Styled(div)>

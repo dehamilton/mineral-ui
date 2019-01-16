@@ -266,7 +266,7 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
       className="emotion-15"
     >
       <Card>
-        <Card>
+        <Styled(div)>
           <div
             className="emotion-14"
           >
@@ -296,7 +296,7 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                 />
               }
             >
-              <CardTitle>
+              <Styled(div)>
                 <div
                   className="emotion-11"
                 >
@@ -399,7 +399,7 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                                 triggerRef={[Function]}
                               >
                                 <Manager>
-                                  <Popover
+                                  <Styled(span)
                                     content={[Function]}
                                     focusTriggerOnClose={true}
                                     hasArrow={true}
@@ -413,14 +413,16 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                                   >
                                     <span
                                       className="emotion-8"
+                                      content={[Function]}
                                       id="dropdown-1"
+                                      onClose={[Function]}
+                                      onOpen={[Function]}
                                     >
                                       <PopoverTrigger
                                         aria-describedby="dropdown-1-content"
                                         aria-expanded={false}
                                         aria-haspopup={true}
                                         aria-owns="dropdown-1-content"
-                                        element="button"
                                         iconStart={
                                           <IconMoreHoriz
                                             title="Card actions"
@@ -433,13 +435,12 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                                         onKeyUp={[Function]}
                                         role="button"
                                         size="large"
-                                        type="button"
                                       >
                                         <Reference>
                                           <InnerReference
                                             getReferenceRef={[Function]}
                                           >
-                                            <PopoverTrigger>
+                                            <Styled(span)>
                                               <span
                                                 className="emotion-7"
                                               >
@@ -448,7 +449,6 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                                                   aria-expanded={false}
                                                   aria-haspopup={true}
                                                   aria-owns="dropdown-1-content"
-                                                  element="button"
                                                   iconStart={
                                                     <IconMoreHoriz
                                                       title="Card actions"
@@ -461,7 +461,6 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                                                   onKeyUp={[Function]}
                                                   role="button"
                                                   size="large"
-                                                  type="button"
                                                 >
                                                   <WithForwardRef(Button)
                                                     aria-describedby="dropdown-1-content"
@@ -469,7 +468,6 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                                                     aria-haspopup={true}
                                                     aria-owns="dropdown-1-content"
                                                     className="emotion-4"
-                                                    element="button"
                                                     iconStart={
                                                       <IconMoreHoriz
                                                         title="Card actions"
@@ -482,7 +480,6 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                                                     onKeyUp={[Function]}
                                                     role="button"
                                                     size="large"
-                                                    type="button"
                                                   >
                                                     <Button
                                                       aria-describedby="dropdown-1-content"
@@ -490,7 +487,6 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                                                       aria-haspopup={true}
                                                       aria-owns="dropdown-1-content"
                                                       className="emotion-4"
-                                                      element="button"
                                                       forwardedRef={null}
                                                       iconStart={
                                                         <IconMoreHoriz
@@ -504,15 +500,13 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                                                       onKeyUp={[Function]}
                                                       role="button"
                                                       size="large"
-                                                      type="button"
                                                     >
-                                                      <Button
+                                                      <Styled(button)
                                                         aria-describedby="dropdown-1-content"
                                                         aria-expanded={false}
                                                         aria-haspopup={true}
                                                         aria-owns="dropdown-1-content"
                                                         className="emotion-4"
-                                                        element="button"
                                                         minimal={true}
                                                         onBlur={[Function]}
                                                         onClick={[Function]}
@@ -520,7 +514,6 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                                                         onKeyUp={[Function]}
                                                         role="button"
                                                         size="large"
-                                                        type="button"
                                                       >
                                                         <button
                                                           aria-describedby="dropdown-1-content"
@@ -533,7 +526,7 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                                                           onKeyDown={[Function]}
                                                           onKeyUp={[Function]}
                                                           role="button"
-                                                          type="button"
+                                                          size="large"
                                                         >
                                                           <Styled(span)>
                                                             <span
@@ -564,6 +557,7 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                                                                       className="emotion-1"
                                                                       focusable="false"
                                                                       role="img"
+                                                                      size="1.5em"
                                                                       viewBox="0 0 24 24"
                                                                     >
                                                                       <title
@@ -583,17 +577,17 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                                                             </span>
                                                           </Styled(span)>
                                                         </button>
-                                                      </Button>
+                                                      </Styled(button)>
                                                     </Button>
                                                   </WithForwardRef(Button)>
                                                 </Styled(WithForwardRef(Button))>
                                               </span>
-                                            </PopoverTrigger>
+                                            </Styled(span)>
                                           </InnerReference>
                                         </Reference>
                                       </PopoverTrigger>
                                     </span>
-                                  </Popover>
+                                  </Styled(span)>
                                 </Manager>
                               </Popover>
                             </Dropdown>
@@ -603,10 +597,10 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                     </div>
                   </Styled(div)>
                 </div>
-              </CardTitle>
+              </Styled(div)>
             </CardTitle>
             <CardBlock>
-              <CardBlock>
+              <Styled(div)>
                 <div
                   className="emotion-13"
                 >
@@ -621,10 +615,10 @@ exports[`CardTitle demo examples Snapshots: actions-menu 1`] = `
                     </div>
                   </Styled(div)>
                 </div>
-              </CardBlock>
+              </Styled(div)>
             </CardBlock>
           </div>
-        </Card>
+        </Styled(div)>
       </Card>
     </div>
   </Styled(div)>
@@ -843,7 +837,7 @@ exports[`CardTitle demo examples Snapshots: avatar 1`] = `
       className="emotion-19"
     >
       <Card>
-        <Card>
+        <Styled(div)>
           <div
             className="emotion-8"
           >
@@ -860,7 +854,7 @@ exports[`CardTitle demo examples Snapshots: avatar 1`] = `
                 </Avatar>
               }
             >
-              <CardTitle>
+              <Styled(div)>
                 <div
                   className="emotion-5"
                 >
@@ -872,20 +866,22 @@ exports[`CardTitle demo examples Snapshots: avatar 1`] = `
                         shape="circle"
                         size="large"
                       >
-                        <Avatar
+                        <Styled(span)
                           noBackground={true}
                           shape="circle"
                           size="large"
                         >
                           <span
                             className="emotion-0"
+                            shape="circle"
+                            size="large"
                           >
                             <img
                               alt="Alt text"
                               src="/images/avatar.svg"
                             />
                           </span>
-                        </Avatar>
+                        </Styled(span)>
                       </Avatar>
                     </span>
                   </Styled(span)>
@@ -909,10 +905,10 @@ exports[`CardTitle demo examples Snapshots: avatar 1`] = `
                     </div>
                   </Styled(div)>
                 </div>
-              </CardTitle>
+              </Styled(div)>
             </CardTitle>
             <CardBlock>
-              <CardBlock>
+              <Styled(div)>
                 <div
                   className="emotion-7"
                 >
@@ -927,13 +923,13 @@ exports[`CardTitle demo examples Snapshots: avatar 1`] = `
                     </div>
                   </Styled(div)>
                 </div>
-              </CardBlock>
+              </Styled(div)>
             </CardBlock>
           </div>
-        </Card>
+        </Styled(div)>
       </Card>
       <Card>
-        <Card>
+        <Styled(div)>
           <div
             className="emotion-8"
           >
@@ -951,7 +947,7 @@ exports[`CardTitle demo examples Snapshots: avatar 1`] = `
               }
               subtitle="Card Subtitle"
             >
-              <CardTitle>
+              <Styled(div)>
                 <div
                   className="emotion-5"
                 >
@@ -965,20 +961,22 @@ exports[`CardTitle demo examples Snapshots: avatar 1`] = `
                         shape="circle"
                         size="large"
                       >
-                        <Avatar
+                        <Styled(span)
                           noBackground={true}
                           shape="circle"
                           size="large"
                         >
                           <span
                             className="emotion-0"
+                            shape="circle"
+                            size="large"
                           >
                             <img
                               alt="Alt text"
                               src="/images/avatar.svg"
                             />
                           </span>
-                        </Avatar>
+                        </Styled(span)>
                       </Avatar>
                     </span>
                   </Styled(span)>
@@ -1021,10 +1019,10 @@ exports[`CardTitle demo examples Snapshots: avatar 1`] = `
                     </div>
                   </Styled(div)>
                 </div>
-              </CardTitle>
+              </Styled(div)>
             </CardTitle>
             <CardBlock>
-              <CardBlock>
+              <Styled(div)>
                 <div
                   className="emotion-7"
                 >
@@ -1039,10 +1037,10 @@ exports[`CardTitle demo examples Snapshots: avatar 1`] = `
                     </div>
                   </Styled(div)>
                 </div>
-              </CardBlock>
+              </Styled(div)>
             </CardBlock>
           </div>
-        </Card>
+        </Styled(div)>
       </Card>
     </div>
   </Styled(div)>
@@ -1270,7 +1268,7 @@ exports[`CardTitle demo examples Snapshots: rtl 1`] = `
           className="emotion-18"
         >
           <Card>
-            <Card>
+            <Styled(div)>
               <div
                 className="emotion-9"
               >
@@ -1288,7 +1286,7 @@ exports[`CardTitle demo examples Snapshots: rtl 1`] = `
                   }
                   subtitle="الترجمة هنا"
                 >
-                  <CardTitle>
+                  <Styled(div)>
                     <div
                       className="emotion-6"
                     >
@@ -1302,20 +1300,22 @@ exports[`CardTitle demo examples Snapshots: rtl 1`] = `
                             shape="circle"
                             size="large"
                           >
-                            <Avatar
+                            <Styled(span)
                               noBackground={true}
                               shape="circle"
                               size="large"
                             >
                               <span
                                 className="emotion-0"
+                                shape="circle"
+                                size="large"
                               >
                                 <img
                                   alt="نص بديل"
                                   src="/images/avatar.svg"
                                 />
                               </span>
-                            </Avatar>
+                            </Styled(span)>
                           </Avatar>
                         </span>
                       </Styled(span)>
@@ -1358,10 +1358,10 @@ exports[`CardTitle demo examples Snapshots: rtl 1`] = `
                         </div>
                       </Styled(div)>
                     </div>
-                  </CardTitle>
+                  </Styled(div)>
                 </CardTitle>
                 <CardBlock>
-                  <CardBlock>
+                  <Styled(div)>
                     <div
                       className="emotion-8"
                     >
@@ -1375,20 +1375,20 @@ exports[`CardTitle demo examples Snapshots: rtl 1`] = `
                         </div>
                       </Styled(div)>
                     </div>
-                  </CardBlock>
+                  </Styled(div)>
                 </CardBlock>
               </div>
-            </Card>
+            </Styled(div)>
           </Card>
           <Card>
-            <Card>
+            <Styled(div)>
               <div
                 className="emotion-9"
               >
                 <CardTitle
                   secondaryText="نص ثانوي"
                 >
-                  <CardTitle>
+                  <Styled(div)>
                     <div
                       className="emotion-6"
                     >
@@ -1419,10 +1419,10 @@ exports[`CardTitle demo examples Snapshots: rtl 1`] = `
                         </div>
                       </Styled(div)>
                     </div>
-                  </CardTitle>
+                  </Styled(div)>
                 </CardTitle>
                 <CardBlock>
-                  <CardBlock>
+                  <Styled(div)>
                     <div
                       className="emotion-8"
                     >
@@ -1436,10 +1436,10 @@ exports[`CardTitle demo examples Snapshots: rtl 1`] = `
                         </div>
                       </Styled(div)>
                     </div>
-                  </CardBlock>
+                  </Styled(div)>
                 </CardBlock>
               </div>
-            </Card>
+            </Styled(div)>
           </Card>
         </div>
       </Styled(div)>
@@ -1587,14 +1587,14 @@ exports[`CardTitle demo examples Snapshots: secondary-text 1`] = `
     className="emotion-16"
   >
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-7"
         >
           <CardTitle
             secondaryText="Secondary info"
           >
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-4"
               >
@@ -1625,10 +1625,10 @@ exports[`CardTitle demo examples Snapshots: secondary-text 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-6"
               >
@@ -1643,20 +1643,20 @@ exports[`CardTitle demo examples Snapshots: secondary-text 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-7"
         >
           <CardTitle
             secondaryText="Longer secondary info will be truncated"
           >
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-4"
               >
@@ -1687,10 +1687,10 @@ exports[`CardTitle demo examples Snapshots: secondary-text 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-6"
               >
@@ -1705,10 +1705,10 @@ exports[`CardTitle demo examples Snapshots: secondary-text 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
   </div>
 </Styled(div)>
@@ -1843,14 +1843,14 @@ exports[`CardTitle demo examples Snapshots: titles 1`] = `
     className="emotion-8"
   >
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-7"
         >
           <CardTitle
             subtitle="Card Subtitle"
           >
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-4"
               >
@@ -1881,10 +1881,10 @@ exports[`CardTitle demo examples Snapshots: titles 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-6"
               >
@@ -1899,10 +1899,10 @@ exports[`CardTitle demo examples Snapshots: titles 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
   </div>
 </Styled(div)>
@@ -2087,14 +2087,14 @@ exports[`CardTitle demo examples Snapshots: variants 1`] = `
     className="emotion-25"
   >
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-7"
         >
           <CardTitle
             variant="danger"
           >
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-4"
               >
@@ -2128,6 +2128,7 @@ exports[`CardTitle demo examples Snapshots: variants 1`] = `
                                 className="emotion-0"
                                 focusable="false"
                                 role="img"
+                                size="medium"
                                 viewBox="0 0 24 24"
                               >
                                 <g>
@@ -2151,10 +2152,10 @@ exports[`CardTitle demo examples Snapshots: variants 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-6"
               >
@@ -2169,20 +2170,20 @@ exports[`CardTitle demo examples Snapshots: variants 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-7"
         >
           <CardTitle
             variant="success"
           >
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-4"
               >
@@ -2216,6 +2217,7 @@ exports[`CardTitle demo examples Snapshots: variants 1`] = `
                                 className="emotion-0"
                                 focusable="false"
                                 role="img"
+                                size="medium"
                                 viewBox="0 0 24 24"
                               >
                                 <g>
@@ -2239,10 +2241,10 @@ exports[`CardTitle demo examples Snapshots: variants 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-6"
               >
@@ -2257,13 +2259,13 @@ exports[`CardTitle demo examples Snapshots: variants 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-7"
         >
@@ -2271,7 +2273,7 @@ exports[`CardTitle demo examples Snapshots: variants 1`] = `
             subtitle="Card Subtitle"
             variant="warning"
           >
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-4"
               >
@@ -2305,6 +2307,7 @@ exports[`CardTitle demo examples Snapshots: variants 1`] = `
                                 className="emotion-0"
                                 focusable="false"
                                 role="img"
+                                size="medium"
                                 viewBox="0 0 24 24"
                               >
                                 <g>
@@ -2335,10 +2338,10 @@ exports[`CardTitle demo examples Snapshots: variants 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-6"
               >
@@ -2353,10 +2356,10 @@ exports[`CardTitle demo examples Snapshots: variants 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
   </div>
 </Styled(div)>

@@ -237,7 +237,7 @@ exports[`ButtonGroup demo examples Snapshots: basic 1`] = `
 <ButtonGroup
   aria-label="Edit text"
 >
-  <ButtonGroup
+  <Styled(div)
     aria-label="Edit text"
     role="group"
   >
@@ -248,33 +248,27 @@ exports[`ButtonGroup demo examples Snapshots: basic 1`] = `
     >
       <WithForwardRef(Button)
         data-index={0}
-        element="button"
         key="0/.0"
         onClick={[Function]}
         size="large"
-        type="button"
       >
         <Button
           data-index={0}
-          element="button"
           forwardedRef={null}
           onClick={[Function]}
           size="large"
-          type="button"
         >
-          <Button
+          <Styled(button)
             data-index={0}
-            element="button"
             onClick={[Function]}
             size="large"
             text="Cut"
-            type="button"
           >
             <button
               className="emotion-2"
               data-index={0}
               onClick={[Function]}
-              type="button"
+              size="large"
             >
               <Styled(span)>
                 <span
@@ -285,6 +279,7 @@ exports[`ButtonGroup demo examples Snapshots: basic 1`] = `
                   >
                     <span
                       className="emotion-0"
+                      size="large"
                     >
                       Cut
                     </span>
@@ -292,38 +287,32 @@ exports[`ButtonGroup demo examples Snapshots: basic 1`] = `
                 </span>
               </Styled(span)>
             </button>
-          </Button>
+          </Styled(button)>
         </Button>
       </WithForwardRef(Button)>
       <WithForwardRef(Button)
         data-index={1}
-        element="button"
         key="1/.1"
         onClick={[Function]}
         size="large"
-        type="button"
       >
         <Button
           data-index={1}
-          element="button"
           forwardedRef={null}
           onClick={[Function]}
           size="large"
-          type="button"
         >
-          <Button
+          <Styled(button)
             data-index={1}
-            element="button"
             onClick={[Function]}
             size="large"
             text="Copy"
-            type="button"
           >
             <button
               className="emotion-2"
               data-index={1}
               onClick={[Function]}
-              type="button"
+              size="large"
             >
               <Styled(span)>
                 <span
@@ -334,6 +323,7 @@ exports[`ButtonGroup demo examples Snapshots: basic 1`] = `
                   >
                     <span
                       className="emotion-0"
+                      size="large"
                     >
                       Copy
                     </span>
@@ -341,38 +331,32 @@ exports[`ButtonGroup demo examples Snapshots: basic 1`] = `
                 </span>
               </Styled(span)>
             </button>
-          </Button>
+          </Styled(button)>
         </Button>
       </WithForwardRef(Button)>
       <WithForwardRef(Button)
         data-index={2}
-        element="button"
         key="2/.2"
         onClick={[Function]}
         size="large"
-        type="button"
       >
         <Button
           data-index={2}
-          element="button"
           forwardedRef={null}
           onClick={[Function]}
           size="large"
-          type="button"
         >
-          <Button
+          <Styled(button)
             data-index={2}
-            element="button"
             onClick={[Function]}
             size="large"
             text="Paste"
-            type="button"
           >
             <button
               className="emotion-2"
               data-index={2}
               onClick={[Function]}
-              type="button"
+              size="large"
             >
               <Styled(span)>
                 <span
@@ -383,6 +367,7 @@ exports[`ButtonGroup demo examples Snapshots: basic 1`] = `
                   >
                     <span
                       className="emotion-0"
+                      size="large"
                     >
                       Paste
                     </span>
@@ -390,11 +375,11 @@ exports[`ButtonGroup demo examples Snapshots: basic 1`] = `
                 </span>
               </Styled(span)>
             </button>
-          </Button>
+          </Styled(button)>
         </Button>
       </WithForwardRef(Button)>
     </div>
-  </ButtonGroup>
+  </Styled(div)>
 </ButtonGroup>
 `;
 
@@ -666,7 +651,7 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
     <ButtonGroup
       aria-label="Optional compositions"
     >
-      <ButtonGroup
+      <Styled(div)
         aria-label="Optional compositions"
         role="group"
       >
@@ -677,33 +662,27 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
         >
           <WithForwardRef(Button)
             data-index={0}
-            element="button"
             key="0/.0"
             onClick={[Function]}
             size="large"
-            type="button"
           >
             <Button
               data-index={0}
-              element="button"
               forwardedRef={null}
               onClick={[Function]}
               size="large"
-              type="button"
             >
-              <Button
+              <Styled(button)
                 data-index={0}
-                element="button"
                 onClick={[Function]}
                 size="large"
                 text="Button"
-                type="button"
               >
                 <button
                   className="emotion-2"
                   data-index={0}
                   onClick={[Function]}
-                  type="button"
+                  size="large"
                 >
                   <Styled(span)>
                     <span
@@ -714,6 +693,7 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                       >
                         <span
                           className="emotion-0"
+                          size="large"
                         >
                           Button
                         </span>
@@ -721,7 +701,7 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                     </span>
                   </Styled(span)>
                 </button>
-              </Button>
+              </Styled(button)>
             </Button>
           </WithForwardRef(Button)>
           <Tooltip
@@ -771,7 +751,7 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                       placement="bottom"
                     >
                       <Manager>
-                        <Popover
+                        <Styled(span)
                           content={[Function]}
                           data-index={1}
                           focusTriggerOnClose={false}
@@ -785,14 +765,16 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                         >
                           <span
                             className="emotion-7"
+                            content={[Function]}
                             data-index={1}
                             id="tooltip-10"
                             onClick={[Function]}
+                            onClose={[Function]}
+                            onOpen={[Function]}
                           >
                             <PopoverTrigger
                               aria-describedby="tooltip-10-content"
                               aria-owns="tooltip-10-content"
-                              element="button"
                               onBlur={[Function]}
                               onClick={[Function]}
                               onFocus={[Function]}
@@ -801,20 +783,18 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                               role="button"
                               size="large"
                               tabIndex={0}
-                              type="button"
                             >
                               <Reference>
                                 <InnerReference
                                   getReferenceRef={[Function]}
                                 >
-                                  <PopoverTrigger>
+                                  <Styled(span)>
                                     <span
                                       className="emotion-6"
                                     >
                                       <WithForwardRef(Button)
                                         aria-describedby="tooltip-10-content"
                                         aria-owns="tooltip-10-content"
-                                        element="button"
                                         key=".0"
                                         onBlur={[Function]}
                                         onClick={[Function]}
@@ -824,12 +804,10 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                                         role="button"
                                         size="large"
                                         tabIndex={0}
-                                        type="button"
                                       >
                                         <Button
                                           aria-describedby="tooltip-10-content"
                                           aria-owns="tooltip-10-content"
-                                          element="button"
                                           forwardedRef={null}
                                           onBlur={[Function]}
                                           onClick={[Function]}
@@ -839,12 +817,10 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                                           role="button"
                                           size="large"
                                           tabIndex={0}
-                                          type="button"
                                         >
-                                          <Button
+                                          <Styled(button)
                                             aria-describedby="tooltip-10-content"
                                             aria-owns="tooltip-10-content"
-                                            element="button"
                                             onBlur={[Function]}
                                             onClick={[Function]}
                                             onFocus={[Function]}
@@ -854,7 +830,6 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                                             size="large"
                                             tabIndex={0}
                                             text="Tooltip"
-                                            type="button"
                                           >
                                             <button
                                               aria-describedby="tooltip-10-content"
@@ -866,8 +841,8 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                                               onMouseEnter={[Function]}
                                               onMouseLeave={[Function]}
                                               role="button"
+                                              size="large"
                                               tabIndex={0}
-                                              type="button"
                                             >
                                               <Styled(span)>
                                                 <span
@@ -878,6 +853,7 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                                                   >
                                                     <span
                                                       className="emotion-0"
+                                                      size="large"
                                                     >
                                                       Tooltip
                                                     </span>
@@ -885,16 +861,16 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                                                 </span>
                                               </Styled(span)>
                                             </button>
-                                          </Button>
+                                          </Styled(button)>
                                         </Button>
                                       </WithForwardRef(Button)>
                                     </span>
-                                  </PopoverTrigger>
+                                  </Styled(span)>
                                 </InnerReference>
                               </Reference>
                             </PopoverTrigger>
                           </span>
-                        </Popover>
+                        </Styled(span)>
                       </Manager>
                     </Popover>
                   </ThemeProvider>
@@ -912,7 +888,7 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
             placement="bottom"
           >
             <Manager>
-              <Popover
+              <Styled(span)
                 content={<DemoContent />}
                 data-index={2}
                 focusTriggerOnClose={true}
@@ -922,6 +898,7 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
               >
                 <span
                   className="emotion-7"
+                  content={<DemoContent />}
                   data-index={2}
                   onClick={[Function]}
                 >
@@ -929,18 +906,16 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                     aria-describedby="popover-11-content"
                     aria-expanded={false}
                     aria-owns="popover-11-content"
-                    element="button"
                     onBlur={[Function]}
                     onClick={[Function]}
                     role="button"
                     size="large"
-                    type="button"
                   >
                     <Reference>
                       <InnerReference
                         getReferenceRef={[Function]}
                       >
-                        <PopoverTrigger>
+                        <Styled(span)>
                           <span
                             className="emotion-6"
                           >
@@ -948,37 +923,31 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                               aria-describedby="popover-11-content"
                               aria-expanded={false}
                               aria-owns="popover-11-content"
-                              element="button"
                               key=".0"
                               onBlur={[Function]}
                               onClick={[Function]}
                               role="button"
                               size="large"
-                              type="button"
                             >
                               <Button
                                 aria-describedby="popover-11-content"
                                 aria-expanded={false}
                                 aria-owns="popover-11-content"
-                                element="button"
                                 forwardedRef={null}
                                 onBlur={[Function]}
                                 onClick={[Function]}
                                 role="button"
                                 size="large"
-                                type="button"
                               >
-                                <Button
+                                <Styled(button)
                                   aria-describedby="popover-11-content"
                                   aria-expanded={false}
                                   aria-owns="popover-11-content"
-                                  element="button"
                                   onBlur={[Function]}
                                   onClick={[Function]}
                                   role="button"
                                   size="large"
                                   text="Popover"
-                                  type="button"
                                 >
                                   <button
                                     aria-describedby="popover-11-content"
@@ -988,7 +957,7 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                                     onBlur={[Function]}
                                     onClick={[Function]}
                                     role="button"
-                                    type="button"
+                                    size="large"
                                   >
                                     <Styled(span)>
                                       <span
@@ -999,6 +968,7 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                                         >
                                           <span
                                             className="emotion-0"
+                                            size="large"
                                           >
                                             Popover
                                           </span>
@@ -1006,16 +976,16 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                                       </span>
                                     </Styled(span)>
                                   </button>
-                                </Button>
+                                </Styled(button)>
                               </Button>
                             </WithForwardRef(Button)>
                           </span>
-                        </PopoverTrigger>
+                        </Styled(span)>
                       </InnerReference>
                     </Reference>
                   </PopoverTrigger>
                 </span>
-              </Popover>
+              </Styled(span)>
             </Manager>
           </Popover>
           <Dropdown
@@ -1056,7 +1026,7 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
               triggerRef={[Function]}
             >
               <Manager>
-                <Popover
+                <Styled(span)
                   content={[Function]}
                   data-index={3}
                   focusTriggerOnClose={true}
@@ -1072,16 +1042,18 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                 >
                   <span
                     className="emotion-7"
+                    content={[Function]}
                     data-index={3}
                     id="dropdown-12"
                     onClick={[Function]}
+                    onClose={[Function]}
+                    onOpen={[Function]}
                   >
                     <PopoverTrigger
                       aria-describedby="dropdown-12-content"
                       aria-expanded={false}
                       aria-haspopup={true}
                       aria-owns="dropdown-12-content"
-                      element="button"
                       iconEnd={<IconArrowDropDown />}
                       onBlur={[Function]}
                       onClick={[Function]}
@@ -1089,13 +1061,12 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                       onKeyUp={[Function]}
                       role="button"
                       size="large"
-                      type="button"
                     >
                       <Reference>
                         <InnerReference
                           getReferenceRef={[Function]}
                         >
-                          <PopoverTrigger>
+                          <Styled(span)>
                             <span
                               className="emotion-6"
                             >
@@ -1104,7 +1075,6 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                                 aria-expanded={false}
                                 aria-haspopup={true}
                                 aria-owns="dropdown-12-content"
-                                element="button"
                                 iconEnd={<IconArrowDropDown />}
                                 key=".0"
                                 onBlur={[Function]}
@@ -1113,14 +1083,12 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                                 onKeyUp={[Function]}
                                 role="button"
                                 size="large"
-                                type="button"
                               >
                                 <Button
                                   aria-describedby="dropdown-12-content"
                                   aria-expanded={false}
                                   aria-haspopup={true}
                                   aria-owns="dropdown-12-content"
-                                  element="button"
                                   forwardedRef={null}
                                   iconEnd={<IconArrowDropDown />}
                                   onBlur={[Function]}
@@ -1129,14 +1097,12 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                                   onKeyUp={[Function]}
                                   role="button"
                                   size="large"
-                                  type="button"
                                 >
-                                  <Button
+                                  <Styled(button)
                                     aria-describedby="dropdown-12-content"
                                     aria-expanded={false}
                                     aria-haspopup={true}
                                     aria-owns="dropdown-12-content"
-                                    element="button"
                                     onBlur={[Function]}
                                     onClick={[Function]}
                                     onKeyDown={[Function]}
@@ -1144,7 +1110,6 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                                     role="button"
                                     size="large"
                                     text="Dropdown"
-                                    type="button"
                                   >
                                     <button
                                       aria-describedby="dropdown-12-content"
@@ -1157,7 +1122,7 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                                       onKeyDown={[Function]}
                                       onKeyUp={[Function]}
                                       role="button"
-                                      type="button"
+                                      size="large"
                                     >
                                       <Styled(span)>
                                         <span
@@ -1168,6 +1133,7 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                                           >
                                             <span
                                               className="emotion-0"
+                                              size="large"
                                             >
                                               Dropdown
                                             </span>
@@ -1193,6 +1159,7 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                                                   className="emotion-14"
                                                   focusable="false"
                                                   role="img"
+                                                  size="1.5em"
                                                   viewBox="0 0 24 24"
                                                 >
                                                   <g>
@@ -1207,21 +1174,21 @@ exports[`ButtonGroup demo examples Snapshots: composition 1`] = `
                                         </span>
                                       </Styled(span)>
                                     </button>
-                                  </Button>
+                                  </Styled(button)>
                                 </Button>
                               </WithForwardRef(Button)>
                             </span>
-                          </PopoverTrigger>
+                          </Styled(span)>
                         </InnerReference>
                       </Reference>
                     </PopoverTrigger>
                   </span>
-                </Popover>
+                </Styled(span)>
               </Manager>
             </Popover>
           </Dropdown>
         </div>
-      </ButtonGroup>
+      </Styled(div)>
     </ButtonGroup>
   </div>
 </Styled(div)>
@@ -1654,7 +1621,7 @@ exports[`ButtonGroup demo examples Snapshots: controlled 1`] = `
             mode="radio"
             onChange={[Function]}
           >
-            <ButtonGroup
+            <Styled(div)
               aria-label="Align text"
               checked={0}
               mode="radio"
@@ -1663,42 +1630,38 @@ exports[`ButtonGroup demo examples Snapshots: controlled 1`] = `
             >
               <div
                 aria-label="Align text"
+                checked={0}
                 className="emotion-9"
+                mode="radio"
                 onChange={[Function]}
                 role="radiogroup"
               >
                 <WithForwardRef(Button)
                   aria-checked={true}
                   data-index={0}
-                  element="button"
                   key="0/.0"
                   onClick={[Function]}
                   primary={true}
                   role="radio"
                   size="large"
-                  type="button"
                 >
                   <Button
                     aria-checked={true}
                     data-index={0}
-                    element="button"
                     forwardedRef={null}
                     onClick={[Function]}
                     primary={true}
                     role="radio"
                     size="large"
-                    type="button"
                   >
-                    <Button
+                    <Styled(button)
                       aria-checked={true}
                       data-index={0}
-                      element="button"
                       onClick={[Function]}
                       primary={true}
                       role="radio"
                       size="large"
                       text="Left"
-                      type="button"
                     >
                       <button
                         aria-checked={true}
@@ -1706,7 +1669,7 @@ exports[`ButtonGroup demo examples Snapshots: controlled 1`] = `
                         data-index={0}
                         onClick={[Function]}
                         role="radio"
-                        type="button"
+                        size="large"
                       >
                         <Styled(span)>
                           <span
@@ -1717,6 +1680,7 @@ exports[`ButtonGroup demo examples Snapshots: controlled 1`] = `
                             >
                               <span
                                 className="emotion-0"
+                                size="large"
                               >
                                 Left
                               </span>
@@ -1724,38 +1688,32 @@ exports[`ButtonGroup demo examples Snapshots: controlled 1`] = `
                           </span>
                         </Styled(span)>
                       </button>
-                    </Button>
+                    </Styled(button)>
                   </Button>
                 </WithForwardRef(Button)>
                 <WithForwardRef(Button)
                   aria-checked={false}
                   data-index={1}
-                  element="button"
                   key="1/.1"
                   onClick={[Function]}
                   role="radio"
                   size="large"
-                  type="button"
                 >
                   <Button
                     aria-checked={false}
                     data-index={1}
-                    element="button"
                     forwardedRef={null}
                     onClick={[Function]}
                     role="radio"
                     size="large"
-                    type="button"
                   >
-                    <Button
+                    <Styled(button)
                       aria-checked={false}
                       data-index={1}
-                      element="button"
                       onClick={[Function]}
                       role="radio"
                       size="large"
                       text="Center"
-                      type="button"
                     >
                       <button
                         aria-checked={false}
@@ -1763,7 +1721,7 @@ exports[`ButtonGroup demo examples Snapshots: controlled 1`] = `
                         data-index={1}
                         onClick={[Function]}
                         role="radio"
-                        type="button"
+                        size="large"
                       >
                         <Styled(span)>
                           <span
@@ -1774,6 +1732,7 @@ exports[`ButtonGroup demo examples Snapshots: controlled 1`] = `
                             >
                               <span
                                 className="emotion-0"
+                                size="large"
                               >
                                 Center
                               </span>
@@ -1781,38 +1740,32 @@ exports[`ButtonGroup demo examples Snapshots: controlled 1`] = `
                           </span>
                         </Styled(span)>
                       </button>
-                    </Button>
+                    </Styled(button)>
                   </Button>
                 </WithForwardRef(Button)>
                 <WithForwardRef(Button)
                   aria-checked={false}
                   data-index={2}
-                  element="button"
                   key="2/.2"
                   onClick={[Function]}
                   role="radio"
                   size="large"
-                  type="button"
                 >
                   <Button
                     aria-checked={false}
                     data-index={2}
-                    element="button"
                     forwardedRef={null}
                     onClick={[Function]}
                     role="radio"
                     size="large"
-                    type="button"
                   >
-                    <Button
+                    <Styled(button)
                       aria-checked={false}
                       data-index={2}
-                      element="button"
                       onClick={[Function]}
                       role="radio"
                       size="large"
                       text="Right"
-                      type="button"
                     >
                       <button
                         aria-checked={false}
@@ -1820,7 +1773,7 @@ exports[`ButtonGroup demo examples Snapshots: controlled 1`] = `
                         data-index={2}
                         onClick={[Function]}
                         role="radio"
-                        type="button"
+                        size="large"
                       >
                         <Styled(span)>
                           <span
@@ -1831,6 +1784,7 @@ exports[`ButtonGroup demo examples Snapshots: controlled 1`] = `
                             >
                               <span
                                 className="emotion-0"
+                                size="large"
                               >
                                 Right
                               </span>
@@ -1838,39 +1792,33 @@ exports[`ButtonGroup demo examples Snapshots: controlled 1`] = `
                           </span>
                         </Styled(span)>
                       </button>
-                    </Button>
+                    </Styled(button)>
                   </Button>
                 </WithForwardRef(Button)>
               </div>
-            </ButtonGroup>
+            </Styled(div)>
           </ButtonGroup>
           <WithForwardRef(Button)
-            element="button"
             minimal={true}
             onClick={[Function]}
             size="small"
-            type="button"
           >
             <Button
-              element="button"
               forwardedRef={null}
               minimal={true}
               onClick={[Function]}
               size="small"
-              type="button"
             >
-              <Button
-                element="button"
+              <Styled(button)
                 minimal={true}
                 onClick={[Function]}
                 size="small"
                 text="Reset to Default Alignment"
-                type="button"
               >
                 <button
                   className="emotion-12"
                   onClick={[Function]}
-                  type="button"
+                  size="small"
                 >
                   <Styled(span)>
                     <span
@@ -1881,6 +1829,7 @@ exports[`ButtonGroup demo examples Snapshots: controlled 1`] = `
                       >
                         <span
                           className="emotion-10"
+                          size="small"
                         >
                           Reset to Default Alignment
                         </span>
@@ -1888,7 +1837,7 @@ exports[`ButtonGroup demo examples Snapshots: controlled 1`] = `
                     </span>
                   </Styled(span)>
                 </button>
-              </Button>
+              </Styled(button)>
             </Button>
           </WithForwardRef(Button)>
         </div>
@@ -2371,7 +2320,7 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
         aria-label="Edit text"
         disabled={true}
       >
-        <ButtonGroup
+        <Styled(div)
           aria-label="Edit text"
           disabled={true}
           role="group"
@@ -2379,43 +2328,38 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
           <div
             aria-label="Edit text"
             className="emotion-9"
+            disabled={true}
             role="group"
           >
             <WithForwardRef(Button)
               data-index={0}
               disabled={true}
-              element="button"
               key="0/.0"
               onClick={[Function]}
               size="large"
-              type="button"
             >
               <Button
                 data-index={0}
                 disabled={true}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   data-index={0}
                   disabled={true}
-                  element="button"
                   onClick={[Function]}
                   size="large"
                   tabIndex={-1}
                   text="Cut"
-                  type="button"
                 >
                   <button
                     className="emotion-2"
                     data-index={0}
                     disabled={true}
                     onClick={[Function]}
+                    size="large"
                     tabIndex={-1}
-                    type="button"
                   >
                     <Styled(span)>
                       <span
@@ -2426,6 +2370,7 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Cut
                           </span>
@@ -2433,44 +2378,38 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               data-index={1}
               disabled={true}
-              element="button"
               key="1/.1"
               onClick={[Function]}
               size="large"
-              type="button"
             >
               <Button
                 data-index={1}
                 disabled={true}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   data-index={1}
                   disabled={true}
-                  element="button"
                   onClick={[Function]}
                   size="large"
                   tabIndex={-1}
                   text="Copy"
-                  type="button"
                 >
                   <button
                     className="emotion-2"
                     data-index={1}
                     disabled={true}
                     onClick={[Function]}
+                    size="large"
                     tabIndex={-1}
-                    type="button"
                   >
                     <Styled(span)>
                       <span
@@ -2481,6 +2420,7 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Copy
                           </span>
@@ -2488,44 +2428,38 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               data-index={2}
               disabled={true}
-              element="button"
               key="2/.2"
               onClick={[Function]}
               size="large"
-              type="button"
             >
               <Button
                 data-index={2}
                 disabled={true}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   data-index={2}
                   disabled={true}
-                  element="button"
                   onClick={[Function]}
                   size="large"
                   tabIndex={-1}
                   text="Paste"
-                  type="button"
                 >
                   <button
                     className="emotion-2"
                     data-index={2}
                     disabled={true}
                     onClick={[Function]}
+                    size="large"
                     tabIndex={-1}
-                    type="button"
                   >
                     <Styled(span)>
                       <span
@@ -2536,6 +2470,7 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Paste
                           </span>
@@ -2543,16 +2478,16 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
           </div>
-        </ButtonGroup>
+        </Styled(div)>
       </ButtonGroup>
       <ButtonGroup
         aria-label="Edit text"
       >
-        <ButtonGroup
+        <Styled(div)
           aria-label="Edit text"
           role="group"
         >
@@ -2564,38 +2499,32 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
             <WithForwardRef(Button)
               data-index={0}
               disabled={true}
-              element="button"
               key="0/.0"
               onClick={[Function]}
               size="large"
-              type="button"
             >
               <Button
                 data-index={0}
                 disabled={true}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   data-index={0}
                   disabled={true}
-                  element="button"
                   onClick={[Function]}
                   size="large"
                   tabIndex={-1}
                   text="Cut"
-                  type="button"
                 >
                   <button
                     className="emotion-2"
                     data-index={0}
                     disabled={true}
                     onClick={[Function]}
+                    size="large"
                     tabIndex={-1}
-                    type="button"
                   >
                     <Styled(span)>
                       <span
@@ -2606,6 +2535,7 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Cut
                           </span>
@@ -2613,38 +2543,32 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               data-index={1}
-              element="button"
               key="1/.1"
               onClick={[Function]}
               size="large"
-              type="button"
             >
               <Button
                 data-index={1}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   data-index={1}
-                  element="button"
                   onClick={[Function]}
                   size="large"
                   text="Copy"
-                  type="button"
                 >
                   <button
                     className="emotion-15"
                     data-index={1}
                     onClick={[Function]}
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -2655,6 +2579,7 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Copy
                           </span>
@@ -2662,38 +2587,32 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               data-index={2}
-              element="button"
               key="2/.2"
               onClick={[Function]}
               size="large"
-              type="button"
             >
               <Button
                 data-index={2}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   data-index={2}
-                  element="button"
                   onClick={[Function]}
                   size="large"
                   text="Paste"
-                  type="button"
                 >
                   <button
                     className="emotion-15"
                     data-index={2}
                     onClick={[Function]}
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -2704,6 +2623,7 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Paste
                           </span>
@@ -2711,11 +2631,11 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
           </div>
-        </ButtonGroup>
+        </Styled(div)>
       </ButtonGroup>
       <ButtonGroup
         aria-label="Align text"
@@ -2723,7 +2643,7 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
         disabled={true}
         mode="radio"
       >
-        <ButtonGroup
+        <Styled(div)
           aria-label="Align text"
           defaultChecked={0}
           disabled={true}
@@ -2734,44 +2654,40 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
             aria-label="Align text"
             className="emotion-9"
             defaultChecked={0}
+            disabled={true}
+            mode="radio"
             role="radiogroup"
           >
             <WithForwardRef(Button)
               aria-checked={true}
               data-index={0}
               disabled={true}
-              element="button"
               key="0/.0"
               onClick={[Function]}
               primary={true}
               role="radio"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={true}
                 data-index={0}
                 disabled={true}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 primary={true}
                 role="radio"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={true}
                   data-index={0}
                   disabled={true}
-                  element="button"
                   onClick={[Function]}
                   primary={true}
                   role="radio"
                   size="large"
                   tabIndex={-1}
                   text="Left"
-                  type="button"
                 >
                   <button
                     aria-checked={true}
@@ -2780,8 +2696,8 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                     disabled={true}
                     onClick={[Function]}
                     role="radio"
+                    size="large"
                     tabIndex={-1}
-                    type="button"
                   >
                     <Styled(span)>
                       <span
@@ -2792,6 +2708,7 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Left
                           </span>
@@ -2799,42 +2716,36 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               aria-checked={false}
               data-index={1}
               disabled={true}
-              element="button"
               key="1/.1"
               onClick={[Function]}
               role="radio"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={false}
                 data-index={1}
                 disabled={true}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 role="radio"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   data-index={1}
                   disabled={true}
-                  element="button"
                   onClick={[Function]}
                   role="radio"
                   size="large"
                   tabIndex={-1}
                   text="Center"
-                  type="button"
                 >
                   <button
                     aria-checked={false}
@@ -2843,8 +2754,8 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                     disabled={true}
                     onClick={[Function]}
                     role="radio"
+                    size="large"
                     tabIndex={-1}
-                    type="button"
                   >
                     <Styled(span)>
                       <span
@@ -2855,6 +2766,7 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Center
                           </span>
@@ -2862,42 +2774,36 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               aria-checked={false}
               data-index={2}
               disabled={true}
-              element="button"
               key="2/.2"
               onClick={[Function]}
               role="radio"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={false}
                 data-index={2}
                 disabled={true}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 role="radio"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   data-index={2}
                   disabled={true}
-                  element="button"
                   onClick={[Function]}
                   role="radio"
                   size="large"
                   tabIndex={-1}
                   text="Right"
-                  type="button"
                 >
                   <button
                     aria-checked={false}
@@ -2906,8 +2812,8 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                     disabled={true}
                     onClick={[Function]}
                     role="radio"
+                    size="large"
                     tabIndex={-1}
-                    type="button"
                   >
                     <Styled(span)>
                       <span
@@ -2918,6 +2824,7 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Right
                           </span>
@@ -2925,18 +2832,18 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
           </div>
-        </ButtonGroup>
+        </Styled(div)>
       </ButtonGroup>
       <ButtonGroup
         aria-label="Align text"
         defaultChecked={0}
         mode="radio"
       >
-        <ButtonGroup
+        <Styled(div)
           aria-label="Align text"
           defaultChecked={0}
           mode="radio"
@@ -2946,40 +2853,35 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
             aria-label="Align text"
             className="emotion-9"
             defaultChecked={0}
+            mode="radio"
             role="radiogroup"
           >
             <WithForwardRef(Button)
               aria-checked={true}
               data-index={0}
-              element="button"
               key="0/.0"
               onClick={[Function]}
               primary={true}
               role="radio"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={true}
                 data-index={0}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 primary={true}
                 role="radio"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={true}
                   data-index={0}
-                  element="button"
                   onClick={[Function]}
                   primary={true}
                   role="radio"
                   size="large"
                   text="Left"
-                  type="button"
                 >
                   <button
                     aria-checked={true}
@@ -2987,7 +2889,7 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                     data-index={0}
                     onClick={[Function]}
                     role="radio"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -2998,6 +2900,7 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Left
                           </span>
@@ -3005,38 +2908,32 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               aria-checked={false}
               data-index={1}
-              element="button"
               key="1/.1"
               onClick={[Function]}
               role="radio"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={false}
                 data-index={1}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 role="radio"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   data-index={1}
-                  element="button"
                   onClick={[Function]}
                   role="radio"
                   size="large"
                   text="Center"
-                  type="button"
                 >
                   <button
                     aria-checked={false}
@@ -3044,7 +2941,7 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                     data-index={1}
                     onClick={[Function]}
                     role="radio"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -3055,6 +2952,7 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Center
                           </span>
@@ -3062,42 +2960,36 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               aria-checked={false}
               data-index={2}
               disabled={true}
-              element="button"
               key="2/.2"
               onClick={[Function]}
               role="radio"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={false}
                 data-index={2}
                 disabled={true}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 role="radio"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   data-index={2}
                   disabled={true}
-                  element="button"
                   onClick={[Function]}
                   role="radio"
                   size="large"
                   tabIndex={-1}
                   text="Right"
-                  type="button"
                 >
                   <button
                     aria-checked={false}
@@ -3106,8 +2998,8 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                     disabled={true}
                     onClick={[Function]}
                     role="radio"
+                    size="large"
                     tabIndex={-1}
-                    type="button"
                   >
                     <Styled(span)>
                       <span
@@ -3118,6 +3010,7 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Right
                           </span>
@@ -3125,11 +3018,11 @@ exports[`ButtonGroup demo examples Snapshots: disabled 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
           </div>
-        </ButtonGroup>
+        </Styled(div)>
       </ButtonGroup>
     </div>
   </Styled(div)>
@@ -3810,7 +3703,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
         aria-label="Align text"
         mode="radio"
       >
-        <ButtonGroup
+        <Styled(div)
           aria-label="Align text"
           mode="radio"
           role="radiogroup"
@@ -3818,45 +3711,40 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
           <div
             aria-label="Align text"
             className="emotion-12"
+            mode="radio"
             role="radiogroup"
           >
             <WithForwardRef(Button)
               aria-checked={true}
               data-index={0}
               defaultChecked={true}
-              element="button"
               iconStart={<IconFormatAlignLeft />}
               key="0/.0"
               onClick={[Function]}
               primary={true}
               role="radio"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={true}
                 data-index={0}
                 defaultChecked={true}
-                element="button"
                 forwardedRef={null}
                 iconStart={<IconFormatAlignLeft />}
                 onClick={[Function]}
                 primary={true}
                 role="radio"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={true}
                   data-index={0}
                   defaultChecked={true}
-                  element="button"
                   onClick={[Function]}
                   primary={true}
                   role="radio"
                   size="large"
                   text="Left"
-                  type="button"
                 >
                   <button
                     aria-checked={true}
@@ -3865,7 +3753,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                     defaultChecked={true}
                     onClick={[Function]}
                     role="radio"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -3892,6 +3780,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                                 className="emotion-0"
                                 focusable="false"
                                 role="img"
+                                size="1.5em"
                                 viewBox="0 0 24 24"
                               >
                                 <g>
@@ -3908,6 +3797,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                         >
                           <span
                             className="emotion-1"
+                            size="large"
                           >
                             Left
                           </span>
@@ -3915,40 +3805,34 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               aria-checked={false}
               data-index={1}
-              element="button"
               iconStart={<IconFormatAlignCenter />}
               key="1/.1"
               onClick={[Function]}
               role="radio"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={false}
                 data-index={1}
-                element="button"
                 forwardedRef={null}
                 iconStart={<IconFormatAlignCenter />}
                 onClick={[Function]}
                 role="radio"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   data-index={1}
-                  element="button"
                   onClick={[Function]}
                   role="radio"
                   size="large"
                   text="Center"
-                  type="button"
                 >
                   <button
                     aria-checked={false}
@@ -3956,7 +3840,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                     data-index={1}
                     onClick={[Function]}
                     role="radio"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -3983,6 +3867,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                                 className="emotion-0"
                                 focusable="false"
                                 role="img"
+                                size="1.5em"
                                 viewBox="0 0 24 24"
                               >
                                 <g>
@@ -3999,6 +3884,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                         >
                           <span
                             className="emotion-1"
+                            size="large"
                           >
                             Center
                           </span>
@@ -4006,40 +3892,34 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               aria-checked={false}
               data-index={2}
-              element="button"
               iconStart={<IconFormatAlignRight />}
               key="2/.2"
               onClick={[Function]}
               role="radio"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={false}
                 data-index={2}
-                element="button"
                 forwardedRef={null}
                 iconStart={<IconFormatAlignRight />}
                 onClick={[Function]}
                 role="radio"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   data-index={2}
-                  element="button"
                   onClick={[Function]}
                   role="radio"
                   size="large"
                   text="Right"
-                  type="button"
                 >
                   <button
                     aria-checked={false}
@@ -4047,7 +3927,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                     data-index={2}
                     onClick={[Function]}
                     role="radio"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -4074,6 +3954,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                                 className="emotion-0"
                                 focusable="false"
                                 role="img"
+                                size="1.5em"
                                 viewBox="0 0 24 24"
                               >
                                 <g>
@@ -4090,6 +3971,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                         >
                           <span
                             className="emotion-1"
+                            size="large"
                           >
                             Right
                           </span>
@@ -4097,17 +3979,17 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
           </div>
-        </ButtonGroup>
+        </Styled(div)>
       </ButtonGroup>
       <ButtonGroup
         aria-label="Format text"
         mode="checkbox"
       >
-        <ButtonGroup
+        <Styled(div)
           aria-label="Format text"
           mode="checkbox"
           role="group"
@@ -4115,41 +3997,36 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
           <div
             aria-label="Format text"
             className="emotion-12"
+            mode="checkbox"
             role="group"
           >
             <WithForwardRef(Button)
               aria-checked={false}
               aria-label="Bold"
               data-index={0}
-              element="button"
               iconEnd={<IconFormatBold />}
               key="0/.0"
               onClick={[Function]}
               role="checkbox"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={false}
                 aria-label="Bold"
                 data-index={0}
-                element="button"
                 forwardedRef={null}
                 iconEnd={<IconFormatBold />}
                 onClick={[Function]}
                 role="checkbox"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   aria-label="Bold"
                   data-index={0}
-                  element="button"
                   onClick={[Function]}
                   role="checkbox"
                   size="large"
-                  type="button"
                 >
                   <button
                     aria-checked={false}
@@ -4158,7 +4035,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                     data-index={0}
                     onClick={[Function]}
                     role="checkbox"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -4185,6 +4062,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                                 className="emotion-0"
                                 focusable="false"
                                 role="img"
+                                size="1.5em"
                                 viewBox="0 0 24 24"
                               >
                                 <g>
@@ -4199,42 +4077,36 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               aria-checked={false}
               aria-label="Italic"
               data-index={1}
-              element="button"
               iconEnd={<IconFormatItalic />}
               key="1/.1"
               onClick={[Function]}
               role="checkbox"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={false}
                 aria-label="Italic"
                 data-index={1}
-                element="button"
                 forwardedRef={null}
                 iconEnd={<IconFormatItalic />}
                 onClick={[Function]}
                 role="checkbox"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   aria-label="Italic"
                   data-index={1}
-                  element="button"
                   onClick={[Function]}
                   role="checkbox"
                   size="large"
-                  type="button"
                 >
                   <button
                     aria-checked={false}
@@ -4243,7 +4115,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                     data-index={1}
                     onClick={[Function]}
                     role="checkbox"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -4270,6 +4142,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                                 className="emotion-0"
                                 focusable="false"
                                 role="img"
+                                size="1.5em"
                                 viewBox="0 0 24 24"
                               >
                                 <g>
@@ -4284,42 +4157,36 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               aria-checked={false}
               aria-label="Underlined"
               data-index={2}
-              element="button"
               iconEnd={<IconFormatUnderlined />}
               key="2/.2"
               onClick={[Function]}
               role="checkbox"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={false}
                 aria-label="Underlined"
                 data-index={2}
-                element="button"
                 forwardedRef={null}
                 iconEnd={<IconFormatUnderlined />}
                 onClick={[Function]}
                 role="checkbox"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   aria-label="Underlined"
                   data-index={2}
-                  element="button"
                   onClick={[Function]}
                   role="checkbox"
                   size="large"
-                  type="button"
                 >
                   <button
                     aria-checked={false}
@@ -4328,7 +4195,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                     data-index={2}
                     onClick={[Function]}
                     role="checkbox"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -4355,6 +4222,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                                 className="emotion-0"
                                 focusable="false"
                                 role="img"
+                                size="1.5em"
                                 viewBox="0 0 24 24"
                               >
                                 <g>
@@ -4369,17 +4237,17 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
           </div>
-        </ButtonGroup>
+        </Styled(div)>
       </ButtonGroup>
       <ButtonGroup
         aria-label="Sentiments"
         mode="radio"
       >
-        <ButtonGroup
+        <Styled(div)
           aria-label="Sentiments"
           mode="radio"
           role="radiogroup"
@@ -4387,6 +4255,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
           <div
             aria-label="Sentiments"
             className="emotion-12"
+            mode="radio"
             role="radiogroup"
           >
             <WithForwardRef(Button)
@@ -4394,13 +4263,11 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
               aria-label="Satisfied"
               data-index={0}
               data-variant="success"
-              element="button"
               iconEnd={<IconSentimentSatisfied />}
               key="0/.0"
               onClick={[Function]}
               role="radio"
               size="large"
-              type="button"
               variant="success"
             >
               <Button
@@ -4408,25 +4275,21 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                 aria-label="Satisfied"
                 data-index={0}
                 data-variant="success"
-                element="button"
                 forwardedRef={null}
                 iconEnd={<IconSentimentSatisfied />}
                 onClick={[Function]}
                 role="radio"
                 size="large"
-                type="button"
                 variant="success"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   aria-label="Satisfied"
                   data-index={0}
                   data-variant="success"
-                  element="button"
                   onClick={[Function]}
                   role="radio"
                   size="large"
-                  type="button"
                   variant="success"
                 >
                   <button
@@ -4437,7 +4300,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                     data-variant="success"
                     onClick={[Function]}
                     role="radio"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -4464,6 +4327,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                                 className="emotion-0"
                                 focusable="false"
                                 role="img"
+                                size="1.5em"
                                 viewBox="0 0 24 24"
                               >
                                 <g>
@@ -4488,7 +4352,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
@@ -4496,13 +4360,11 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
               aria-label="Neutral"
               data-index={1}
               data-variant="warning"
-              element="button"
               iconEnd={<IconSentimentNeutral />}
               key="1/.1"
               onClick={[Function]}
               role="radio"
               size="large"
-              type="button"
               variant="warning"
             >
               <Button
@@ -4510,25 +4372,21 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                 aria-label="Neutral"
                 data-index={1}
                 data-variant="warning"
-                element="button"
                 forwardedRef={null}
                 iconEnd={<IconSentimentNeutral />}
                 onClick={[Function]}
                 role="radio"
                 size="large"
-                type="button"
                 variant="warning"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   aria-label="Neutral"
                   data-index={1}
                   data-variant="warning"
-                  element="button"
                   onClick={[Function]}
                   role="radio"
                   size="large"
-                  type="button"
                   variant="warning"
                 >
                   <button
@@ -4539,7 +4397,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                     data-variant="warning"
                     onClick={[Function]}
                     role="radio"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -4566,6 +4424,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                                 className="emotion-0"
                                 focusable="false"
                                 role="img"
+                                size="1.5em"
                                 viewBox="0 0 24 24"
                               >
                                 <g>
@@ -4593,7 +4452,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
@@ -4601,13 +4460,11 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
               aria-label="Unsatisfied"
               data-index={2}
               data-variant="danger"
-              element="button"
               iconEnd={<IconSentimentDissatisfied />}
               key="2/.2"
               onClick={[Function]}
               role="radio"
               size="large"
-              type="button"
               variant="danger"
             >
               <Button
@@ -4615,25 +4472,21 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                 aria-label="Unsatisfied"
                 data-index={2}
                 data-variant="danger"
-                element="button"
                 forwardedRef={null}
                 iconEnd={<IconSentimentDissatisfied />}
                 onClick={[Function]}
                 role="radio"
                 size="large"
-                type="button"
                 variant="danger"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   aria-label="Unsatisfied"
                   data-index={2}
                   data-variant="danger"
-                  element="button"
                   onClick={[Function]}
                   role="radio"
                   size="large"
-                  type="button"
                   variant="danger"
                 >
                   <button
@@ -4644,7 +4497,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                     data-variant="danger"
                     onClick={[Function]}
                     role="radio"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -4671,6 +4524,7 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                                 className="emotion-0"
                                 focusable="false"
                                 role="img"
+                                size="1.5em"
                                 viewBox="0 0 24 24"
                               >
                                 <g>
@@ -4695,11 +4549,11 @@ exports[`ButtonGroup demo examples Snapshots: icons 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
           </div>
-        </ButtonGroup>
+        </Styled(div)>
       </ButtonGroup>
     </div>
   </Styled(div)>
@@ -5038,7 +4892,7 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
         defaultChecked={0}
         mode="radio"
       >
-        <ButtonGroup
+        <Styled(div)
           aria-label="Align text"
           defaultChecked={0}
           mode="radio"
@@ -5048,40 +4902,35 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
             aria-label="Align text"
             className="emotion-9"
             defaultChecked={0}
+            mode="radio"
             role="radiogroup"
           >
             <WithForwardRef(Button)
               aria-checked={true}
               data-index={0}
-              element="button"
               key="0/.0"
               onClick={[Function]}
               primary={true}
               role="radio"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={true}
                 data-index={0}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 primary={true}
                 role="radio"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={true}
                   data-index={0}
-                  element="button"
                   onClick={[Function]}
                   primary={true}
                   role="radio"
                   size="large"
                   text="Left"
-                  type="button"
                 >
                   <button
                     aria-checked={true}
@@ -5089,7 +4938,7 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                     data-index={0}
                     onClick={[Function]}
                     role="radio"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -5100,6 +4949,7 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Left
                           </span>
@@ -5107,38 +4957,32 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               aria-checked={false}
               data-index={1}
-              element="button"
               key="1/.1"
               onClick={[Function]}
               role="radio"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={false}
                 data-index={1}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 role="radio"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   data-index={1}
-                  element="button"
                   onClick={[Function]}
                   role="radio"
                   size="large"
                   text="Center"
-                  type="button"
                 >
                   <button
                     aria-checked={false}
@@ -5146,7 +4990,7 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                     data-index={1}
                     onClick={[Function]}
                     role="radio"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -5157,6 +5001,7 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Center
                           </span>
@@ -5164,38 +5009,32 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               aria-checked={false}
               data-index={2}
-              element="button"
               key="2/.2"
               onClick={[Function]}
               role="radio"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={false}
                 data-index={2}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 role="radio"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   data-index={2}
-                  element="button"
                   onClick={[Function]}
                   role="radio"
                   size="large"
                   text="Right"
-                  type="button"
                 >
                   <button
                     aria-checked={false}
@@ -5203,7 +5042,7 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                     data-index={2}
                     onClick={[Function]}
                     role="radio"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -5214,6 +5053,7 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Right
                           </span>
@@ -5221,11 +5061,11 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
           </div>
-        </ButtonGroup>
+        </Styled(div)>
       </ButtonGroup>
       <ButtonGroup
         aria-label="Text Decoration"
@@ -5237,7 +5077,7 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
         }
         mode="checkbox"
       >
-        <ButtonGroup
+        <Styled(div)
           aria-label="Text Decoration"
           defaultChecked={
             Array [
@@ -5257,40 +5097,35 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                 1,
               ]
             }
+            mode="checkbox"
             role="group"
           >
             <WithForwardRef(Button)
               aria-checked={true}
               data-index={0}
-              element="button"
               key="0/.0"
               onClick={[Function]}
               primary={true}
               role="checkbox"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={true}
                 data-index={0}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 primary={true}
                 role="checkbox"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={true}
                   data-index={0}
-                  element="button"
                   onClick={[Function]}
                   primary={true}
                   role="checkbox"
                   size="large"
                   text="Bold"
-                  type="button"
                 >
                   <button
                     aria-checked={true}
@@ -5298,7 +5133,7 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                     data-index={0}
                     onClick={[Function]}
                     role="checkbox"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -5309,6 +5144,7 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Bold
                           </span>
@@ -5316,41 +5152,35 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               aria-checked={true}
               data-index={1}
-              element="button"
               key="1/.1"
               onClick={[Function]}
               primary={true}
               role="checkbox"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={true}
                 data-index={1}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 primary={true}
                 role="checkbox"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={true}
                   data-index={1}
-                  element="button"
                   onClick={[Function]}
                   primary={true}
                   role="checkbox"
                   size="large"
                   text="Italic"
-                  type="button"
                 >
                   <button
                     aria-checked={true}
@@ -5358,7 +5188,7 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                     data-index={1}
                     onClick={[Function]}
                     role="checkbox"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -5369,6 +5199,7 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Italic
                           </span>
@@ -5376,38 +5207,32 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               aria-checked={false}
               data-index={2}
-              element="button"
               key="2/.2"
               onClick={[Function]}
               role="checkbox"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={false}
                 data-index={2}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 role="checkbox"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   data-index={2}
-                  element="button"
                   onClick={[Function]}
                   role="checkbox"
                   size="large"
                   text="Underline"
-                  type="button"
                 >
                   <button
                     aria-checked={false}
@@ -5415,7 +5240,7 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                     data-index={2}
                     onClick={[Function]}
                     role="checkbox"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -5426,6 +5251,7 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Underline
                           </span>
@@ -5433,11 +5259,11 @@ exports[`ButtonGroup demo examples Snapshots: mode 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
           </div>
-        </ButtonGroup>
+        </Styled(div)>
       </ButtonGroup>
     </div>
   </Styled(div)>
@@ -5694,7 +5520,7 @@ exports[`ButtonGroup demo examples Snapshots: rtl 1`] = `
         aria-label="Format text"
         mode="checkbox"
       >
-        <ButtonGroup
+        <Styled(div)
           aria-label="Format text"
           mode="checkbox"
           role="group"
@@ -5702,39 +5528,34 @@ exports[`ButtonGroup demo examples Snapshots: rtl 1`] = `
           <div
             aria-label="Format text"
             className="emotion-12"
+            mode="checkbox"
             role="group"
           >
             <WithForwardRef(Button)
               aria-checked={false}
               data-index={0}
-              element="button"
               iconEnd={<IconFormatBold />}
               key="0/.0"
               onClick={[Function]}
               role="checkbox"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={false}
                 data-index={0}
-                element="button"
                 forwardedRef={null}
                 iconEnd={<IconFormatBold />}
                 onClick={[Function]}
                 role="checkbox"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   data-index={0}
-                  element="button"
                   onClick={[Function]}
                   role="checkbox"
                   size="large"
                   text="بالخط العريض"
-                  type="button"
                 >
                   <button
                     aria-checked={false}
@@ -5742,7 +5563,7 @@ exports[`ButtonGroup demo examples Snapshots: rtl 1`] = `
                     data-index={0}
                     onClick={[Function]}
                     role="checkbox"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -5753,6 +5574,7 @@ exports[`ButtonGroup demo examples Snapshots: rtl 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             بالخط العريض
                           </span>
@@ -5778,6 +5600,7 @@ exports[`ButtonGroup demo examples Snapshots: rtl 1`] = `
                                 className="emotion-1"
                                 focusable="false"
                                 role="img"
+                                size="1.5em"
                                 viewBox="0 0 24 24"
                               >
                                 <g>
@@ -5792,40 +5615,34 @@ exports[`ButtonGroup demo examples Snapshots: rtl 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               aria-checked={false}
               data-index={1}
-              element="button"
               iconEnd={<IconFormatItalic />}
               key="1/.1"
               onClick={[Function]}
               role="checkbox"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={false}
                 data-index={1}
-                element="button"
                 forwardedRef={null}
                 iconEnd={<IconFormatItalic />}
                 onClick={[Function]}
                 role="checkbox"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   data-index={1}
-                  element="button"
                   onClick={[Function]}
                   role="checkbox"
                   size="large"
                   text="مائل"
-                  type="button"
                 >
                   <button
                     aria-checked={false}
@@ -5833,7 +5650,7 @@ exports[`ButtonGroup demo examples Snapshots: rtl 1`] = `
                     data-index={1}
                     onClick={[Function]}
                     role="checkbox"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -5844,6 +5661,7 @@ exports[`ButtonGroup demo examples Snapshots: rtl 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             مائل
                           </span>
@@ -5869,6 +5687,7 @@ exports[`ButtonGroup demo examples Snapshots: rtl 1`] = `
                                 className="emotion-1"
                                 focusable="false"
                                 role="img"
+                                size="1.5em"
                                 viewBox="0 0 24 24"
                               >
                                 <g>
@@ -5883,40 +5702,34 @@ exports[`ButtonGroup demo examples Snapshots: rtl 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               aria-checked={false}
               data-index={2}
-              element="button"
               iconEnd={<IconFormatUnderlined />}
               key="2/.2"
               onClick={[Function]}
               role="checkbox"
               size="large"
-              type="button"
             >
               <Button
                 aria-checked={false}
                 data-index={2}
-                element="button"
                 forwardedRef={null}
                 iconEnd={<IconFormatUnderlined />}
                 onClick={[Function]}
                 role="checkbox"
                 size="large"
-                type="button"
               >
-                <Button
+                <Styled(button)
                   aria-checked={false}
                   data-index={2}
-                  element="button"
                   onClick={[Function]}
                   role="checkbox"
                   size="large"
                   text="أكد"
-                  type="button"
                 >
                   <button
                     aria-checked={false}
@@ -5924,7 +5737,7 @@ exports[`ButtonGroup demo examples Snapshots: rtl 1`] = `
                     data-index={2}
                     onClick={[Function]}
                     role="checkbox"
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -5935,6 +5748,7 @@ exports[`ButtonGroup demo examples Snapshots: rtl 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             أكد
                           </span>
@@ -5960,6 +5774,7 @@ exports[`ButtonGroup demo examples Snapshots: rtl 1`] = `
                                 className="emotion-1"
                                 focusable="false"
                                 role="img"
+                                size="1.5em"
                                 viewBox="0 0 24 24"
                               >
                                 <g>
@@ -5974,11 +5789,11 @@ exports[`ButtonGroup demo examples Snapshots: rtl 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
           </div>
-        </ButtonGroup>
+        </Styled(div)>
       </ButtonGroup>
     </ThemeProvider>
   </ThemeProvider>
@@ -6648,7 +6463,7 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
           key="small"
           size="small"
         >
-          <ButtonGroup
+          <Styled(div)
             aria-label="Edit text"
             role="group"
           >
@@ -6659,33 +6474,27 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
             >
               <WithForwardRef(Button)
                 data-index={0}
-                element="button"
                 key="0/.0"
                 onClick={[Function]}
                 size="small"
-                type="button"
               >
                 <Button
                   data-index={0}
-                  element="button"
                   forwardedRef={null}
                   onClick={[Function]}
                   size="small"
-                  type="button"
                 >
-                  <Button
+                  <Styled(button)
                     data-index={0}
-                    element="button"
                     onClick={[Function]}
                     size="small"
                     text="Cut"
-                    type="button"
                   >
                     <button
                       className="emotion-2"
                       data-index={0}
                       onClick={[Function]}
-                      type="button"
+                      size="small"
                     >
                       <Styled(span)>
                         <span
@@ -6696,6 +6505,7 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                           >
                             <span
                               className="emotion-0"
+                              size="small"
                             >
                               Cut
                             </span>
@@ -6703,38 +6513,32 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                         </span>
                       </Styled(span)>
                     </button>
-                  </Button>
+                  </Styled(button)>
                 </Button>
               </WithForwardRef(Button)>
               <WithForwardRef(Button)
                 data-index={1}
-                element="button"
                 key="1/.1"
                 onClick={[Function]}
                 size="small"
-                type="button"
               >
                 <Button
                   data-index={1}
-                  element="button"
                   forwardedRef={null}
                   onClick={[Function]}
                   size="small"
-                  type="button"
                 >
-                  <Button
+                  <Styled(button)
                     data-index={1}
-                    element="button"
                     onClick={[Function]}
                     size="small"
                     text="Copy"
-                    type="button"
                   >
                     <button
                       className="emotion-2"
                       data-index={1}
                       onClick={[Function]}
-                      type="button"
+                      size="small"
                     >
                       <Styled(span)>
                         <span
@@ -6745,6 +6549,7 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                           >
                             <span
                               className="emotion-0"
+                              size="small"
                             >
                               Copy
                             </span>
@@ -6752,38 +6557,32 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                         </span>
                       </Styled(span)>
                     </button>
-                  </Button>
+                  </Styled(button)>
                 </Button>
               </WithForwardRef(Button)>
               <WithForwardRef(Button)
                 data-index={2}
-                element="button"
                 key="2/.2"
                 onClick={[Function]}
                 size="small"
-                type="button"
               >
                 <Button
                   data-index={2}
-                  element="button"
                   forwardedRef={null}
                   onClick={[Function]}
                   size="small"
-                  type="button"
                 >
-                  <Button
+                  <Styled(button)
                     data-index={2}
-                    element="button"
                     onClick={[Function]}
                     size="small"
                     text="Paste"
-                    type="button"
                   >
                     <button
                       className="emotion-2"
                       data-index={2}
                       onClick={[Function]}
-                      type="button"
+                      size="small"
                     >
                       <Styled(span)>
                         <span
@@ -6794,6 +6593,7 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                           >
                             <span
                               className="emotion-0"
+                              size="small"
                             >
                               Paste
                             </span>
@@ -6801,18 +6601,18 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                         </span>
                       </Styled(span)>
                     </button>
-                  </Button>
+                  </Styled(button)>
                 </Button>
               </WithForwardRef(Button)>
             </div>
-          </ButtonGroup>
+          </Styled(div)>
         </ButtonGroup>
         <ButtonGroup
           aria-label="Edit text"
           key="medium"
           size="medium"
         >
-          <ButtonGroup
+          <Styled(div)
             aria-label="Edit text"
             role="group"
           >
@@ -6823,33 +6623,27 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
             >
               <WithForwardRef(Button)
                 data-index={0}
-                element="button"
                 key="0/.0"
                 onClick={[Function]}
                 size="medium"
-                type="button"
               >
                 <Button
                   data-index={0}
-                  element="button"
                   forwardedRef={null}
                   onClick={[Function]}
                   size="medium"
-                  type="button"
                 >
-                  <Button
+                  <Styled(button)
                     data-index={0}
-                    element="button"
                     onClick={[Function]}
                     size="medium"
                     text="Cut"
-                    type="button"
                   >
                     <button
                       className="emotion-12"
                       data-index={0}
                       onClick={[Function]}
-                      type="button"
+                      size="medium"
                     >
                       <Styled(span)>
                         <span
@@ -6860,6 +6654,7 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                           >
                             <span
                               className="emotion-10"
+                              size="medium"
                             >
                               Cut
                             </span>
@@ -6867,38 +6662,32 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                         </span>
                       </Styled(span)>
                     </button>
-                  </Button>
+                  </Styled(button)>
                 </Button>
               </WithForwardRef(Button)>
               <WithForwardRef(Button)
                 data-index={1}
-                element="button"
                 key="1/.1"
                 onClick={[Function]}
                 size="medium"
-                type="button"
               >
                 <Button
                   data-index={1}
-                  element="button"
                   forwardedRef={null}
                   onClick={[Function]}
                   size="medium"
-                  type="button"
                 >
-                  <Button
+                  <Styled(button)
                     data-index={1}
-                    element="button"
                     onClick={[Function]}
                     size="medium"
                     text="Copy"
-                    type="button"
                   >
                     <button
                       className="emotion-12"
                       data-index={1}
                       onClick={[Function]}
-                      type="button"
+                      size="medium"
                     >
                       <Styled(span)>
                         <span
@@ -6909,6 +6698,7 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                           >
                             <span
                               className="emotion-10"
+                              size="medium"
                             >
                               Copy
                             </span>
@@ -6916,38 +6706,32 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                         </span>
                       </Styled(span)>
                     </button>
-                  </Button>
+                  </Styled(button)>
                 </Button>
               </WithForwardRef(Button)>
               <WithForwardRef(Button)
                 data-index={2}
-                element="button"
                 key="2/.2"
                 onClick={[Function]}
                 size="medium"
-                type="button"
               >
                 <Button
                   data-index={2}
-                  element="button"
                   forwardedRef={null}
                   onClick={[Function]}
                   size="medium"
-                  type="button"
                 >
-                  <Button
+                  <Styled(button)
                     data-index={2}
-                    element="button"
                     onClick={[Function]}
                     size="medium"
                     text="Paste"
-                    type="button"
                   >
                     <button
                       className="emotion-12"
                       data-index={2}
                       onClick={[Function]}
-                      type="button"
+                      size="medium"
                     >
                       <Styled(span)>
                         <span
@@ -6958,6 +6742,7 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                           >
                             <span
                               className="emotion-10"
+                              size="medium"
                             >
                               Paste
                             </span>
@@ -6965,18 +6750,18 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                         </span>
                       </Styled(span)>
                     </button>
-                  </Button>
+                  </Styled(button)>
                 </Button>
               </WithForwardRef(Button)>
             </div>
-          </ButtonGroup>
+          </Styled(div)>
         </ButtonGroup>
         <ButtonGroup
           aria-label="Edit text"
           key="large"
           size="large"
         >
-          <ButtonGroup
+          <Styled(div)
             aria-label="Edit text"
             role="group"
           >
@@ -6987,33 +6772,27 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
             >
               <WithForwardRef(Button)
                 data-index={0}
-                element="button"
                 key="0/.0"
                 onClick={[Function]}
                 size="large"
-                type="button"
               >
                 <Button
                   data-index={0}
-                  element="button"
                   forwardedRef={null}
                   onClick={[Function]}
                   size="large"
-                  type="button"
                 >
-                  <Button
+                  <Styled(button)
                     data-index={0}
-                    element="button"
                     onClick={[Function]}
                     size="large"
                     text="Cut"
-                    type="button"
                   >
                     <button
                       className="emotion-22"
                       data-index={0}
                       onClick={[Function]}
-                      type="button"
+                      size="large"
                     >
                       <Styled(span)>
                         <span
@@ -7024,6 +6803,7 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                           >
                             <span
                               className="emotion-20"
+                              size="large"
                             >
                               Cut
                             </span>
@@ -7031,38 +6811,32 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                         </span>
                       </Styled(span)>
                     </button>
-                  </Button>
+                  </Styled(button)>
                 </Button>
               </WithForwardRef(Button)>
               <WithForwardRef(Button)
                 data-index={1}
-                element="button"
                 key="1/.1"
                 onClick={[Function]}
                 size="large"
-                type="button"
               >
                 <Button
                   data-index={1}
-                  element="button"
                   forwardedRef={null}
                   onClick={[Function]}
                   size="large"
-                  type="button"
                 >
-                  <Button
+                  <Styled(button)
                     data-index={1}
-                    element="button"
                     onClick={[Function]}
                     size="large"
                     text="Copy"
-                    type="button"
                   >
                     <button
                       className="emotion-22"
                       data-index={1}
                       onClick={[Function]}
-                      type="button"
+                      size="large"
                     >
                       <Styled(span)>
                         <span
@@ -7073,6 +6847,7 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                           >
                             <span
                               className="emotion-20"
+                              size="large"
                             >
                               Copy
                             </span>
@@ -7080,38 +6855,32 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                         </span>
                       </Styled(span)>
                     </button>
-                  </Button>
+                  </Styled(button)>
                 </Button>
               </WithForwardRef(Button)>
               <WithForwardRef(Button)
                 data-index={2}
-                element="button"
                 key="2/.2"
                 onClick={[Function]}
                 size="large"
-                type="button"
               >
                 <Button
                   data-index={2}
-                  element="button"
                   forwardedRef={null}
                   onClick={[Function]}
                   size="large"
-                  type="button"
                 >
-                  <Button
+                  <Styled(button)
                     data-index={2}
-                    element="button"
                     onClick={[Function]}
                     size="large"
                     text="Paste"
-                    type="button"
                   >
                     <button
                       className="emotion-22"
                       data-index={2}
                       onClick={[Function]}
-                      type="button"
+                      size="large"
                     >
                       <Styled(span)>
                         <span
@@ -7122,6 +6891,7 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                           >
                             <span
                               className="emotion-20"
+                              size="large"
                             >
                               Paste
                             </span>
@@ -7129,18 +6899,18 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                         </span>
                       </Styled(span)>
                     </button>
-                  </Button>
+                  </Styled(button)>
                 </Button>
               </WithForwardRef(Button)>
             </div>
-          </ButtonGroup>
+          </Styled(div)>
         </ButtonGroup>
         <ButtonGroup
           aria-label="Edit text"
           key="jumbo"
           size="jumbo"
         >
-          <ButtonGroup
+          <Styled(div)
             aria-label="Edit text"
             role="group"
           >
@@ -7151,33 +6921,27 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
             >
               <WithForwardRef(Button)
                 data-index={0}
-                element="button"
                 key="0/.0"
                 onClick={[Function]}
                 size="jumbo"
-                type="button"
               >
                 <Button
                   data-index={0}
-                  element="button"
                   forwardedRef={null}
                   onClick={[Function]}
                   size="jumbo"
-                  type="button"
                 >
-                  <Button
+                  <Styled(button)
                     data-index={0}
-                    element="button"
                     onClick={[Function]}
                     size="jumbo"
                     text="Cut"
-                    type="button"
                   >
                     <button
                       className="emotion-32"
                       data-index={0}
                       onClick={[Function]}
-                      type="button"
+                      size="jumbo"
                     >
                       <Styled(span)>
                         <span
@@ -7188,6 +6952,7 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                           >
                             <span
                               className="emotion-30"
+                              size="jumbo"
                             >
                               Cut
                             </span>
@@ -7195,38 +6960,32 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                         </span>
                       </Styled(span)>
                     </button>
-                  </Button>
+                  </Styled(button)>
                 </Button>
               </WithForwardRef(Button)>
               <WithForwardRef(Button)
                 data-index={1}
-                element="button"
                 key="1/.1"
                 onClick={[Function]}
                 size="jumbo"
-                type="button"
               >
                 <Button
                   data-index={1}
-                  element="button"
                   forwardedRef={null}
                   onClick={[Function]}
                   size="jumbo"
-                  type="button"
                 >
-                  <Button
+                  <Styled(button)
                     data-index={1}
-                    element="button"
                     onClick={[Function]}
                     size="jumbo"
                     text="Copy"
-                    type="button"
                   >
                     <button
                       className="emotion-32"
                       data-index={1}
                       onClick={[Function]}
-                      type="button"
+                      size="jumbo"
                     >
                       <Styled(span)>
                         <span
@@ -7237,6 +6996,7 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                           >
                             <span
                               className="emotion-30"
+                              size="jumbo"
                             >
                               Copy
                             </span>
@@ -7244,38 +7004,32 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                         </span>
                       </Styled(span)>
                     </button>
-                  </Button>
+                  </Styled(button)>
                 </Button>
               </WithForwardRef(Button)>
               <WithForwardRef(Button)
                 data-index={2}
-                element="button"
                 key="2/.2"
                 onClick={[Function]}
                 size="jumbo"
-                type="button"
               >
                 <Button
                   data-index={2}
-                  element="button"
                   forwardedRef={null}
                   onClick={[Function]}
                   size="jumbo"
-                  type="button"
                 >
-                  <Button
+                  <Styled(button)
                     data-index={2}
-                    element="button"
                     onClick={[Function]}
                     size="jumbo"
                     text="Paste"
-                    type="button"
                   >
                     <button
                       className="emotion-32"
                       data-index={2}
                       onClick={[Function]}
-                      type="button"
+                      size="jumbo"
                     >
                       <Styled(span)>
                         <span
@@ -7286,6 +7040,7 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                           >
                             <span
                               className="emotion-30"
+                              size="jumbo"
                             >
                               Paste
                             </span>
@@ -7293,17 +7048,17 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                         </span>
                       </Styled(span)>
                     </button>
-                  </Button>
+                  </Styled(button)>
                 </Button>
               </WithForwardRef(Button)>
             </div>
-          </ButtonGroup>
+          </Styled(div)>
         </ButtonGroup>
         <ButtonGroup
           aria-label="Edit text"
           fullWidth={true}
         >
-          <ButtonGroup
+          <Styled(div)
             aria-label="Edit text"
             fullWidth={true}
             role="group"
@@ -7315,33 +7070,27 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
             >
               <WithForwardRef(Button)
                 data-index={0}
-                element="button"
                 key="0/.0"
                 onClick={[Function]}
                 size="large"
-                type="button"
               >
                 <Button
                   data-index={0}
-                  element="button"
                   forwardedRef={null}
                   onClick={[Function]}
                   size="large"
-                  type="button"
                 >
-                  <Button
+                  <Styled(button)
                     data-index={0}
-                    element="button"
                     onClick={[Function]}
                     size="large"
                     text="Cut"
-                    type="button"
                   >
                     <button
                       className="emotion-22"
                       data-index={0}
                       onClick={[Function]}
-                      type="button"
+                      size="large"
                     >
                       <Styled(span)>
                         <span
@@ -7352,6 +7101,7 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                           >
                             <span
                               className="emotion-20"
+                              size="large"
                             >
                               Cut
                             </span>
@@ -7359,38 +7109,32 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                         </span>
                       </Styled(span)>
                     </button>
-                  </Button>
+                  </Styled(button)>
                 </Button>
               </WithForwardRef(Button)>
               <WithForwardRef(Button)
                 data-index={1}
-                element="button"
                 key="1/.1"
                 onClick={[Function]}
                 size="large"
-                type="button"
               >
                 <Button
                   data-index={1}
-                  element="button"
                   forwardedRef={null}
                   onClick={[Function]}
                   size="large"
-                  type="button"
                 >
-                  <Button
+                  <Styled(button)
                     data-index={1}
-                    element="button"
                     onClick={[Function]}
                     size="large"
                     text="Copy"
-                    type="button"
                   >
                     <button
                       className="emotion-22"
                       data-index={1}
                       onClick={[Function]}
-                      type="button"
+                      size="large"
                     >
                       <Styled(span)>
                         <span
@@ -7401,6 +7145,7 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                           >
                             <span
                               className="emotion-20"
+                              size="large"
                             >
                               Copy
                             </span>
@@ -7408,38 +7153,32 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                         </span>
                       </Styled(span)>
                     </button>
-                  </Button>
+                  </Styled(button)>
                 </Button>
               </WithForwardRef(Button)>
               <WithForwardRef(Button)
                 data-index={2}
-                element="button"
                 key="2/.2"
                 onClick={[Function]}
                 size="large"
-                type="button"
               >
                 <Button
                   data-index={2}
-                  element="button"
                   forwardedRef={null}
                   onClick={[Function]}
                   size="large"
-                  type="button"
                 >
-                  <Button
+                  <Styled(button)
                     data-index={2}
-                    element="button"
                     onClick={[Function]}
                     size="large"
                     text="Paste"
-                    type="button"
                   >
                     <button
                       className="emotion-22"
                       data-index={2}
                       onClick={[Function]}
-                      type="button"
+                      size="large"
                     >
                       <Styled(span)>
                         <span
@@ -7450,6 +7189,7 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                           >
                             <span
                               className="emotion-20"
+                              size="large"
                             >
                               Paste
                             </span>
@@ -7457,11 +7197,11 @@ exports[`ButtonGroup demo examples Snapshots: sizes 1`] = `
                         </span>
                       </Styled(span)>
                     </button>
-                  </Button>
+                  </Styled(button)>
                 </Button>
               </WithForwardRef(Button)>
             </div>
-          </ButtonGroup>
+          </Styled(div)>
         </ButtonGroup>
       </div>
     </Styled(div)>
@@ -7789,7 +7529,7 @@ exports[`ButtonGroup demo examples Snapshots: uncontrolled 1`] = `
   aria-label="Align text"
   mode="radio"
 >
-  <ButtonGroup
+  <Styled(div)
     aria-label="Align text"
     mode="radio"
     role="radiogroup"
@@ -7797,43 +7537,38 @@ exports[`ButtonGroup demo examples Snapshots: uncontrolled 1`] = `
     <div
       aria-label="Align text"
       className="emotion-9"
+      mode="radio"
       role="radiogroup"
     >
       <WithForwardRef(Button)
         aria-checked={true}
         data-index={0}
         defaultChecked={true}
-        element="button"
         key="0/.0"
         onClick={[Function]}
         primary={true}
         role="radio"
         size="large"
-        type="button"
       >
         <Button
           aria-checked={true}
           data-index={0}
           defaultChecked={true}
-          element="button"
           forwardedRef={null}
           onClick={[Function]}
           primary={true}
           role="radio"
           size="large"
-          type="button"
         >
-          <Button
+          <Styled(button)
             aria-checked={true}
             data-index={0}
             defaultChecked={true}
-            element="button"
             onClick={[Function]}
             primary={true}
             role="radio"
             size="large"
             text="Left"
-            type="button"
           >
             <button
               aria-checked={true}
@@ -7842,7 +7577,7 @@ exports[`ButtonGroup demo examples Snapshots: uncontrolled 1`] = `
               defaultChecked={true}
               onClick={[Function]}
               role="radio"
-              type="button"
+              size="large"
             >
               <Styled(span)>
                 <span
@@ -7853,6 +7588,7 @@ exports[`ButtonGroup demo examples Snapshots: uncontrolled 1`] = `
                   >
                     <span
                       className="emotion-0"
+                      size="large"
                     >
                       Left
                     </span>
@@ -7860,38 +7596,32 @@ exports[`ButtonGroup demo examples Snapshots: uncontrolled 1`] = `
                 </span>
               </Styled(span)>
             </button>
-          </Button>
+          </Styled(button)>
         </Button>
       </WithForwardRef(Button)>
       <WithForwardRef(Button)
         aria-checked={false}
         data-index={1}
-        element="button"
         key="1/.1"
         onClick={[Function]}
         role="radio"
         size="large"
-        type="button"
       >
         <Button
           aria-checked={false}
           data-index={1}
-          element="button"
           forwardedRef={null}
           onClick={[Function]}
           role="radio"
           size="large"
-          type="button"
         >
-          <Button
+          <Styled(button)
             aria-checked={false}
             data-index={1}
-            element="button"
             onClick={[Function]}
             role="radio"
             size="large"
             text="Center"
-            type="button"
           >
             <button
               aria-checked={false}
@@ -7899,7 +7629,7 @@ exports[`ButtonGroup demo examples Snapshots: uncontrolled 1`] = `
               data-index={1}
               onClick={[Function]}
               role="radio"
-              type="button"
+              size="large"
             >
               <Styled(span)>
                 <span
@@ -7910,6 +7640,7 @@ exports[`ButtonGroup demo examples Snapshots: uncontrolled 1`] = `
                   >
                     <span
                       className="emotion-0"
+                      size="large"
                     >
                       Center
                     </span>
@@ -7917,38 +7648,32 @@ exports[`ButtonGroup demo examples Snapshots: uncontrolled 1`] = `
                 </span>
               </Styled(span)>
             </button>
-          </Button>
+          </Styled(button)>
         </Button>
       </WithForwardRef(Button)>
       <WithForwardRef(Button)
         aria-checked={false}
         data-index={2}
-        element="button"
         key="2/.2"
         onClick={[Function]}
         role="radio"
         size="large"
-        type="button"
       >
         <Button
           aria-checked={false}
           data-index={2}
-          element="button"
           forwardedRef={null}
           onClick={[Function]}
           role="radio"
           size="large"
-          type="button"
         >
-          <Button
+          <Styled(button)
             aria-checked={false}
             data-index={2}
-            element="button"
             onClick={[Function]}
             role="radio"
             size="large"
             text="Right"
-            type="button"
           >
             <button
               aria-checked={false}
@@ -7956,7 +7681,7 @@ exports[`ButtonGroup demo examples Snapshots: uncontrolled 1`] = `
               data-index={2}
               onClick={[Function]}
               role="radio"
-              type="button"
+              size="large"
             >
               <Styled(span)>
                 <span
@@ -7967,6 +7692,7 @@ exports[`ButtonGroup demo examples Snapshots: uncontrolled 1`] = `
                   >
                     <span
                       className="emotion-0"
+                      size="large"
                     >
                       Right
                     </span>
@@ -7974,11 +7700,11 @@ exports[`ButtonGroup demo examples Snapshots: uncontrolled 1`] = `
                 </span>
               </Styled(span)>
             </button>
-          </Button>
+          </Styled(button)>
         </Button>
       </WithForwardRef(Button)>
     </div>
-  </ButtonGroup>
+  </Styled(div)>
 </ButtonGroup>
 `;
 
@@ -8623,7 +8349,7 @@ exports[`ButtonGroup demo examples Snapshots: variants 1`] = `
         aria-label="Shopping options"
         variant="success"
       >
-        <ButtonGroup
+        <Styled(div)
           aria-label="Shopping options"
           role="group"
           variant="success"
@@ -8635,36 +8361,30 @@ exports[`ButtonGroup demo examples Snapshots: variants 1`] = `
           >
             <WithForwardRef(Button)
               data-index={0}
-              element="button"
               key="0/.0"
               onClick={[Function]}
               size="large"
-              type="button"
               variant="success"
             >
               <Button
                 data-index={0}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 size="large"
-                type="button"
                 variant="success"
               >
-                <Button
+                <Styled(button)
                   data-index={0}
-                  element="button"
                   onClick={[Function]}
                   size="large"
                   text="Donate $5"
-                  type="button"
                   variant="success"
                 >
                   <button
                     className="emotion-2"
                     data-index={0}
                     onClick={[Function]}
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -8675,6 +8395,7 @@ exports[`ButtonGroup demo examples Snapshots: variants 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Donate $5
                           </span>
@@ -8682,41 +8403,35 @@ exports[`ButtonGroup demo examples Snapshots: variants 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               data-index={1}
-              element="button"
               key="1/.1"
               onClick={[Function]}
               size="large"
-              type="button"
               variant="success"
             >
               <Button
                 data-index={1}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 size="large"
-                type="button"
                 variant="success"
               >
-                <Button
+                <Styled(button)
                   data-index={1}
-                  element="button"
                   onClick={[Function]}
                   size="large"
                   text="Donate $10"
-                  type="button"
                   variant="success"
                 >
                   <button
                     className="emotion-2"
                     data-index={1}
                     onClick={[Function]}
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -8727,6 +8442,7 @@ exports[`ButtonGroup demo examples Snapshots: variants 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Donate $10
                           </span>
@@ -8734,17 +8450,17 @@ exports[`ButtonGroup demo examples Snapshots: variants 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
           </div>
-        </ButtonGroup>
+        </Styled(div)>
       </ButtonGroup>
       <ButtonGroup
         aria-label="Shopping options"
         variant="warning"
       >
-        <ButtonGroup
+        <Styled(div)
           aria-label="Shopping options"
           role="group"
           variant="warning"
@@ -8756,36 +8472,30 @@ exports[`ButtonGroup demo examples Snapshots: variants 1`] = `
           >
             <WithForwardRef(Button)
               data-index={0}
-              element="button"
               key="0/.0"
               onClick={[Function]}
               size="large"
-              type="button"
               variant="warning"
             >
               <Button
                 data-index={0}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 size="large"
-                type="button"
                 variant="warning"
               >
-                <Button
+                <Styled(button)
                   data-index={0}
-                  element="button"
                   onClick={[Function]}
                   size="large"
                   text="Revoke Author Permissions"
-                  type="button"
                   variant="warning"
                 >
                   <button
                     className="emotion-9"
                     data-index={0}
                     onClick={[Function]}
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -8796,6 +8506,7 @@ exports[`ButtonGroup demo examples Snapshots: variants 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Revoke Author Permissions
                           </span>
@@ -8803,41 +8514,35 @@ exports[`ButtonGroup demo examples Snapshots: variants 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               data-index={1}
-              element="button"
               key="1/.1"
               onClick={[Function]}
               size="large"
-              type="button"
               variant="warning"
             >
               <Button
                 data-index={1}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 size="large"
-                type="button"
                 variant="warning"
               >
-                <Button
+                <Styled(button)
                   data-index={1}
-                  element="button"
                   onClick={[Function]}
                   size="large"
                   text="Revoke Group Permissions"
-                  type="button"
                   variant="warning"
                 >
                   <button
                     className="emotion-9"
                     data-index={1}
                     onClick={[Function]}
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -8848,6 +8553,7 @@ exports[`ButtonGroup demo examples Snapshots: variants 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Revoke Group Permissions
                           </span>
@@ -8855,17 +8561,17 @@ exports[`ButtonGroup demo examples Snapshots: variants 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
           </div>
-        </ButtonGroup>
+        </Styled(div)>
       </ButtonGroup>
       <ButtonGroup
         aria-label="Shopping options"
         variant="danger"
       >
-        <ButtonGroup
+        <Styled(div)
           aria-label="Shopping options"
           role="group"
           variant="danger"
@@ -8877,36 +8583,30 @@ exports[`ButtonGroup demo examples Snapshots: variants 1`] = `
           >
             <WithForwardRef(Button)
               data-index={0}
-              element="button"
               key="0/.0"
               onClick={[Function]}
               size="large"
-              type="button"
               variant="danger"
             >
               <Button
                 data-index={0}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 size="large"
-                type="button"
                 variant="danger"
               >
-                <Button
+                <Styled(button)
                   data-index={0}
-                  element="button"
                   onClick={[Function]}
                   size="large"
                   text="Send Storm Watch"
-                  type="button"
                   variant="danger"
                 >
                   <button
                     className="emotion-16"
                     data-index={0}
                     onClick={[Function]}
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -8917,6 +8617,7 @@ exports[`ButtonGroup demo examples Snapshots: variants 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Send Storm Watch
                           </span>
@@ -8924,41 +8625,35 @@ exports[`ButtonGroup demo examples Snapshots: variants 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
             <WithForwardRef(Button)
               data-index={1}
-              element="button"
               key="1/.1"
               onClick={[Function]}
               size="large"
-              type="button"
               variant="danger"
             >
               <Button
                 data-index={1}
-                element="button"
                 forwardedRef={null}
                 onClick={[Function]}
                 size="large"
-                type="button"
                 variant="danger"
               >
-                <Button
+                <Styled(button)
                   data-index={1}
-                  element="button"
                   onClick={[Function]}
                   size="large"
                   text="Send Storm Warning"
-                  type="button"
                   variant="danger"
                 >
                   <button
                     className="emotion-16"
                     data-index={1}
                     onClick={[Function]}
-                    type="button"
+                    size="large"
                   >
                     <Styled(span)>
                       <span
@@ -8969,6 +8664,7 @@ exports[`ButtonGroup demo examples Snapshots: variants 1`] = `
                         >
                           <span
                             className="emotion-0"
+                            size="large"
                           >
                             Send Storm Warning
                           </span>
@@ -8976,11 +8672,11 @@ exports[`ButtonGroup demo examples Snapshots: variants 1`] = `
                       </span>
                     </Styled(span)>
                   </button>
-                </Button>
+                </Styled(button)>
               </Button>
             </WithForwardRef(Button)>
           </div>
-        </ButtonGroup>
+        </Styled(div)>
       </ButtonGroup>
     </div>
   </Styled(div)>

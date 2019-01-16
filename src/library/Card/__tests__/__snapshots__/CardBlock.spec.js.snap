@@ -248,12 +248,12 @@ exports[`CardBlock demo examples Snapshots: children 1`] = `
     className="emotion-11"
   >
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-10"
         >
           <CardTitle>
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-3"
               >
@@ -277,10 +277,10 @@ exports[`CardBlock demo examples Snapshots: children 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-9"
               >
@@ -293,28 +293,22 @@ exports[`CardBlock demo examples Snapshots: children 1`] = `
                         className="emotion-7"
                       >
                         <WithForwardRef(Button)
-                          element="button"
                           fullWidth={true}
                           size="large"
-                          type="button"
                         >
                           <Button
-                            element="button"
                             forwardedRef={null}
                             fullWidth={true}
                             size="large"
-                            type="button"
                           >
-                            <Button
-                              element="button"
+                            <Styled(button)
                               fullWidth={true}
                               size="large"
                               text="Button"
-                              type="button"
                             >
                               <button
                                 className="emotion-6"
-                                type="button"
+                                size="large"
                               >
                                 <Styled(span)>
                                   <span
@@ -325,6 +319,7 @@ exports[`CardBlock demo examples Snapshots: children 1`] = `
                                     >
                                       <span
                                         className="emotion-4"
+                                        size="large"
                                       >
                                         Button
                                       </span>
@@ -332,7 +327,7 @@ exports[`CardBlock demo examples Snapshots: children 1`] = `
                                   </span>
                                 </Styled(span)>
                               </button>
-                            </Button>
+                            </Styled(button)>
                           </Button>
                         </WithForwardRef(Button)>
                       </div>
@@ -340,10 +335,10 @@ exports[`CardBlock demo examples Snapshots: children 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
   </div>
 </Styled(div)>
@@ -499,12 +494,12 @@ exports[`CardBlock demo examples Snapshots: consistent-spacing 1`] = `
     className="emotion-9"
   >
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-8"
         >
           <CardTitle>
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-3"
               >
@@ -528,13 +523,13 @@ exports[`CardBlock demo examples Snapshots: consistent-spacing 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <Styled(CardBlock)>
             <CardBlock
               className="emotion-6"
             >
-              <CardBlock
+              <Styled(div)
                 className="emotion-6"
               >
                 <div
@@ -551,11 +546,11 @@ exports[`CardBlock demo examples Snapshots: consistent-spacing 1`] = `
                     </div>
                   </Styled(div)>
                 </div>
-              </CardBlock>
+              </Styled(div)>
             </CardBlock>
           </Styled(CardBlock)>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
   </div>
 </Styled(div)>

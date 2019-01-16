@@ -138,7 +138,7 @@ exports[`CardImage demo examples Snapshots: with-image 1`] = `
     className="emotion-8"
   >
     <Card>
-      <Card>
+      <Styled(div)>
         <div
           className="emotion-7"
         >
@@ -146,7 +146,7 @@ exports[`CardImage demo examples Snapshots: with-image 1`] = `
             alt="gradient image"
             src="/images/500x281.png"
           >
-            <CardImage
+            <Styled(img)
               alt="gradient image"
               src="/images/500x281.png"
             >
@@ -155,10 +155,10 @@ exports[`CardImage demo examples Snapshots: with-image 1`] = `
                 className="emotion-0"
                 src="/images/500x281.png"
               />
-            </CardImage>
+            </Styled(img)>
           </CardImage>
           <CardTitle>
-            <CardTitle>
+            <Styled(div)>
               <div
                 className="emotion-4"
               >
@@ -182,10 +182,10 @@ exports[`CardImage demo examples Snapshots: with-image 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardTitle>
+            </Styled(div)>
           </CardTitle>
           <CardBlock>
-            <CardBlock>
+            <Styled(div)>
               <div
                 className="emotion-6"
               >
@@ -200,10 +200,10 @@ exports[`CardImage demo examples Snapshots: with-image 1`] = `
                   </div>
                 </Styled(div)>
               </div>
-            </CardBlock>
+            </Styled(div)>
           </CardBlock>
         </div>
-      </Card>
+      </Styled(div)>
     </Card>
   </div>
 </Styled(div)>

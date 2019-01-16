@@ -197,12 +197,13 @@ exports[`Radio demo examples Snapshots: controlled 1`] = `
                       type="radio"
                       value="quartz"
                     >
-                      <Choice
+                      <Styled(label)
                         labelPosition="end"
                         size="large"
                       >
                         <label
                           className="emotion-4"
+                          size="large"
                         >
                           <Styled(input)
                             checked={true}
@@ -222,11 +223,12 @@ exports[`Radio demo examples Snapshots: controlled 1`] = `
                               value="quartz"
                             />
                           </Styled(input)>
-                          <Control
+                          <Styled(span)
                             size="large"
                           >
                             <span
                               className="emotion-2"
+                              size="large"
                             >
                               <IconRadioButtonCheck>
                                 <Icon
@@ -246,6 +248,7 @@ exports[`Radio demo examples Snapshots: controlled 1`] = `
                                       className="emotion-1"
                                       focusable="false"
                                       role="img"
+                                      size="medium"
                                       viewBox="0 0 24 24"
                                     >
                                       <g>
@@ -260,19 +263,20 @@ exports[`Radio demo examples Snapshots: controlled 1`] = `
                                 </Icon>
                               </IconRadioButtonCheck>
                             </span>
-                          </Control>
-                          <Text
+                          </Styled(span)>
+                          <Styled(span)
                             labelPosition="end"
                             size="large"
                           >
                             <span
                               className="emotion-3"
+                              size="large"
                             >
                               Quartz
                             </span>
-                          </Text>
+                          </Styled(span)>
                         </label>
-                      </Choice>
+                      </Styled(label)>
                     </Choice>
                   </ThemeProvider>
                 </ThemeProvider>
@@ -341,12 +345,13 @@ exports[`Radio demo examples Snapshots: controlled 1`] = `
                       type="radio"
                       value="magnetite"
                     >
-                      <Choice
+                      <Styled(label)
                         labelPosition="end"
                         size="large"
                       >
                         <label
                           className="emotion-4"
+                          size="large"
                         >
                           <Styled(input)
                             checked={false}
@@ -366,11 +371,12 @@ exports[`Radio demo examples Snapshots: controlled 1`] = `
                               value="magnetite"
                             />
                           </Styled(input)>
-                          <Control
+                          <Styled(span)
                             size="large"
                           >
                             <span
                               className="emotion-2"
+                              size="large"
                             >
                               <IconRadioButtonCheck>
                                 <Icon
@@ -390,6 +396,7 @@ exports[`Radio demo examples Snapshots: controlled 1`] = `
                                       className="emotion-1"
                                       focusable="false"
                                       role="img"
+                                      size="medium"
                                       viewBox="0 0 24 24"
                                     >
                                       <g>
@@ -404,19 +411,20 @@ exports[`Radio demo examples Snapshots: controlled 1`] = `
                                 </Icon>
                               </IconRadioButtonCheck>
                             </span>
-                          </Control>
-                          <Text
+                          </Styled(span)>
+                          <Styled(span)
                             labelPosition="end"
                             size="large"
                           >
                             <span
                               className="emotion-3"
+                              size="large"
                             >
                               Magnetite
                             </span>
-                          </Text>
+                          </Styled(span)>
                         </label>
-                      </Choice>
+                      </Styled(label)>
                     </Choice>
                   </ThemeProvider>
                 </ThemeProvider>
@@ -612,13 +620,15 @@ exports[`Radio demo examples Snapshots: disabled 1`] = `
                   type="radio"
                   value="quartz"
                 >
-                  <Choice
+                  <Styled(label)
                     disabled={true}
                     labelPosition="end"
                     size="large"
                   >
                     <label
                       className="emotion-4"
+                      disabled={true}
+                      size="large"
                     >
                       <Styled(input)
                         disabled={true}
@@ -634,12 +644,14 @@ exports[`Radio demo examples Snapshots: disabled 1`] = `
                           value="quartz"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         disabled={true}
                         size="large"
                       >
                         <span
                           className="emotion-2"
+                          disabled={true}
+                          size="large"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -659,6 +671,7 @@ exports[`Radio demo examples Snapshots: disabled 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -673,20 +686,22 @@ exports[`Radio demo examples Snapshots: disabled 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         disabled={true}
                         labelPosition="end"
                         size="large"
                       >
                         <span
                           className="emotion-3"
+                          disabled={true}
+                          size="large"
                         >
                           Quartz
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>
@@ -751,13 +766,15 @@ exports[`Radio demo examples Snapshots: disabled 1`] = `
                   type="radio"
                   value="magnetite"
                 >
-                  <Choice
+                  <Styled(label)
                     disabled={true}
                     labelPosition="end"
                     size="large"
                   >
                     <label
                       className="emotion-4"
+                      disabled={true}
+                      size="large"
                     >
                       <Styled(input)
                         defaultChecked={true}
@@ -775,12 +792,14 @@ exports[`Radio demo examples Snapshots: disabled 1`] = `
                           value="magnetite"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         disabled={true}
                         size="large"
                       >
                         <span
                           className="emotion-2"
+                          disabled={true}
+                          size="large"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -800,6 +819,7 @@ exports[`Radio demo examples Snapshots: disabled 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -814,20 +834,22 @@ exports[`Radio demo examples Snapshots: disabled 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         disabled={true}
                         labelPosition="end"
                         size="large"
                       >
                         <span
                           className="emotion-3"
+                          disabled={true}
+                          size="large"
                         >
                           Magnetite
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>
@@ -1041,13 +1063,14 @@ exports[`Radio demo examples Snapshots: hide-label 1`] = `
                   size="large"
                   type="radio"
                 >
-                  <Choice
+                  <Styled(label)
                     hideLabel={true}
                     labelPosition="end"
                     size="large"
                   >
                     <label
                       className="emotion-4"
+                      size="large"
                     >
                       <Styled(input)
                         size="large"
@@ -1059,11 +1082,12 @@ exports[`Radio demo examples Snapshots: hide-label 1`] = `
                           type="radio"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         size="large"
                       >
                         <span
                           className="emotion-2"
+                          size="large"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -1083,6 +1107,7 @@ exports[`Radio demo examples Snapshots: hide-label 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -1097,20 +1122,21 @@ exports[`Radio demo examples Snapshots: hide-label 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         hideLabel={true}
                         labelPosition="end"
                         size="large"
                       >
                         <span
                           className="emotion-3"
+                          size="large"
                         >
                           Select All
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>
@@ -1428,12 +1454,13 @@ exports[`Radio demo examples Snapshots: input-ref 1`] = `
                       type="radio"
                       value="1"
                     >
-                      <Choice
+                      <Styled(label)
                         labelPosition="end"
                         size="large"
                       >
                         <label
                           className="emotion-4"
+                          size="large"
                         >
                           <Styled(input)
                             size="large"
@@ -1447,11 +1474,12 @@ exports[`Radio demo examples Snapshots: input-ref 1`] = `
                               value="1"
                             />
                           </Styled(input)>
-                          <Control
+                          <Styled(span)
                             size="large"
                           >
                             <span
                               className="emotion-2"
+                              size="large"
                             >
                               <IconRadioButtonCheck>
                                 <Icon
@@ -1471,6 +1499,7 @@ exports[`Radio demo examples Snapshots: input-ref 1`] = `
                                       className="emotion-1"
                                       focusable="false"
                                       role="img"
+                                      size="medium"
                                       viewBox="0 0 24 24"
                                     >
                                       <g>
@@ -1485,19 +1514,20 @@ exports[`Radio demo examples Snapshots: input-ref 1`] = `
                                 </Icon>
                               </IconRadioButtonCheck>
                             </span>
-                          </Control>
-                          <Text
+                          </Styled(span)>
+                          <Styled(span)
                             labelPosition="end"
                             size="large"
                           >
                             <span
                               className="emotion-3"
+                              size="large"
                             >
                               Option 1
                             </span>
-                          </Text>
+                          </Styled(span)>
                         </label>
-                      </Choice>
+                      </Styled(label)>
                     </Choice>
                   </ThemeProvider>
                 </ThemeProvider>
@@ -1505,29 +1535,23 @@ exports[`Radio demo examples Snapshots: input-ref 1`] = `
             </WithTheme(Themed(Choice))>
           </Radio>
           <WithForwardRef(Button)
-            element="button"
             onClick={[Function]}
             size="large"
-            type="button"
           >
             <Button
-              element="button"
               forwardedRef={null}
               onClick={[Function]}
               size="large"
-              type="button"
             >
-              <Button
-                element="button"
+              <Styled(button)
                 onClick={[Function]}
                 size="large"
                 text="Focus the input"
-                type="button"
               >
                 <button
                   className="emotion-7"
                   onClick={[Function]}
-                  type="button"
+                  size="large"
                 >
                   <Styled(span)>
                     <span
@@ -1538,6 +1562,7 @@ exports[`Radio demo examples Snapshots: input-ref 1`] = `
                       >
                         <span
                           className="emotion-5"
+                          size="large"
                         >
                           Focus the input
                         </span>
@@ -1545,7 +1570,7 @@ exports[`Radio demo examples Snapshots: input-ref 1`] = `
                     </span>
                   </Styled(span)>
                 </button>
-              </Button>
+              </Styled(button)>
             </Button>
           </WithForwardRef(Button)>
         </div>
@@ -1750,12 +1775,13 @@ exports[`Radio demo examples Snapshots: invalid 1`] = `
                   type="radio"
                   value="quartz"
                 >
-                  <Choice
+                  <Styled(label)
                     labelPosition="end"
                     size="large"
                   >
                     <label
                       className="emotion-4"
+                      size="large"
                     >
                       <Styled(input)
                         aria-invalid={true}
@@ -1775,11 +1801,12 @@ exports[`Radio demo examples Snapshots: invalid 1`] = `
                           value="quartz"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         size="large"
                       >
                         <span
                           className="emotion-2"
+                          size="large"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -1799,6 +1826,7 @@ exports[`Radio demo examples Snapshots: invalid 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -1813,19 +1841,20 @@ exports[`Radio demo examples Snapshots: invalid 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         labelPosition="end"
                         size="large"
                       >
                         <span
                           className="emotion-3"
+                          size="large"
                         >
                           Quartz
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>
@@ -1890,12 +1919,13 @@ exports[`Radio demo examples Snapshots: invalid 1`] = `
                   type="radio"
                   value="magnetite"
                 >
-                  <Choice
+                  <Styled(label)
                     labelPosition="end"
                     size="large"
                   >
                     <label
                       className="emotion-4"
+                      size="large"
                     >
                       <Styled(input)
                         aria-invalid={true}
@@ -1913,11 +1943,12 @@ exports[`Radio demo examples Snapshots: invalid 1`] = `
                           value="magnetite"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         size="large"
                       >
                         <span
                           className="emotion-2"
+                          size="large"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -1937,6 +1968,7 @@ exports[`Radio demo examples Snapshots: invalid 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -1951,19 +1983,20 @@ exports[`Radio demo examples Snapshots: invalid 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         labelPosition="end"
                         size="large"
                       >
                         <span
                           className="emotion-3"
+                          size="large"
                         >
                           Magnetite
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>
@@ -2292,12 +2325,13 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
                   type="radio"
                   value="quartz"
                 >
-                  <Choice
+                  <Styled(label)
                     labelPosition="end"
                     size="large"
                   >
                     <label
                       className="emotion-4"
+                      size="large"
                     >
                       <Styled(input)
                         name="mineral"
@@ -2313,11 +2347,12 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
                           value="quartz"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         size="large"
                       >
                         <span
                           className="emotion-2"
+                          size="large"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -2337,6 +2372,7 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -2351,19 +2387,20 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         labelPosition="end"
                         size="large"
                       >
                         <span
                           className="emotion-3"
+                          size="large"
                         >
                           Quartz
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>
@@ -2371,14 +2408,14 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
         </WithTheme(Themed(Choice))>
       </Radio>
       <FormFieldDivider>
-        <FormFieldDivider
+        <Styled(div)
           role="separator"
         >
           <div
             className="emotion-5"
             role="separator"
           />
-        </FormFieldDivider>
+        </Styled(div)>
       </FormFieldDivider>
       <Radio
         label="Magnetite"
@@ -2434,12 +2471,13 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
                   type="radio"
                   value="magnetite"
                 >
-                  <Choice
+                  <Styled(label)
                     labelPosition="start"
                     size="large"
                   >
                     <label
                       className="emotion-10"
+                      size="large"
                     >
                       <Styled(input)
                         name="mineral"
@@ -2455,11 +2493,12 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
                           value="magnetite"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         size="large"
                       >
                         <span
                           className="emotion-2"
+                          size="large"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -2479,6 +2518,7 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -2493,19 +2533,20 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         labelPosition="start"
                         size="large"
                       >
                         <span
                           className="emotion-9"
+                          size="large"
                         >
                           Magnetite
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>
@@ -2513,14 +2554,14 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
         </WithTheme(Themed(Choice))>
       </Radio>
       <FormFieldDivider>
-        <FormFieldDivider
+        <Styled(div)
           role="separator"
         >
           <div
             className="emotion-5"
             role="separator"
           />
-        </FormFieldDivider>
+        </Styled(div)>
       </FormFieldDivider>
       <Radio
         justify={true}
@@ -2580,13 +2621,14 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
                   type="radio"
                   value="azurite"
                 >
-                  <Choice
+                  <Styled(label)
                     justify={true}
                     labelPosition="end"
                     size="large"
                   >
                     <label
                       className="emotion-16"
+                      size="large"
                     >
                       <Styled(input)
                         name="mineral"
@@ -2602,11 +2644,12 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
                           value="azurite"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         size="large"
                       >
                         <span
                           className="emotion-2"
+                          size="large"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -2626,6 +2669,7 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -2640,20 +2684,21 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         justify={true}
                         labelPosition="end"
                         size="large"
                       >
                         <span
                           className="emotion-15"
+                          size="large"
                         >
                           Azurite
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>
@@ -2661,14 +2706,14 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
         </WithTheme(Themed(Choice))>
       </Radio>
       <FormFieldDivider>
-        <FormFieldDivider
+        <Styled(div)
           role="separator"
         >
           <div
             className="emotion-5"
             role="separator"
           />
-        </FormFieldDivider>
+        </Styled(div)>
       </FormFieldDivider>
       <Radio
         justify={true}
@@ -2728,13 +2773,14 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
                   type="radio"
                   value="hematite"
                 >
-                  <Choice
+                  <Styled(label)
                     justify={true}
                     labelPosition="start"
                     size="large"
                   >
                     <label
                       className="emotion-22"
+                      size="large"
                     >
                       <Styled(input)
                         name="mineral"
@@ -2750,11 +2796,12 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
                           value="hematite"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         size="large"
                       >
                         <span
                           className="emotion-2"
+                          size="large"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -2774,6 +2821,7 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -2788,20 +2836,21 @@ exports[`Radio demo examples Snapshots: label-position-and-justification 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         justify={true}
                         labelPosition="start"
                         size="large"
                       >
                         <span
                           className="emotion-21"
+                          size="large"
                         >
                           Hematite
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>
@@ -3000,12 +3049,13 @@ exports[`Radio demo examples Snapshots: label-wrapping 1`] = `
                   size="large"
                   type="radio"
                 >
-                  <Choice
+                  <Styled(label)
                     labelPosition="end"
                     size="large"
                   >
                     <label
                       className="emotion-4"
+                      size="large"
                     >
                       <Styled(input)
                         defaultChecked={true}
@@ -3021,11 +3071,12 @@ exports[`Radio demo examples Snapshots: label-wrapping 1`] = `
                           type="radio"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         size="large"
                       >
                         <span
                           className="emotion-2"
+                          size="large"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -3045,6 +3096,7 @@ exports[`Radio demo examples Snapshots: label-wrapping 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -3059,19 +3111,20 @@ exports[`Radio demo examples Snapshots: label-wrapping 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         labelPosition="end"
                         size="large"
                       >
                         <span
                           className="emotion-3"
+                          size="large"
                         >
                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ornare velit nec dui molestie posuere. Nulla facilisi. Nulla tempor turpis vel aliquam viverra. In eu sagittis elit. Integer scelerisque purus nulla, sit amet dictum ipsum elementum finibus. Suspendisse et erat nisl. Sed aliquet finibus odio, ut volutpat metus dictum sed. Nullam nunc mi, consequat sit amet magna ut, faucibus placerat tortor. Duis porttitor tellus vitae condimentum convallis.
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>
@@ -4145,12 +4198,13 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                       size="small"
                       type="radio"
                     >
-                      <Choice
+                      <Styled(label)
                         labelPosition="end"
                         size="small"
                       >
                         <label
                           className="emotion-4"
+                          size="small"
                         >
                           <Styled(input)
                             name="size"
@@ -4164,11 +4218,12 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                               type="radio"
                             />
                           </Styled(input)>
-                          <Control
+                          <Styled(span)
                             size="small"
                           >
                             <span
                               className="emotion-2"
+                              size="small"
                             >
                               <IconRadioButtonCheck>
                                 <Icon
@@ -4188,6 +4243,7 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                                       className="emotion-1"
                                       focusable="false"
                                       role="img"
+                                      size="medium"
                                       viewBox="0 0 24 24"
                                     >
                                       <g>
@@ -4202,19 +4258,20 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                                 </Icon>
                               </IconRadioButtonCheck>
                             </span>
-                          </Control>
-                          <Text
+                          </Styled(span)>
+                          <Styled(span)
                             labelPosition="end"
                             size="small"
                           >
                             <span
                               className="emotion-3"
+                              size="small"
                             >
                               Small
                             </span>
-                          </Text>
+                          </Styled(span)>
                         </label>
-                      </Choice>
+                      </Styled(label)>
                     </Choice>
                   </ThemeProvider>
                 </ThemeProvider>
@@ -4226,19 +4283,18 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
             size="small"
             type="text"
           >
-            <TextInput
+            <Styled(WithTheme(Themed(FauxControl)))
               control={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "input",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
-                    "label:Input;",
                     [Function],
                   ],
                   "defaultProps": undefined,
-                  "displayName": "Input",
+                  "displayName": "Styled(input)",
                   "render": [Function],
                   "withComponent": [Function],
                 }
@@ -4263,14 +4319,13 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "input",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
-                      "label:Input;",
                       [Function],
                     ],
                     "defaultProps": undefined,
-                    "displayName": "Input",
+                    "displayName": "Styled(input)",
                     "render": [Function],
                     "withComponent": [Function],
                   }
@@ -4295,14 +4350,13 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "input",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
-                        "label:Input;",
                         [Function],
                       ],
                       "defaultProps": undefined,
-                      "displayName": "Input",
+                      "displayName": "Styled(input)",
                       "render": [Function],
                       "withComponent": [Function],
                     }
@@ -4329,14 +4383,13 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "input",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
-                              "label:Input;",
                               [Function],
                             ],
                             "defaultProps": undefined,
-                            "displayName": "Input",
+                            "displayName": "Styled(input)",
                             "render": [Function],
                             "withComponent": [Function],
                           }
@@ -4355,20 +4408,19 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                         }
                         size="small"
                       >
-                        <FauxControl
+                        <Styled(div)
                           className="emotion-8"
                           control={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "input",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
-                                "label:Input;",
                                 [Function],
                               ],
                               "defaultProps": undefined,
-                              "displayName": "Input",
+                              "displayName": "Styled(input)",
                               "render": [Function],
                               "withComponent": [Function],
                             }
@@ -4377,7 +4429,7 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                           <div
                             className="emotion-7"
                           >
-                            <Control
+                            <Styled(input)
                               controlPropsIn={
                                 Object {
                                   "aria-invalid": undefined,
@@ -4401,41 +4453,35 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                                 size="small"
                                 type="text"
                               />
-                            </Control>
-                            <Underlay>
+                            </Styled(input)>
+                            <Styled(div)>
                               <div
                                 className="emotion-6"
                               />
-                            </Underlay>
+                            </Styled(div)>
                           </div>
-                        </FauxControl>
+                        </Styled(div)>
                       </FauxControl>
                     </ThemeProvider>
                   </ThemeProvider>
                 </Themed(FauxControl)>
               </WithTheme(Themed(FauxControl))>
-            </TextInput>
+            </Styled(WithTheme(Themed(FauxControl)))>
           </TextInput>
           <WithForwardRef(Button)
-            element="button"
             size="small"
-            type="button"
           >
             <Button
-              element="button"
               forwardedRef={null}
               size="small"
-              type="button"
             >
-              <Button
-                element="button"
+              <Styled(button)
                 size="small"
                 text="Small"
-                type="button"
               >
                 <button
                   className="emotion-14"
-                  type="button"
+                  size="small"
                 >
                   <Styled(span)>
                     <span
@@ -4446,6 +4492,7 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                       >
                         <span
                           className="emotion-12"
+                          size="small"
                         >
                           Small
                         </span>
@@ -4453,7 +4500,7 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                     </span>
                   </Styled(span)>
                 </button>
-              </Button>
+              </Styled(button)>
             </Button>
           </WithForwardRef(Button)>
         </div>
@@ -4508,12 +4555,13 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                       size="medium"
                       type="radio"
                     >
-                      <Choice
+                      <Styled(label)
                         labelPosition="end"
                         size="medium"
                       >
                         <label
                           className="emotion-4"
+                          size="medium"
                         >
                           <Styled(input)
                             name="size"
@@ -4527,11 +4575,12 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                               type="radio"
                             />
                           </Styled(input)>
-                          <Control
+                          <Styled(span)
                             size="medium"
                           >
                             <span
                               className="emotion-2"
+                              size="medium"
                             >
                               <IconRadioButtonCheck>
                                 <Icon
@@ -4551,6 +4600,7 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                                       className="emotion-1"
                                       focusable="false"
                                       role="img"
+                                      size="medium"
                                       viewBox="0 0 24 24"
                                     >
                                       <g>
@@ -4565,19 +4615,20 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                                 </Icon>
                               </IconRadioButtonCheck>
                             </span>
-                          </Control>
-                          <Text
+                          </Styled(span)>
+                          <Styled(span)
                             labelPosition="end"
                             size="medium"
                           >
                             <span
                               className="emotion-18"
+                              size="medium"
                             >
                               Medium
                             </span>
-                          </Text>
+                          </Styled(span)>
                         </label>
-                      </Choice>
+                      </Styled(label)>
                     </Choice>
                   </ThemeProvider>
                 </ThemeProvider>
@@ -4589,19 +4640,18 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
             size="medium"
             type="text"
           >
-            <TextInput
+            <Styled(WithTheme(Themed(FauxControl)))
               control={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "input",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
-                    "label:Input;",
                     [Function],
                   ],
                   "defaultProps": undefined,
-                  "displayName": "Input",
+                  "displayName": "Styled(input)",
                   "render": [Function],
                   "withComponent": [Function],
                 }
@@ -4626,14 +4676,13 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "input",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
-                      "label:Input;",
                       [Function],
                     ],
                     "defaultProps": undefined,
-                    "displayName": "Input",
+                    "displayName": "Styled(input)",
                     "render": [Function],
                     "withComponent": [Function],
                   }
@@ -4658,14 +4707,13 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "input",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
-                        "label:Input;",
                         [Function],
                       ],
                       "defaultProps": undefined,
-                      "displayName": "Input",
+                      "displayName": "Styled(input)",
                       "render": [Function],
                       "withComponent": [Function],
                     }
@@ -4692,14 +4740,13 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "input",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
-                              "label:Input;",
                               [Function],
                             ],
                             "defaultProps": undefined,
-                            "displayName": "Input",
+                            "displayName": "Styled(input)",
                             "render": [Function],
                             "withComponent": [Function],
                           }
@@ -4718,20 +4765,19 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                         }
                         size="medium"
                       >
-                        <FauxControl
+                        <Styled(div)
                           className="emotion-8"
                           control={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "input",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
-                                "label:Input;",
                                 [Function],
                               ],
                               "defaultProps": undefined,
-                              "displayName": "Input",
+                              "displayName": "Styled(input)",
                               "render": [Function],
                               "withComponent": [Function],
                             }
@@ -4740,7 +4786,7 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                           <div
                             className="emotion-7"
                           >
-                            <Control
+                            <Styled(input)
                               controlPropsIn={
                                 Object {
                                   "aria-invalid": undefined,
@@ -4764,41 +4810,35 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                                 size="medium"
                                 type="text"
                               />
-                            </Control>
-                            <Underlay>
+                            </Styled(input)>
+                            <Styled(div)>
                               <div
                                 className="emotion-6"
                               />
-                            </Underlay>
+                            </Styled(div)>
                           </div>
-                        </FauxControl>
+                        </Styled(div)>
                       </FauxControl>
                     </ThemeProvider>
                   </ThemeProvider>
                 </Themed(FauxControl)>
               </WithTheme(Themed(FauxControl))>
-            </TextInput>
+            </Styled(WithTheme(Themed(FauxControl)))>
           </TextInput>
           <WithForwardRef(Button)
-            element="button"
             size="medium"
-            type="button"
           >
             <Button
-              element="button"
               forwardedRef={null}
               size="medium"
-              type="button"
             >
-              <Button
-                element="button"
+              <Styled(button)
                 size="medium"
                 text="Medium"
-                type="button"
               >
                 <button
                   className="emotion-29"
-                  type="button"
+                  size="medium"
                 >
                   <Styled(span)>
                     <span
@@ -4809,6 +4849,7 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                       >
                         <span
                           className="emotion-27"
+                          size="medium"
                         >
                           Medium
                         </span>
@@ -4816,7 +4857,7 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                     </span>
                   </Styled(span)>
                 </button>
-              </Button>
+              </Styled(button)>
             </Button>
           </WithForwardRef(Button)>
         </div>
@@ -4871,12 +4912,13 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                       size="large"
                       type="radio"
                     >
-                      <Choice
+                      <Styled(label)
                         labelPosition="end"
                         size="large"
                       >
                         <label
                           className="emotion-4"
+                          size="large"
                         >
                           <Styled(input)
                             name="size"
@@ -4890,11 +4932,12 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                               type="radio"
                             />
                           </Styled(input)>
-                          <Control
+                          <Styled(span)
                             size="large"
                           >
                             <span
                               className="emotion-2"
+                              size="large"
                             >
                               <IconRadioButtonCheck>
                                 <Icon
@@ -4914,6 +4957,7 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                                       className="emotion-1"
                                       focusable="false"
                                       role="img"
+                                      size="medium"
                                       viewBox="0 0 24 24"
                                     >
                                       <g>
@@ -4928,19 +4972,20 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                                 </Icon>
                               </IconRadioButtonCheck>
                             </span>
-                          </Control>
-                          <Text
+                          </Styled(span)>
+                          <Styled(span)
                             labelPosition="end"
                             size="large"
                           >
                             <span
                               className="emotion-18"
+                              size="large"
                             >
                               Large
                             </span>
-                          </Text>
+                          </Styled(span)>
                         </label>
-                      </Choice>
+                      </Styled(label)>
                     </Choice>
                   </ThemeProvider>
                 </ThemeProvider>
@@ -4952,19 +4997,18 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
             size="large"
             type="text"
           >
-            <TextInput
+            <Styled(WithTheme(Themed(FauxControl)))
               control={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "input",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
-                    "label:Input;",
                     [Function],
                   ],
                   "defaultProps": undefined,
-                  "displayName": "Input",
+                  "displayName": "Styled(input)",
                   "render": [Function],
                   "withComponent": [Function],
                 }
@@ -4989,14 +5033,13 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "input",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
-                      "label:Input;",
                       [Function],
                     ],
                     "defaultProps": undefined,
-                    "displayName": "Input",
+                    "displayName": "Styled(input)",
                     "render": [Function],
                     "withComponent": [Function],
                   }
@@ -5021,14 +5064,13 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "input",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
-                        "label:Input;",
                         [Function],
                       ],
                       "defaultProps": undefined,
-                      "displayName": "Input",
+                      "displayName": "Styled(input)",
                       "render": [Function],
                       "withComponent": [Function],
                     }
@@ -5055,14 +5097,13 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "input",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
-                              "label:Input;",
                               [Function],
                             ],
                             "defaultProps": undefined,
-                            "displayName": "Input",
+                            "displayName": "Styled(input)",
                             "render": [Function],
                             "withComponent": [Function],
                           }
@@ -5081,20 +5122,19 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                         }
                         size="large"
                       >
-                        <FauxControl
+                        <Styled(div)
                           className="emotion-8"
                           control={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "input",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
-                                "label:Input;",
                                 [Function],
                               ],
                               "defaultProps": undefined,
-                              "displayName": "Input",
+                              "displayName": "Styled(input)",
                               "render": [Function],
                               "withComponent": [Function],
                             }
@@ -5103,7 +5143,7 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                           <div
                             className="emotion-7"
                           >
-                            <Control
+                            <Styled(input)
                               controlPropsIn={
                                 Object {
                                   "aria-invalid": undefined,
@@ -5127,41 +5167,35 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                                 size="large"
                                 type="text"
                               />
-                            </Control>
-                            <Underlay>
+                            </Styled(input)>
+                            <Styled(div)>
                               <div
                                 className="emotion-6"
                               />
-                            </Underlay>
+                            </Styled(div)>
                           </div>
-                        </FauxControl>
+                        </Styled(div)>
                       </FauxControl>
                     </ThemeProvider>
                   </ThemeProvider>
                 </Themed(FauxControl)>
               </WithTheme(Themed(FauxControl))>
-            </TextInput>
+            </Styled(WithTheme(Themed(FauxControl)))>
           </TextInput>
           <WithForwardRef(Button)
-            element="button"
             size="large"
-            type="button"
           >
             <Button
-              element="button"
               forwardedRef={null}
               size="large"
-              type="button"
             >
-              <Button
-                element="button"
+              <Styled(button)
                 size="large"
                 text="Large"
-                type="button"
               >
                 <button
                   className="emotion-44"
-                  type="button"
+                  size="large"
                 >
                   <Styled(span)>
                     <span
@@ -5172,6 +5206,7 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                       >
                         <span
                           className="emotion-42"
+                          size="large"
                         >
                           Large
                         </span>
@@ -5179,7 +5214,7 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                     </span>
                   </Styled(span)>
                 </button>
-              </Button>
+              </Styled(button)>
             </Button>
           </WithForwardRef(Button)>
         </div>
@@ -5234,12 +5269,13 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                       size="jumbo"
                       type="radio"
                     >
-                      <Choice
+                      <Styled(label)
                         labelPosition="end"
                         size="jumbo"
                       >
                         <label
                           className="emotion-4"
+                          size="jumbo"
                         >
                           <Styled(input)
                             name="size"
@@ -5253,11 +5289,12 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                               type="radio"
                             />
                           </Styled(input)>
-                          <Control
+                          <Styled(span)
                             size="jumbo"
                           >
                             <span
                               className="emotion-47"
+                              size="jumbo"
                             >
                               <IconRadioButtonCheck>
                                 <Icon
@@ -5277,6 +5314,7 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                                       className="emotion-1"
                                       focusable="false"
                                       role="img"
+                                      size="medium"
                                       viewBox="0 0 24 24"
                                     >
                                       <g>
@@ -5291,19 +5329,20 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                                 </Icon>
                               </IconRadioButtonCheck>
                             </span>
-                          </Control>
-                          <Text
+                          </Styled(span)>
+                          <Styled(span)
                             labelPosition="end"
                             size="jumbo"
                           >
                             <span
                               className="emotion-18"
+                              size="jumbo"
                             >
                               Jumbo
                             </span>
-                          </Text>
+                          </Styled(span)>
                         </label>
-                      </Choice>
+                      </Styled(label)>
                     </Choice>
                   </ThemeProvider>
                 </ThemeProvider>
@@ -5315,19 +5354,18 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
             size="jumbo"
             type="text"
           >
-            <TextInput
+            <Styled(WithTheme(Themed(FauxControl)))
               control={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "__emotion_base": "input",
-                  "__emotion_forwardProp": [Function],
+                  "__emotion_forwardProp": undefined,
                   "__emotion_real": [Circular],
                   "__emotion_styles": Array [
-                    "label:Input;",
                     [Function],
                   ],
                   "defaultProps": undefined,
-                  "displayName": "Input",
+                  "displayName": "Styled(input)",
                   "render": [Function],
                   "withComponent": [Function],
                 }
@@ -5352,14 +5390,13 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "__emotion_base": "input",
-                    "__emotion_forwardProp": [Function],
+                    "__emotion_forwardProp": undefined,
                     "__emotion_real": [Circular],
                     "__emotion_styles": Array [
-                      "label:Input;",
                       [Function],
                     ],
                     "defaultProps": undefined,
-                    "displayName": "Input",
+                    "displayName": "Styled(input)",
                     "render": [Function],
                     "withComponent": [Function],
                   }
@@ -5384,14 +5421,13 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "__emotion_base": "input",
-                      "__emotion_forwardProp": [Function],
+                      "__emotion_forwardProp": undefined,
                       "__emotion_real": [Circular],
                       "__emotion_styles": Array [
-                        "label:Input;",
                         [Function],
                       ],
                       "defaultProps": undefined,
-                      "displayName": "Input",
+                      "displayName": "Styled(input)",
                       "render": [Function],
                       "withComponent": [Function],
                     }
@@ -5418,14 +5454,13 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                           Object {
                             "$$typeof": Symbol(react.forward_ref),
                             "__emotion_base": "input",
-                            "__emotion_forwardProp": [Function],
+                            "__emotion_forwardProp": undefined,
                             "__emotion_real": [Circular],
                             "__emotion_styles": Array [
-                              "label:Input;",
                               [Function],
                             ],
                             "defaultProps": undefined,
-                            "displayName": "Input",
+                            "displayName": "Styled(input)",
                             "render": [Function],
                             "withComponent": [Function],
                           }
@@ -5444,20 +5479,19 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                         }
                         size="jumbo"
                       >
-                        <FauxControl
+                        <Styled(div)
                           className="emotion-8"
                           control={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "__emotion_base": "input",
-                              "__emotion_forwardProp": [Function],
+                              "__emotion_forwardProp": undefined,
                               "__emotion_real": [Circular],
                               "__emotion_styles": Array [
-                                "label:Input;",
                                 [Function],
                               ],
                               "defaultProps": undefined,
-                              "displayName": "Input",
+                              "displayName": "Styled(input)",
                               "render": [Function],
                               "withComponent": [Function],
                             }
@@ -5466,7 +5500,7 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                           <div
                             className="emotion-7"
                           >
-                            <Control
+                            <Styled(input)
                               controlPropsIn={
                                 Object {
                                   "aria-invalid": undefined,
@@ -5490,41 +5524,35 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                                 size="jumbo"
                                 type="text"
                               />
-                            </Control>
-                            <Underlay>
+                            </Styled(input)>
+                            <Styled(div)>
                               <div
                                 className="emotion-6"
                               />
-                            </Underlay>
+                            </Styled(div)>
                           </div>
-                        </FauxControl>
+                        </Styled(div)>
                       </FauxControl>
                     </ThemeProvider>
                   </ThemeProvider>
                 </Themed(FauxControl)>
               </WithTheme(Themed(FauxControl))>
-            </TextInput>
+            </Styled(WithTheme(Themed(FauxControl)))>
           </TextInput>
           <WithForwardRef(Button)
-            element="button"
             size="jumbo"
-            type="button"
           >
             <Button
-              element="button"
               forwardedRef={null}
               size="jumbo"
-              type="button"
             >
-              <Button
-                element="button"
+              <Styled(button)
                 size="jumbo"
                 text="Jumbo"
-                type="button"
               >
                 <button
                   className="emotion-59"
-                  type="button"
+                  size="jumbo"
                 >
                   <Styled(span)>
                     <span
@@ -5535,6 +5563,7 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                       >
                         <span
                           className="emotion-57"
+                          size="jumbo"
                         >
                           Jumbo
                         </span>
@@ -5542,7 +5571,7 @@ exports[`Radio demo examples Snapshots: next-to-other-inputs 1`] = `
                     </span>
                   </Styled(span)>
                 </button>
-              </Button>
+              </Styled(button)>
             </Button>
           </WithForwardRef(Button)>
         </div>
@@ -5747,12 +5776,13 @@ exports[`Radio demo examples Snapshots: required 1`] = `
                   type="radio"
                   value="quartz"
                 >
-                  <Choice
+                  <Styled(label)
                     labelPosition="end"
                     size="large"
                   >
                     <label
                       className="emotion-4"
+                      size="large"
                     >
                       <Styled(input)
                         aria-required={true}
@@ -5774,11 +5804,12 @@ exports[`Radio demo examples Snapshots: required 1`] = `
                           value="quartz"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         size="large"
                       >
                         <span
                           className="emotion-2"
+                          size="large"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -5798,6 +5829,7 @@ exports[`Radio demo examples Snapshots: required 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -5812,19 +5844,20 @@ exports[`Radio demo examples Snapshots: required 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         labelPosition="end"
                         size="large"
                       >
                         <span
                           className="emotion-3"
+                          size="large"
                         >
                           Quartz
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>
@@ -5889,12 +5922,13 @@ exports[`Radio demo examples Snapshots: required 1`] = `
                   type="radio"
                   value="magnetite"
                 >
-                  <Choice
+                  <Styled(label)
                     labelPosition="end"
                     size="large"
                   >
                     <label
                       className="emotion-4"
+                      size="large"
                     >
                       <Styled(input)
                         aria-required={true}
@@ -5914,11 +5948,12 @@ exports[`Radio demo examples Snapshots: required 1`] = `
                           value="magnetite"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         size="large"
                       >
                         <span
                           className="emotion-2"
+                          size="large"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -5938,6 +5973,7 @@ exports[`Radio demo examples Snapshots: required 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -5952,19 +5988,20 @@ exports[`Radio demo examples Snapshots: required 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         labelPosition="end"
                         size="large"
                       >
                         <span
                           className="emotion-3"
+                          size="large"
                         >
                           Magnetite
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>
@@ -6294,12 +6331,13 @@ exports[`Radio demo examples Snapshots: rtl 1`] = `
                         size="large"
                         type="radio"
                       >
-                        <Choice
+                        <Styled(label)
                           labelPosition="end"
                           size="large"
                         >
                           <label
                             className="emotion-4"
+                            size="large"
                           >
                             <Styled(input)
                               name="example"
@@ -6313,11 +6351,12 @@ exports[`Radio demo examples Snapshots: rtl 1`] = `
                                 type="radio"
                               />
                             </Styled(input)>
-                            <Control
+                            <Styled(span)
                               size="large"
                             >
                               <span
                                 className="emotion-2"
+                                size="large"
                               >
                                 <IconRadioButtonCheck>
                                   <Icon
@@ -6337,6 +6376,7 @@ exports[`Radio demo examples Snapshots: rtl 1`] = `
                                         className="emotion-1"
                                         focusable="false"
                                         role="img"
+                                        size="medium"
                                         viewBox="0 0 24 24"
                                       >
                                         <g>
@@ -6351,19 +6391,20 @@ exports[`Radio demo examples Snapshots: rtl 1`] = `
                                   </Icon>
                                 </IconRadioButtonCheck>
                               </span>
-                            </Control>
-                            <Text
+                            </Styled(span)>
+                            <Styled(span)
                               labelPosition="end"
                               size="large"
                             >
                               <span
                                 className="emotion-3"
+                                size="large"
                               >
                                 مرحبا بالعالم
                               </span>
-                            </Text>
+                            </Styled(span)>
                           </label>
-                        </Choice>
+                        </Styled(label)>
                       </Choice>
                     </ThemeProvider>
                   </ThemeProvider>
@@ -6420,12 +6461,13 @@ exports[`Radio demo examples Snapshots: rtl 1`] = `
                         size="large"
                         type="radio"
                       >
-                        <Choice
+                        <Styled(label)
                           labelPosition="start"
                           size="large"
                         >
                           <label
                             className="emotion-9"
+                            size="large"
                           >
                             <Styled(input)
                               name="example"
@@ -6439,11 +6481,12 @@ exports[`Radio demo examples Snapshots: rtl 1`] = `
                                 type="radio"
                               />
                             </Styled(input)>
-                            <Control
+                            <Styled(span)
                               size="large"
                             >
                               <span
                                 className="emotion-2"
+                                size="large"
                               >
                                 <IconRadioButtonCheck>
                                   <Icon
@@ -6463,6 +6506,7 @@ exports[`Radio demo examples Snapshots: rtl 1`] = `
                                         className="emotion-1"
                                         focusable="false"
                                         role="img"
+                                        size="medium"
                                         viewBox="0 0 24 24"
                                       >
                                         <g>
@@ -6477,19 +6521,20 @@ exports[`Radio demo examples Snapshots: rtl 1`] = `
                                   </Icon>
                                 </IconRadioButtonCheck>
                               </span>
-                            </Control>
-                            <Text
+                            </Styled(span)>
+                            <Styled(span)
                               labelPosition="start"
                               size="large"
                             >
                               <span
                                 className="emotion-8"
+                                size="large"
                               >
                                 مرحبا بالعالم
                               </span>
-                            </Text>
+                            </Styled(span)>
                           </label>
-                        </Choice>
+                        </Styled(label)>
                       </Choice>
                     </ThemeProvider>
                   </ThemeProvider>
@@ -6497,14 +6542,14 @@ exports[`Radio demo examples Snapshots: rtl 1`] = `
               </WithTheme(Themed(Choice))>
             </Radio>
             <FormFieldDivider>
-              <FormFieldDivider
+              <Styled(div)
                 role="separator"
               >
                 <div
                   className="emotion-10"
                   role="separator"
                 />
-              </FormFieldDivider>
+              </Styled(div)>
             </FormFieldDivider>
             <Radio
               justify={true}
@@ -6560,13 +6605,14 @@ exports[`Radio demo examples Snapshots: rtl 1`] = `
                         size="large"
                         type="radio"
                       >
-                        <Choice
+                        <Styled(label)
                           justify={true}
                           labelPosition="end"
                           size="large"
                         >
                           <label
                             className="emotion-15"
+                            size="large"
                           >
                             <Styled(input)
                               name="example"
@@ -6580,11 +6626,12 @@ exports[`Radio demo examples Snapshots: rtl 1`] = `
                                 type="radio"
                               />
                             </Styled(input)>
-                            <Control
+                            <Styled(span)
                               size="large"
                             >
                               <span
                                 className="emotion-2"
+                                size="large"
                               >
                                 <IconRadioButtonCheck>
                                   <Icon
@@ -6604,6 +6651,7 @@ exports[`Radio demo examples Snapshots: rtl 1`] = `
                                         className="emotion-1"
                                         focusable="false"
                                         role="img"
+                                        size="medium"
                                         viewBox="0 0 24 24"
                                       >
                                         <g>
@@ -6618,20 +6666,21 @@ exports[`Radio demo examples Snapshots: rtl 1`] = `
                                   </Icon>
                                 </IconRadioButtonCheck>
                               </span>
-                            </Control>
-                            <Text
+                            </Styled(span)>
+                            <Styled(span)
                               justify={true}
                               labelPosition="end"
                               size="large"
                             >
                               <span
                                 className="emotion-14"
+                                size="large"
                               >
                                 مرحبا بالعالم
                               </span>
-                            </Text>
+                            </Styled(span)>
                           </label>
-                        </Choice>
+                        </Styled(label)>
                       </Choice>
                     </ThemeProvider>
                   </ThemeProvider>
@@ -6692,13 +6741,14 @@ exports[`Radio demo examples Snapshots: rtl 1`] = `
                         size="large"
                         type="radio"
                       >
-                        <Choice
+                        <Styled(label)
                           justify={true}
                           labelPosition="start"
                           size="large"
                         >
                           <label
                             className="emotion-20"
+                            size="large"
                           >
                             <Styled(input)
                               name="example"
@@ -6712,11 +6762,12 @@ exports[`Radio demo examples Snapshots: rtl 1`] = `
                                 type="radio"
                               />
                             </Styled(input)>
-                            <Control
+                            <Styled(span)
                               size="large"
                             >
                               <span
                                 className="emotion-2"
+                                size="large"
                               >
                                 <IconRadioButtonCheck>
                                   <Icon
@@ -6736,6 +6787,7 @@ exports[`Radio demo examples Snapshots: rtl 1`] = `
                                         className="emotion-1"
                                         focusable="false"
                                         role="img"
+                                        size="medium"
                                         viewBox="0 0 24 24"
                                       >
                                         <g>
@@ -6750,20 +6802,21 @@ exports[`Radio demo examples Snapshots: rtl 1`] = `
                                   </Icon>
                                 </IconRadioButtonCheck>
                               </span>
-                            </Control>
-                            <Text
+                            </Styled(span)>
+                            <Styled(span)
                               justify={true}
                               labelPosition="start"
                               size="large"
                             >
                               <span
                                 className="emotion-19"
+                                size="large"
                               >
                                 مرحبا بالعالم
                               </span>
-                            </Text>
+                            </Styled(span)>
                           </label>
-                        </Choice>
+                        </Styled(label)>
                       </Choice>
                     </ThemeProvider>
                   </ThemeProvider>
@@ -7005,12 +7058,13 @@ exports[`Radio demo examples Snapshots: sizes 1`] = `
                   type="radio"
                   value="small"
                 >
-                  <Choice
+                  <Styled(label)
                     labelPosition="end"
                     size="small"
                   >
                     <label
                       className="emotion-4"
+                      size="small"
                     >
                       <Styled(input)
                         name="size"
@@ -7026,11 +7080,12 @@ exports[`Radio demo examples Snapshots: sizes 1`] = `
                           value="small"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         size="small"
                       >
                         <span
                           className="emotion-2"
+                          size="small"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -7050,6 +7105,7 @@ exports[`Radio demo examples Snapshots: sizes 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -7064,19 +7120,20 @@ exports[`Radio demo examples Snapshots: sizes 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         labelPosition="end"
                         size="small"
                       >
                         <span
                           className="emotion-3"
+                          size="small"
                         >
                           Small
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>
@@ -7137,12 +7194,13 @@ exports[`Radio demo examples Snapshots: sizes 1`] = `
                   type="radio"
                   value="medium"
                 >
-                  <Choice
+                  <Styled(label)
                     labelPosition="end"
                     size="medium"
                   >
                     <label
                       className="emotion-4"
+                      size="medium"
                     >
                       <Styled(input)
                         name="size"
@@ -7158,11 +7216,12 @@ exports[`Radio demo examples Snapshots: sizes 1`] = `
                           value="medium"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         size="medium"
                       >
                         <span
                           className="emotion-2"
+                          size="medium"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -7182,6 +7241,7 @@ exports[`Radio demo examples Snapshots: sizes 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -7196,19 +7256,20 @@ exports[`Radio demo examples Snapshots: sizes 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         labelPosition="end"
                         size="medium"
                       >
                         <span
                           className="emotion-8"
+                          size="medium"
                         >
                           Medium
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>
@@ -7273,12 +7334,13 @@ exports[`Radio demo examples Snapshots: sizes 1`] = `
                   type="radio"
                   value="large"
                 >
-                  <Choice
+                  <Styled(label)
                     labelPosition="end"
                     size="large"
                   >
                     <label
                       className="emotion-4"
+                      size="large"
                     >
                       <Styled(input)
                         defaultChecked={true}
@@ -7296,11 +7358,12 @@ exports[`Radio demo examples Snapshots: sizes 1`] = `
                           value="large"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         size="large"
                       >
                         <span
                           className="emotion-2"
+                          size="large"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -7320,6 +7383,7 @@ exports[`Radio demo examples Snapshots: sizes 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -7334,19 +7398,20 @@ exports[`Radio demo examples Snapshots: sizes 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         labelPosition="end"
                         size="large"
                       >
                         <span
                           className="emotion-8"
+                          size="large"
                         >
                           Large
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>
@@ -7407,12 +7472,13 @@ exports[`Radio demo examples Snapshots: sizes 1`] = `
                   type="radio"
                   value="jumbo"
                 >
-                  <Choice
+                  <Styled(label)
                     labelPosition="end"
                     size="jumbo"
                   >
                     <label
                       className="emotion-4"
+                      size="jumbo"
                     >
                       <Styled(input)
                         name="size"
@@ -7428,11 +7494,12 @@ exports[`Radio demo examples Snapshots: sizes 1`] = `
                           value="jumbo"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         size="jumbo"
                       >
                         <span
                           className="emotion-17"
+                          size="jumbo"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -7452,6 +7519,7 @@ exports[`Radio demo examples Snapshots: sizes 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -7466,19 +7534,20 @@ exports[`Radio demo examples Snapshots: sizes 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         labelPosition="end"
                         size="jumbo"
                       >
                         <span
                           className="emotion-8"
+                          size="jumbo"
                         >
                           Jumbo
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>
@@ -7681,12 +7750,13 @@ exports[`Radio demo examples Snapshots: uncontrolled 1`] = `
                   type="radio"
                   value="quartz"
                 >
-                  <Choice
+                  <Styled(label)
                     labelPosition="end"
                     size="large"
                   >
                     <label
                       className="emotion-4"
+                      size="large"
                     >
                       <Styled(input)
                         defaultChecked={true}
@@ -7704,11 +7774,12 @@ exports[`Radio demo examples Snapshots: uncontrolled 1`] = `
                           value="quartz"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         size="large"
                       >
                         <span
                           className="emotion-2"
+                          size="large"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -7728,6 +7799,7 @@ exports[`Radio demo examples Snapshots: uncontrolled 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -7742,19 +7814,20 @@ exports[`Radio demo examples Snapshots: uncontrolled 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         labelPosition="end"
                         size="large"
                       >
                         <span
                           className="emotion-3"
+                          size="large"
                         >
                           Quartz
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>
@@ -7815,12 +7888,13 @@ exports[`Radio demo examples Snapshots: uncontrolled 1`] = `
                   type="radio"
                   value="magnetite"
                 >
-                  <Choice
+                  <Styled(label)
                     labelPosition="end"
                     size="large"
                   >
                     <label
                       className="emotion-4"
+                      size="large"
                     >
                       <Styled(input)
                         name="mineral"
@@ -7836,11 +7910,12 @@ exports[`Radio demo examples Snapshots: uncontrolled 1`] = `
                           value="magnetite"
                         />
                       </Styled(input)>
-                      <Control
+                      <Styled(span)
                         size="large"
                       >
                         <span
                           className="emotion-2"
+                          size="large"
                         >
                           <IconRadioButtonCheck>
                             <Icon
@@ -7860,6 +7935,7 @@ exports[`Radio demo examples Snapshots: uncontrolled 1`] = `
                                   className="emotion-1"
                                   focusable="false"
                                   role="img"
+                                  size="medium"
                                   viewBox="0 0 24 24"
                                 >
                                   <g>
@@ -7874,19 +7950,20 @@ exports[`Radio demo examples Snapshots: uncontrolled 1`] = `
                             </Icon>
                           </IconRadioButtonCheck>
                         </span>
-                      </Control>
-                      <Text
+                      </Styled(span)>
+                      <Styled(span)
                         labelPosition="end"
                         size="large"
                       >
                         <span
                           className="emotion-3"
+                          size="large"
                         >
                           Magnetite
                         </span>
-                      </Text>
+                      </Styled(span)>
                     </label>
-                  </Choice>
+                  </Styled(label)>
                 </Choice>
               </ThemeProvider>
             </ThemeProvider>

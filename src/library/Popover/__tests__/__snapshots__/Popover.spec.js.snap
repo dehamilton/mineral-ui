@@ -137,7 +137,7 @@ exports[`Popover demo examples Snapshots: basic 1`] = `
   placement="bottom"
 >
   <Manager>
-    <Popover
+    <Styled(span)
       content={<DemoContent />}
       focusTriggerOnClose={true}
       hasArrow={true}
@@ -145,23 +145,22 @@ exports[`Popover demo examples Snapshots: basic 1`] = `
     >
       <span
         className="emotion-4"
+        content={<DemoContent />}
       >
         <PopoverTrigger
           aria-describedby="popover-1-content"
           aria-expanded={false}
           aria-owns="popover-1-content"
-          element="button"
           onBlur={[Function]}
           onClick={[Function]}
           role="button"
           size="large"
-          type="button"
         >
           <Reference>
             <InnerReference
               getReferenceRef={[Function]}
             >
-              <PopoverTrigger>
+              <Styled(span)>
                 <span
                   className="emotion-3"
                 >
@@ -169,36 +168,30 @@ exports[`Popover demo examples Snapshots: basic 1`] = `
                     aria-describedby="popover-1-content"
                     aria-expanded={false}
                     aria-owns="popover-1-content"
-                    element="button"
                     onBlur={[Function]}
                     onClick={[Function]}
                     role="button"
                     size="large"
-                    type="button"
                   >
                     <Button
                       aria-describedby="popover-1-content"
                       aria-expanded={false}
                       aria-owns="popover-1-content"
-                      element="button"
                       forwardedRef={null}
                       onBlur={[Function]}
                       onClick={[Function]}
                       role="button"
                       size="large"
-                      type="button"
                     >
-                      <Button
+                      <Styled(button)
                         aria-describedby="popover-1-content"
                         aria-expanded={false}
                         aria-owns="popover-1-content"
-                        element="button"
                         onBlur={[Function]}
                         onClick={[Function]}
                         role="button"
                         size="large"
                         text="Open Popover"
-                        type="button"
                       >
                         <button
                           aria-describedby="popover-1-content"
@@ -208,7 +201,7 @@ exports[`Popover demo examples Snapshots: basic 1`] = `
                           onBlur={[Function]}
                           onClick={[Function]}
                           role="button"
-                          type="button"
+                          size="large"
                         >
                           <Styled(span)>
                             <span
@@ -219,6 +212,7 @@ exports[`Popover demo examples Snapshots: basic 1`] = `
                               >
                                 <span
                                   className="emotion-0"
+                                  size="large"
                                 >
                                   Open Popover
                                 </span>
@@ -226,16 +220,16 @@ exports[`Popover demo examples Snapshots: basic 1`] = `
                             </span>
                           </Styled(span)>
                         </button>
-                      </Button>
+                      </Styled(button)>
                     </Button>
                   </WithForwardRef(Button)>
                 </span>
-              </PopoverTrigger>
+              </Styled(span)>
             </InnerReference>
           </Reference>
         </PopoverTrigger>
       </span>
-    </Popover>
+    </Styled(span)>
   </Manager>
 </Popover>
 `;
@@ -399,7 +393,7 @@ exports[`Popover demo examples Snapshots: controlled 1`] = `
         placement="bottom"
       >
         <Manager>
-          <Popover
+          <Styled(span)
             content={<DemoContent />}
             focusTriggerOnClose={true}
             hasArrow={true}
@@ -410,23 +404,24 @@ exports[`Popover demo examples Snapshots: controlled 1`] = `
           >
             <span
               className="emotion-4"
+              content={<DemoContent />}
+              onClose={[Function]}
+              onOpen={[Function]}
             >
               <PopoverTrigger
                 aria-describedby="popover-9-content"
                 aria-expanded={false}
                 aria-owns="popover-9-content"
-                element="button"
                 onBlur={[Function]}
                 onClick={[Function]}
                 role="button"
                 size="large"
-                type="button"
               >
                 <Reference>
                   <InnerReference
                     getReferenceRef={[Function]}
                   >
-                    <PopoverTrigger>
+                    <Styled(span)>
                       <span
                         className="emotion-3"
                       >
@@ -434,36 +429,30 @@ exports[`Popover demo examples Snapshots: controlled 1`] = `
                           aria-describedby="popover-9-content"
                           aria-expanded={false}
                           aria-owns="popover-9-content"
-                          element="button"
                           onBlur={[Function]}
                           onClick={[Function]}
                           role="button"
                           size="large"
-                          type="button"
                         >
                           <Button
                             aria-describedby="popover-9-content"
                             aria-expanded={false}
                             aria-owns="popover-9-content"
-                            element="button"
                             forwardedRef={null}
                             onBlur={[Function]}
                             onClick={[Function]}
                             role="button"
                             size="large"
-                            type="button"
                           >
-                            <Button
+                            <Styled(button)
                               aria-describedby="popover-9-content"
                               aria-expanded={false}
                               aria-owns="popover-9-content"
-                              element="button"
                               onBlur={[Function]}
                               onClick={[Function]}
                               role="button"
                               size="large"
                               text="Open Popover"
-                              type="button"
                             >
                               <button
                                 aria-describedby="popover-9-content"
@@ -473,7 +462,7 @@ exports[`Popover demo examples Snapshots: controlled 1`] = `
                                 onBlur={[Function]}
                                 onClick={[Function]}
                                 role="button"
-                                type="button"
+                                size="large"
                               >
                                 <Styled(span)>
                                   <span
@@ -484,6 +473,7 @@ exports[`Popover demo examples Snapshots: controlled 1`] = `
                                     >
                                       <span
                                         className="emotion-0"
+                                        size="large"
                                       >
                                         Open Popover
                                       </span>
@@ -491,42 +481,36 @@ exports[`Popover demo examples Snapshots: controlled 1`] = `
                                   </span>
                                 </Styled(span)>
                               </button>
-                            </Button>
+                            </Styled(button)>
                           </Button>
                         </WithForwardRef(Button)>
                       </span>
-                    </PopoverTrigger>
+                    </Styled(span)>
                   </InnerReference>
                 </Reference>
               </PopoverTrigger>
             </span>
-          </Popover>
+          </Styled(span)>
         </Manager>
       </Popover>
       <WithForwardRef(Button)
-        element="button"
         onClick={[Function]}
         size="large"
-        type="button"
       >
         <Button
-          element="button"
           forwardedRef={null}
           onClick={[Function]}
           size="large"
-          type="button"
         >
-          <Button
-            element="button"
+          <Styled(button)
             onClick={[Function]}
             size="large"
             text="Open Popover"
-            type="button"
           >
             <button
               className="emotion-2"
               onClick={[Function]}
-              type="button"
+              size="large"
             >
               <Styled(span)>
                 <span
@@ -537,6 +521,7 @@ exports[`Popover demo examples Snapshots: controlled 1`] = `
                   >
                     <span
                       className="emotion-0"
+                      size="large"
                     >
                       Open Popover
                     </span>
@@ -544,7 +529,7 @@ exports[`Popover demo examples Snapshots: controlled 1`] = `
                 </span>
               </Styled(span)>
             </button>
-          </Button>
+          </Styled(button)>
         </Button>
       </WithForwardRef(Button)>
     </div>
@@ -690,7 +675,7 @@ exports[`Popover demo examples Snapshots: custom-content 1`] = `
     placement="bottom"
   >
     <Manager>
-      <Popover
+      <Styled(span)
         content={[Function]}
         focusTriggerOnClose={true}
         hasArrow={true}
@@ -698,23 +683,22 @@ exports[`Popover demo examples Snapshots: custom-content 1`] = `
       >
         <span
           className="emotion-4"
+          content={[Function]}
         >
           <PopoverTrigger
             aria-describedby="popover-11-content"
             aria-expanded={false}
             aria-owns="popover-11-content"
-            element="button"
             onBlur={[Function]}
             onClick={[Function]}
             role="button"
             size="large"
-            type="button"
           >
             <Reference>
               <InnerReference
                 getReferenceRef={[Function]}
               >
-                <PopoverTrigger>
+                <Styled(span)>
                   <span
                     className="emotion-3"
                   >
@@ -722,36 +706,30 @@ exports[`Popover demo examples Snapshots: custom-content 1`] = `
                       aria-describedby="popover-11-content"
                       aria-expanded={false}
                       aria-owns="popover-11-content"
-                      element="button"
                       onBlur={[Function]}
                       onClick={[Function]}
                       role="button"
                       size="large"
-                      type="button"
                     >
                       <Button
                         aria-describedby="popover-11-content"
                         aria-expanded={false}
                         aria-owns="popover-11-content"
-                        element="button"
                         forwardedRef={null}
                         onBlur={[Function]}
                         onClick={[Function]}
                         role="button"
                         size="large"
-                        type="button"
                       >
-                        <Button
+                        <Styled(button)
                           aria-describedby="popover-11-content"
                           aria-expanded={false}
                           aria-owns="popover-11-content"
-                          element="button"
                           onBlur={[Function]}
                           onClick={[Function]}
                           role="button"
                           size="large"
                           text="Open Popover"
-                          type="button"
                         >
                           <button
                             aria-describedby="popover-11-content"
@@ -761,7 +739,7 @@ exports[`Popover demo examples Snapshots: custom-content 1`] = `
                             onBlur={[Function]}
                             onClick={[Function]}
                             role="button"
-                            type="button"
+                            size="large"
                           >
                             <Styled(span)>
                               <span
@@ -772,6 +750,7 @@ exports[`Popover demo examples Snapshots: custom-content 1`] = `
                                 >
                                   <span
                                     className="emotion-0"
+                                    size="large"
                                   >
                                     Open Popover
                                   </span>
@@ -779,16 +758,16 @@ exports[`Popover demo examples Snapshots: custom-content 1`] = `
                               </span>
                             </Styled(span)>
                           </button>
-                        </Button>
+                        </Styled(button)>
                       </Button>
                     </WithForwardRef(Button)>
                   </span>
-                </PopoverTrigger>
+                </Styled(span)>
               </InnerReference>
             </Reference>
           </PopoverTrigger>
         </span>
-      </Popover>
+      </Styled(span)>
     </Manager>
   </Popover>
 </Component>
@@ -807,7 +786,7 @@ exports[`Popover demo examples Snapshots: custom-trigger 1`] = `
     placement="bottom"
   >
     <Manager>
-      <Popover
+      <Styled(span)
         content={<DemoContent />}
         focusTriggerOnClose={true}
         hasArrow={true}
@@ -815,6 +794,7 @@ exports[`Popover demo examples Snapshots: custom-trigger 1`] = `
       >
         <span
           className="emotion-1"
+          content={<DemoContent />}
         >
           <Reference>
             <InnerReference
@@ -847,7 +827,7 @@ exports[`Popover demo examples Snapshots: custom-trigger 1`] = `
             </InnerReference>
           </Reference>
         </span>
-      </Popover>
+      </Styled(span)>
     </Manager>
   </Popover>
 </Component>
@@ -978,7 +958,7 @@ exports[`Popover demo examples Snapshots: disabled 1`] = `
   placement="bottom"
 >
   <Manager>
-    <Popover
+    <Styled(span)
       content={<DemoContent />}
       disabled={true}
       focusTriggerOnClose={true}
@@ -987,6 +967,8 @@ exports[`Popover demo examples Snapshots: disabled 1`] = `
     >
       <span
         className="emotion-4"
+        content={<DemoContent />}
+        disabled={true}
       >
         <PopoverTrigger
           aria-describedby="popover-8-content"
@@ -994,17 +976,15 @@ exports[`Popover demo examples Snapshots: disabled 1`] = `
           aria-expanded={false}
           aria-owns="popover-8-content"
           disabled={true}
-          element="button"
           onBlur={[Function]}
           role="button"
           size="large"
-          type="button"
         >
           <Reference>
             <InnerReference
               getReferenceRef={[Function]}
             >
-              <PopoverTrigger>
+              <Styled(span)>
                 <span
                   className="emotion-3"
                 >
@@ -1014,11 +994,9 @@ exports[`Popover demo examples Snapshots: disabled 1`] = `
                     aria-expanded={false}
                     aria-owns="popover-8-content"
                     disabled={true}
-                    element="button"
                     onBlur={[Function]}
                     role="button"
                     size="large"
-                    type="button"
                   >
                     <Button
                       aria-describedby="popover-8-content"
@@ -1026,26 +1004,22 @@ exports[`Popover demo examples Snapshots: disabled 1`] = `
                       aria-expanded={false}
                       aria-owns="popover-8-content"
                       disabled={true}
-                      element="button"
                       forwardedRef={null}
                       onBlur={[Function]}
                       role="button"
                       size="large"
-                      type="button"
                     >
-                      <Button
+                      <Styled(button)
                         aria-describedby="popover-8-content"
                         aria-disabled={true}
                         aria-expanded={false}
                         aria-owns="popover-8-content"
                         disabled={true}
-                        element="button"
                         onBlur={[Function]}
                         role="button"
                         size="large"
                         tabIndex={-1}
                         text="Open Popover"
-                        type="button"
                       >
                         <button
                           aria-describedby="popover-8-content"
@@ -1056,8 +1030,8 @@ exports[`Popover demo examples Snapshots: disabled 1`] = `
                           disabled={true}
                           onBlur={[Function]}
                           role="button"
+                          size="large"
                           tabIndex={-1}
-                          type="button"
                         >
                           <Styled(span)>
                             <span
@@ -1068,6 +1042,7 @@ exports[`Popover demo examples Snapshots: disabled 1`] = `
                               >
                                 <span
                                   className="emotion-0"
+                                  size="large"
                                 >
                                   Open Popover
                                 </span>
@@ -1075,16 +1050,16 @@ exports[`Popover demo examples Snapshots: disabled 1`] = `
                             </span>
                           </Styled(span)>
                         </button>
-                      </Button>
+                      </Styled(button)>
                     </Button>
                   </WithForwardRef(Button)>
                 </span>
-              </PopoverTrigger>
+              </Styled(span)>
             </InnerReference>
           </Reference>
         </PopoverTrigger>
       </span>
-    </Popover>
+    </Styled(span)>
   </Manager>
 </Popover>
 `;
@@ -1229,7 +1204,7 @@ exports[`Popover demo examples Snapshots: on-open-close 1`] = `
     placement="bottom"
   >
     <Manager>
-      <Popover
+      <Styled(span)
         content={<DemoContent />}
         focusTriggerOnClose={true}
         hasArrow={true}
@@ -1239,23 +1214,24 @@ exports[`Popover demo examples Snapshots: on-open-close 1`] = `
       >
         <span
           className="emotion-4"
+          content={<DemoContent />}
+          onClose={[Function]}
+          onOpen={[Function]}
         >
           <PopoverTrigger
             aria-describedby="popover-7-content"
             aria-expanded={false}
             aria-owns="popover-7-content"
-            element="button"
             onBlur={[Function]}
             onClick={[Function]}
             role="button"
             size="large"
-            type="button"
           >
             <Reference>
               <InnerReference
                 getReferenceRef={[Function]}
               >
-                <PopoverTrigger>
+                <Styled(span)>
                   <span
                     className="emotion-3"
                   >
@@ -1263,36 +1239,30 @@ exports[`Popover demo examples Snapshots: on-open-close 1`] = `
                       aria-describedby="popover-7-content"
                       aria-expanded={false}
                       aria-owns="popover-7-content"
-                      element="button"
                       onBlur={[Function]}
                       onClick={[Function]}
                       role="button"
                       size="large"
-                      type="button"
                     >
                       <Button
                         aria-describedby="popover-7-content"
                         aria-expanded={false}
                         aria-owns="popover-7-content"
-                        element="button"
                         forwardedRef={null}
                         onBlur={[Function]}
                         onClick={[Function]}
                         role="button"
                         size="large"
-                        type="button"
                       >
-                        <Button
+                        <Styled(button)
                           aria-describedby="popover-7-content"
                           aria-expanded={false}
                           aria-owns="popover-7-content"
-                          element="button"
                           onBlur={[Function]}
                           onClick={[Function]}
                           role="button"
                           size="large"
                           text="Open Popover"
-                          type="button"
                         >
                           <button
                             aria-describedby="popover-7-content"
@@ -1302,7 +1272,7 @@ exports[`Popover demo examples Snapshots: on-open-close 1`] = `
                             onBlur={[Function]}
                             onClick={[Function]}
                             role="button"
-                            type="button"
+                            size="large"
                           >
                             <Styled(span)>
                               <span
@@ -1313,6 +1283,7 @@ exports[`Popover demo examples Snapshots: on-open-close 1`] = `
                                 >
                                   <span
                                     className="emotion-0"
+                                    size="large"
                                   >
                                     Open Popover
                                   </span>
@@ -1320,16 +1291,16 @@ exports[`Popover demo examples Snapshots: on-open-close 1`] = `
                               </span>
                             </Styled(span)>
                           </button>
-                        </Button>
+                        </Styled(button)>
                       </Button>
                     </WithForwardRef(Button)>
                   </span>
-                </PopoverTrigger>
+                </Styled(span)>
               </InnerReference>
             </Reference>
           </PopoverTrigger>
         </span>
-      </Popover>
+      </Styled(span)>
     </Manager>
   </Popover>
 </Component>
@@ -1559,7 +1530,7 @@ exports[`Popover demo examples Snapshots: overflow 1`] = `
       placement="right"
     >
       <Manager>
-        <Popover
+        <Styled(span)
           content={<DemoContent />}
           focusTriggerOnClose={true}
           hasArrow={true}
@@ -1568,23 +1539,22 @@ exports[`Popover demo examples Snapshots: overflow 1`] = `
         >
           <span
             className="emotion-9"
+            content={<DemoContent />}
           >
             <PopoverTrigger
               aria-describedby="popover-4-content"
               aria-expanded={true}
               aria-owns="popover-4-content"
-              element="button"
               onBlur={[Function]}
               onClick={[Function]}
               role="button"
               size="large"
-              type="button"
             >
               <Reference>
                 <InnerReference
                   getReferenceRef={[Function]}
                 >
-                  <PopoverTrigger>
+                  <Styled(span)>
                     <span
                       className="emotion-3"
                     >
@@ -1592,36 +1562,30 @@ exports[`Popover demo examples Snapshots: overflow 1`] = `
                         aria-describedby="popover-4-content"
                         aria-expanded={true}
                         aria-owns="popover-4-content"
-                        element="button"
                         onBlur={[Function]}
                         onClick={[Function]}
                         role="button"
                         size="large"
-                        type="button"
                       >
                         <Button
                           aria-describedby="popover-4-content"
                           aria-expanded={true}
                           aria-owns="popover-4-content"
-                          element="button"
                           forwardedRef={null}
                           onBlur={[Function]}
                           onClick={[Function]}
                           role="button"
                           size="large"
-                          type="button"
                         >
-                          <Button
+                          <Styled(button)
                             aria-describedby="popover-4-content"
                             aria-expanded={true}
                             aria-owns="popover-4-content"
-                            element="button"
                             onBlur={[Function]}
                             onClick={[Function]}
                             role="button"
                             size="large"
                             text="Open Popover"
-                            type="button"
                           >
                             <button
                               aria-describedby="popover-4-content"
@@ -1631,7 +1595,7 @@ exports[`Popover demo examples Snapshots: overflow 1`] = `
                               onBlur={[Function]}
                               onClick={[Function]}
                               role="button"
-                              type="button"
+                              size="large"
                             >
                               <Styled(span)>
                                 <span
@@ -1642,6 +1606,7 @@ exports[`Popover demo examples Snapshots: overflow 1`] = `
                                   >
                                     <span
                                       className="emotion-0"
+                                      size="large"
                                     >
                                       Open Popover
                                     </span>
@@ -1649,11 +1614,11 @@ exports[`Popover demo examples Snapshots: overflow 1`] = `
                                 </span>
                               </Styled(span)>
                             </button>
-                          </Button>
+                          </Styled(button)>
                         </Button>
                       </WithForwardRef(Button)>
                     </span>
-                  </PopoverTrigger>
+                  </Styled(span)>
                 </InnerReference>
               </Reference>
             </PopoverTrigger>
@@ -1812,7 +1777,6 @@ exports[`Popover demo examples Snapshots: overflow 1`] = `
                             aria-owns="popover-4-content"
                             class="emotion-2"
                             role="button"
-                            type="button"
                           >
                             <span
                               class="emotion-1"
@@ -1827,7 +1791,7 @@ exports[`Popover demo examples Snapshots: overflow 1`] = `
                         </span>
                       }
                     >
-                      <PopoverContent
+                      <Styled(div)
                         id="popover-4-content"
                         onBlur={[Function]}
                         style={
@@ -1861,7 +1825,7 @@ exports[`Popover demo examples Snapshots: overflow 1`] = `
                               <ThemeProvider>
                                 <ThemeProvider>
                                   <CardBlock>
-                                    <CardBlock>
+                                    <Styled(div)>
                                       <div
                                         className="emotion-6"
                                       >
@@ -1881,7 +1845,7 @@ exports[`Popover demo examples Snapshots: overflow 1`] = `
                                           </div>
                                         </Styled(div)>
                                       </div>
-                                    </CardBlock>
+                                    </Styled(div)>
                                   </CardBlock>
                                 </ThemeProvider>
                               </ThemeProvider>
@@ -1891,7 +1855,7 @@ exports[`Popover demo examples Snapshots: overflow 1`] = `
                             size="8px"
                             style={Object {}}
                           >
-                            <PopoverArrow
+                            <Styled(span)
                               aria-hidden={true}
                               size="8px"
                               style={Object {}}
@@ -1899,14 +1863,15 @@ exports[`Popover demo examples Snapshots: overflow 1`] = `
                               <span
                                 aria-hidden={true}
                                 className="emotion-7"
+                                size="8px"
                                 style={Object {}}
                               >
                                 ▼
                               </span>
-                            </PopoverArrow>
+                            </Styled(span)>
                           </PopoverArrow>
                         </div>
-                      </PopoverContent>
+                      </Styled(div)>
                     </InnerPopper>
                   </Popper>
                 </RtlPopper>
@@ -1931,7 +1896,7 @@ exports[`Popover demo examples Snapshots: overflow 1`] = `
               }
             />
           </span>
-        </Popover>
+        </Styled(span)>
       </Manager>
     </Popover>
   </div>
@@ -2172,7 +2137,7 @@ exports[`Popover demo examples Snapshots: placement 1`] = `
       placement="bottom"
     >
       <Manager>
-        <Popover
+        <Styled(span)
           content={<DemoContent />}
           focusTriggerOnClose={true}
           hasArrow={true}
@@ -2181,23 +2146,22 @@ exports[`Popover demo examples Snapshots: placement 1`] = `
         >
           <span
             className="emotion-9"
+            content={<DemoContent />}
           >
             <PopoverTrigger
               aria-describedby="popover-3-content"
               aria-expanded={true}
               aria-owns="popover-3-content"
-              element="button"
               onBlur={[Function]}
               onClick={[Function]}
               role="button"
               size="large"
-              type="button"
             >
               <Reference>
                 <InnerReference
                   getReferenceRef={[Function]}
                 >
-                  <PopoverTrigger>
+                  <Styled(span)>
                     <span
                       className="emotion-3"
                     >
@@ -2205,36 +2169,30 @@ exports[`Popover demo examples Snapshots: placement 1`] = `
                         aria-describedby="popover-3-content"
                         aria-expanded={true}
                         aria-owns="popover-3-content"
-                        element="button"
                         onBlur={[Function]}
                         onClick={[Function]}
                         role="button"
                         size="large"
-                        type="button"
                       >
                         <Button
                           aria-describedby="popover-3-content"
                           aria-expanded={true}
                           aria-owns="popover-3-content"
-                          element="button"
                           forwardedRef={null}
                           onBlur={[Function]}
                           onClick={[Function]}
                           role="button"
                           size="large"
-                          type="button"
                         >
-                          <Button
+                          <Styled(button)
                             aria-describedby="popover-3-content"
                             aria-expanded={true}
                             aria-owns="popover-3-content"
-                            element="button"
                             onBlur={[Function]}
                             onClick={[Function]}
                             role="button"
                             size="large"
                             text="Open Popover"
-                            type="button"
                           >
                             <button
                               aria-describedby="popover-3-content"
@@ -2244,7 +2202,7 @@ exports[`Popover demo examples Snapshots: placement 1`] = `
                               onBlur={[Function]}
                               onClick={[Function]}
                               role="button"
-                              type="button"
+                              size="large"
                             >
                               <Styled(span)>
                                 <span
@@ -2255,6 +2213,7 @@ exports[`Popover demo examples Snapshots: placement 1`] = `
                                   >
                                     <span
                                       className="emotion-0"
+                                      size="large"
                                     >
                                       Open Popover
                                     </span>
@@ -2262,11 +2221,11 @@ exports[`Popover demo examples Snapshots: placement 1`] = `
                                 </span>
                               </Styled(span)>
                             </button>
-                          </Button>
+                          </Styled(button)>
                         </Button>
                       </WithForwardRef(Button)>
                     </span>
-                  </PopoverTrigger>
+                  </Styled(span)>
                 </InnerReference>
               </Reference>
             </PopoverTrigger>
@@ -2425,7 +2384,6 @@ exports[`Popover demo examples Snapshots: placement 1`] = `
                             aria-owns="popover-3-content"
                             class="emotion-2"
                             role="button"
-                            type="button"
                           >
                             <span
                               class="emotion-1"
@@ -2440,7 +2398,7 @@ exports[`Popover demo examples Snapshots: placement 1`] = `
                         </span>
                       }
                     >
-                      <PopoverContent
+                      <Styled(div)
                         id="popover-3-content"
                         onBlur={[Function]}
                         style={
@@ -2474,7 +2432,7 @@ exports[`Popover demo examples Snapshots: placement 1`] = `
                               <ThemeProvider>
                                 <ThemeProvider>
                                   <CardBlock>
-                                    <CardBlock>
+                                    <Styled(div)>
                                       <div
                                         className="emotion-6"
                                       >
@@ -2494,7 +2452,7 @@ exports[`Popover demo examples Snapshots: placement 1`] = `
                                           </div>
                                         </Styled(div)>
                                       </div>
-                                    </CardBlock>
+                                    </Styled(div)>
                                   </CardBlock>
                                 </ThemeProvider>
                               </ThemeProvider>
@@ -2504,7 +2462,7 @@ exports[`Popover demo examples Snapshots: placement 1`] = `
                             size="8px"
                             style={Object {}}
                           >
-                            <PopoverArrow
+                            <Styled(span)
                               aria-hidden={true}
                               size="8px"
                               style={Object {}}
@@ -2512,14 +2470,15 @@ exports[`Popover demo examples Snapshots: placement 1`] = `
                               <span
                                 aria-hidden={true}
                                 className="emotion-7"
+                                size="8px"
                                 style={Object {}}
                               >
                                 ▼
                               </span>
-                            </PopoverArrow>
+                            </Styled(span)>
                           </PopoverArrow>
                         </div>
-                      </PopoverContent>
+                      </Styled(div)>
                     </InnerPopper>
                   </Popper>
                 </RtlPopper>
@@ -2544,7 +2503,7 @@ exports[`Popover demo examples Snapshots: placement 1`] = `
               }
             />
           </span>
-        </Popover>
+        </Styled(span)>
       </Manager>
     </Popover>
   </div>
@@ -2899,6 +2858,7 @@ exports[`Popover demo examples Snapshots: portal 1`] = `
       >
         <div
           className="emotion-11"
+          height={360}
         >
           <Styled(div)
             scrollAreaHeight={360}
@@ -2922,7 +2882,7 @@ exports[`Popover demo examples Snapshots: portal 1`] = `
                 usePortal={true}
               >
                 <Manager>
-                  <Popover
+                  <Styled(span)
                     content={<DemoContent />}
                     focusTriggerOnClose={true}
                     hasArrow={true}
@@ -2932,23 +2892,22 @@ exports[`Popover demo examples Snapshots: portal 1`] = `
                   >
                     <span
                       className="emotion-9"
+                      content={<DemoContent />}
                     >
                       <PopoverTrigger
                         aria-describedby="popover-6-content"
                         aria-expanded={true}
                         aria-owns="popover-6-content"
-                        element="button"
                         onBlur={[Function]}
                         onClick={[Function]}
                         role="button"
                         size="large"
-                        type="button"
                       >
                         <Reference>
                           <InnerReference
                             getReferenceRef={[Function]}
                           >
-                            <PopoverTrigger>
+                            <Styled(span)>
                               <span
                                 className="emotion-3"
                               >
@@ -2956,36 +2915,30 @@ exports[`Popover demo examples Snapshots: portal 1`] = `
                                   aria-describedby="popover-6-content"
                                   aria-expanded={true}
                                   aria-owns="popover-6-content"
-                                  element="button"
                                   onBlur={[Function]}
                                   onClick={[Function]}
                                   role="button"
                                   size="large"
-                                  type="button"
                                 >
                                   <Button
                                     aria-describedby="popover-6-content"
                                     aria-expanded={true}
                                     aria-owns="popover-6-content"
-                                    element="button"
                                     forwardedRef={null}
                                     onBlur={[Function]}
                                     onClick={[Function]}
                                     role="button"
                                     size="large"
-                                    type="button"
                                   >
-                                    <Button
+                                    <Styled(button)
                                       aria-describedby="popover-6-content"
                                       aria-expanded={true}
                                       aria-owns="popover-6-content"
-                                      element="button"
                                       onBlur={[Function]}
                                       onClick={[Function]}
                                       role="button"
                                       size="large"
                                       text="Open Popover"
-                                      type="button"
                                     >
                                       <button
                                         aria-describedby="popover-6-content"
@@ -2995,7 +2948,7 @@ exports[`Popover demo examples Snapshots: portal 1`] = `
                                         onBlur={[Function]}
                                         onClick={[Function]}
                                         role="button"
-                                        type="button"
+                                        size="large"
                                       >
                                         <Styled(span)>
                                           <span
@@ -3006,6 +2959,7 @@ exports[`Popover demo examples Snapshots: portal 1`] = `
                                             >
                                               <span
                                                 className="emotion-0"
+                                                size="large"
                                               >
                                                 Open Popover
                                               </span>
@@ -3013,11 +2967,11 @@ exports[`Popover demo examples Snapshots: portal 1`] = `
                                           </span>
                                         </Styled(span)>
                                       </button>
-                                    </Button>
+                                    </Styled(button)>
                                   </Button>
                                 </WithForwardRef(Button)>
                               </span>
-                            </PopoverTrigger>
+                            </Styled(span)>
                           </InnerReference>
                         </Reference>
                       </PopoverTrigger>
@@ -3320,7 +3274,6 @@ exports[`Popover demo examples Snapshots: portal 1`] = `
                                           aria-owns="popover-6-content"
                                           class="emotion-2"
                                           role="button"
-                                          type="button"
                                         >
                                           <span
                                             class="emotion-1"
@@ -3335,7 +3288,7 @@ exports[`Popover demo examples Snapshots: portal 1`] = `
                                       </span>
                                     }
                                   >
-                                    <PopoverContent
+                                    <Styled(div)
                                       id="popover-6-content"
                                       onBlur={[Function]}
                                       style={
@@ -3369,7 +3322,7 @@ exports[`Popover demo examples Snapshots: portal 1`] = `
                                             <ThemeProvider>
                                               <ThemeProvider>
                                                 <CardBlock>
-                                                  <CardBlock>
+                                                  <Styled(div)>
                                                     <div
                                                       className="emotion-6"
                                                     >
@@ -3389,7 +3342,7 @@ exports[`Popover demo examples Snapshots: portal 1`] = `
                                                         </div>
                                                       </Styled(div)>
                                                     </div>
-                                                  </CardBlock>
+                                                  </Styled(div)>
                                                 </CardBlock>
                                               </ThemeProvider>
                                             </ThemeProvider>
@@ -3399,7 +3352,7 @@ exports[`Popover demo examples Snapshots: portal 1`] = `
                                           size="8px"
                                           style={Object {}}
                                         >
-                                          <PopoverArrow
+                                          <Styled(span)
                                             aria-hidden={true}
                                             size="8px"
                                             style={Object {}}
@@ -3407,14 +3360,15 @@ exports[`Popover demo examples Snapshots: portal 1`] = `
                                             <span
                                               aria-hidden={true}
                                               className="emotion-7"
+                                              size="8px"
                                               style={Object {}}
                                             >
                                               ▼
                                             </span>
-                                          </PopoverArrow>
+                                          </Styled(span)>
                                         </PopoverArrow>
                                       </div>
-                                    </PopoverContent>
+                                    </Styled(div)>
                                   </InnerPopper>
                                 </Popper>
                               </RtlPopper>
@@ -3441,7 +3395,7 @@ exports[`Popover demo examples Snapshots: portal 1`] = `
                         }
                       />
                     </span>
-                  </Popover>
+                  </Styled(span)>
                 </Manager>
               </Popover>
             </div>
@@ -3449,42 +3403,34 @@ exports[`Popover demo examples Snapshots: portal 1`] = `
         </div>
       </Styled(div)>
       <Styled(WithForwardRef(Button))
-        element="button"
         minimal={true}
         onClick={[Function]}
         size="small"
-        type="button"
       >
         <WithForwardRef(Button)
           className="emotion-15"
-          element="button"
           minimal={true}
           onClick={[Function]}
           size="small"
-          type="button"
         >
           <Button
             className="emotion-15"
-            element="button"
             forwardedRef={null}
             minimal={true}
             onClick={[Function]}
             size="small"
-            type="button"
           >
-            <Button
+            <Styled(button)
               className="emotion-15"
-              element="button"
               minimal={true}
               onClick={[Function]}
               size="small"
               text="Re-center"
-              type="button"
             >
               <button
                 className="emotion-14"
                 onClick={[Function]}
-                type="button"
+                size="small"
               >
                 <Styled(span)>
                   <span
@@ -3495,6 +3441,7 @@ exports[`Popover demo examples Snapshots: portal 1`] = `
                     >
                       <span
                         className="emotion-12"
+                        size="small"
                       >
                         Re-center
                       </span>
@@ -3502,7 +3449,7 @@ exports[`Popover demo examples Snapshots: portal 1`] = `
                   </span>
                 </Styled(span)>
               </button>
-            </Button>
+            </Styled(button)>
           </Button>
         </WithForwardRef(Button)>
       </Styled(WithForwardRef(Button))>
@@ -3738,7 +3685,7 @@ exports[`Popover demo examples Snapshots: rtl 1`] = `
           placement="bottom-start"
         >
           <Manager>
-            <Popover
+            <Styled(span)
               content={<DemoContent />}
               focusTriggerOnClose={true}
               hasArrow={true}
@@ -3747,23 +3694,22 @@ exports[`Popover demo examples Snapshots: rtl 1`] = `
             >
               <span
                 className="emotion-9"
+                content={<DemoContent />}
               >
                 <PopoverTrigger
                   aria-describedby="popover-10-content"
                   aria-expanded={true}
                   aria-owns="popover-10-content"
-                  element="button"
                   onBlur={[Function]}
                   onClick={[Function]}
                   role="button"
                   size="large"
-                  type="button"
                 >
                   <Reference>
                     <InnerReference
                       getReferenceRef={[Function]}
                     >
-                      <PopoverTrigger>
+                      <Styled(span)>
                         <span
                           className="emotion-3"
                         >
@@ -3771,36 +3717,30 @@ exports[`Popover demo examples Snapshots: rtl 1`] = `
                             aria-describedby="popover-10-content"
                             aria-expanded={true}
                             aria-owns="popover-10-content"
-                            element="button"
                             onBlur={[Function]}
                             onClick={[Function]}
                             role="button"
                             size="large"
-                            type="button"
                           >
                             <Button
                               aria-describedby="popover-10-content"
                               aria-expanded={true}
                               aria-owns="popover-10-content"
-                              element="button"
                               forwardedRef={null}
                               onBlur={[Function]}
                               onClick={[Function]}
                               role="button"
                               size="large"
-                              type="button"
                             >
-                              <Button
+                              <Styled(button)
                                 aria-describedby="popover-10-content"
                                 aria-expanded={true}
                                 aria-owns="popover-10-content"
-                                element="button"
                                 onBlur={[Function]}
                                 onClick={[Function]}
                                 role="button"
                                 size="large"
                                 text="Open Popover"
-                                type="button"
                               >
                                 <button
                                   aria-describedby="popover-10-content"
@@ -3810,7 +3750,7 @@ exports[`Popover demo examples Snapshots: rtl 1`] = `
                                   onBlur={[Function]}
                                   onClick={[Function]}
                                   role="button"
-                                  type="button"
+                                  size="large"
                                 >
                                   <Styled(span)>
                                     <span
@@ -3821,6 +3761,7 @@ exports[`Popover demo examples Snapshots: rtl 1`] = `
                                       >
                                         <span
                                           className="emotion-0"
+                                          size="large"
                                         >
                                           Open Popover
                                         </span>
@@ -3828,11 +3769,11 @@ exports[`Popover demo examples Snapshots: rtl 1`] = `
                                     </span>
                                   </Styled(span)>
                                 </button>
-                              </Button>
+                              </Styled(button)>
                             </Button>
                           </WithForwardRef(Button)>
                         </span>
-                      </PopoverTrigger>
+                      </Styled(span)>
                     </InnerReference>
                   </Reference>
                 </PopoverTrigger>
@@ -3991,7 +3932,6 @@ exports[`Popover demo examples Snapshots: rtl 1`] = `
                                 aria-owns="popover-10-content"
                                 class="emotion-2"
                                 role="button"
-                                type="button"
                               >
                                 <span
                                   class="emotion-1"
@@ -4006,7 +3946,7 @@ exports[`Popover demo examples Snapshots: rtl 1`] = `
                             </span>
                           }
                         >
-                          <PopoverContent
+                          <Styled(div)
                             id="popover-10-content"
                             onBlur={[Function]}
                             style={
@@ -4040,7 +3980,7 @@ exports[`Popover demo examples Snapshots: rtl 1`] = `
                                   <ThemeProvider>
                                     <ThemeProvider>
                                       <CardBlock>
-                                        <CardBlock>
+                                        <Styled(div)>
                                           <div
                                             className="emotion-6"
                                           >
@@ -4060,7 +4000,7 @@ exports[`Popover demo examples Snapshots: rtl 1`] = `
                                               </div>
                                             </Styled(div)>
                                           </div>
-                                        </CardBlock>
+                                        </Styled(div)>
                                       </CardBlock>
                                     </ThemeProvider>
                                   </ThemeProvider>
@@ -4070,7 +4010,7 @@ exports[`Popover demo examples Snapshots: rtl 1`] = `
                                 size="8px"
                                 style={Object {}}
                               >
-                                <PopoverArrow
+                                <Styled(span)
                                   aria-hidden={true}
                                   size="8px"
                                   style={Object {}}
@@ -4078,14 +4018,15 @@ exports[`Popover demo examples Snapshots: rtl 1`] = `
                                   <span
                                     aria-hidden={true}
                                     className="emotion-7"
+                                    size="8px"
                                     style={Object {}}
                                   >
                                     ▼
                                   </span>
-                                </PopoverArrow>
+                                </Styled(span)>
                               </PopoverArrow>
                             </div>
-                          </PopoverContent>
+                          </Styled(div)>
                         </InnerPopper>
                       </Popper>
                     </RtlPopper>
@@ -4110,7 +4051,7 @@ exports[`Popover demo examples Snapshots: rtl 1`] = `
                   }
                 />
               </span>
-            </Popover>
+            </Styled(span)>
           </Manager>
         </Popover>
       </ThemeProvider>
@@ -4467,6 +4408,7 @@ exports[`Popover demo examples Snapshots: scrolling-container 1`] = `
       >
         <div
           className="emotion-11"
+          height={360}
         >
           <Styled(div)
             scrollAreaHeight={360}
@@ -4482,7 +4424,7 @@ exports[`Popover demo examples Snapshots: scrolling-container 1`] = `
                 placement="left"
               >
                 <Manager>
-                  <Popover
+                  <Styled(span)
                     content={<DemoContent />}
                     focusTriggerOnClose={true}
                     hasArrow={true}
@@ -4491,23 +4433,22 @@ exports[`Popover demo examples Snapshots: scrolling-container 1`] = `
                   >
                     <span
                       className="emotion-9"
+                      content={<DemoContent />}
                     >
                       <PopoverTrigger
                         aria-describedby="popover-5-content"
                         aria-expanded={true}
                         aria-owns="popover-5-content"
-                        element="button"
                         onBlur={[Function]}
                         onClick={[Function]}
                         role="button"
                         size="large"
-                        type="button"
                       >
                         <Reference>
                           <InnerReference
                             getReferenceRef={[Function]}
                           >
-                            <PopoverTrigger>
+                            <Styled(span)>
                               <span
                                 className="emotion-3"
                               >
@@ -4515,36 +4456,30 @@ exports[`Popover demo examples Snapshots: scrolling-container 1`] = `
                                   aria-describedby="popover-5-content"
                                   aria-expanded={true}
                                   aria-owns="popover-5-content"
-                                  element="button"
                                   onBlur={[Function]}
                                   onClick={[Function]}
                                   role="button"
                                   size="large"
-                                  type="button"
                                 >
                                   <Button
                                     aria-describedby="popover-5-content"
                                     aria-expanded={true}
                                     aria-owns="popover-5-content"
-                                    element="button"
                                     forwardedRef={null}
                                     onBlur={[Function]}
                                     onClick={[Function]}
                                     role="button"
                                     size="large"
-                                    type="button"
                                   >
-                                    <Button
+                                    <Styled(button)
                                       aria-describedby="popover-5-content"
                                       aria-expanded={true}
                                       aria-owns="popover-5-content"
-                                      element="button"
                                       onBlur={[Function]}
                                       onClick={[Function]}
                                       role="button"
                                       size="large"
                                       text="Open Popover"
-                                      type="button"
                                     >
                                       <button
                                         aria-describedby="popover-5-content"
@@ -4554,7 +4489,7 @@ exports[`Popover demo examples Snapshots: scrolling-container 1`] = `
                                         onBlur={[Function]}
                                         onClick={[Function]}
                                         role="button"
-                                        type="button"
+                                        size="large"
                                       >
                                         <Styled(span)>
                                           <span
@@ -4565,6 +4500,7 @@ exports[`Popover demo examples Snapshots: scrolling-container 1`] = `
                                             >
                                               <span
                                                 className="emotion-0"
+                                                size="large"
                                               >
                                                 Open Popover
                                               </span>
@@ -4572,11 +4508,11 @@ exports[`Popover demo examples Snapshots: scrolling-container 1`] = `
                                           </span>
                                         </Styled(span)>
                                       </button>
-                                    </Button>
+                                    </Styled(button)>
                                   </Button>
                                 </WithForwardRef(Button)>
                               </span>
-                            </PopoverTrigger>
+                            </Styled(span)>
                           </InnerReference>
                         </Reference>
                       </PopoverTrigger>
@@ -4735,7 +4671,6 @@ exports[`Popover demo examples Snapshots: scrolling-container 1`] = `
                                       aria-owns="popover-5-content"
                                       class="emotion-2"
                                       role="button"
-                                      type="button"
                                     >
                                       <span
                                         class="emotion-1"
@@ -4750,7 +4685,7 @@ exports[`Popover demo examples Snapshots: scrolling-container 1`] = `
                                   </span>
                                 }
                               >
-                                <PopoverContent
+                                <Styled(div)
                                   id="popover-5-content"
                                   onBlur={[Function]}
                                   style={
@@ -4784,7 +4719,7 @@ exports[`Popover demo examples Snapshots: scrolling-container 1`] = `
                                         <ThemeProvider>
                                           <ThemeProvider>
                                             <CardBlock>
-                                              <CardBlock>
+                                              <Styled(div)>
                                                 <div
                                                   className="emotion-6"
                                                 >
@@ -4804,7 +4739,7 @@ exports[`Popover demo examples Snapshots: scrolling-container 1`] = `
                                                     </div>
                                                   </Styled(div)>
                                                 </div>
-                                              </CardBlock>
+                                              </Styled(div)>
                                             </CardBlock>
                                           </ThemeProvider>
                                         </ThemeProvider>
@@ -4814,7 +4749,7 @@ exports[`Popover demo examples Snapshots: scrolling-container 1`] = `
                                       size="8px"
                                       style={Object {}}
                                     >
-                                      <PopoverArrow
+                                      <Styled(span)
                                         aria-hidden={true}
                                         size="8px"
                                         style={Object {}}
@@ -4822,14 +4757,15 @@ exports[`Popover demo examples Snapshots: scrolling-container 1`] = `
                                         <span
                                           aria-hidden={true}
                                           className="emotion-7"
+                                          size="8px"
                                           style={Object {}}
                                         >
                                           ▼
                                         </span>
-                                      </PopoverArrow>
+                                      </Styled(span)>
                                     </PopoverArrow>
                                   </div>
-                                </PopoverContent>
+                                </Styled(div)>
                               </InnerPopper>
                             </Popper>
                           </RtlPopper>
@@ -4854,7 +4790,7 @@ exports[`Popover demo examples Snapshots: scrolling-container 1`] = `
                         }
                       />
                     </span>
-                  </Popover>
+                  </Styled(span)>
                 </Manager>
               </Popover>
             </div>
@@ -4862,42 +4798,34 @@ exports[`Popover demo examples Snapshots: scrolling-container 1`] = `
         </div>
       </Styled(div)>
       <Styled(WithForwardRef(Button))
-        element="button"
         minimal={true}
         onClick={[Function]}
         size="small"
-        type="button"
       >
         <WithForwardRef(Button)
           className="emotion-15"
-          element="button"
           minimal={true}
           onClick={[Function]}
           size="small"
-          type="button"
         >
           <Button
             className="emotion-15"
-            element="button"
             forwardedRef={null}
             minimal={true}
             onClick={[Function]}
             size="small"
-            type="button"
           >
-            <Button
+            <Styled(button)
               className="emotion-15"
-              element="button"
               minimal={true}
               onClick={[Function]}
               size="small"
               text="Re-center"
-              type="button"
             >
               <button
                 className="emotion-14"
                 onClick={[Function]}
-                type="button"
+                size="small"
               >
                 <Styled(span)>
                   <span
@@ -4908,6 +4836,7 @@ exports[`Popover demo examples Snapshots: scrolling-container 1`] = `
                     >
                       <span
                         className="emotion-12"
+                        size="small"
                       >
                         Re-center
                       </span>
@@ -4915,7 +4844,7 @@ exports[`Popover demo examples Snapshots: scrolling-container 1`] = `
                   </span>
                 </Styled(span)>
               </button>
-            </Button>
+            </Styled(button)>
           </Button>
         </WithForwardRef(Button)>
       </Styled(WithForwardRef(Button))>
@@ -5203,7 +5132,7 @@ exports[`Popover demo examples Snapshots: title 1`] = `
       title="Title"
     >
       <Manager>
-        <Popover
+        <Styled(span)
           content={<DemoContent />}
           focusTriggerOnClose={true}
           hasArrow={true}
@@ -5214,24 +5143,23 @@ exports[`Popover demo examples Snapshots: title 1`] = `
         >
           <span
             className="emotion-14"
+            content={<DemoContent />}
             title="Title"
           >
             <PopoverTrigger
               aria-describedby="popover-2-content"
               aria-expanded={true}
               aria-owns="popover-2-content"
-              element="button"
               onBlur={[Function]}
               onClick={[Function]}
               role="button"
               size="large"
-              type="button"
             >
               <Reference>
                 <InnerReference
                   getReferenceRef={[Function]}
                 >
-                  <PopoverTrigger>
+                  <Styled(span)>
                     <span
                       className="emotion-3"
                     >
@@ -5239,36 +5167,30 @@ exports[`Popover demo examples Snapshots: title 1`] = `
                         aria-describedby="popover-2-content"
                         aria-expanded={true}
                         aria-owns="popover-2-content"
-                        element="button"
                         onBlur={[Function]}
                         onClick={[Function]}
                         role="button"
                         size="large"
-                        type="button"
                       >
                         <Button
                           aria-describedby="popover-2-content"
                           aria-expanded={true}
                           aria-owns="popover-2-content"
-                          element="button"
                           forwardedRef={null}
                           onBlur={[Function]}
                           onClick={[Function]}
                           role="button"
                           size="large"
-                          type="button"
                         >
-                          <Button
+                          <Styled(button)
                             aria-describedby="popover-2-content"
                             aria-expanded={true}
                             aria-owns="popover-2-content"
-                            element="button"
                             onBlur={[Function]}
                             onClick={[Function]}
                             role="button"
                             size="large"
                             text="Open Popover"
-                            type="button"
                           >
                             <button
                               aria-describedby="popover-2-content"
@@ -5278,7 +5200,7 @@ exports[`Popover demo examples Snapshots: title 1`] = `
                               onBlur={[Function]}
                               onClick={[Function]}
                               role="button"
-                              type="button"
+                              size="large"
                             >
                               <Styled(span)>
                                 <span
@@ -5289,6 +5211,7 @@ exports[`Popover demo examples Snapshots: title 1`] = `
                                   >
                                     <span
                                       className="emotion-0"
+                                      size="large"
                                     >
                                       Open Popover
                                     </span>
@@ -5296,11 +5219,11 @@ exports[`Popover demo examples Snapshots: title 1`] = `
                                 </span>
                               </Styled(span)>
                             </button>
-                          </Button>
+                          </Styled(button)>
                         </Button>
                       </WithForwardRef(Button)>
                     </span>
-                  </PopoverTrigger>
+                  </Styled(span)>
                 </InnerReference>
               </Reference>
             </PopoverTrigger>
@@ -5461,7 +5384,6 @@ exports[`Popover demo examples Snapshots: title 1`] = `
                             aria-owns="popover-2-content"
                             class="emotion-2"
                             role="button"
-                            type="button"
                           >
                             <span
                               class="emotion-1"
@@ -5476,7 +5398,7 @@ exports[`Popover demo examples Snapshots: title 1`] = `
                         </span>
                       }
                     >
-                      <PopoverContent
+                      <Styled(div)
                         id="popover-2-content"
                         onBlur={[Function]}
                         style={
@@ -5516,7 +5438,7 @@ exports[`Popover demo examples Snapshots: title 1`] = `
                                   <CardTitle
                                     subtitle="Subtitle"
                                   >
-                                    <CardTitle>
+                                    <Styled(div)>
                                       <div
                                         className="emotion-8"
                                       >
@@ -5547,7 +5469,7 @@ exports[`Popover demo examples Snapshots: title 1`] = `
                                           </div>
                                         </Styled(div)>
                                       </div>
-                                    </CardTitle>
+                                    </Styled(div)>
                                   </CardTitle>
                                 </ThemeProvider>
                               </ThemeProvider>
@@ -5558,7 +5480,7 @@ exports[`Popover demo examples Snapshots: title 1`] = `
                               <ThemeProvider>
                                 <ThemeProvider>
                                   <CardBlock>
-                                    <CardBlock>
+                                    <Styled(div)>
                                       <div
                                         className="emotion-11"
                                       >
@@ -5578,7 +5500,7 @@ exports[`Popover demo examples Snapshots: title 1`] = `
                                           </div>
                                         </Styled(div)>
                                       </div>
-                                    </CardBlock>
+                                    </Styled(div)>
                                   </CardBlock>
                                 </ThemeProvider>
                               </ThemeProvider>
@@ -5588,7 +5510,7 @@ exports[`Popover demo examples Snapshots: title 1`] = `
                             size="8px"
                             style={Object {}}
                           >
-                            <PopoverArrow
+                            <Styled(span)
                               aria-hidden={true}
                               size="8px"
                               style={Object {}}
@@ -5596,14 +5518,15 @@ exports[`Popover demo examples Snapshots: title 1`] = `
                               <span
                                 aria-hidden={true}
                                 className="emotion-12"
+                                size="8px"
                                 style={Object {}}
                               >
                                 ▼
                               </span>
-                            </PopoverArrow>
+                            </Styled(span)>
                           </PopoverArrow>
                         </div>
-                      </PopoverContent>
+                      </Styled(div)>
                     </InnerPopper>
                   </Popper>
                 </RtlPopper>
@@ -5628,7 +5551,7 @@ exports[`Popover demo examples Snapshots: title 1`] = `
               }
             />
           </span>
-        </Popover>
+        </Styled(span)>
       </Manager>
     </Popover>
   </div>

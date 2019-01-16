@@ -137,14 +137,14 @@ exports[`MenuDivider demo examples Snapshots: separating-items 1`] = `
     className="emotion-32"
   >
     <Menu>
-      <Menu>
+      <Styled(div)>
         <div
           className="emotion-31"
         >
           <MenuItem
             element="div"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               onKeyDown={[Function]}
               tabIndex={0}
@@ -174,22 +174,22 @@ exports[`MenuDivider demo examples Snapshots: separating-items 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuDivider>
-            <MenuDivider
+            <Styled(div)
               role="separator"
             >
               <div
                 className="emotion-4"
                 role="separator"
               />
-            </MenuDivider>
+            </Styled(div)>
           </MenuDivider>
           <MenuItem
             element="div"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               onKeyDown={[Function]}
               tabIndex={0}
@@ -219,12 +219,12 @@ exports[`MenuDivider demo examples Snapshots: separating-items 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuItem
             element="div"
           >
-            <MenuItem
+            <Styled(div)
               element="div"
               onKeyDown={[Function]}
               tabIndex={0}
@@ -254,12 +254,12 @@ exports[`MenuDivider demo examples Snapshots: separating-items 1`] = `
                   </span>
                 </Styled(span)>
               </div>
-            </MenuItem>
+            </Styled(div)>
           </MenuItem>
           <MenuGroup
             title="Menu Group Title"
           >
-            <MenuGroupTitle
+            <Styled(h3)
               key="MenuGroup"
             >
               <h3
@@ -267,11 +267,11 @@ exports[`MenuDivider demo examples Snapshots: separating-items 1`] = `
               >
                 Menu Group Title
               </h3>
-            </MenuGroupTitle>
+            </Styled(h3)>
             <MenuItem
               element="div"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 onKeyDown={[Function]}
                 tabIndex={0}
@@ -301,12 +301,12 @@ exports[`MenuDivider demo examples Snapshots: separating-items 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuItem
               element="div"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 onKeyDown={[Function]}
                 tabIndex={0}
@@ -336,24 +336,24 @@ exports[`MenuDivider demo examples Snapshots: separating-items 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
           </MenuGroup>
           <MenuDivider>
-            <MenuDivider
+            <Styled(div)
               role="separator"
             >
               <div
                 className="emotion-4"
                 role="separator"
               />
-            </MenuDivider>
+            </Styled(div)>
           </MenuDivider>
           <MenuGroup>
             <MenuItem
               element="div"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 onKeyDown={[Function]}
                 tabIndex={0}
@@ -383,12 +383,12 @@ exports[`MenuDivider demo examples Snapshots: separating-items 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
             <MenuItem
               element="div"
             >
-              <MenuItem
+              <Styled(div)
                 element="div"
                 onKeyDown={[Function]}
                 tabIndex={0}
@@ -418,11 +418,11 @@ exports[`MenuDivider demo examples Snapshots: separating-items 1`] = `
                     </span>
                   </Styled(span)>
                 </div>
-              </MenuItem>
+              </Styled(div)>
             </MenuItem>
           </MenuGroup>
         </div>
-      </Menu>
+      </Styled(div)>
     </Menu>
   </div>
 </Styled(div)>

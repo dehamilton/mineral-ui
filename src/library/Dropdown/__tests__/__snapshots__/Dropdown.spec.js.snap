@@ -163,7 +163,7 @@ exports[`Dropdown demo examples Snapshots: basic 1`] = `
     triggerRef={[Function]}
   >
     <Manager>
-      <Popover
+      <Styled(span)
         content={[Function]}
         focusTriggerOnClose={true}
         hasArrow={true}
@@ -177,27 +177,28 @@ exports[`Dropdown demo examples Snapshots: basic 1`] = `
       >
         <span
           className="emotion-4"
+          content={[Function]}
           id="dropdown-1"
+          onClose={[Function]}
+          onOpen={[Function]}
         >
           <PopoverTrigger
             aria-describedby="dropdown-1-content"
             aria-expanded={false}
             aria-haspopup={true}
             aria-owns="dropdown-1-content"
-            element="button"
             onBlur={[Function]}
             onClick={[Function]}
             onKeyDown={[Function]}
             onKeyUp={[Function]}
             role="button"
             size="large"
-            type="button"
           >
             <Reference>
               <InnerReference
                 getReferenceRef={[Function]}
               >
-                <PopoverTrigger>
+                <Styled(span)>
                   <span
                     className="emotion-3"
                   >
@@ -206,21 +207,18 @@ exports[`Dropdown demo examples Snapshots: basic 1`] = `
                       aria-expanded={false}
                       aria-haspopup={true}
                       aria-owns="dropdown-1-content"
-                      element="button"
                       onBlur={[Function]}
                       onClick={[Function]}
                       onKeyDown={[Function]}
                       onKeyUp={[Function]}
                       role="button"
                       size="large"
-                      type="button"
                     >
                       <Button
                         aria-describedby="dropdown-1-content"
                         aria-expanded={false}
                         aria-haspopup={true}
                         aria-owns="dropdown-1-content"
-                        element="button"
                         forwardedRef={null}
                         onBlur={[Function]}
                         onClick={[Function]}
@@ -228,14 +226,12 @@ exports[`Dropdown demo examples Snapshots: basic 1`] = `
                         onKeyUp={[Function]}
                         role="button"
                         size="large"
-                        type="button"
                       >
-                        <Button
+                        <Styled(button)
                           aria-describedby="dropdown-1-content"
                           aria-expanded={false}
                           aria-haspopup={true}
                           aria-owns="dropdown-1-content"
-                          element="button"
                           onBlur={[Function]}
                           onClick={[Function]}
                           onKeyDown={[Function]}
@@ -243,7 +239,6 @@ exports[`Dropdown demo examples Snapshots: basic 1`] = `
                           role="button"
                           size="large"
                           text="Menu"
-                          type="button"
                         >
                           <button
                             aria-describedby="dropdown-1-content"
@@ -256,7 +251,7 @@ exports[`Dropdown demo examples Snapshots: basic 1`] = `
                             onKeyDown={[Function]}
                             onKeyUp={[Function]}
                             role="button"
-                            type="button"
+                            size="large"
                           >
                             <Styled(span)>
                               <span
@@ -267,6 +262,7 @@ exports[`Dropdown demo examples Snapshots: basic 1`] = `
                                 >
                                   <span
                                     className="emotion-0"
+                                    size="large"
                                   >
                                     Menu
                                   </span>
@@ -274,16 +270,16 @@ exports[`Dropdown demo examples Snapshots: basic 1`] = `
                               </span>
                             </Styled(span)>
                           </button>
-                        </Button>
+                        </Styled(button)>
                       </Button>
                     </WithForwardRef(Button)>
                   </span>
-                </PopoverTrigger>
+                </Styled(span)>
               </InnerReference>
             </Reference>
           </PopoverTrigger>
         </span>
-      </Popover>
+      </Styled(span)>
     </Manager>
   </Popover>
 </Dropdown>
@@ -474,7 +470,7 @@ exports[`Dropdown demo examples Snapshots: controlled 1`] = `
           triggerRef={[Function]}
         >
           <Manager>
-            <Popover
+            <Styled(span)
               content={[Function]}
               focusTriggerOnClose={true}
               hasArrow={true}
@@ -488,27 +484,28 @@ exports[`Dropdown demo examples Snapshots: controlled 1`] = `
             >
               <span
                 className="emotion-4"
+                content={[Function]}
                 id="dropdown-10"
+                onClose={[Function]}
+                onOpen={[Function]}
               >
                 <PopoverTrigger
                   aria-describedby="dropdown-10-content"
                   aria-expanded={false}
                   aria-haspopup={true}
                   aria-owns="dropdown-10-content"
-                  element="button"
                   onBlur={[Function]}
                   onClick={[Function]}
                   onKeyDown={[Function]}
                   onKeyUp={[Function]}
                   role="button"
                   size="large"
-                  type="button"
                 >
                   <Reference>
                     <InnerReference
                       getReferenceRef={[Function]}
                     >
-                      <PopoverTrigger>
+                      <Styled(span)>
                         <span
                           className="emotion-3"
                         >
@@ -517,21 +514,18 @@ exports[`Dropdown demo examples Snapshots: controlled 1`] = `
                             aria-expanded={false}
                             aria-haspopup={true}
                             aria-owns="dropdown-10-content"
-                            element="button"
                             onBlur={[Function]}
                             onClick={[Function]}
                             onKeyDown={[Function]}
                             onKeyUp={[Function]}
                             role="button"
                             size="large"
-                            type="button"
                           >
                             <Button
                               aria-describedby="dropdown-10-content"
                               aria-expanded={false}
                               aria-haspopup={true}
                               aria-owns="dropdown-10-content"
-                              element="button"
                               forwardedRef={null}
                               onBlur={[Function]}
                               onClick={[Function]}
@@ -539,14 +533,12 @@ exports[`Dropdown demo examples Snapshots: controlled 1`] = `
                               onKeyUp={[Function]}
                               role="button"
                               size="large"
-                              type="button"
                             >
-                              <Button
+                              <Styled(button)
                                 aria-describedby="dropdown-10-content"
                                 aria-expanded={false}
                                 aria-haspopup={true}
                                 aria-owns="dropdown-10-content"
-                                element="button"
                                 onBlur={[Function]}
                                 onClick={[Function]}
                                 onKeyDown={[Function]}
@@ -554,7 +546,6 @@ exports[`Dropdown demo examples Snapshots: controlled 1`] = `
                                 role="button"
                                 size="large"
                                 text="Open Dropdown"
-                                type="button"
                               >
                                 <button
                                   aria-describedby="dropdown-10-content"
@@ -567,7 +558,7 @@ exports[`Dropdown demo examples Snapshots: controlled 1`] = `
                                   onKeyDown={[Function]}
                                   onKeyUp={[Function]}
                                   role="button"
-                                  type="button"
+                                  size="large"
                                 >
                                   <Styled(span)>
                                     <span
@@ -578,6 +569,7 @@ exports[`Dropdown demo examples Snapshots: controlled 1`] = `
                                       >
                                         <span
                                           className="emotion-0"
+                                          size="large"
                                         >
                                           Open Dropdown
                                         </span>
@@ -585,43 +577,37 @@ exports[`Dropdown demo examples Snapshots: controlled 1`] = `
                                     </span>
                                   </Styled(span)>
                                 </button>
-                              </Button>
+                              </Styled(button)>
                             </Button>
                           </WithForwardRef(Button)>
                         </span>
-                      </PopoverTrigger>
+                      </Styled(span)>
                     </InnerReference>
                   </Reference>
                 </PopoverTrigger>
               </span>
-            </Popover>
+            </Styled(span)>
           </Manager>
         </Popover>
       </Dropdown>
       <WithForwardRef(Button)
-        element="button"
         onClick={[Function]}
         size="large"
-        type="button"
       >
         <Button
-          element="button"
           forwardedRef={null}
           onClick={[Function]}
           size="large"
-          type="button"
         >
-          <Button
-            element="button"
+          <Styled(button)
             onClick={[Function]}
             size="large"
             text="Open Dropdown"
-            type="button"
           >
             <button
               className="emotion-2"
               onClick={[Function]}
-              type="button"
+              size="large"
             >
               <Styled(span)>
                 <span
@@ -632,6 +618,7 @@ exports[`Dropdown demo examples Snapshots: controlled 1`] = `
                   >
                     <span
                       className="emotion-0"
+                      size="large"
                     >
                       Open Dropdown
                     </span>
@@ -639,7 +626,7 @@ exports[`Dropdown demo examples Snapshots: controlled 1`] = `
                 </span>
               </Styled(span)>
             </button>
-          </Button>
+          </Styled(button)>
         </Button>
       </WithForwardRef(Button)>
     </div>
@@ -815,7 +802,7 @@ exports[`Dropdown demo examples Snapshots: custom-item 1`] = `
       triggerRef={[Function]}
     >
       <Manager>
-        <Popover
+        <Styled(span)
           content={[Function]}
           focusTriggerOnClose={true}
           hasArrow={true}
@@ -829,27 +816,28 @@ exports[`Dropdown demo examples Snapshots: custom-item 1`] = `
         >
           <span
             className="emotion-4"
+            content={[Function]}
             id="dropdown-12"
+            onClose={[Function]}
+            onOpen={[Function]}
           >
             <PopoverTrigger
               aria-describedby="dropdown-12-content"
               aria-expanded={false}
               aria-haspopup={true}
               aria-owns="dropdown-12-content"
-              element="button"
               onBlur={[Function]}
               onClick={[Function]}
               onKeyDown={[Function]}
               onKeyUp={[Function]}
               role="button"
               size="large"
-              type="button"
             >
               <Reference>
                 <InnerReference
                   getReferenceRef={[Function]}
                 >
-                  <PopoverTrigger>
+                  <Styled(span)>
                     <span
                       className="emotion-3"
                     >
@@ -858,21 +846,18 @@ exports[`Dropdown demo examples Snapshots: custom-item 1`] = `
                         aria-expanded={false}
                         aria-haspopup={true}
                         aria-owns="dropdown-12-content"
-                        element="button"
                         onBlur={[Function]}
                         onClick={[Function]}
                         onKeyDown={[Function]}
                         onKeyUp={[Function]}
                         role="button"
                         size="large"
-                        type="button"
                       >
                         <Button
                           aria-describedby="dropdown-12-content"
                           aria-expanded={false}
                           aria-haspopup={true}
                           aria-owns="dropdown-12-content"
-                          element="button"
                           forwardedRef={null}
                           onBlur={[Function]}
                           onClick={[Function]}
@@ -880,14 +865,12 @@ exports[`Dropdown demo examples Snapshots: custom-item 1`] = `
                           onKeyUp={[Function]}
                           role="button"
                           size="large"
-                          type="button"
                         >
-                          <Button
+                          <Styled(button)
                             aria-describedby="dropdown-12-content"
                             aria-expanded={false}
                             aria-haspopup={true}
                             aria-owns="dropdown-12-content"
-                            element="button"
                             onBlur={[Function]}
                             onClick={[Function]}
                             onKeyDown={[Function]}
@@ -895,7 +878,6 @@ exports[`Dropdown demo examples Snapshots: custom-item 1`] = `
                             role="button"
                             size="large"
                             text="Menu"
-                            type="button"
                           >
                             <button
                               aria-describedby="dropdown-12-content"
@@ -908,7 +890,7 @@ exports[`Dropdown demo examples Snapshots: custom-item 1`] = `
                               onKeyDown={[Function]}
                               onKeyUp={[Function]}
                               role="button"
-                              type="button"
+                              size="large"
                             >
                               <Styled(span)>
                                 <span
@@ -919,6 +901,7 @@ exports[`Dropdown demo examples Snapshots: custom-item 1`] = `
                                   >
                                     <span
                                       className="emotion-0"
+                                      size="large"
                                     >
                                       Menu
                                     </span>
@@ -926,16 +909,16 @@ exports[`Dropdown demo examples Snapshots: custom-item 1`] = `
                                 </span>
                               </Styled(span)>
                             </button>
-                          </Button>
+                          </Styled(button)>
                         </Button>
                       </WithForwardRef(Button)>
                     </span>
-                  </PopoverTrigger>
+                  </Styled(span)>
                 </InnerReference>
               </Reference>
             </PopoverTrigger>
           </span>
-        </Popover>
+        </Styled(span)>
       </Manager>
     </Popover>
   </Dropdown>
@@ -1107,7 +1090,7 @@ exports[`Dropdown demo examples Snapshots: custom-menu 1`] = `
       triggerRef={[Function]}
     >
       <Manager>
-        <Popover
+        <Styled(span)
           content={[Function]}
           focusTriggerOnClose={true}
           hasArrow={true}
@@ -1121,27 +1104,28 @@ exports[`Dropdown demo examples Snapshots: custom-menu 1`] = `
         >
           <span
             className="emotion-4"
+            content={[Function]}
             id="dropdown-13"
+            onClose={[Function]}
+            onOpen={[Function]}
           >
             <PopoverTrigger
               aria-describedby="dropdown-13-content"
               aria-expanded={false}
               aria-haspopup={true}
               aria-owns="dropdown-13-content"
-              element="button"
               onBlur={[Function]}
               onClick={[Function]}
               onKeyDown={[Function]}
               onKeyUp={[Function]}
               role="button"
               size="large"
-              type="button"
             >
               <Reference>
                 <InnerReference
                   getReferenceRef={[Function]}
                 >
-                  <PopoverTrigger>
+                  <Styled(span)>
                     <span
                       className="emotion-3"
                     >
@@ -1150,21 +1134,18 @@ exports[`Dropdown demo examples Snapshots: custom-menu 1`] = `
                         aria-expanded={false}
                         aria-haspopup={true}
                         aria-owns="dropdown-13-content"
-                        element="button"
                         onBlur={[Function]}
                         onClick={[Function]}
                         onKeyDown={[Function]}
                         onKeyUp={[Function]}
                         role="button"
                         size="large"
-                        type="button"
                       >
                         <Button
                           aria-describedby="dropdown-13-content"
                           aria-expanded={false}
                           aria-haspopup={true}
                           aria-owns="dropdown-13-content"
-                          element="button"
                           forwardedRef={null}
                           onBlur={[Function]}
                           onClick={[Function]}
@@ -1172,14 +1153,12 @@ exports[`Dropdown demo examples Snapshots: custom-menu 1`] = `
                           onKeyUp={[Function]}
                           role="button"
                           size="large"
-                          type="button"
                         >
-                          <Button
+                          <Styled(button)
                             aria-describedby="dropdown-13-content"
                             aria-expanded={false}
                             aria-haspopup={true}
                             aria-owns="dropdown-13-content"
-                            element="button"
                             onBlur={[Function]}
                             onClick={[Function]}
                             onKeyDown={[Function]}
@@ -1187,7 +1166,6 @@ exports[`Dropdown demo examples Snapshots: custom-menu 1`] = `
                             role="button"
                             size="large"
                             text="Menu"
-                            type="button"
                           >
                             <button
                               aria-describedby="dropdown-13-content"
@@ -1200,7 +1178,7 @@ exports[`Dropdown demo examples Snapshots: custom-menu 1`] = `
                               onKeyDown={[Function]}
                               onKeyUp={[Function]}
                               role="button"
-                              type="button"
+                              size="large"
                             >
                               <Styled(span)>
                                 <span
@@ -1211,6 +1189,7 @@ exports[`Dropdown demo examples Snapshots: custom-menu 1`] = `
                                   >
                                     <span
                                       className="emotion-0"
+                                      size="large"
                                     >
                                       Menu
                                     </span>
@@ -1218,16 +1197,16 @@ exports[`Dropdown demo examples Snapshots: custom-menu 1`] = `
                                 </span>
                               </Styled(span)>
                             </button>
-                          </Button>
+                          </Styled(button)>
                         </Button>
                       </WithForwardRef(Button)>
                     </span>
-                  </PopoverTrigger>
+                  </Styled(span)>
                 </InnerReference>
               </Reference>
             </PopoverTrigger>
           </span>
-        </Popover>
+        </Styled(span)>
       </Manager>
     </Popover>
   </Dropdown>
@@ -1273,7 +1252,7 @@ exports[`Dropdown demo examples Snapshots: custom-trigger 1`] = `
       triggerRef={[Function]}
     >
       <Manager>
-        <Popover
+        <Styled(span)
           content={[Function]}
           focusTriggerOnClose={true}
           hasArrow={true}
@@ -1287,7 +1266,10 @@ exports[`Dropdown demo examples Snapshots: custom-trigger 1`] = `
         >
           <span
             className="emotion-1"
+            content={[Function]}
             id="dropdown-14"
+            onClose={[Function]}
+            onOpen={[Function]}
           >
             <Reference>
               <InnerReference
@@ -1326,7 +1308,7 @@ exports[`Dropdown demo examples Snapshots: custom-trigger 1`] = `
               </InnerReference>
             </Reference>
           </span>
-        </Popover>
+        </Styled(span)>
       </Manager>
     </Popover>
   </Dropdown>
@@ -1525,7 +1507,7 @@ exports[`Dropdown demo examples Snapshots: data 1`] = `
       triggerRef={[Function]}
     >
       <Manager>
-        <Popover
+        <Styled(span)
           content={[Function]}
           focusTriggerOnClose={true}
           hasArrow={true}
@@ -1539,27 +1521,28 @@ exports[`Dropdown demo examples Snapshots: data 1`] = `
         >
           <span
             className="emotion-4"
+            content={[Function]}
             id="dropdown-2"
+            onClose={[Function]}
+            onOpen={[Function]}
           >
             <PopoverTrigger
               aria-describedby="dropdown-2-content"
               aria-expanded={false}
               aria-haspopup={true}
               aria-owns="dropdown-2-content"
-              element="button"
               onBlur={[Function]}
               onClick={[Function]}
               onKeyDown={[Function]}
               onKeyUp={[Function]}
               role="button"
               size="large"
-              type="button"
             >
               <Reference>
                 <InnerReference
                   getReferenceRef={[Function]}
                 >
-                  <PopoverTrigger>
+                  <Styled(span)>
                     <span
                       className="emotion-3"
                     >
@@ -1568,21 +1551,18 @@ exports[`Dropdown demo examples Snapshots: data 1`] = `
                         aria-expanded={false}
                         aria-haspopup={true}
                         aria-owns="dropdown-2-content"
-                        element="button"
                         onBlur={[Function]}
                         onClick={[Function]}
                         onKeyDown={[Function]}
                         onKeyUp={[Function]}
                         role="button"
                         size="large"
-                        type="button"
                       >
                         <Button
                           aria-describedby="dropdown-2-content"
                           aria-expanded={false}
                           aria-haspopup={true}
                           aria-owns="dropdown-2-content"
-                          element="button"
                           forwardedRef={null}
                           onBlur={[Function]}
                           onClick={[Function]}
@@ -1590,14 +1570,12 @@ exports[`Dropdown demo examples Snapshots: data 1`] = `
                           onKeyUp={[Function]}
                           role="button"
                           size="large"
-                          type="button"
                         >
-                          <Button
+                          <Styled(button)
                             aria-describedby="dropdown-2-content"
                             aria-expanded={false}
                             aria-haspopup={true}
                             aria-owns="dropdown-2-content"
-                            element="button"
                             onBlur={[Function]}
                             onClick={[Function]}
                             onKeyDown={[Function]}
@@ -1605,7 +1583,6 @@ exports[`Dropdown demo examples Snapshots: data 1`] = `
                             role="button"
                             size="large"
                             text="Menu"
-                            type="button"
                           >
                             <button
                               aria-describedby="dropdown-2-content"
@@ -1618,7 +1595,7 @@ exports[`Dropdown demo examples Snapshots: data 1`] = `
                               onKeyDown={[Function]}
                               onKeyUp={[Function]}
                               role="button"
-                              type="button"
+                              size="large"
                             >
                               <Styled(span)>
                                 <span
@@ -1629,6 +1606,7 @@ exports[`Dropdown demo examples Snapshots: data 1`] = `
                                   >
                                     <span
                                       className="emotion-0"
+                                      size="large"
                                     >
                                       Menu
                                     </span>
@@ -1636,16 +1614,16 @@ exports[`Dropdown demo examples Snapshots: data 1`] = `
                                 </span>
                               </Styled(span)>
                             </button>
-                          </Button>
+                          </Styled(button)>
                         </Button>
                       </WithForwardRef(Button)>
                     </span>
-                  </PopoverTrigger>
+                  </Styled(span)>
                 </InnerReference>
               </Reference>
             </PopoverTrigger>
           </span>
-        </Popover>
+        </Styled(span)>
       </Manager>
     </Popover>
   </Dropdown>
@@ -1804,7 +1782,7 @@ exports[`Dropdown demo examples Snapshots: disabled 1`] = `
     triggerRef={[Function]}
   >
     <Manager>
-      <Popover
+      <Styled(span)
         content={[Function]}
         disabled={true}
         focusTriggerOnClose={true}
@@ -1819,7 +1797,11 @@ exports[`Dropdown demo examples Snapshots: disabled 1`] = `
       >
         <span
           className="emotion-4"
+          content={[Function]}
+          disabled={true}
           id="dropdown-9"
+          onClose={[Function]}
+          onOpen={[Function]}
         >
           <PopoverTrigger
             aria-describedby="dropdown-9-content"
@@ -1828,19 +1810,17 @@ exports[`Dropdown demo examples Snapshots: disabled 1`] = `
             aria-haspopup={true}
             aria-owns="dropdown-9-content"
             disabled={true}
-            element="button"
             onBlur={[Function]}
             onKeyDown={[Function]}
             onKeyUp={[Function]}
             role="button"
             size="large"
-            type="button"
           >
             <Reference>
               <InnerReference
                 getReferenceRef={[Function]}
               >
-                <PopoverTrigger>
+                <Styled(span)>
                   <span
                     className="emotion-3"
                   >
@@ -1851,13 +1831,11 @@ exports[`Dropdown demo examples Snapshots: disabled 1`] = `
                       aria-haspopup={true}
                       aria-owns="dropdown-9-content"
                       disabled={true}
-                      element="button"
                       onBlur={[Function]}
                       onKeyDown={[Function]}
                       onKeyUp={[Function]}
                       role="button"
                       size="large"
-                      type="button"
                     >
                       <Button
                         aria-describedby="dropdown-9-content"
@@ -1866,23 +1844,20 @@ exports[`Dropdown demo examples Snapshots: disabled 1`] = `
                         aria-haspopup={true}
                         aria-owns="dropdown-9-content"
                         disabled={true}
-                        element="button"
                         forwardedRef={null}
                         onBlur={[Function]}
                         onKeyDown={[Function]}
                         onKeyUp={[Function]}
                         role="button"
                         size="large"
-                        type="button"
                       >
-                        <Button
+                        <Styled(button)
                           aria-describedby="dropdown-9-content"
                           aria-disabled={true}
                           aria-expanded={false}
                           aria-haspopup={true}
                           aria-owns="dropdown-9-content"
                           disabled={true}
-                          element="button"
                           onBlur={[Function]}
                           onKeyDown={[Function]}
                           onKeyUp={[Function]}
@@ -1890,7 +1865,6 @@ exports[`Dropdown demo examples Snapshots: disabled 1`] = `
                           size="large"
                           tabIndex={-1}
                           text="Menu"
-                          type="button"
                         >
                           <button
                             aria-describedby="dropdown-9-content"
@@ -1904,8 +1878,8 @@ exports[`Dropdown demo examples Snapshots: disabled 1`] = `
                             onKeyDown={[Function]}
                             onKeyUp={[Function]}
                             role="button"
+                            size="large"
                             tabIndex={-1}
-                            type="button"
                           >
                             <Styled(span)>
                               <span
@@ -1916,6 +1890,7 @@ exports[`Dropdown demo examples Snapshots: disabled 1`] = `
                                 >
                                   <span
                                     className="emotion-0"
+                                    size="large"
                                   >
                                     Menu
                                   </span>
@@ -1923,16 +1898,16 @@ exports[`Dropdown demo examples Snapshots: disabled 1`] = `
                               </span>
                             </Styled(span)>
                           </button>
-                        </Button>
+                        </Styled(button)>
                       </Button>
                     </WithForwardRef(Button)>
                   </span>
-                </PopoverTrigger>
+                </Styled(span)>
               </InnerReference>
             </Reference>
           </PopoverTrigger>
         </span>
-      </Popover>
+      </Styled(span)>
     </Manager>
   </Popover>
 </Dropdown>
@@ -2104,7 +2079,7 @@ exports[`Dropdown demo examples Snapshots: on-open-close 1`] = `
       triggerRef={[Function]}
     >
       <Manager>
-        <Popover
+        <Styled(span)
           content={[Function]}
           focusTriggerOnClose={true}
           hasArrow={true}
@@ -2118,27 +2093,28 @@ exports[`Dropdown demo examples Snapshots: on-open-close 1`] = `
         >
           <span
             className="emotion-4"
+            content={[Function]}
             id="dropdown-8"
+            onClose={[Function]}
+            onOpen={[Function]}
           >
             <PopoverTrigger
               aria-describedby="dropdown-8-content"
               aria-expanded={false}
               aria-haspopup={true}
               aria-owns="dropdown-8-content"
-              element="button"
               onBlur={[Function]}
               onClick={[Function]}
               onKeyDown={[Function]}
               onKeyUp={[Function]}
               role="button"
               size="large"
-              type="button"
             >
               <Reference>
                 <InnerReference
                   getReferenceRef={[Function]}
                 >
-                  <PopoverTrigger>
+                  <Styled(span)>
                     <span
                       className="emotion-3"
                     >
@@ -2147,21 +2123,18 @@ exports[`Dropdown demo examples Snapshots: on-open-close 1`] = `
                         aria-expanded={false}
                         aria-haspopup={true}
                         aria-owns="dropdown-8-content"
-                        element="button"
                         onBlur={[Function]}
                         onClick={[Function]}
                         onKeyDown={[Function]}
                         onKeyUp={[Function]}
                         role="button"
                         size="large"
-                        type="button"
                       >
                         <Button
                           aria-describedby="dropdown-8-content"
                           aria-expanded={false}
                           aria-haspopup={true}
                           aria-owns="dropdown-8-content"
-                          element="button"
                           forwardedRef={null}
                           onBlur={[Function]}
                           onClick={[Function]}
@@ -2169,14 +2142,12 @@ exports[`Dropdown demo examples Snapshots: on-open-close 1`] = `
                           onKeyUp={[Function]}
                           role="button"
                           size="large"
-                          type="button"
                         >
-                          <Button
+                          <Styled(button)
                             aria-describedby="dropdown-8-content"
                             aria-expanded={false}
                             aria-haspopup={true}
                             aria-owns="dropdown-8-content"
-                            element="button"
                             onBlur={[Function]}
                             onClick={[Function]}
                             onKeyDown={[Function]}
@@ -2184,7 +2155,6 @@ exports[`Dropdown demo examples Snapshots: on-open-close 1`] = `
                             role="button"
                             size="large"
                             text="Menu"
-                            type="button"
                           >
                             <button
                               aria-describedby="dropdown-8-content"
@@ -2197,7 +2167,7 @@ exports[`Dropdown demo examples Snapshots: on-open-close 1`] = `
                               onKeyDown={[Function]}
                               onKeyUp={[Function]}
                               role="button"
-                              type="button"
+                              size="large"
                             >
                               <Styled(span)>
                                 <span
@@ -2208,6 +2178,7 @@ exports[`Dropdown demo examples Snapshots: on-open-close 1`] = `
                                   >
                                     <span
                                       className="emotion-0"
+                                      size="large"
                                     >
                                       Menu
                                     </span>
@@ -2215,16 +2186,16 @@ exports[`Dropdown demo examples Snapshots: on-open-close 1`] = `
                                 </span>
                               </Styled(span)>
                             </button>
-                          </Button>
+                          </Styled(button)>
                         </Button>
                       </WithForwardRef(Button)>
                     </span>
-                  </PopoverTrigger>
+                  </Styled(span)>
                 </InnerReference>
               </Reference>
             </PopoverTrigger>
           </span>
-        </Popover>
+        </Styled(span)>
       </Manager>
     </Popover>
   </Dropdown>
@@ -2404,7 +2375,7 @@ exports[`Dropdown demo examples Snapshots: overflow 1`] = `
         triggerRef={[Function]}
       >
         <Manager>
-          <Popover
+          <Styled(span)
             content={[Function]}
             focusTriggerOnClose={true}
             hasArrow={true}
@@ -2418,27 +2389,28 @@ exports[`Dropdown demo examples Snapshots: overflow 1`] = `
           >
             <span
               className="emotion-4"
+              content={[Function]}
               id="dropdown-5"
+              onClose={[Function]}
+              onOpen={[Function]}
             >
               <PopoverTrigger
                 aria-describedby="dropdown-5-content"
                 aria-expanded={false}
                 aria-haspopup={true}
                 aria-owns="dropdown-5-content"
-                element="button"
                 onBlur={[Function]}
                 onClick={[Function]}
                 onKeyDown={[Function]}
                 onKeyUp={[Function]}
                 role="button"
                 size="large"
-                type="button"
               >
                 <Reference>
                   <InnerReference
                     getReferenceRef={[Function]}
                   >
-                    <PopoverTrigger>
+                    <Styled(span)>
                       <span
                         className="emotion-3"
                       >
@@ -2447,21 +2419,18 @@ exports[`Dropdown demo examples Snapshots: overflow 1`] = `
                           aria-expanded={false}
                           aria-haspopup={true}
                           aria-owns="dropdown-5-content"
-                          element="button"
                           onBlur={[Function]}
                           onClick={[Function]}
                           onKeyDown={[Function]}
                           onKeyUp={[Function]}
                           role="button"
                           size="large"
-                          type="button"
                         >
                           <Button
                             aria-describedby="dropdown-5-content"
                             aria-expanded={false}
                             aria-haspopup={true}
                             aria-owns="dropdown-5-content"
-                            element="button"
                             forwardedRef={null}
                             onBlur={[Function]}
                             onClick={[Function]}
@@ -2469,14 +2438,12 @@ exports[`Dropdown demo examples Snapshots: overflow 1`] = `
                             onKeyUp={[Function]}
                             role="button"
                             size="large"
-                            type="button"
                           >
-                            <Button
+                            <Styled(button)
                               aria-describedby="dropdown-5-content"
                               aria-expanded={false}
                               aria-haspopup={true}
                               aria-owns="dropdown-5-content"
-                              element="button"
                               onBlur={[Function]}
                               onClick={[Function]}
                               onKeyDown={[Function]}
@@ -2484,7 +2451,6 @@ exports[`Dropdown demo examples Snapshots: overflow 1`] = `
                               role="button"
                               size="large"
                               text="Menu"
-                              type="button"
                             >
                               <button
                                 aria-describedby="dropdown-5-content"
@@ -2497,7 +2463,7 @@ exports[`Dropdown demo examples Snapshots: overflow 1`] = `
                                 onKeyDown={[Function]}
                                 onKeyUp={[Function]}
                                 role="button"
-                                type="button"
+                                size="large"
                               >
                                 <Styled(span)>
                                   <span
@@ -2508,6 +2474,7 @@ exports[`Dropdown demo examples Snapshots: overflow 1`] = `
                                     >
                                       <span
                                         className="emotion-0"
+                                        size="large"
                                       >
                                         Menu
                                       </span>
@@ -2515,16 +2482,16 @@ exports[`Dropdown demo examples Snapshots: overflow 1`] = `
                                   </span>
                                 </Styled(span)>
                               </button>
-                            </Button>
+                            </Styled(button)>
                           </Button>
                         </WithForwardRef(Button)>
                       </span>
-                    </PopoverTrigger>
+                    </Styled(span)>
                   </InnerReference>
                 </Reference>
               </PopoverTrigger>
             </span>
-          </Popover>
+          </Styled(span)>
         </Manager>
       </Popover>
     </Dropdown>
@@ -2868,7 +2835,7 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
         triggerRef={[Function]}
       >
         <Manager>
-          <Popover
+          <Styled(span)
             content={[Function]}
             focusTriggerOnClose={true}
             hasArrow={true}
@@ -2882,7 +2849,10 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
           >
             <span
               className="emotion-22"
+              content={[Function]}
               id="dropdown-4"
+              onClose={[Function]}
+              onOpen={[Function]}
             >
               <PopoverTrigger
                 aria-activedescendant="dropdown-4-menu"
@@ -2890,20 +2860,18 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                 aria-expanded={true}
                 aria-haspopup={true}
                 aria-owns="dropdown-4-content"
-                element="button"
                 onBlur={[Function]}
                 onClick={[Function]}
                 onKeyDown={[Function]}
                 onKeyUp={[Function]}
                 role="button"
                 size="large"
-                type="button"
               >
                 <Reference>
                   <InnerReference
                     getReferenceRef={[Function]}
                   >
-                    <PopoverTrigger>
+                    <Styled(span)>
                       <span
                         className="emotion-3"
                       >
@@ -2913,14 +2881,12 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                           aria-expanded={true}
                           aria-haspopup={true}
                           aria-owns="dropdown-4-content"
-                          element="button"
                           onBlur={[Function]}
                           onClick={[Function]}
                           onKeyDown={[Function]}
                           onKeyUp={[Function]}
                           role="button"
                           size="large"
-                          type="button"
                         >
                           <Button
                             aria-activedescendant="dropdown-4-menu"
@@ -2928,7 +2894,6 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                             aria-expanded={true}
                             aria-haspopup={true}
                             aria-owns="dropdown-4-content"
-                            element="button"
                             forwardedRef={null}
                             onBlur={[Function]}
                             onClick={[Function]}
@@ -2936,15 +2901,13 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                             onKeyUp={[Function]}
                             role="button"
                             size="large"
-                            type="button"
                           >
-                            <Button
+                            <Styled(button)
                               aria-activedescendant="dropdown-4-menu"
                               aria-describedby="dropdown-4-content"
                               aria-expanded={true}
                               aria-haspopup={true}
                               aria-owns="dropdown-4-content"
-                              element="button"
                               onBlur={[Function]}
                               onClick={[Function]}
                               onKeyDown={[Function]}
@@ -2952,7 +2915,6 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                               role="button"
                               size="large"
                               text="Menu"
-                              type="button"
                             >
                               <button
                                 aria-activedescendant="dropdown-4-menu"
@@ -2966,7 +2928,7 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                                 onKeyDown={[Function]}
                                 onKeyUp={[Function]}
                                 role="button"
-                                type="button"
+                                size="large"
                               >
                                 <Styled(span)>
                                   <span
@@ -2977,6 +2939,7 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                                     >
                                       <span
                                         className="emotion-0"
+                                        size="large"
                                       >
                                         Menu
                                       </span>
@@ -2984,11 +2947,11 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                                   </span>
                                 </Styled(span)>
                               </button>
-                            </Button>
+                            </Styled(button)>
                           </Button>
                         </WithForwardRef(Button)>
                       </span>
-                    </PopoverTrigger>
+                    </Styled(span)>
                   </InnerReference>
                 </Reference>
               </PopoverTrigger>
@@ -3148,7 +3111,6 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                               aria-owns="dropdown-4-content"
                               class="emotion-2"
                               role="button"
-                              type="button"
                             >
                               <span
                                 class="emotion-1"
@@ -3163,7 +3125,7 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                           </span>
                         }
                       >
-                        <DropdownContent
+                        <Styled(div)
                           hasArrow={true}
                           id="dropdown-4-content"
                           onBlur={[Function]}
@@ -3213,7 +3175,7 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                               itemKey="text"
                               role="menu"
                             >
-                              <Menu
+                              <Styled(div)
                                 id="dropdown-4-menu"
                                 item={[Function]}
                                 itemKey="text"
@@ -3253,7 +3215,7 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                                       tabIndex={null}
                                       text="Light years"
                                     >
-                                      <MenuItem
+                                      <Styled(div)
                                         element="div"
                                         id="dropdown-4-item-0"
                                         index={0}
@@ -3297,7 +3259,7 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                                             </span>
                                           </Styled(span)>
                                         </div>
-                                      </MenuItem>
+                                      </Styled(div)>
                                     </MenuItem>
                                   </MenuItem>
                                   <MenuItem
@@ -3329,7 +3291,7 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                                       tabIndex={null}
                                       text="Star stuff"
                                     >
-                                      <MenuItem
+                                      <Styled(div)
                                         element="div"
                                         id="dropdown-4-item-1"
                                         index={1}
@@ -3373,7 +3335,7 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                                             </span>
                                           </Styled(span)>
                                         </div>
-                                      </MenuItem>
+                                      </Styled(div)>
                                     </MenuItem>
                                   </MenuItem>
                                   <MenuItem
@@ -3405,7 +3367,7 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                                       tabIndex={null}
                                       text="Encyclopaedia galactica"
                                     >
-                                      <MenuItem
+                                      <Styled(div)
                                         element="div"
                                         id="dropdown-4-item-2"
                                         index={2}
@@ -3449,7 +3411,7 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                                             </span>
                                           </Styled(span)>
                                         </div>
-                                      </MenuItem>
+                                      </Styled(div)>
                                     </MenuItem>
                                   </MenuItem>
                                   <MenuItem
@@ -3481,7 +3443,7 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                                       tabIndex={null}
                                       text="Cosmic ocean"
                                     >
-                                      <MenuItem
+                                      <Styled(div)
                                         element="div"
                                         id="dropdown-4-item-3"
                                         index={3}
@@ -3525,14 +3487,14 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                                             </span>
                                           </Styled(span)>
                                         </div>
-                                      </MenuItem>
+                                      </Styled(div)>
                                     </MenuItem>
                                   </MenuItem>
                                 </div>
-                              </Menu>
+                              </Styled(div)>
                             </Menu>
                           </div>
-                        </DropdownContent>
+                        </Styled(div)>
                       </InnerPopper>
                     </Popper>
                   </RtlPopper>
@@ -3557,7 +3519,7 @@ exports[`Dropdown demo examples Snapshots: placement 1`] = `
                 }
               />
             </span>
-          </Popover>
+          </Styled(span)>
         </Manager>
       </Popover>
     </Dropdown>
@@ -3989,6 +3951,7 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
       >
         <div
           className="emotion-24"
+          height={360}
         >
           <Styled(div)
             scrollAreaHeight={360}
@@ -4046,7 +4009,7 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                   usePortal={true}
                 >
                   <Manager>
-                    <Popover
+                    <Styled(span)
                       content={[Function]}
                       focusTriggerOnClose={true}
                       hasArrow={true}
@@ -4061,7 +4024,10 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                     >
                       <span
                         className="emotion-22"
+                        content={[Function]}
                         id="dropdown-7"
+                        onClose={[Function]}
+                        onOpen={[Function]}
                       >
                         <PopoverTrigger
                           aria-activedescendant="dropdown-7-menu"
@@ -4069,20 +4035,18 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                           aria-expanded={true}
                           aria-haspopup={true}
                           aria-owns="dropdown-7-content"
-                          element="button"
                           onBlur={[Function]}
                           onClick={[Function]}
                           onKeyDown={[Function]}
                           onKeyUp={[Function]}
                           role="button"
                           size="large"
-                          type="button"
                         >
                           <Reference>
                             <InnerReference
                               getReferenceRef={[Function]}
                             >
-                              <PopoverTrigger>
+                              <Styled(span)>
                                 <span
                                   className="emotion-3"
                                 >
@@ -4092,14 +4056,12 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                     aria-expanded={true}
                                     aria-haspopup={true}
                                     aria-owns="dropdown-7-content"
-                                    element="button"
                                     onBlur={[Function]}
                                     onClick={[Function]}
                                     onKeyDown={[Function]}
                                     onKeyUp={[Function]}
                                     role="button"
                                     size="large"
-                                    type="button"
                                   >
                                     <Button
                                       aria-activedescendant="dropdown-7-menu"
@@ -4107,7 +4069,6 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                       aria-expanded={true}
                                       aria-haspopup={true}
                                       aria-owns="dropdown-7-content"
-                                      element="button"
                                       forwardedRef={null}
                                       onBlur={[Function]}
                                       onClick={[Function]}
@@ -4115,15 +4076,13 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                       onKeyUp={[Function]}
                                       role="button"
                                       size="large"
-                                      type="button"
                                     >
-                                      <Button
+                                      <Styled(button)
                                         aria-activedescendant="dropdown-7-menu"
                                         aria-describedby="dropdown-7-content"
                                         aria-expanded={true}
                                         aria-haspopup={true}
                                         aria-owns="dropdown-7-content"
-                                        element="button"
                                         onBlur={[Function]}
                                         onClick={[Function]}
                                         onKeyDown={[Function]}
@@ -4131,7 +4090,6 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                         role="button"
                                         size="large"
                                         text="Menu"
-                                        type="button"
                                       >
                                         <button
                                           aria-activedescendant="dropdown-7-menu"
@@ -4145,7 +4103,7 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                           onKeyDown={[Function]}
                                           onKeyUp={[Function]}
                                           role="button"
-                                          type="button"
+                                          size="large"
                                         >
                                           <Styled(span)>
                                             <span
@@ -4156,6 +4114,7 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                               >
                                                 <span
                                                   className="emotion-0"
+                                                  size="large"
                                                 >
                                                   Menu
                                                 </span>
@@ -4163,11 +4122,11 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                             </span>
                                           </Styled(span)>
                                         </button>
-                                      </Button>
+                                      </Styled(button)>
                                     </Button>
                                   </WithForwardRef(Button)>
                                 </span>
-                              </PopoverTrigger>
+                              </Styled(span)>
                             </InnerReference>
                           </Reference>
                         </PopoverTrigger>
@@ -4609,7 +4568,6 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                             aria-owns="dropdown-7-content"
                                             class="emotion-2"
                                             role="button"
-                                            type="button"
                                           >
                                             <span
                                               class="emotion-1"
@@ -4624,7 +4582,7 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                         </span>
                                       }
                                     >
-                                      <DropdownContent
+                                      <Styled(div)
                                         hasArrow={true}
                                         id="dropdown-7-content"
                                         onBlur={[Function]}
@@ -4674,7 +4632,7 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                             itemKey="text"
                                             role="menu"
                                           >
-                                            <Menu
+                                            <Styled(div)
                                               id="dropdown-7-menu"
                                               item={[Function]}
                                               itemKey="text"
@@ -4714,7 +4672,7 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                                     tabIndex={null}
                                                     text="Light years"
                                                   >
-                                                    <MenuItem
+                                                    <Styled(div)
                                                       element="div"
                                                       id="dropdown-7-item-0"
                                                       index={0}
@@ -4758,7 +4716,7 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                                           </span>
                                                         </Styled(span)>
                                                       </div>
-                                                    </MenuItem>
+                                                    </Styled(div)>
                                                   </MenuItem>
                                                 </MenuItem>
                                                 <MenuItem
@@ -4790,7 +4748,7 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                                     tabIndex={null}
                                                     text="Star stuff"
                                                   >
-                                                    <MenuItem
+                                                    <Styled(div)
                                                       element="div"
                                                       id="dropdown-7-item-1"
                                                       index={1}
@@ -4834,7 +4792,7 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                                           </span>
                                                         </Styled(span)>
                                                       </div>
-                                                    </MenuItem>
+                                                    </Styled(div)>
                                                   </MenuItem>
                                                 </MenuItem>
                                                 <MenuItem
@@ -4866,7 +4824,7 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                                     tabIndex={null}
                                                     text="Encyclopaedia galactica"
                                                   >
-                                                    <MenuItem
+                                                    <Styled(div)
                                                       element="div"
                                                       id="dropdown-7-item-2"
                                                       index={2}
@@ -4910,7 +4868,7 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                                           </span>
                                                         </Styled(span)>
                                                       </div>
-                                                    </MenuItem>
+                                                    </Styled(div)>
                                                   </MenuItem>
                                                 </MenuItem>
                                                 <MenuItem
@@ -4942,7 +4900,7 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                                     tabIndex={null}
                                                     text="Cosmic ocean"
                                                   >
-                                                    <MenuItem
+                                                    <Styled(div)
                                                       element="div"
                                                       id="dropdown-7-item-3"
                                                       index={3}
@@ -4986,14 +4944,14 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                                                           </span>
                                                         </Styled(span)>
                                                       </div>
-                                                    </MenuItem>
+                                                    </Styled(div)>
                                                   </MenuItem>
                                                 </MenuItem>
                                               </div>
-                                            </Menu>
+                                            </Styled(div)>
                                           </Menu>
                                         </div>
-                                      </DropdownContent>
+                                      </Styled(div)>
                                     </InnerPopper>
                                   </Popper>
                                 </RtlPopper>
@@ -5020,7 +4978,7 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                           }
                         />
                       </span>
-                    </Popover>
+                    </Styled(span)>
                   </Manager>
                 </Popover>
               </Dropdown>
@@ -5029,42 +4987,34 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
         </div>
       </Styled(div)>
       <Styled(WithForwardRef(Button))
-        element="button"
         minimal={true}
         onClick={[Function]}
         size="small"
-        type="button"
       >
         <WithForwardRef(Button)
           className="emotion-28"
-          element="button"
           minimal={true}
           onClick={[Function]}
           size="small"
-          type="button"
         >
           <Button
             className="emotion-28"
-            element="button"
             forwardedRef={null}
             minimal={true}
             onClick={[Function]}
             size="small"
-            type="button"
           >
-            <Button
+            <Styled(button)
               className="emotion-28"
-              element="button"
               minimal={true}
               onClick={[Function]}
               size="small"
               text="Re-center"
-              type="button"
             >
               <button
                 className="emotion-27"
                 onClick={[Function]}
-                type="button"
+                size="small"
               >
                 <Styled(span)>
                   <span
@@ -5075,6 +5025,7 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                     >
                       <span
                         className="emotion-25"
+                        size="small"
                       >
                         Re-center
                       </span>
@@ -5082,7 +5033,7 @@ exports[`Dropdown demo examples Snapshots: portal 1`] = `
                   </span>
                 </Styled(span)>
               </button>
-            </Button>
+            </Styled(button)>
           </Button>
         </WithForwardRef(Button)>
       </Styled(WithForwardRef(Button))>
@@ -5420,7 +5371,7 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
             triggerRef={[Function]}
           >
             <Manager>
-              <Popover
+              <Styled(span)
                 content={[Function]}
                 focusTriggerOnClose={true}
                 hasArrow={true}
@@ -5434,7 +5385,10 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
               >
                 <span
                   className="emotion-22"
+                  content={[Function]}
                   id="dropdown-11"
+                  onClose={[Function]}
+                  onOpen={[Function]}
                 >
                   <PopoverTrigger
                     aria-activedescendant="dropdown-11-menu"
@@ -5442,20 +5396,18 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                     aria-expanded={true}
                     aria-haspopup={true}
                     aria-owns="dropdown-11-content"
-                    element="button"
                     onBlur={[Function]}
                     onClick={[Function]}
                     onKeyDown={[Function]}
                     onKeyUp={[Function]}
                     role="button"
                     size="large"
-                    type="button"
                   >
                     <Reference>
                       <InnerReference
                         getReferenceRef={[Function]}
                       >
-                        <PopoverTrigger>
+                        <Styled(span)>
                           <span
                             className="emotion-3"
                           >
@@ -5465,14 +5417,12 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                               aria-expanded={true}
                               aria-haspopup={true}
                               aria-owns="dropdown-11-content"
-                              element="button"
                               onBlur={[Function]}
                               onClick={[Function]}
                               onKeyDown={[Function]}
                               onKeyUp={[Function]}
                               role="button"
                               size="large"
-                              type="button"
                             >
                               <Button
                                 aria-activedescendant="dropdown-11-menu"
@@ -5480,7 +5430,6 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                                 aria-expanded={true}
                                 aria-haspopup={true}
                                 aria-owns="dropdown-11-content"
-                                element="button"
                                 forwardedRef={null}
                                 onBlur={[Function]}
                                 onClick={[Function]}
@@ -5488,15 +5437,13 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                                 onKeyUp={[Function]}
                                 role="button"
                                 size="large"
-                                type="button"
                               >
-                                <Button
+                                <Styled(button)
                                   aria-activedescendant="dropdown-11-menu"
                                   aria-describedby="dropdown-11-content"
                                   aria-expanded={true}
                                   aria-haspopup={true}
                                   aria-owns="dropdown-11-content"
-                                  element="button"
                                   onBlur={[Function]}
                                   onClick={[Function]}
                                   onKeyDown={[Function]}
@@ -5504,7 +5451,6 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                                   role="button"
                                   size="large"
                                   text="Menu"
-                                  type="button"
                                 >
                                   <button
                                     aria-activedescendant="dropdown-11-menu"
@@ -5518,7 +5464,7 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                                     onKeyDown={[Function]}
                                     onKeyUp={[Function]}
                                     role="button"
-                                    type="button"
+                                    size="large"
                                   >
                                     <Styled(span)>
                                       <span
@@ -5529,6 +5475,7 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                                         >
                                           <span
                                             className="emotion-0"
+                                            size="large"
                                           >
                                             Menu
                                           </span>
@@ -5536,11 +5483,11 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                                       </span>
                                     </Styled(span)>
                                   </button>
-                                </Button>
+                                </Styled(button)>
                               </Button>
                             </WithForwardRef(Button)>
                           </span>
-                        </PopoverTrigger>
+                        </Styled(span)>
                       </InnerReference>
                     </Reference>
                   </PopoverTrigger>
@@ -5700,7 +5647,6 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                                   aria-owns="dropdown-11-content"
                                   class="emotion-2"
                                   role="button"
-                                  type="button"
                                 >
                                   <span
                                     class="emotion-1"
@@ -5715,7 +5661,7 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                               </span>
                             }
                           >
-                            <DropdownContent
+                            <Styled(div)
                               hasArrow={true}
                               id="dropdown-11-content"
                               onBlur={[Function]}
@@ -5765,7 +5711,7 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                                   itemKey="text"
                                   role="menu"
                                 >
-                                  <Menu
+                                  <Styled(div)
                                     id="dropdown-11-menu"
                                     item={[Function]}
                                     itemKey="text"
@@ -5805,7 +5751,7 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                                           tabIndex={null}
                                           text="Light years"
                                         >
-                                          <MenuItem
+                                          <Styled(div)
                                             element="div"
                                             id="dropdown-11-item-0"
                                             index={0}
@@ -5849,7 +5795,7 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                                                 </span>
                                               </Styled(span)>
                                             </div>
-                                          </MenuItem>
+                                          </Styled(div)>
                                         </MenuItem>
                                       </MenuItem>
                                       <MenuItem
@@ -5881,7 +5827,7 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                                           tabIndex={null}
                                           text="Star stuff"
                                         >
-                                          <MenuItem
+                                          <Styled(div)
                                             element="div"
                                             id="dropdown-11-item-1"
                                             index={1}
@@ -5925,7 +5871,7 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                                                 </span>
                                               </Styled(span)>
                                             </div>
-                                          </MenuItem>
+                                          </Styled(div)>
                                         </MenuItem>
                                       </MenuItem>
                                       <MenuItem
@@ -5957,7 +5903,7 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                                           tabIndex={null}
                                           text="Encyclopaedia galactica"
                                         >
-                                          <MenuItem
+                                          <Styled(div)
                                             element="div"
                                             id="dropdown-11-item-2"
                                             index={2}
@@ -6001,7 +5947,7 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                                                 </span>
                                               </Styled(span)>
                                             </div>
-                                          </MenuItem>
+                                          </Styled(div)>
                                         </MenuItem>
                                       </MenuItem>
                                       <MenuItem
@@ -6033,7 +5979,7 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                                           tabIndex={null}
                                           text="Cosmic ocean"
                                         >
-                                          <MenuItem
+                                          <Styled(div)
                                             element="div"
                                             id="dropdown-11-item-3"
                                             index={3}
@@ -6077,14 +6023,14 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                                                 </span>
                                               </Styled(span)>
                                             </div>
-                                          </MenuItem>
+                                          </Styled(div)>
                                         </MenuItem>
                                       </MenuItem>
                                     </div>
-                                  </Menu>
+                                  </Styled(div)>
                                 </Menu>
                               </div>
-                            </DropdownContent>
+                            </Styled(div)>
                           </InnerPopper>
                         </Popper>
                       </RtlPopper>
@@ -6109,7 +6055,7 @@ exports[`Dropdown demo examples Snapshots: rtl 1`] = `
                     }
                   />
                 </span>
-              </Popover>
+              </Styled(span)>
             </Manager>
           </Popover>
         </Dropdown>
@@ -6543,6 +6489,7 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
       >
         <div
           className="emotion-24"
+          height={430}
         >
           <Styled(div)
             scrollAreaHeight={430}
@@ -6584,7 +6531,7 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                   triggerRef={[Function]}
                 >
                   <Manager>
-                    <Popover
+                    <Styled(span)
                       content={[Function]}
                       focusTriggerOnClose={true}
                       hasArrow={true}
@@ -6598,7 +6545,10 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                     >
                       <span
                         className="emotion-22"
+                        content={[Function]}
                         id="dropdown-6"
+                        onClose={[Function]}
+                        onOpen={[Function]}
                       >
                         <PopoverTrigger
                           aria-activedescendant="dropdown-6-menu"
@@ -6606,20 +6556,18 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                           aria-expanded={true}
                           aria-haspopup={true}
                           aria-owns="dropdown-6-content"
-                          element="button"
                           onBlur={[Function]}
                           onClick={[Function]}
                           onKeyDown={[Function]}
                           onKeyUp={[Function]}
                           role="button"
                           size="large"
-                          type="button"
                         >
                           <Reference>
                             <InnerReference
                               getReferenceRef={[Function]}
                             >
-                              <PopoverTrigger>
+                              <Styled(span)>
                                 <span
                                   className="emotion-3"
                                 >
@@ -6629,14 +6577,12 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                     aria-expanded={true}
                                     aria-haspopup={true}
                                     aria-owns="dropdown-6-content"
-                                    element="button"
                                     onBlur={[Function]}
                                     onClick={[Function]}
                                     onKeyDown={[Function]}
                                     onKeyUp={[Function]}
                                     role="button"
                                     size="large"
-                                    type="button"
                                   >
                                     <Button
                                       aria-activedescendant="dropdown-6-menu"
@@ -6644,7 +6590,6 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                       aria-expanded={true}
                                       aria-haspopup={true}
                                       aria-owns="dropdown-6-content"
-                                      element="button"
                                       forwardedRef={null}
                                       onBlur={[Function]}
                                       onClick={[Function]}
@@ -6652,15 +6597,13 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                       onKeyUp={[Function]}
                                       role="button"
                                       size="large"
-                                      type="button"
                                     >
-                                      <Button
+                                      <Styled(button)
                                         aria-activedescendant="dropdown-6-menu"
                                         aria-describedby="dropdown-6-content"
                                         aria-expanded={true}
                                         aria-haspopup={true}
                                         aria-owns="dropdown-6-content"
-                                        element="button"
                                         onBlur={[Function]}
                                         onClick={[Function]}
                                         onKeyDown={[Function]}
@@ -6668,7 +6611,6 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                         role="button"
                                         size="large"
                                         text="Menu"
-                                        type="button"
                                       >
                                         <button
                                           aria-activedescendant="dropdown-6-menu"
@@ -6682,7 +6624,7 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                           onKeyDown={[Function]}
                                           onKeyUp={[Function]}
                                           role="button"
-                                          type="button"
+                                          size="large"
                                         >
                                           <Styled(span)>
                                             <span
@@ -6693,6 +6635,7 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                               >
                                                 <span
                                                   className="emotion-0"
+                                                  size="large"
                                                 >
                                                   Menu
                                                 </span>
@@ -6700,11 +6643,11 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                             </span>
                                           </Styled(span)>
                                         </button>
-                                      </Button>
+                                      </Styled(button)>
                                     </Button>
                                   </WithForwardRef(Button)>
                                 </span>
-                              </PopoverTrigger>
+                              </Styled(span)>
                             </InnerReference>
                           </Reference>
                         </PopoverTrigger>
@@ -6864,7 +6807,6 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                         aria-owns="dropdown-6-content"
                                         class="emotion-2"
                                         role="button"
-                                        type="button"
                                       >
                                         <span
                                           class="emotion-1"
@@ -6879,7 +6821,7 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                     </span>
                                   }
                                 >
-                                  <DropdownContent
+                                  <Styled(div)
                                     hasArrow={true}
                                     id="dropdown-6-content"
                                     onBlur={[Function]}
@@ -6929,7 +6871,7 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                         itemKey="text"
                                         role="menu"
                                       >
-                                        <Menu
+                                        <Styled(div)
                                           id="dropdown-6-menu"
                                           item={[Function]}
                                           itemKey="text"
@@ -6969,7 +6911,7 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                                 tabIndex={null}
                                                 text="Light years"
                                               >
-                                                <MenuItem
+                                                <Styled(div)
                                                   element="div"
                                                   id="dropdown-6-item-0"
                                                   index={0}
@@ -7013,7 +6955,7 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                                       </span>
                                                     </Styled(span)>
                                                   </div>
-                                                </MenuItem>
+                                                </Styled(div)>
                                               </MenuItem>
                                             </MenuItem>
                                             <MenuItem
@@ -7045,7 +6987,7 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                                 tabIndex={null}
                                                 text="Star stuff"
                                               >
-                                                <MenuItem
+                                                <Styled(div)
                                                   element="div"
                                                   id="dropdown-6-item-1"
                                                   index={1}
@@ -7089,7 +7031,7 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                                       </span>
                                                     </Styled(span)>
                                                   </div>
-                                                </MenuItem>
+                                                </Styled(div)>
                                               </MenuItem>
                                             </MenuItem>
                                             <MenuItem
@@ -7121,7 +7063,7 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                                 tabIndex={null}
                                                 text="Encyclopaedia galactica"
                                               >
-                                                <MenuItem
+                                                <Styled(div)
                                                   element="div"
                                                   id="dropdown-6-item-2"
                                                   index={2}
@@ -7165,7 +7107,7 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                                       </span>
                                                     </Styled(span)>
                                                   </div>
-                                                </MenuItem>
+                                                </Styled(div)>
                                               </MenuItem>
                                             </MenuItem>
                                             <MenuItem
@@ -7197,7 +7139,7 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                                 tabIndex={null}
                                                 text="Cosmic ocean"
                                               >
-                                                <MenuItem
+                                                <Styled(div)
                                                   element="div"
                                                   id="dropdown-6-item-3"
                                                   index={3}
@@ -7241,14 +7183,14 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                                                       </span>
                                                     </Styled(span)>
                                                   </div>
-                                                </MenuItem>
+                                                </Styled(div)>
                                               </MenuItem>
                                             </MenuItem>
                                           </div>
-                                        </Menu>
+                                        </Styled(div)>
                                       </Menu>
                                     </div>
-                                  </DropdownContent>
+                                  </Styled(div)>
                                 </InnerPopper>
                               </Popper>
                             </RtlPopper>
@@ -7273,7 +7215,7 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                           }
                         />
                       </span>
-                    </Popover>
+                    </Styled(span)>
                   </Manager>
                 </Popover>
               </Dropdown>
@@ -7282,42 +7224,34 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
         </div>
       </Styled(div)>
       <Styled(WithForwardRef(Button))
-        element="button"
         minimal={true}
         onClick={[Function]}
         size="small"
-        type="button"
       >
         <WithForwardRef(Button)
           className="emotion-28"
-          element="button"
           minimal={true}
           onClick={[Function]}
           size="small"
-          type="button"
         >
           <Button
             className="emotion-28"
-            element="button"
             forwardedRef={null}
             minimal={true}
             onClick={[Function]}
             size="small"
-            type="button"
           >
-            <Button
+            <Styled(button)
               className="emotion-28"
-              element="button"
               minimal={true}
               onClick={[Function]}
               size="small"
               text="Re-center"
-              type="button"
             >
               <button
                 className="emotion-27"
                 onClick={[Function]}
-                type="button"
+                size="small"
               >
                 <Styled(span)>
                   <span
@@ -7328,6 +7262,7 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                     >
                       <span
                         className="emotion-25"
+                        size="small"
                       >
                         Re-center
                       </span>
@@ -7335,7 +7270,7 @@ exports[`Dropdown demo examples Snapshots: scrolling-container 1`] = `
                   </span>
                 </Styled(span)>
               </button>
-            </Button>
+            </Styled(button)>
           </Button>
         </WithForwardRef(Button)>
       </Styled(WithForwardRef(Button))>
@@ -7670,7 +7605,7 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
         wide={true}
       >
         <Manager>
-          <Popover
+          <Styled(span)
             content={[Function]}
             focusTriggerOnClose={true}
             hasArrow={true}
@@ -7685,7 +7620,10 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
           >
             <span
               className="emotion-22"
+              content={[Function]}
               id="dropdown-3"
+              onClose={[Function]}
+              onOpen={[Function]}
             >
               <PopoverTrigger
                 aria-activedescendant="dropdown-3-menu"
@@ -7693,20 +7631,18 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                 aria-expanded={true}
                 aria-haspopup={true}
                 aria-owns="dropdown-3-content"
-                element="button"
                 onBlur={[Function]}
                 onClick={[Function]}
                 onKeyDown={[Function]}
                 onKeyUp={[Function]}
                 role="button"
                 size="large"
-                type="button"
               >
                 <Reference>
                   <InnerReference
                     getReferenceRef={[Function]}
                   >
-                    <PopoverTrigger>
+                    <Styled(span)>
                       <span
                         className="emotion-3"
                       >
@@ -7716,14 +7652,12 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                           aria-expanded={true}
                           aria-haspopup={true}
                           aria-owns="dropdown-3-content"
-                          element="button"
                           onBlur={[Function]}
                           onClick={[Function]}
                           onKeyDown={[Function]}
                           onKeyUp={[Function]}
                           role="button"
                           size="large"
-                          type="button"
                         >
                           <Button
                             aria-activedescendant="dropdown-3-menu"
@@ -7731,7 +7665,6 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                             aria-expanded={true}
                             aria-haspopup={true}
                             aria-owns="dropdown-3-content"
-                            element="button"
                             forwardedRef={null}
                             onBlur={[Function]}
                             onClick={[Function]}
@@ -7739,15 +7672,13 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                             onKeyUp={[Function]}
                             role="button"
                             size="large"
-                            type="button"
                           >
-                            <Button
+                            <Styled(button)
                               aria-activedescendant="dropdown-3-menu"
                               aria-describedby="dropdown-3-content"
                               aria-expanded={true}
                               aria-haspopup={true}
                               aria-owns="dropdown-3-content"
-                              element="button"
                               onBlur={[Function]}
                               onClick={[Function]}
                               onKeyDown={[Function]}
@@ -7755,7 +7686,6 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                               role="button"
                               size="large"
                               text="Menu"
-                              type="button"
                             >
                               <button
                                 aria-activedescendant="dropdown-3-menu"
@@ -7769,7 +7699,7 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                                 onKeyDown={[Function]}
                                 onKeyUp={[Function]}
                                 role="button"
-                                type="button"
+                                size="large"
                               >
                                 <Styled(span)>
                                   <span
@@ -7780,6 +7710,7 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                                     >
                                       <span
                                         className="emotion-0"
+                                        size="large"
                                       >
                                         Menu
                                       </span>
@@ -7787,11 +7718,11 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                                   </span>
                                 </Styled(span)>
                               </button>
-                            </Button>
+                            </Styled(button)>
                           </Button>
                         </WithForwardRef(Button)>
                       </span>
-                    </PopoverTrigger>
+                    </Styled(span)>
                   </InnerReference>
                 </Reference>
               </PopoverTrigger>
@@ -7952,7 +7883,6 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                               aria-owns="dropdown-3-content"
                               class="emotion-2"
                               role="button"
-                              type="button"
                             >
                               <span
                                 class="emotion-1"
@@ -7967,7 +7897,7 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                           </span>
                         }
                       >
-                        <DropdownContent
+                        <Styled(div)
                           hasArrow={true}
                           id="dropdown-3-content"
                           onBlur={[Function]}
@@ -8018,7 +7948,7 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                               itemKey="text"
                               role="menu"
                             >
-                              <Menu
+                              <Styled(div)
                                 id="dropdown-3-menu"
                                 item={[Function]}
                                 itemKey="text"
@@ -8058,7 +7988,7 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                                       tabIndex={null}
                                       text="Light years star stuff"
                                     >
-                                      <MenuItem
+                                      <Styled(div)
                                         element="div"
                                         id="dropdown-3-item-0"
                                         index={0}
@@ -8102,7 +8032,7 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                                             </span>
                                           </Styled(span)>
                                         </div>
-                                      </MenuItem>
+                                      </Styled(div)>
                                     </MenuItem>
                                   </MenuItem>
                                   <MenuItem
@@ -8134,7 +8064,7 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                                       tabIndex={null}
                                       text="Harvesting star light citizens of distant epochs"
                                     >
-                                      <MenuItem
+                                      <Styled(div)
                                         element="div"
                                         id="dropdown-3-item-1"
                                         index={1}
@@ -8178,7 +8108,7 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                                             </span>
                                           </Styled(span)>
                                         </div>
-                                      </MenuItem>
+                                      </Styled(div)>
                                     </MenuItem>
                                   </MenuItem>
                                   <MenuItem
@@ -8210,7 +8140,7 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                                       tabIndex={null}
                                       text="Encyclopaedia galactica vastness is bearable"
                                     >
-                                      <MenuItem
+                                      <Styled(div)
                                         element="div"
                                         id="dropdown-3-item-2"
                                         index={2}
@@ -8254,7 +8184,7 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                                             </span>
                                           </Styled(span)>
                                         </div>
-                                      </MenuItem>
+                                      </Styled(div)>
                                     </MenuItem>
                                   </MenuItem>
                                   <MenuItem
@@ -8286,7 +8216,7 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                                       tabIndex={null}
                                       text="Shores of the cosmic ocean"
                                     >
-                                      <MenuItem
+                                      <Styled(div)
                                         element="div"
                                         id="dropdown-3-item-3"
                                         index={3}
@@ -8330,14 +8260,14 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                                             </span>
                                           </Styled(span)>
                                         </div>
-                                      </MenuItem>
+                                      </Styled(div)>
                                     </MenuItem>
                                   </MenuItem>
                                 </div>
-                              </Menu>
+                              </Styled(div)>
                             </Menu>
                           </div>
-                        </DropdownContent>
+                        </Styled(div)>
                       </InnerPopper>
                     </Popper>
                   </RtlPopper>
@@ -8362,7 +8292,7 @@ exports[`Dropdown demo examples Snapshots: wide 1`] = `
                 }
               />
             </span>
-          </Popover>
+          </Styled(span)>
         </Manager>
       </Popover>
     </Dropdown>

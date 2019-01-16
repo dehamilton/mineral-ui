@@ -280,13 +280,14 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
                       size="large"
                       type="checkbox"
                     >
-                      <ChoiceGroup
+                      <Styled(div)
                         role="group"
                         size="large"
                       >
                         <div
                           className="emotion-15"
                           role="group"
+                          size="large"
                         >
                           <Checkbox
                             checked={false}
@@ -354,12 +355,13 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
                                       type="checkbox"
                                       value="fluorite"
                                     >
-                                      <Choice
+                                      <Styled(label)
                                         labelPosition="end"
                                         size="large"
                                       >
                                         <label
                                           className="emotion-4"
+                                          size="large"
                                         >
                                           <Styled(input)
                                             checked={false}
@@ -381,11 +383,12 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
                                               value="fluorite"
                                             />
                                           </Styled(input)>
-                                          <Control
+                                          <Styled(span)
                                             size="large"
                                           >
                                             <span
                                               className="emotion-2"
+                                              size="large"
                                             >
                                               <IconCheckBoxCheck>
                                                 <Icon
@@ -405,6 +408,7 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
                                                       className="emotion-1"
                                                       focusable="false"
                                                       role="img"
+                                                      size="medium"
                                                       viewBox="0 0 24 24"
                                                     >
                                                       <g>
@@ -417,19 +421,20 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
                                                 </Icon>
                                               </IconCheckBoxCheck>
                                             </span>
-                                          </Control>
-                                          <Text
+                                          </Styled(span)>
+                                          <Styled(span)
                                             labelPosition="end"
                                             size="large"
                                           >
                                             <span
                                               className="emotion-3"
+                                              size="large"
                                             >
                                               Fluorite
                                             </span>
-                                          </Text>
+                                          </Styled(span)>
                                         </label>
-                                      </Choice>
+                                      </Styled(label)>
                                     </Choice>
                                   </ThemeProvider>
                                 </ThemeProvider>
@@ -502,12 +507,13 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
                                       type="checkbox"
                                       value="magnetite"
                                     >
-                                      <Choice
+                                      <Styled(label)
                                         labelPosition="end"
                                         size="large"
                                       >
                                         <label
                                           className="emotion-4"
+                                          size="large"
                                         >
                                           <Styled(input)
                                             checked={true}
@@ -529,11 +535,12 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
                                               value="magnetite"
                                             />
                                           </Styled(input)>
-                                          <Control
+                                          <Styled(span)
                                             size="large"
                                           >
                                             <span
                                               className="emotion-2"
+                                              size="large"
                                             >
                                               <IconCheckBoxCheck>
                                                 <Icon
@@ -553,6 +560,7 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
                                                       className="emotion-1"
                                                       focusable="false"
                                                       role="img"
+                                                      size="medium"
                                                       viewBox="0 0 24 24"
                                                     >
                                                       <g>
@@ -565,19 +573,20 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
                                                 </Icon>
                                               </IconCheckBoxCheck>
                                             </span>
-                                          </Control>
-                                          <Text
+                                          </Styled(span)>
+                                          <Styled(span)
                                             labelPosition="end"
                                             size="large"
                                           >
                                             <span
                                               className="emotion-3"
+                                              size="large"
                                             >
                                               Magnetite
                                             </span>
-                                          </Text>
+                                          </Styled(span)>
                                         </label>
-                                      </Choice>
+                                      </Styled(label)>
                                     </Choice>
                                   </ThemeProvider>
                                 </ThemeProvider>
@@ -650,12 +659,13 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
                                       type="checkbox"
                                       value="quartz"
                                     >
-                                      <Choice
+                                      <Styled(label)
                                         labelPosition="end"
                                         size="large"
                                       >
                                         <label
                                           className="emotion-4"
+                                          size="large"
                                         >
                                           <Styled(input)
                                             checked={true}
@@ -677,11 +687,12 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
                                               value="quartz"
                                             />
                                           </Styled(input)>
-                                          <Control
+                                          <Styled(span)
                                             size="large"
                                           >
                                             <span
                                               className="emotion-2"
+                                              size="large"
                                             >
                                               <IconCheckBoxCheck>
                                                 <Icon
@@ -701,6 +712,7 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
                                                       className="emotion-1"
                                                       focusable="false"
                                                       role="img"
+                                                      size="medium"
                                                       viewBox="0 0 24 24"
                                                     >
                                                       <g>
@@ -713,19 +725,20 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
                                                 </Icon>
                                               </IconCheckBoxCheck>
                                             </span>
-                                          </Control>
-                                          <Text
+                                          </Styled(span)>
+                                          <Styled(span)
                                             labelPosition="end"
                                             size="large"
                                           >
                                             <span
                                               className="emotion-3"
+                                              size="large"
                                             >
                                               Quartz
                                             </span>
-                                          </Text>
+                                          </Styled(span)>
                                         </label>
-                                      </Choice>
+                                      </Styled(label)>
                                     </Choice>
                                   </ThemeProvider>
                                 </ThemeProvider>
@@ -733,7 +746,7 @@ exports[`CheckboxGroup demo examples Snapshots: controlled 1`] = `
                             </WithTheme(Themed(Choice))>
                           </Checkbox>
                         </div>
-                      </ChoiceGroup>
+                      </Styled(div)>
                     </ChoiceGroup>
                   </ThemeProvider>
                 </ThemeProvider>
@@ -1027,13 +1040,14 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                   size="large"
                   type="checkbox"
                 >
-                  <ChoiceGroup
+                  <Styled(div)
                     role="group"
                     size="large"
                   >
                     <div
                       className="emotion-15"
                       role="group"
+                      size="large"
                     >
                       <Checkbox
                         defaultChecked={false}
@@ -1097,12 +1111,13 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                   type="checkbox"
                                   value="fluorite"
                                 >
-                                  <Choice
+                                  <Styled(label)
                                     labelPosition="end"
                                     size="large"
                                   >
                                     <label
                                       className="emotion-4"
+                                      size="large"
                                     >
                                       <Styled(input)
                                         defaultChecked={false}
@@ -1122,11 +1137,12 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                           value="fluorite"
                                         />
                                       </Styled(input)>
-                                      <Control
+                                      <Styled(span)
                                         size="large"
                                       >
                                         <span
                                           className="emotion-2"
+                                          size="large"
                                         >
                                           <IconCheckBoxCheck>
                                             <Icon
@@ -1146,6 +1162,7 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                                   className="emotion-1"
                                                   focusable="false"
                                                   role="img"
+                                                  size="medium"
                                                   viewBox="0 0 24 24"
                                                 >
                                                   <g>
@@ -1158,19 +1175,20 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                             </Icon>
                                           </IconCheckBoxCheck>
                                         </span>
-                                      </Control>
-                                      <Text
+                                      </Styled(span)>
+                                      <Styled(span)
                                         labelPosition="end"
                                         size="large"
                                       >
                                         <span
                                           className="emotion-3"
+                                          size="large"
                                         >
                                           Fluorite
                                         </span>
-                                      </Text>
+                                      </Styled(span)>
                                     </label>
-                                  </Choice>
+                                  </Styled(label)>
                                 </Choice>
                               </ThemeProvider>
                             </ThemeProvider>
@@ -1239,12 +1257,13 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                   type="checkbox"
                                   value="magnetite"
                                 >
-                                  <Choice
+                                  <Styled(label)
                                     labelPosition="end"
                                     size="large"
                                   >
                                     <label
                                       className="emotion-4"
+                                      size="large"
                                     >
                                       <Styled(input)
                                         defaultChecked={true}
@@ -1264,11 +1283,12 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                           value="magnetite"
                                         />
                                       </Styled(input)>
-                                      <Control
+                                      <Styled(span)
                                         size="large"
                                       >
                                         <span
                                           className="emotion-2"
+                                          size="large"
                                         >
                                           <IconCheckBoxCheck>
                                             <Icon
@@ -1288,6 +1308,7 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                                   className="emotion-1"
                                                   focusable="false"
                                                   role="img"
+                                                  size="medium"
                                                   viewBox="0 0 24 24"
                                                 >
                                                   <g>
@@ -1300,19 +1321,20 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                             </Icon>
                                           </IconCheckBoxCheck>
                                         </span>
-                                      </Control>
-                                      <Text
+                                      </Styled(span)>
+                                      <Styled(span)
                                         labelPosition="end"
                                         size="large"
                                       >
                                         <span
                                           className="emotion-3"
+                                          size="large"
                                         >
                                           Magnetite
                                         </span>
-                                      </Text>
+                                      </Styled(span)>
                                     </label>
-                                  </Choice>
+                                  </Styled(label)>
                                 </Choice>
                               </ThemeProvider>
                             </ThemeProvider>
@@ -1381,12 +1403,13 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                   type="checkbox"
                                   value="quartz"
                                 >
-                                  <Choice
+                                  <Styled(label)
                                     labelPosition="end"
                                     size="large"
                                   >
                                     <label
                                       className="emotion-4"
+                                      size="large"
                                     >
                                       <Styled(input)
                                         defaultChecked={true}
@@ -1406,11 +1429,12 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                           value="quartz"
                                         />
                                       </Styled(input)>
-                                      <Control
+                                      <Styled(span)
                                         size="large"
                                       >
                                         <span
                                           className="emotion-2"
+                                          size="large"
                                         >
                                           <IconCheckBoxCheck>
                                             <Icon
@@ -1430,6 +1454,7 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                                   className="emotion-1"
                                                   focusable="false"
                                                   role="img"
+                                                  size="medium"
                                                   viewBox="0 0 24 24"
                                                 >
                                                   <g>
@@ -1442,19 +1467,20 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                             </Icon>
                                           </IconCheckBoxCheck>
                                         </span>
-                                      </Control>
-                                      <Text
+                                      </Styled(span)>
+                                      <Styled(span)
                                         labelPosition="end"
                                         size="large"
                                       >
                                         <span
                                           className="emotion-3"
+                                          size="large"
                                         >
                                           Quartz
                                         </span>
-                                      </Text>
+                                      </Styled(span)>
                                     </label>
-                                  </Choice>
+                                  </Styled(label)>
                                 </Choice>
                               </ThemeProvider>
                             </ThemeProvider>
@@ -1462,7 +1488,7 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                         </WithTheme(Themed(Choice))>
                       </Checkbox>
                     </div>
-                  </ChoiceGroup>
+                  </Styled(div)>
                 </ChoiceGroup>
               </ThemeProvider>
             </ThemeProvider>
@@ -1470,14 +1496,14 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
         </WithTheme(Themed(ChoiceGroup))>
       </CheckboxGroup>
       <FormFieldDivider>
-        <FormFieldDivider
+        <Styled(div)
           role="separator"
         >
           <div
             className="emotion-16"
             role="separator"
           />
-        </FormFieldDivider>
+        </Styled(div)>
       </FormFieldDivider>
       <CheckboxGroup
         defaultChecked={
@@ -1528,13 +1554,14 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                   size="large"
                   type="checkbox"
                 >
-                  <ChoiceGroup
+                  <Styled(div)
                     role="group"
                     size="large"
                   >
                     <div
                       className="emotion-15"
                       role="group"
+                      size="large"
                     >
                       <Checkbox
                         defaultChecked={false}
@@ -1598,12 +1625,13 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                   type="checkbox"
                                   value="azurite"
                                 >
-                                  <Choice
+                                  <Styled(label)
                                     labelPosition="end"
                                     size="large"
                                   >
                                     <label
                                       className="emotion-4"
+                                      size="large"
                                     >
                                       <Styled(input)
                                         defaultChecked={false}
@@ -1623,11 +1651,12 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                           value="azurite"
                                         />
                                       </Styled(input)>
-                                      <Control
+                                      <Styled(span)
                                         size="large"
                                       >
                                         <span
                                           className="emotion-2"
+                                          size="large"
                                         >
                                           <IconCheckBoxCheck>
                                             <Icon
@@ -1647,6 +1676,7 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                                   className="emotion-1"
                                                   focusable="false"
                                                   role="img"
+                                                  size="medium"
                                                   viewBox="0 0 24 24"
                                                 >
                                                   <g>
@@ -1659,19 +1689,20 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                             </Icon>
                                           </IconCheckBoxCheck>
                                         </span>
-                                      </Control>
-                                      <Text
+                                      </Styled(span)>
+                                      <Styled(span)
                                         labelPosition="end"
                                         size="large"
                                       >
                                         <span
                                           className="emotion-3"
+                                          size="large"
                                         >
                                           Azurite
                                         </span>
-                                      </Text>
+                                      </Styled(span)>
                                     </label>
-                                  </Choice>
+                                  </Styled(label)>
                                 </Choice>
                               </ThemeProvider>
                             </ThemeProvider>
@@ -1740,12 +1771,13 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                   type="checkbox"
                                   value="hematite"
                                 >
-                                  <Choice
+                                  <Styled(label)
                                     labelPosition="end"
                                     size="large"
                                   >
                                     <label
                                       className="emotion-4"
+                                      size="large"
                                     >
                                       <Styled(input)
                                         defaultChecked={true}
@@ -1765,11 +1797,12 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                           value="hematite"
                                         />
                                       </Styled(input)>
-                                      <Control
+                                      <Styled(span)
                                         size="large"
                                       >
                                         <span
                                           className="emotion-2"
+                                          size="large"
                                         >
                                           <IconCheckBoxCheck>
                                             <Icon
@@ -1789,6 +1822,7 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                                   className="emotion-1"
                                                   focusable="false"
                                                   role="img"
+                                                  size="medium"
                                                   viewBox="0 0 24 24"
                                                 >
                                                   <g>
@@ -1801,19 +1835,20 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                             </Icon>
                                           </IconCheckBoxCheck>
                                         </span>
-                                      </Control>
-                                      <Text
+                                      </Styled(span)>
+                                      <Styled(span)
                                         labelPosition="end"
                                         size="large"
                                       >
                                         <span
                                           className="emotion-3"
+                                          size="large"
                                         >
                                           Hematite
                                         </span>
-                                      </Text>
+                                      </Styled(span)>
                                     </label>
-                                  </Choice>
+                                  </Styled(label)>
                                 </Choice>
                               </ThemeProvider>
                             </ThemeProvider>
@@ -1882,12 +1917,13 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                   type="checkbox"
                                   value="pyrite"
                                 >
-                                  <Choice
+                                  <Styled(label)
                                     labelPosition="end"
                                     size="large"
                                   >
                                     <label
                                       className="emotion-4"
+                                      size="large"
                                     >
                                       <Styled(input)
                                         defaultChecked={true}
@@ -1907,11 +1943,12 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                           value="pyrite"
                                         />
                                       </Styled(input)>
-                                      <Control
+                                      <Styled(span)
                                         size="large"
                                       >
                                         <span
                                           className="emotion-2"
+                                          size="large"
                                         >
                                           <IconCheckBoxCheck>
                                             <Icon
@@ -1931,6 +1968,7 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                                   className="emotion-1"
                                                   focusable="false"
                                                   role="img"
+                                                  size="medium"
                                                   viewBox="0 0 24 24"
                                                 >
                                                   <g>
@@ -1943,19 +1981,20 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                                             </Icon>
                                           </IconCheckBoxCheck>
                                         </span>
-                                      </Control>
-                                      <Text
+                                      </Styled(span)>
+                                      <Styled(span)
                                         labelPosition="end"
                                         size="large"
                                       >
                                         <span
                                           className="emotion-3"
+                                          size="large"
                                         >
                                           Pyrite
                                         </span>
-                                      </Text>
+                                      </Styled(span)>
                                     </label>
-                                  </Choice>
+                                  </Styled(label)>
                                 </Choice>
                               </ThemeProvider>
                             </ThemeProvider>
@@ -1963,7 +2002,7 @@ exports[`CheckboxGroup demo examples Snapshots: data-vs-children 1`] = `
                         </WithTheme(Themed(Choice))>
                       </Checkbox>
                     </div>
-                  </ChoiceGroup>
+                  </Styled(div)>
                 </ChoiceGroup>
               </ThemeProvider>
             </ThemeProvider>
@@ -2220,7 +2259,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
         requiredText="Required"
         variant="success"
       >
-        <FormField>
+        <Styled(div)>
           <div
             className="emotion-29"
           >
@@ -2400,7 +2439,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                           type="checkbox"
                           variant="success"
                         >
-                          <ChoiceGroup
+                          <Styled(div)
                             aria-describedby="formField-16-caption"
                             aria-labelledby="formField-16-labelText"
                             role="group"
@@ -2411,6 +2450,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                               aria-labelledby="formField-16-labelText"
                               className="emotion-27"
                               role="group"
+                              size="large"
                             >
                               <Checkbox
                                 aria-describedby="formField-16-caption"
@@ -2478,12 +2518,13 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                           value="natural"
                                           variant="success"
                                         >
-                                          <Choice
+                                          <Styled(label)
                                             labelPosition="end"
                                             size="large"
                                           >
                                             <label
                                               className="emotion-6"
+                                              size="large"
                                             >
                                               <Styled(input)
                                                 aria-describedby="formField-16-caption"
@@ -2504,11 +2545,12 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                   value="natural"
                                                 />
                                               </Styled(input)>
-                                              <Control
+                                              <Styled(span)
                                                 size="large"
                                               >
                                                 <span
                                                   className="emotion-4"
+                                                  size="large"
                                                 >
                                                   <IconCheckBoxCheck>
                                                     <Icon
@@ -2528,6 +2570,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                           className="emotion-3"
                                                           focusable="false"
                                                           role="img"
+                                                          size="medium"
                                                           viewBox="0 0 24 24"
                                                         >
                                                           <g>
@@ -2540,19 +2583,20 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                     </Icon>
                                                   </IconCheckBoxCheck>
                                                 </span>
-                                              </Control>
-                                              <Text
+                                              </Styled(span)>
+                                              <Styled(span)
                                                 labelPosition="end"
                                                 size="large"
                                               >
                                                 <span
                                                   className="emotion-5"
+                                                  size="large"
                                                 >
                                                   Naturally occurring
                                                 </span>
-                                              </Text>
+                                              </Styled(span)>
                                             </label>
-                                          </Choice>
+                                          </Styled(label)>
                                         </Choice>
                                       </ThemeProvider>
                                     </ThemeProvider>
@@ -2625,12 +2669,13 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                           value="inorganic"
                                           variant="success"
                                         >
-                                          <Choice
+                                          <Styled(label)
                                             labelPosition="end"
                                             size="large"
                                           >
                                             <label
                                               className="emotion-6"
+                                              size="large"
                                             >
                                               <Styled(input)
                                                 aria-describedby="formField-16-caption"
@@ -2651,11 +2696,12 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                   value="inorganic"
                                                 />
                                               </Styled(input)>
-                                              <Control
+                                              <Styled(span)
                                                 size="large"
                                               >
                                                 <span
                                                   className="emotion-4"
+                                                  size="large"
                                                 >
                                                   <IconCheckBoxCheck>
                                                     <Icon
@@ -2675,6 +2721,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                           className="emotion-3"
                                                           focusable="false"
                                                           role="img"
+                                                          size="medium"
                                                           viewBox="0 0 24 24"
                                                         >
                                                           <g>
@@ -2687,19 +2734,20 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                     </Icon>
                                                   </IconCheckBoxCheck>
                                                 </span>
-                                              </Control>
-                                              <Text
+                                              </Styled(span)>
+                                              <Styled(span)
                                                 labelPosition="end"
                                                 size="large"
                                               >
                                                 <span
                                                   className="emotion-5"
+                                                  size="large"
                                                 >
                                                   Inorganic
                                                 </span>
-                                              </Text>
+                                              </Styled(span)>
                                             </label>
-                                          </Choice>
+                                          </Styled(label)>
                                         </Choice>
                                       </ThemeProvider>
                                     </ThemeProvider>
@@ -2772,12 +2820,13 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                           value="solid"
                                           variant="success"
                                         >
-                                          <Choice
+                                          <Styled(label)
                                             labelPosition="end"
                                             size="large"
                                           >
                                             <label
                                               className="emotion-6"
+                                              size="large"
                                             >
                                               <Styled(input)
                                                 aria-describedby="formField-16-caption"
@@ -2798,11 +2847,12 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                   value="solid"
                                                 />
                                               </Styled(input)>
-                                              <Control
+                                              <Styled(span)
                                                 size="large"
                                               >
                                                 <span
                                                   className="emotion-4"
+                                                  size="large"
                                                 >
                                                   <IconCheckBoxCheck>
                                                     <Icon
@@ -2822,6 +2872,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                           className="emotion-3"
                                                           focusable="false"
                                                           role="img"
+                                                          size="medium"
                                                           viewBox="0 0 24 24"
                                                         >
                                                           <g>
@@ -2834,19 +2885,20 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                     </Icon>
                                                   </IconCheckBoxCheck>
                                                 </span>
-                                              </Control>
-                                              <Text
+                                              </Styled(span)>
+                                              <Styled(span)
                                                 labelPosition="end"
                                                 size="large"
                                               >
                                                 <span
                                                   className="emotion-5"
+                                                  size="large"
                                                 >
                                                   Solid
                                                 </span>
-                                              </Text>
+                                              </Styled(span)>
                                             </label>
-                                          </Choice>
+                                          </Styled(label)>
                                         </Choice>
                                       </ThemeProvider>
                                     </ThemeProvider>
@@ -2919,12 +2971,13 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                           value="composition"
                                           variant="success"
                                         >
-                                          <Choice
+                                          <Styled(label)
                                             labelPosition="end"
                                             size="large"
                                           >
                                             <label
                                               className="emotion-6"
+                                              size="large"
                                             >
                                               <Styled(input)
                                                 aria-describedby="formField-16-caption"
@@ -2945,11 +2998,12 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                   value="composition"
                                                 />
                                               </Styled(input)>
-                                              <Control
+                                              <Styled(span)
                                                 size="large"
                                               >
                                                 <span
                                                   className="emotion-4"
+                                                  size="large"
                                                 >
                                                   <IconCheckBoxCheck>
                                                     <Icon
@@ -2969,6 +3023,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                           className="emotion-3"
                                                           focusable="false"
                                                           role="img"
+                                                          size="medium"
                                                           viewBox="0 0 24 24"
                                                         >
                                                           <g>
@@ -2981,19 +3036,20 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                     </Icon>
                                                   </IconCheckBoxCheck>
                                                 </span>
-                                              </Control>
-                                              <Text
+                                              </Styled(span)>
+                                              <Styled(span)
                                                 labelPosition="end"
                                                 size="large"
                                               >
                                                 <span
                                                   className="emotion-5"
+                                                  size="large"
                                                 >
                                                   Definite chemical composition
                                                 </span>
-                                              </Text>
+                                              </Styled(span)>
                                             </label>
-                                          </Choice>
+                                          </Styled(label)>
                                         </Choice>
                                       </ThemeProvider>
                                     </ThemeProvider>
@@ -3066,12 +3122,13 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                           value="crystalline"
                                           variant="success"
                                         >
-                                          <Choice
+                                          <Styled(label)
                                             labelPosition="end"
                                             size="large"
                                           >
                                             <label
                                               className="emotion-6"
+                                              size="large"
                                             >
                                               <Styled(input)
                                                 aria-describedby="formField-16-caption"
@@ -3092,11 +3149,12 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                   value="crystalline"
                                                 />
                                               </Styled(input)>
-                                              <Control
+                                              <Styled(span)
                                                 size="large"
                                               >
                                                 <span
                                                   className="emotion-4"
+                                                  size="large"
                                                 >
                                                   <IconCheckBoxCheck>
                                                     <Icon
@@ -3116,6 +3174,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                           className="emotion-3"
                                                           focusable="false"
                                                           role="img"
+                                                          size="medium"
                                                           viewBox="0 0 24 24"
                                                         >
                                                           <g>
@@ -3128,19 +3187,20 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                                     </Icon>
                                                   </IconCheckBoxCheck>
                                                 </span>
-                                              </Control>
-                                              <Text
+                                              </Styled(span)>
+                                              <Styled(span)
                                                 labelPosition="end"
                                                 size="large"
                                               >
                                                 <span
                                                   className="emotion-5"
+                                                  size="large"
                                                 >
                                                   Crystalline structure
                                                 </span>
-                                              </Text>
+                                              </Styled(span)>
                                             </label>
-                                          </Choice>
+                                          </Styled(label)>
                                         </Choice>
                                       </ThemeProvider>
                                     </ThemeProvider>
@@ -3148,7 +3208,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
                                 </WithTheme(Themed(Choice))>
                               </Checkbox>
                             </div>
-                          </ChoiceGroup>
+                          </Styled(div)>
                         </ChoiceGroup>
                       </ThemeProvider>
                     </ThemeProvider>
@@ -3170,7 +3230,7 @@ exports[`CheckboxGroup demo examples Snapshots: form-field 1`] = `
               </div>
             </Styled(div)>
           </div>
-        </FormField>
+        </Styled(div)>
       </FormField>
     </form>
   </Styled(form)>
@@ -3456,7 +3516,7 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                   size="large"
                   type="checkbox"
                 >
-                  <ChoiceGroup
+                  <Styled(div)
                     inline={true}
                     role="group"
                     size="large"
@@ -3464,6 +3524,7 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                     <div
                       className="emotion-15"
                       role="group"
+                      size="large"
                     >
                       <Checkbox
                         defaultChecked={false}
@@ -3527,12 +3588,13 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                                   type="checkbox"
                                   value="fluorite"
                                 >
-                                  <Choice
+                                  <Styled(label)
                                     labelPosition="end"
                                     size="large"
                                   >
                                     <label
                                       className="emotion-4"
+                                      size="large"
                                     >
                                       <Styled(input)
                                         defaultChecked={false}
@@ -3552,11 +3614,12 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                                           value="fluorite"
                                         />
                                       </Styled(input)>
-                                      <Control
+                                      <Styled(span)
                                         size="large"
                                       >
                                         <span
                                           className="emotion-2"
+                                          size="large"
                                         >
                                           <IconCheckBoxCheck>
                                             <Icon
@@ -3576,6 +3639,7 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                                                   className="emotion-1"
                                                   focusable="false"
                                                   role="img"
+                                                  size="medium"
                                                   viewBox="0 0 24 24"
                                                 >
                                                   <g>
@@ -3588,19 +3652,20 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                                             </Icon>
                                           </IconCheckBoxCheck>
                                         </span>
-                                      </Control>
-                                      <Text
+                                      </Styled(span)>
+                                      <Styled(span)
                                         labelPosition="end"
                                         size="large"
                                       >
                                         <span
                                           className="emotion-3"
+                                          size="large"
                                         >
                                           Fluorite
                                         </span>
-                                      </Text>
+                                      </Styled(span)>
                                     </label>
-                                  </Choice>
+                                  </Styled(label)>
                                 </Choice>
                               </ThemeProvider>
                             </ThemeProvider>
@@ -3669,12 +3734,13 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                                   type="checkbox"
                                   value="magnetite"
                                 >
-                                  <Choice
+                                  <Styled(label)
                                     labelPosition="end"
                                     size="large"
                                   >
                                     <label
                                       className="emotion-4"
+                                      size="large"
                                     >
                                       <Styled(input)
                                         defaultChecked={true}
@@ -3694,11 +3760,12 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                                           value="magnetite"
                                         />
                                       </Styled(input)>
-                                      <Control
+                                      <Styled(span)
                                         size="large"
                                       >
                                         <span
                                           className="emotion-2"
+                                          size="large"
                                         >
                                           <IconCheckBoxCheck>
                                             <Icon
@@ -3718,6 +3785,7 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                                                   className="emotion-1"
                                                   focusable="false"
                                                   role="img"
+                                                  size="medium"
                                                   viewBox="0 0 24 24"
                                                 >
                                                   <g>
@@ -3730,19 +3798,20 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                                             </Icon>
                                           </IconCheckBoxCheck>
                                         </span>
-                                      </Control>
-                                      <Text
+                                      </Styled(span)>
+                                      <Styled(span)
                                         labelPosition="end"
                                         size="large"
                                       >
                                         <span
                                           className="emotion-3"
+                                          size="large"
                                         >
                                           Magnetite
                                         </span>
-                                      </Text>
+                                      </Styled(span)>
                                     </label>
-                                  </Choice>
+                                  </Styled(label)>
                                 </Choice>
                               </ThemeProvider>
                             </ThemeProvider>
@@ -3811,12 +3880,13 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                                   type="checkbox"
                                   value="quartz"
                                 >
-                                  <Choice
+                                  <Styled(label)
                                     labelPosition="end"
                                     size="large"
                                   >
                                     <label
                                       className="emotion-4"
+                                      size="large"
                                     >
                                       <Styled(input)
                                         defaultChecked={true}
@@ -3836,11 +3906,12 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                                           value="quartz"
                                         />
                                       </Styled(input)>
-                                      <Control
+                                      <Styled(span)
                                         size="large"
                                       >
                                         <span
                                           className="emotion-2"
+                                          size="large"
                                         >
                                           <IconCheckBoxCheck>
                                             <Icon
@@ -3860,6 +3931,7 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                                                   className="emotion-1"
                                                   focusable="false"
                                                   role="img"
+                                                  size="medium"
                                                   viewBox="0 0 24 24"
                                                 >
                                                   <g>
@@ -3872,19 +3944,20 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                                             </Icon>
                                           </IconCheckBoxCheck>
                                         </span>
-                                      </Control>
-                                      <Text
+                                      </Styled(span)>
+                                      <Styled(span)
                                         labelPosition="end"
                                         size="large"
                                       >
                                         <span
                                           className="emotion-3"
+                                          size="large"
                                         >
                                           Quartz
                                         </span>
-                                      </Text>
+                                      </Styled(span)>
                                     </label>
-                                  </Choice>
+                                  </Styled(label)>
                                 </Choice>
                               </ThemeProvider>
                             </ThemeProvider>
@@ -3892,7 +3965,7 @@ exports[`CheckboxGroup demo examples Snapshots: inline 1`] = `
                         </WithTheme(Themed(Choice))>
                       </Checkbox>
                     </div>
-                  </ChoiceGroup>
+                  </Styled(div)>
                 </ChoiceGroup>
               </ThemeProvider>
             </ThemeProvider>
@@ -4178,13 +4251,14 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
                   size="large"
                   type="checkbox"
                 >
-                  <ChoiceGroup
+                  <Styled(div)
                     role="group"
                     size="large"
                   >
                     <div
                       className="emotion-15"
                       role="group"
+                      size="large"
                     >
                       <Checkbox
                         defaultChecked={false}
@@ -4248,12 +4322,13 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
                                   type="checkbox"
                                   value="fluorite"
                                 >
-                                  <Choice
+                                  <Styled(label)
                                     labelPosition="end"
                                     size="large"
                                   >
                                     <label
                                       className="emotion-4"
+                                      size="large"
                                     >
                                       <Styled(input)
                                         defaultChecked={false}
@@ -4273,11 +4348,12 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
                                           value="fluorite"
                                         />
                                       </Styled(input)>
-                                      <Control
+                                      <Styled(span)
                                         size="large"
                                       >
                                         <span
                                           className="emotion-2"
+                                          size="large"
                                         >
                                           <IconCheckBoxCheck>
                                             <Icon
@@ -4297,6 +4373,7 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
                                                   className="emotion-1"
                                                   focusable="false"
                                                   role="img"
+                                                  size="medium"
                                                   viewBox="0 0 24 24"
                                                 >
                                                   <g>
@@ -4309,19 +4386,20 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
                                             </Icon>
                                           </IconCheckBoxCheck>
                                         </span>
-                                      </Control>
-                                      <Text
+                                      </Styled(span)>
+                                      <Styled(span)
                                         labelPosition="end"
                                         size="large"
                                       >
                                         <span
                                           className="emotion-3"
+                                          size="large"
                                         >
                                           Fluorite
                                         </span>
-                                      </Text>
+                                      </Styled(span)>
                                     </label>
-                                  </Choice>
+                                  </Styled(label)>
                                 </Choice>
                               </ThemeProvider>
                             </ThemeProvider>
@@ -4390,12 +4468,13 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
                                   type="checkbox"
                                   value="magnetite"
                                 >
-                                  <Choice
+                                  <Styled(label)
                                     labelPosition="end"
                                     size="large"
                                   >
                                     <label
                                       className="emotion-4"
+                                      size="large"
                                     >
                                       <Styled(input)
                                         defaultChecked={true}
@@ -4415,11 +4494,12 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
                                           value="magnetite"
                                         />
                                       </Styled(input)>
-                                      <Control
+                                      <Styled(span)
                                         size="large"
                                       >
                                         <span
                                           className="emotion-2"
+                                          size="large"
                                         >
                                           <IconCheckBoxCheck>
                                             <Icon
@@ -4439,6 +4519,7 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
                                                   className="emotion-1"
                                                   focusable="false"
                                                   role="img"
+                                                  size="medium"
                                                   viewBox="0 0 24 24"
                                                 >
                                                   <g>
@@ -4451,19 +4532,20 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
                                             </Icon>
                                           </IconCheckBoxCheck>
                                         </span>
-                                      </Control>
-                                      <Text
+                                      </Styled(span)>
+                                      <Styled(span)
                                         labelPosition="end"
                                         size="large"
                                       >
                                         <span
                                           className="emotion-3"
+                                          size="large"
                                         >
                                           Magnetite
                                         </span>
-                                      </Text>
+                                      </Styled(span)>
                                     </label>
-                                  </Choice>
+                                  </Styled(label)>
                                 </Choice>
                               </ThemeProvider>
                             </ThemeProvider>
@@ -4532,12 +4614,13 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
                                   type="checkbox"
                                   value="quartz"
                                 >
-                                  <Choice
+                                  <Styled(label)
                                     labelPosition="end"
                                     size="large"
                                   >
                                     <label
                                       className="emotion-4"
+                                      size="large"
                                     >
                                       <Styled(input)
                                         defaultChecked={true}
@@ -4557,11 +4640,12 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
                                           value="quartz"
                                         />
                                       </Styled(input)>
-                                      <Control
+                                      <Styled(span)
                                         size="large"
                                       >
                                         <span
                                           className="emotion-2"
+                                          size="large"
                                         >
                                           <IconCheckBoxCheck>
                                             <Icon
@@ -4581,6 +4665,7 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
                                                   className="emotion-1"
                                                   focusable="false"
                                                   role="img"
+                                                  size="medium"
                                                   viewBox="0 0 24 24"
                                                 >
                                                   <g>
@@ -4593,19 +4678,20 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
                                             </Icon>
                                           </IconCheckBoxCheck>
                                         </span>
-                                      </Control>
-                                      <Text
+                                      </Styled(span)>
+                                      <Styled(span)
                                         labelPosition="end"
                                         size="large"
                                       >
                                         <span
                                           className="emotion-3"
+                                          size="large"
                                         >
                                           Quartz
                                         </span>
-                                      </Text>
+                                      </Styled(span)>
                                     </label>
-                                  </Choice>
+                                  </Styled(label)>
                                 </Choice>
                               </ThemeProvider>
                             </ThemeProvider>
@@ -4613,7 +4699,7 @@ exports[`CheckboxGroup demo examples Snapshots: uncontrolled 1`] = `
                         </WithTheme(Themed(Choice))>
                       </Checkbox>
                     </div>
-                  </ChoiceGroup>
+                  </Styled(div)>
                 </ChoiceGroup>
               </ThemeProvider>
             </ThemeProvider>

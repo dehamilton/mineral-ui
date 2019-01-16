@@ -259,29 +259,6 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
   margin-bottom: 1.7142857142857142em;
 }
 
-.emotion-15 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-}
-
-.emotion-15 > div {
-  padding-left: 1.7142857142857142em;
-  padding-right: 1.7142857142857142em;
-}
-
-.emotion-15 > div > :first-child {
-  margin-top: 0;
-}
-
-.emotion-15 > div > :last-child {
-  margin-bottom: 0;
-}
-
 .emotion-14 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -574,8 +551,8 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
   <div
     className="emotion-38"
   >
-    <withProps(DemoDialog)>
-      <DemoDialog
+    <withProps(Styled(Dialog))>
+      <Styled(Dialog)
         closeButtonLabel="close"
         closeOnClickOutside={false}
         closeOnEscape={false}
@@ -625,7 +602,7 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                 timeout={250}
                 unmountOnExit={true}
               >
-                <Animate
+                <Styled(div)
                   state="entering"
                 >
                   <div
@@ -639,7 +616,7 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                       tag="div"
                     >
                       <div>
-                        <Dialog
+                        <Styled(div)
                           aria-labelledby="dialog-1-title"
                           aria-modal={true}
                           className="emotion-35"
@@ -658,16 +635,16 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                             role="dialog"
                             tabIndex="-1"
                           >
-                            <Overlay>
+                            <Styled(div)>
                               <div
                                 className="emotion-0"
                               />
-                            </Overlay>
+                            </Styled(div)>
                             <Styled(div)>
                               <div
                                 className="emotion-33"
                               >
-                                <DialogContent
+                                <Styled(div)
                                   id="dialog-1-content"
                                   role="document"
                                   size="medium"
@@ -676,6 +653,7 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                                     className="emotion-32"
                                     id="dialog-1-content"
                                     role="document"
+                                    size="medium"
                                   >
                                     <DialogHeader
                                       titleProps={
@@ -685,8 +663,8 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                                         }
                                       }
                                     >
-                                      <withProps(DialogHeader)>
-                                        <DialogHeader
+                                      <withProps(Styled(DialogRow))>
+                                        <Styled(DialogRow)
                                           element="header"
                                         >
                                           <DialogRow
@@ -708,7 +686,7 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                                                     element="h1"
                                                     id="dialog-1-title"
                                                   >
-                                                    <DialogTitle
+                                                    <Styled(div)
                                                       appearance="h4"
                                                       element="h1"
                                                     >
@@ -759,17 +737,17 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                                                           </Styled(Text)>
                                                         </TitleContent>
                                                       </div>
-                                                    </DialogTitle>
+                                                    </Styled(div)>
                                                   </DialogTitle>
                                                 </WithTheme(DialogTitle)>
                                               </header>
                                             </Styled(header)>
                                           </DialogRow>
-                                        </DialogHeader>
-                                      </withProps(DialogHeader)>
+                                        </Styled(DialogRow)>
+                                      </withProps(Styled(DialogRow))>
                                     </DialogHeader>
                                     <DialogBody>
-                                      <DialogBody
+                                      <Styled(DialogRow)
                                         element="div"
                                       >
                                         <DialogRow
@@ -788,28 +766,28 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                                                   scrollY={true}
                                                 >
                                                   <WithTheme(Themed(OverflowContainerWithShadows))
-                                                    className="emotion-15"
+                                                    className="emotion-14"
                                                     scrollY={true}
                                                   >
                                                     <Themed(OverflowContainerWithShadows)
-                                                      className="emotion-15"
+                                                      className="emotion-14"
                                                       scrollY={true}
                                                     >
                                                       <ThemeProvider>
                                                         <ThemeProvider>
                                                           <OverflowContainerWithShadows
-                                                            className="emotion-15"
+                                                            className="emotion-14"
                                                             scrollY={true}
                                                           >
-                                                            <OverflowContainerWithShadows
-                                                              className="emotion-15"
+                                                            <Styled(div)
+                                                              className="emotion-14"
                                                               hasShadowBottom={false}
                                                               hasShadowTop={false}
                                                             >
                                                               <div
                                                                 className="emotion-14"
                                                               >
-                                                                <Scroller
+                                                                <Styled(WithTheme(Themed(OverflowContainer)))
                                                                   containerRef={[Function]}
                                                                   onScroll={[Function]}
                                                                   scrollY={true}
@@ -834,7 +812,7 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                                                                             onScroll={[Function]}
                                                                             scrollY={true}
                                                                           >
-                                                                            <OverflowContainer
+                                                                            <Styled(div)
                                                                               className="emotion-10"
                                                                               containerRef={[Function]}
                                                                               onScroll={[Function]}
@@ -856,15 +834,15 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                                                                                   }
                                                                                 />
                                                                               </div>
-                                                                            </OverflowContainer>
+                                                                            </Styled(div)>
                                                                           </OverflowContainer>
                                                                         </ThemeProvider>
                                                                       </ThemeProvider>
                                                                     </Themed(OverflowContainer)>
                                                                   </WithTheme(Themed(OverflowContainer))>
-                                                                </Scroller>
+                                                                </Styled(WithTheme(Themed(OverflowContainer)))>
                                                               </div>
-                                                            </OverflowContainerWithShadows>
+                                                            </Styled(div)>
                                                           </OverflowContainerWithShadows>
                                                         </ThemeProvider>
                                                       </ThemeProvider>
@@ -875,11 +853,11 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                                             </div>
                                           </Styled(div)>
                                         </DialogRow>
-                                      </DialogBody>
+                                      </Styled(DialogRow)>
                                     </DialogBody>
                                     <DialogFooter>
-                                      <withProps(DialogFooter)>
-                                        <DialogFooter
+                                      <withProps(Styled(DialogRow))>
+                                        <Styled(DialogRow)
                                           element="footer"
                                         >
                                           <DialogRow
@@ -894,37 +872,31 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                                                 className="emotion-29"
                                               >
                                                 <DialogActions>
-                                                  <DialogActions>
+                                                  <Styled(div)>
                                                     <div
                                                       className="emotion-28"
                                                     >
                                                       <WithForwardRef(Button)
-                                                        element="button"
                                                         key="0"
                                                         minimal={true}
                                                         primary={false}
                                                         size="medium"
-                                                        type="button"
                                                       >
                                                         <Button
-                                                          element="button"
                                                           forwardedRef={null}
                                                           minimal={true}
                                                           primary={false}
                                                           size="medium"
-                                                          type="button"
                                                         >
-                                                          <Button
-                                                            element="button"
+                                                          <Styled(button)
                                                             minimal={true}
                                                             primary={false}
                                                             size="medium"
                                                             text="Cancel"
-                                                            type="button"
                                                           >
                                                             <button
                                                               className="emotion-24"
-                                                              type="button"
+                                                              size="medium"
                                                             >
                                                               <Styled(span)>
                                                                 <span
@@ -935,6 +907,7 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                                                                   >
                                                                     <span
                                                                       className="emotion-22"
+                                                                      size="medium"
                                                                     >
                                                                       Cancel
                                                                     </span>
@@ -942,36 +915,30 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                                                                 </span>
                                                               </Styled(span)>
                                                             </button>
-                                                          </Button>
+                                                          </Styled(button)>
                                                         </Button>
                                                       </WithForwardRef(Button)>
                                                       <WithForwardRef(Button)
-                                                        element="button"
                                                         key="1"
                                                         minimal={false}
                                                         primary={true}
                                                         size="medium"
-                                                        type="button"
                                                       >
                                                         <Button
-                                                          element="button"
                                                           forwardedRef={null}
                                                           minimal={false}
                                                           primary={true}
                                                           size="medium"
-                                                          type="button"
                                                         >
-                                                          <Button
-                                                            element="button"
+                                                          <Styled(button)
                                                             minimal={false}
                                                             primary={true}
                                                             size="medium"
                                                             text="Action"
-                                                            type="button"
                                                           >
                                                             <button
                                                               className="emotion-27"
-                                                              type="button"
+                                                              size="medium"
                                                             >
                                                               <Styled(span)>
                                                                 <span
@@ -982,6 +949,7 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                                                                   >
                                                                     <span
                                                                       className="emotion-22"
+                                                                      size="medium"
                                                                     >
                                                                       Action
                                                                     </span>
@@ -989,34 +957,34 @@ exports[`DialogFooter demo examples Snapshots: basic 1`] = `
                                                                 </span>
                                                               </Styled(span)>
                                                             </button>
-                                                          </Button>
+                                                          </Styled(button)>
                                                         </Button>
                                                       </WithForwardRef(Button)>
                                                     </div>
-                                                  </DialogActions>
+                                                  </Styled(div)>
                                                 </DialogActions>
                                               </footer>
                                             </Styled(footer)>
                                           </DialogRow>
-                                        </DialogFooter>
-                                      </withProps(DialogFooter)>
+                                        </Styled(DialogRow)>
+                                      </withProps(Styled(DialogRow))>
                                     </DialogFooter>
                                   </div>
-                                </DialogContent>
+                                </Styled(div)>
                               </div>
                             </Styled(div)>
                           </div>
-                        </Dialog>
+                        </Styled(div)>
                       </div>
                     </FocusTrap>
                   </div>
-                </Animate>
+                </Styled(div)>
               </Transition>
             </Component>
           </WithTheme(Component)>
         </Dialog>
-      </DemoDialog>
-    </withProps(DemoDialog)>
+      </Styled(Dialog)>
+    </withProps(Styled(Dialog))>
   </div>
 </Styled(div)>
 `;

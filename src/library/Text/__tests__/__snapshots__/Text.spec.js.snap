@@ -366,6 +366,7 @@ exports[`Text demo examples Snapshots: basic 1`] = `
                 className="emotion-0"
                 focusable="false"
                 role="img"
+                size="large"
                 viewBox="0 0 24 24"
               >
                 <g>
@@ -465,6 +466,7 @@ exports[`Text demo examples Snapshots: color 1`] = `
       >
         <p
           className="emotion-0"
+          color="#2a854e"
         >
           Success Text
         </p>
@@ -488,6 +490,7 @@ exports[`Text demo examples Snapshots: color 1`] = `
       >
         <p
           className="emotion-1"
+          color="#d6246e"
         >
           Magenta Text
         </p>
@@ -520,6 +523,7 @@ exports[`Text demo examples Snapshots: color 1`] = `
           >
             <p
               className="emotion-2"
+              color="#bfe7d4"
             >
               Custom Text
             </p>
@@ -630,6 +634,7 @@ exports[`Text demo examples Snapshots: font-weight 1`] = `
       >
         <p
           className="emotion-0"
+          fontWeight="semiBold"
         >
           Semi-bold Text
         </p>
@@ -653,6 +658,7 @@ exports[`Text demo examples Snapshots: font-weight 1`] = `
       >
         <p
           className="emotion-1"
+          fontWeight="bold"
         >
           Bold Text
         </p>
@@ -676,6 +682,7 @@ exports[`Text demo examples Snapshots: font-weight 1`] = `
       >
         <p
           className="emotion-2"
+          fontWeight="extraBold"
         >
           Extra-bold Text
         </p>
@@ -699,6 +706,7 @@ exports[`Text demo examples Snapshots: font-weight 1`] = `
       >
         <p
           className="emotion-3"
+          fontWeight={300}
         >
           Light Text
         </p>
@@ -1410,11 +1418,9 @@ exports[`Text demo examples Snapshots: nested-elements 1`] = `
           </Text>
           This text is in a paragraph. 
           <Link
-            element="a"
             href="http://example.com"
           >
-            <Link
-              element="a"
+            <Styled(a)
               href="http://example.com"
             >
               <a
@@ -1445,7 +1451,7 @@ exports[`Text demo examples Snapshots: nested-elements 1`] = `
                   </TextProvider>
                 </Text>
               </a>
-            </Link>
+            </Styled(a)>
           </Link>
         </p>
       </Styled(p)>

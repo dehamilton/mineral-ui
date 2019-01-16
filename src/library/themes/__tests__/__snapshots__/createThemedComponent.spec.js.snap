@@ -617,16 +617,12 @@ exports[`createThemedComponent renders a Link correctly with a custom theme func
               }
             }
           >
-            <Link
-              element="a"
-            >
-              <Link
-                element="a"
-              >
+            <Link>
+              <Styled(a)>
                 <a
                   className="emotion-0"
                 />
-              </Link>
+              </Styled(a)>
             </Link>
           </ThemeProvider>
         </ThemeProvider>
@@ -1253,16 +1249,12 @@ exports[`createThemedComponent renders a Link correctly with a custom theme obje
               }
             }
           >
-            <Link
-              element="a"
-            >
-              <Link
-                element="a"
-              >
+            <Link>
+              <Styled(a)>
                 <a
                   className="emotion-0"
                 />
-              </Link>
+              </Styled(a)>
             </Link>
           </ThemeProvider>
         </ThemeProvider>
